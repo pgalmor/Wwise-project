@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" SchemaVersion="97">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_Footstep" ID="{60B49344-6207-4795-AF55-52474E0BE44C}">
+					<ChildrenList>
+						<Action Name="" ID="{3A1497B9-C75D-444D-8F64-74F7E6244B72}" ShortID="247776166">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Footsteps" ID="{F761ED29-E48D-45AE-BD06-5A1E62517FCA}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Weapon_Shoot" ID="{C3ADCA68-65F2-4741-89E2-2CCED5D4DA9D}">
+					<ChildrenList>
+						<Action Name="" ID="{C5546561-BBF2-41C3-AF61-1A1479603B27}" ShortID="888780605">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Weapon_Shoot" ID="{DEADE2A8-4F1A-4A8D-9675-266E82F5ABCF}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Music" ID="{170AAE06-7CD8-4762-B03D-7C08E5E0249C}">
+					<ChildrenList>
+						<Action Name="" ID="{A8006FD2-0D41-4AAE-85FC-1EF5F0698D4D}" ShortID="134171936">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Empire Music" ID="{F2D2E0BD-1696-4CBD-9266-912DD17E04B9}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Music_2" ID="{3CF913D0-8E74-4F4C-B6DE-7EF358101510}">
+					<ChildrenList>
+						<Action Name="" ID="{CB492E91-A994-43A1-9D6A-B1A0FC8E02B8}" ShortID="461000228">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Hud" ID="{127FDE73-4F18-40CB-B5BF-ACB943091359}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Broken_Box" ID="{B7AFA03E-0C3C-40E4-A0C8-F7EBEC308FF0}">
+					<ChildrenList>
+						<Action Name="" ID="{02BB507F-90E0-4DB5-B2FC-8E2D3D8D67E7}" ShortID="935546817">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Wood box broken" ID="{0F585902-EE5C-437A-A2E5-44C5A8CC541F}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Dash" ID="{BEAF66A2-E253-4122-9CF7-77443402A08D}">
+					<ChildrenList>
+						<Action Name="" ID="{8A351F0C-38AA-4A75-B21A-8676980F4A38}" ShortID="203598216">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Dash" ID="{01276E66-ADEF-4143-9CB7-958FB8A3B078}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Object" ID="{378C77F3-FD97-4C7E-B169-7A27282200DE}">
+					<ChildrenList>
+						<Action Name="" ID="{8005298E-5B3B-4DDC-8014-C2BF2B67A7E8}" ShortID="246029715">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="3"/>
+							</PropertyList>
+							<ReferenceList/>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Pause_Object" ID="{257203BA-872A-4BD2-9340-B10FBEB45376}">
+					<ChildrenList>
+						<Action Name="" ID="{68DE9A36-26A8-491E-A355-F4952F9C8E70}" ShortID="39361497">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="8"/>
+							</PropertyList>
+							<ReferenceList/>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Resume_Object" ID="{B3E49AD5-6A93-4EB1-9837-0321993DA353}">
+					<ChildrenList>
+						<Action Name="" ID="{FDE98699-A1B3-4608-8DBD-4D6A4EBE11C5}" ShortID="456345493">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="10"/>
+							</PropertyList>
+							<ReferenceList/>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

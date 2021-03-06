@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}" SchemaVersion="97">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="SourcePitch" ID="{063FD5D8-ABBA-4473-9C43-5E699AB95696}"/>
+				<GameParameter Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}"/>
+				<GameParameter Name="BusVolume" ID="{0A57FCC6-5E34-4F3A-B8AF-7DF605280B36}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>
