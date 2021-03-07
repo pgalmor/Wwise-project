@@ -239,7 +239,6 @@
 					<ChildrenList>
 						<SwitchContainer Name="Footsteps" ID="{F761ED29-E48D-45AE-BD06-5A1E62517FCA}" ShortID="208874372">
 							<PropertyList>
-								<Property Name="3DSpatialization" Type="int16" Value="2"/>
 								<Property Name="CenterPercentage" Type="int32">
 									<ValueList>
 										<Value>100</Value>
@@ -255,57 +254,6 @@
 								</Property>
 							</PropertyList>
 							<ReferenceList>
-								<Reference Name="Attenuation">
-									<Custom CreatedFrom="{D5D15008-70A9-4EBE-85F7-4662C8511080}">
-										<Attenuation Name="Main Attenuation (Custom)" ID="{68FDBEEC-1E71-4CE8-9851-DD7A8AD1AA00}" ShortID="203260681">
-											<PropertyList>
-												<Property Name="RadiusMax" Type="Real64" Value="500"/>
-											</PropertyList>
-											<CurveUsageInfoList>
-												<VolumeDryUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-														<Curve Name="VolumeDry" ID="{315AD7BC-E020-43BA-B193-36F53E4E94E5}">
-															<PropertyList>
-																<Property Name="Flags" Type="int32" Value="3"/>
-															</PropertyList>
-															<PointList>
-																<Point>
-																	<XPos>0</XPos>
-																	<YPos>0</YPos>
-																	<Flags>5</Flags>
-																	<SegmentShape>Log3</SegmentShape>
-																</Point>
-																<Point>
-																	<XPos>500</XPos>
-																	<YPos>-200</YPos>
-																	<Flags>37</Flags>
-																</Point>
-															</PointList>
-														</Curve>
-													</CurveUsageInfo>
-												</VolumeDryUsage>
-												<VolumeWetGameUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
-												</VolumeWetGameUsage>
-												<VolumeWetUserUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
-												</VolumeWetUserUsage>
-												<LowPassFilterUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
-												</LowPassFilterUsage>
-												<HighPassFilterUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
-												</HighPassFilterUsage>
-												<SpreadUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
-												</SpreadUsage>
-												<FocusUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
-												</FocusUsage>
-											</CurveUsageInfoList>
-										</Attenuation>
-									</Custom>
-								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
 								</Reference>
@@ -1579,6 +1527,29 @@
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="Footsteps sand" ID="{9C14407E-838E-4C7F-A744-BB4A597A5A44}" ShortID="239069791">
 									<PropertyList>
+										<Property Name="Highpass" Type="int16">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{C150230F-6188-4A1C-9FDC-96E7BF605CE9}">
+														<PropertyList>
+															<Property Name="Max" Type="Real64" Value="100"/>
+															<Property Name="Min" Type="Real64" Value="-100"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Lowpass" Type="int16">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{AF05019C-967B-4A53-A664-1EB426DF1676}">
+														<PropertyList>
+															<Property Name="Min" Type="Real64" Value="-100"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
 										<Property Name="Pitch" Type="int32">
 											<ModifierList>
 												<ModifierInfo>
@@ -1589,7 +1560,7 @@
 										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
 										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
-										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.1"/>
+										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.04"/>
 										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 									</PropertyList>
 									<ReferenceList>
@@ -1601,40 +1572,38 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<Sound Name="Footstep sand 1" ID="{C82EF422-79A2-486E-894F-545ABF55A7B3}" ShortID="543060186">
+										<Sound Name="Footstep sand 1" ID="{60AF3080-B332-4BDD-9AE6-6DDEC3E320B6}" ShortID="742655632">
 											<PropertyList>
 												<Property Name="Pitch" Type="int32">
 													<ModifierList>
 														<ModifierInfo>
-															<Modifier Name="" ID="{301752DA-8C35-4181-9C4C-EDACD07988B0}">
+															<Modifier Name="" ID="{842E0EFE-063D-41D2-88F7-09678115444A}">
 																<PropertyList>
-																	<Property Name="Enabled" Type="bool" Value="True"/>
-																	<Property Name="Max" Type="Real64" Value="300"/>
-																	<Property Name="Min" Type="Real64" Value="-200"/>
+																	<Property Name="Min" Type="Real64" Value="-300"/>
 																</PropertyList>
 															</Modifier>
 														</ModifierInfo>
 													</ModifierList>
 													<RTPCList>
-														<RTPC Name="" ID="{1AF760B9-5640-48C9-9891-01E09E9518CC}" ShortID="804001257">
+														<RTPC Name="" ID="{CEE49F5C-C1AE-4AB0-A524-2646984E8996}" ShortID="430811837">
 															<ReferenceList>
 																<Reference Name="ControlInput">
 																	<ObjectRef Name="SourcePitch" ID="{063FD5D8-ABBA-4473-9C43-5E699AB95696}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
 																</Reference>
 															</ReferenceList>
-															<Curve Name="" ID="{3FE7ED8D-A0BE-47F9-AB26-DD7D737EC3B6}">
+															<Curve Name="" ID="{D0ACC9CC-B898-41C2-A313-1F9A7DEC58CF}">
 																<PropertyList>
 																	<Property Name="Flags" Type="int32" Value="65537"/>
 																</PropertyList>
 																<PointList>
 																	<Point>
 																		<XPos>0</XPos>
-																		<YPos>-2500</YPos>
+																		<YPos>-4800</YPos>
 																		<Flags>5</Flags>
 																	</Point>
 																	<Point>
 																		<XPos>100</XPos>
-																		<YPos>2500</YPos>
+																		<YPos>4800</YPos>
 																		<Flags>37</Flags>
 																	</Point>
 																</PointList>
@@ -1644,103 +1613,13 @@
 												</Property>
 												<Property Name="Volume" Type="Real64">
 													<RTPCList>
-														<RTPC Name="" ID="{BA49CCB4-9F87-47D7-AF75-C262AC89B9B0}" ShortID="143299089">
+														<RTPC Name="" ID="{A0282C8D-6331-44D3-83E3-A80368CE26A3}" ShortID="369376060">
 															<ReferenceList>
 																<Reference Name="ControlInput">
 																	<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
 																</Reference>
 															</ReferenceList>
-															<Curve Name="" ID="{02182021-BE0D-4C02-9825-0FCD2FC63A71}">
-																<PropertyList>
-																	<Property Name="Flags" Type="int32" Value="3"/>
-																</PropertyList>
-																<PointList>
-																	<Point>
-																		<XPos>0</XPos>
-																		<YPos>-200</YPos>
-																		<Flags>5</Flags>
-																	</Point>
-																	<Point>
-																		<XPos>100</XPos>
-																		<YPos>200</YPos>
-																		<Flags>37</Flags>
-																	</Point>
-																</PointList>
-															</Curve>
-														</RTPC>
-													</RTPCList>
-												</Property>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Footstep sand 1" ID="{282BA1E0-EE75-4A3B-828E-4679FD0B86D6}">
-													<Language>SFX</Language>
-													<AudioFile>Footstep sand 1.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="222927635"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Footstep sand 1" ID="{282BA1E0-EE75-4A3B-828E-4679FD0B86D6}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Footstep sand 2" ID="{EB511CDB-3ED7-4482-A1CE-58D0D4B7AEE4}" ShortID="406998901">
-											<PropertyList>
-												<Property Name="Pitch" Type="int32">
-													<ModifierList>
-														<ModifierInfo>
-															<Modifier Name="" ID="{465A54D9-8D6A-42DB-8760-87681F079760}">
-																<PropertyList>
-																	<Property Name="Enabled" Type="bool" Value="True"/>
-																	<Property Name="Min" Type="Real64" Value="-200"/>
-																</PropertyList>
-															</Modifier>
-														</ModifierInfo>
-													</ModifierList>
-													<RTPCList>
-														<RTPC Name="" ID="{69F97980-87AC-43A6-87A8-87B8B760641F}" ShortID="823283494">
-															<ReferenceList>
-																<Reference Name="ControlInput">
-																	<ObjectRef Name="SourcePitch" ID="{063FD5D8-ABBA-4473-9C43-5E699AB95696}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
-																</Reference>
-															</ReferenceList>
-															<Curve Name="" ID="{BDA11A54-3FDE-4FD8-8F46-98DB11371C1E}">
-																<PropertyList>
-																	<Property Name="Flags" Type="int32" Value="65537"/>
-																</PropertyList>
-																<PointList>
-																	<Point>
-																		<XPos>0</XPos>
-																		<YPos>-2500</YPos>
-																		<Flags>5</Flags>
-																	</Point>
-																	<Point>
-																		<XPos>100</XPos>
-																		<YPos>2500</YPos>
-																		<Flags>37</Flags>
-																	</Point>
-																</PointList>
-															</Curve>
-														</RTPC>
-													</RTPCList>
-												</Property>
-												<Property Name="Volume" Type="Real64">
-													<RTPCList>
-														<RTPC Name="" ID="{505F18ED-951A-4C55-89B2-6E641BE04CFD}" ShortID="123245231">
-															<ReferenceList>
-																<Reference Name="ControlInput">
-																	<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
-																</Reference>
-															</ReferenceList>
-															<Curve Name="" ID="{E18CBE23-5078-46D7-BB72-2DB459D7F9FE}">
+															<Curve Name="" ID="{26DCBDDB-8912-4417-A297-88821CB2725B}">
 																<PropertyList>
 																	<Property Name="Flags" Type="int32" Value="3"/>
 																</PropertyList>
@@ -1770,7 +1649,7 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Footstep sand 1" ID="{0C531EE7-C931-4077-9FD9-CC2182AEEE94}">
+												<AudioFileSource Name="Footstep sand 1" ID="{BD663004-73C5-4820-8F6C-36605ECDBCD7}">
 													<Language>SFX</Language>
 													<AudioFile>Footstep sand 1.wav</AudioFile>
 													<MediaIDList>
@@ -1779,43 +1658,41 @@
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Footstep sand 1" ID="{0C531EE7-C931-4077-9FD9-CC2182AEEE94}" Platform="Linked"/>
+												<ActiveSource Name="Footstep sand 1" ID="{BD663004-73C5-4820-8F6C-36605ECDBCD7}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="Footstep sand 4" ID="{83EB1B9C-A462-431A-94CD-76B1DCF13947}" ShortID="205045241">
+										<Sound Name="Footstep sand 2" ID="{76946AD5-2D78-459F-9EDC-2927D2212FDA}" ShortID="983139356">
 											<PropertyList>
-												<Property Name="3DSpatialization" Type="int16" Value="2"/>
 												<Property Name="Pitch" Type="int32">
 													<ModifierList>
 														<ModifierInfo>
-															<Modifier Name="" ID="{F8676E70-A52E-46B7-97FC-64650A007D6C}">
+															<Modifier Name="" ID="{4558E039-143B-40C0-9BC5-70BAE8EC96CA}">
 																<PropertyList>
-																	<Property Name="Enabled" Type="bool" Value="True"/>
-																	<Property Name="Max" Type="Real64" Value="800"/>
+																	<Property Name="Max" Type="Real64" Value="300"/>
 																</PropertyList>
 															</Modifier>
 														</ModifierInfo>
 													</ModifierList>
 													<RTPCList>
-														<RTPC Name="" ID="{9FC55DC0-A809-4CEE-ADC9-87023AB326DF}" ShortID="263499517">
+														<RTPC Name="" ID="{0412D00F-D3F5-4E51-B948-A6907F6E4F9C}" ShortID="970693077">
 															<ReferenceList>
 																<Reference Name="ControlInput">
 																	<ObjectRef Name="SourcePitch" ID="{063FD5D8-ABBA-4473-9C43-5E699AB95696}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
 																</Reference>
 															</ReferenceList>
-															<Curve Name="" ID="{CD096863-1EA2-4DF9-9493-B85FC06C404E}">
+															<Curve Name="" ID="{F8AD71C4-B8CD-4848-ADEF-1B2CF066B7CB}">
 																<PropertyList>
 																	<Property Name="Flags" Type="int32" Value="65537"/>
 																</PropertyList>
 																<PointList>
 																	<Point>
 																		<XPos>0</XPos>
-																		<YPos>-2500</YPos>
+																		<YPos>-4800</YPos>
 																		<Flags>5</Flags>
 																	</Point>
 																	<Point>
 																		<XPos>100</XPos>
-																		<YPos>2500</YPos>
+																		<YPos>4800</YPos>
 																		<Flags>37</Flags>
 																	</Point>
 																</PointList>
@@ -1825,13 +1702,13 @@
 												</Property>
 												<Property Name="Volume" Type="Real64">
 													<RTPCList>
-														<RTPC Name="" ID="{4D45B40F-FA9A-4795-8D26-DCF932D4127D}" ShortID="855554709">
+														<RTPC Name="" ID="{DBD4C68E-D92F-4BEE-9E6F-1F18B773AC7B}" ShortID="1071044415">
 															<ReferenceList>
 																<Reference Name="ControlInput">
 																	<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
 																</Reference>
 															</ReferenceList>
-															<Curve Name="" ID="{631D109A-4DB7-48D3-BA35-0B8EAAC573A4}">
+															<Curve Name="" ID="{E3C2FA48-5DCE-46BB-A3B5-8FCFBF9F36B3}">
 																<PropertyList>
 																	<Property Name="Flags" Type="int32" Value="3"/>
 																</PropertyList>
@@ -1843,7 +1720,7 @@
 																	</Point>
 																	<Point>
 																		<XPos>100</XPos>
-																		<YPos>185.99782</YPos>
+																		<YPos>200</YPos>
 																		<Flags>37</Flags>
 																	</Point>
 																</PointList>
@@ -1853,57 +1730,6 @@
 												</Property>
 											</PropertyList>
 											<ReferenceList>
-												<Reference Name="Attenuation">
-													<Custom CreatedFrom="{D5D15008-70A9-4EBE-85F7-4662C8511080}">
-														<Attenuation Name="Main Attenuation (Custom)" ID="{E334894D-6AF5-4549-9C80-473CC2B41BEC}" ShortID="511885241">
-															<PropertyList>
-																<Property Name="RadiusMax" Type="Real64" Value="500"/>
-															</PropertyList>
-															<CurveUsageInfoList>
-																<VolumeDryUsage>
-																	<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-																		<Curve Name="VolumeDry" ID="{D7335BB6-8793-460B-B7F5-DCA4751C8FCD}">
-																			<PropertyList>
-																				<Property Name="Flags" Type="int32" Value="3"/>
-																			</PropertyList>
-																			<PointList>
-																				<Point>
-																					<XPos>0</XPos>
-																					<YPos>0</YPos>
-																					<Flags>5</Flags>
-																					<SegmentShape>Log3</SegmentShape>
-																				</Point>
-																				<Point>
-																					<XPos>500</XPos>
-																					<YPos>-200</YPos>
-																					<Flags>37</Flags>
-																				</Point>
-																			</PointList>
-																		</Curve>
-																	</CurveUsageInfo>
-																</VolumeDryUsage>
-																<VolumeWetGameUsage>
-																	<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
-																</VolumeWetGameUsage>
-																<VolumeWetUserUsage>
-																	<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
-																</VolumeWetUserUsage>
-																<LowPassFilterUsage>
-																	<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
-																</LowPassFilterUsage>
-																<HighPassFilterUsage>
-																	<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
-																</HighPassFilterUsage>
-																<SpreadUsage>
-																	<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
-																</SpreadUsage>
-																<FocusUsage>
-																	<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
-																</FocusUsage>
-															</CurveUsageInfoList>
-														</Attenuation>
-													</Custom>
-												</Reference>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
 												</Reference>
@@ -1912,52 +1738,51 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Footstep stone sandy 4" ID="{8C966B0B-AD89-48B8-BA8B-4FE4E0AA293C}">
+												<AudioFileSource Name="Footstep sand 2" ID="{16DE70C9-E716-416A-8EF3-1A7FC157F8AA}">
 													<Language>SFX</Language>
-													<AudioFile>Footstep stone sandy 4.wav</AudioFile>
+													<AudioFile>Footstep sand 2.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="991936097"/>
+														<MediaID ID="326576311"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Footstep stone sandy 4" ID="{8C966B0B-AD89-48B8-BA8B-4FE4E0AA293C}" Platform="Linked"/>
+												<ActiveSource Name="Footstep sand 2" ID="{16DE70C9-E716-416A-8EF3-1A7FC157F8AA}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="Footstep sand 3" ID="{8F5F8622-9029-4AB2-9034-AC07FFC8FFB6}" ShortID="762041590">
+										<Sound Name="Footstep sand 3" ID="{096817E2-7514-4345-B676-E1473767DD8F}" ShortID="719379008">
 											<PropertyList>
-												<Property Name="3DSpatialization" Type="int16" Value="2"/>
 												<Property Name="Pitch" Type="int32">
 													<ModifierList>
 														<ModifierInfo>
-															<Modifier Name="" ID="{28ABEC8A-311D-4829-AD68-83B278C7F908}">
+															<Modifier Name="" ID="{F532419D-43A0-43A8-A54F-042FA1259A2A}">
 																<PropertyList>
-																	<Property Name="Enabled" Type="bool" Value="True"/>
-																	<Property Name="Max" Type="Real64" Value="700"/>
+																	<Property Name="Max" Type="Real64" Value="300"/>
+																	<Property Name="Min" Type="Real64" Value="-300"/>
 																</PropertyList>
 															</Modifier>
 														</ModifierInfo>
 													</ModifierList>
 													<RTPCList>
-														<RTPC Name="" ID="{82F156F3-9715-4571-B9C8-3EF36BEB69E5}" ShortID="606099139">
+														<RTPC Name="" ID="{B73B5645-87A6-4274-BCA6-75E532665FCE}" ShortID="147422179">
 															<ReferenceList>
 																<Reference Name="ControlInput">
 																	<ObjectRef Name="SourcePitch" ID="{063FD5D8-ABBA-4473-9C43-5E699AB95696}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
 																</Reference>
 															</ReferenceList>
-															<Curve Name="" ID="{BA625B21-158D-4000-876A-26D4C106C5A2}">
+															<Curve Name="" ID="{14746132-CEF5-469F-A08D-21062E943057}">
 																<PropertyList>
 																	<Property Name="Flags" Type="int32" Value="65537"/>
 																</PropertyList>
 																<PointList>
 																	<Point>
 																		<XPos>0</XPos>
-																		<YPos>-2500</YPos>
+																		<YPos>-4800</YPos>
 																		<Flags>5</Flags>
 																	</Point>
 																	<Point>
 																		<XPos>100</XPos>
-																		<YPos>2500</YPos>
+																		<YPos>4800</YPos>
 																		<Flags>37</Flags>
 																	</Point>
 																</PointList>
@@ -1967,13 +1792,13 @@
 												</Property>
 												<Property Name="Volume" Type="Real64">
 													<RTPCList>
-														<RTPC Name="" ID="{92EA1141-51F0-4BC0-9F78-E429EDC30F7D}" ShortID="543504824">
+														<RTPC Name="" ID="{5AEA72C0-A24A-418F-BD25-C64EFFFA825D}" ShortID="646696217">
 															<ReferenceList>
 																<Reference Name="ControlInput">
 																	<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
 																</Reference>
 															</ReferenceList>
-															<Curve Name="" ID="{225C69B5-78F5-42E2-B5E9-204DD2B206A2}">
+															<Curve Name="" ID="{675AD2E3-5CCF-4450-8F3D-535E46BEE2DA}">
 																<PropertyList>
 																	<Property Name="Flags" Type="int32" Value="3"/>
 																</PropertyList>
@@ -1985,7 +1810,7 @@
 																	</Point>
 																	<Point>
 																		<XPos>100</XPos>
-																		<YPos>179.89263</YPos>
+																		<YPos>200</YPos>
 																		<Flags>37</Flags>
 																	</Point>
 																</PointList>
@@ -1995,57 +1820,6 @@
 												</Property>
 											</PropertyList>
 											<ReferenceList>
-												<Reference Name="Attenuation">
-													<Custom CreatedFrom="{D5D15008-70A9-4EBE-85F7-4662C8511080}">
-														<Attenuation Name="Main Attenuation (Custom)" ID="{0C54019F-0139-4469-954C-FD66A36515DE}" ShortID="169378372">
-															<PropertyList>
-																<Property Name="RadiusMax" Type="Real64" Value="500"/>
-															</PropertyList>
-															<CurveUsageInfoList>
-																<VolumeDryUsage>
-																	<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-																		<Curve Name="VolumeDry" ID="{EC0B207E-46DC-49A0-A689-10EE4884F813}">
-																			<PropertyList>
-																				<Property Name="Flags" Type="int32" Value="3"/>
-																			</PropertyList>
-																			<PointList>
-																				<Point>
-																					<XPos>0</XPos>
-																					<YPos>0</YPos>
-																					<Flags>5</Flags>
-																					<SegmentShape>Log3</SegmentShape>
-																				</Point>
-																				<Point>
-																					<XPos>500</XPos>
-																					<YPos>-200</YPos>
-																					<Flags>37</Flags>
-																				</Point>
-																			</PointList>
-																		</Curve>
-																	</CurveUsageInfo>
-																</VolumeDryUsage>
-																<VolumeWetGameUsage>
-																	<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
-																</VolumeWetGameUsage>
-																<VolumeWetUserUsage>
-																	<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
-																</VolumeWetUserUsage>
-																<LowPassFilterUsage>
-																	<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
-																</LowPassFilterUsage>
-																<HighPassFilterUsage>
-																	<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
-																</HighPassFilterUsage>
-																<SpreadUsage>
-																	<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
-																</SpreadUsage>
-																<FocusUsage>
-																	<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
-																</FocusUsage>
-															</CurveUsageInfoList>
-														</Attenuation>
-													</Custom>
-												</Reference>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
 												</Reference>
@@ -2054,25 +1828,109 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Footstep stone sandy 3" ID="{10BC3B2B-94A1-43BF-8DB5-E008B5FFB2B6}">
+												<AudioFileSource Name="Footstep sand 3" ID="{13098BCE-F393-4480-B476-E712695D6F2E}">
 													<Language>SFX</Language>
-													<AudioFile>Footstep stone sandy 3.wav</AudioFile>
+													<AudioFile>Footstep sand 3.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="705521758"/>
+														<MediaID ID="793534180"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Footstep stone sandy 3" ID="{10BC3B2B-94A1-43BF-8DB5-E008B5FFB2B6}" Platform="Linked"/>
+												<ActiveSource Name="Footstep sand 3" ID="{13098BCE-F393-4480-B476-E712695D6F2E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Footstep sand 4" ID="{06064B6C-DBB7-431B-9015-F365F6C7C6F3}" ShortID="603256736">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{DC5B487F-ACE3-4077-A2C6-CA6A9BA28E33}">
+																<PropertyList>
+																	<Property Name="Max" Type="Real64" Value="300"/>
+																	<Property Name="Min" Type="Real64" Value="-300"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+													<RTPCList>
+														<RTPC Name="" ID="{F1B76E4C-A375-4393-A6AB-D4928836D345}" ShortID="957598358">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="SourcePitch" ID="{063FD5D8-ABBA-4473-9C43-5E699AB95696}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{330DB8EF-764F-40C1-B679-F96DB03ED2A5}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="65537"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-4800</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>4800</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<RTPCList>
+														<RTPC Name="" ID="{6CF587E4-74EE-49DC-A672-4EE21DDF95A0}" ShortID="387789785">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{5471C237-23B0-42CF-AF2D-F704D02E1F88}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>186.35973</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Footstep sand 4" ID="{A896FBEA-B8D6-41EC-A619-88CFD18AF3FD}">
+													<Language>SFX</Language>
+													<AudioFile>Footstep sand 4.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="925297908"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Footstep sand 4" ID="{A896FBEA-B8D6-41EC-A619-88CFD18AF3FD}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
-									<Playlist>
-										<ItemRef Name="Footstep sand 1" ID="{C82EF422-79A2-486E-894F-545ABF55A7B3}"/>
-										<ItemRef Name="Footstep sand 3" ID="{8F5F8622-9029-4AB2-9034-AC07FFC8FFB6}"/>
-										<ItemRef Name="Footstep sand 2" ID="{EB511CDB-3ED7-4482-A1CE-58D0D4B7AEE4}"/>
-										<ItemRef Name="Footstep sand 4" ID="{83EB1B9C-A462-431A-94CD-76B1DCF13947}"/>
-									</Playlist>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="Footsteps mud" ID="{7E05826B-9DD7-40C8-872E-AB3196F0FE66}" ShortID="26572916">
 									<PropertyList>
@@ -2637,34 +2495,17 @@
 								</GroupingList>
 							</GroupingInfo>
 						</SwitchContainer>
-						<Sound Name="Dash" ID="{01276E66-ADEF-4143-9CB7-958FB8A3B078}" ShortID="148423172">
+						<Sound Name="Dash Movement" ID="{D16462A2-3647-41C4-B49A-B05B23226101}" ShortID="943462654">
 							<PropertyList>
-								<Property Name="CenterPercentage" Type="int32">
-									<ValueList>
-										<Value>100</Value>
-									</ValueList>
-								</Property>
-								<Property Name="EnableAttenuation" Type="bool" Value="False"/>
 								<Property Name="Pitch" Type="int32">
-									<ModifierList>
-										<ModifierInfo>
-											<Modifier Name="" ID="{ADCB27F4-A596-4F8A-AB81-2B5433BE48C5}">
-												<PropertyList>
-													<Property Name="Enabled" Type="bool" Value="True"/>
-													<Property Name="Max" Type="Real64" Value="600"/>
-													<Property Name="Min" Type="Real64" Value="-200"/>
-												</PropertyList>
-											</Modifier>
-										</ModifierInfo>
-									</ModifierList>
 									<RTPCList>
-										<RTPC Name="" ID="{DB1BBB9E-914A-4E04-8C13-AD362829685B}" ShortID="771922345">
+										<RTPC Name="" ID="{6E1F5921-FD68-45EC-A6B1-F02A51C7044C}" ShortID="26980760">
 											<ReferenceList>
 												<Reference Name="ControlInput">
 													<ObjectRef Name="SourcePitch" ID="{063FD5D8-ABBA-4473-9C43-5E699AB95696}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
 												</Reference>
 											</ReferenceList>
-											<Curve Name="" ID="{8F865FFE-DA29-4C09-8827-68CC930A5B08}">
+											<Curve Name="" ID="{DB467EFE-C8E7-4777-ACB0-A8DFA3F06A16}">
 												<PropertyList>
 													<Property Name="Flags" Type="int32" Value="65537"/>
 												</PropertyList>
@@ -2685,14 +2526,17 @@
 									</RTPCList>
 								</Property>
 								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-15</Value>
+									</ValueList>
 									<RTPCList>
-										<RTPC Name="" ID="{58C83096-DE85-4F9B-9A2A-50AE98F129D1}" ShortID="158260371">
+										<RTPC Name="" ID="{C105FA90-6556-4E51-B176-E714B1A1A1CF}" ShortID="475680163">
 											<ReferenceList>
 												<Reference Name="ControlInput">
 													<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
 												</Reference>
 											</ReferenceList>
-											<Curve Name="" ID="{8E6E1533-7A12-4200-8F71-10F97FA4C87E}">
+											<Curve Name="" ID="{C3E5FFD0-5806-4433-97BC-4E65C321E801}">
 												<PropertyList>
 													<Property Name="Flags" Type="int32" Value="3"/>
 												</PropertyList>
@@ -2704,7 +2548,7 @@
 													</Point>
 													<Point>
 														<XPos>100</XPos>
-														<YPos>200</YPos>
+														<YPos>187.23853</YPos>
 														<Flags>37</Flags>
 													</Point>
 												</PointList>
@@ -2722,16 +2566,16 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="Dash" ID="{3975A6E6-C874-4E35-8103-ED62E103F3E0}">
+								<AudioFileSource Name="Dash Movement" ID="{8DFC148D-184E-4F00-88F8-01A2407BB635}">
 									<Language>SFX</Language>
-									<AudioFile>Dash.wav</AudioFile>
+									<AudioFile>Dash Movement.wav</AudioFile>
 									<MediaIDList>
-										<MediaID ID="729637962"/>
+										<MediaID ID="390903921"/>
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="Dash" ID="{3975A6E6-C874-4E35-8103-ED62E103F3E0}" Platform="Linked"/>
+								<ActiveSource Name="Dash Movement" ID="{8DFC148D-184E-4F00-88F8-01A2407BB635}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
