@@ -30,6 +30,11 @@
 						<Switch Name="Button_hover" ID="{EB9FE43C-E322-40F6-936D-9CF60834698E}"/>
 					</ChildrenList>
 				</SwitchGroup>
+				<SwitchGroup Name="Enemy_Detection" ID="{BB613D90-95B4-440A-9458-FD2B578D755C}">
+					<ChildrenList>
+						<Switch Name="Stormtrooper" ID="{9784019F-47B3-457E-A1C1-4968EFB86CAC}"/>
+					</ChildrenList>
+				</SwitchGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</Switches>

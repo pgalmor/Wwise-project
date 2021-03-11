@@ -3051,6 +3051,132 @@
 						</SwitchContainer>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="Stormtrooper" ID="{10F4297F-EC0D-4578-9801-8ED85881C82A}" ShortID="770423477">
+					<ChildrenList>
+						<SwitchContainer Name="Footsteps_Stormtrooper" ID="{C52CF79D-46EE-4380-8D07-17B86C993593}" ShortID="23836918">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+								</Reference>
+							</ReferenceList>
+							<GroupingInfo/>
+						</SwitchContainer>
+						<SwitchContainer Name="Enemy_Detection_Stormtrooper" ID="{85F490C3-8777-4983-91F6-772C78B288FC}" ShortID="874697900">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+								</Reference>
+								<Reference Name="DefaultSwitchOrState">
+									<ObjectRef Name="Stormtrooper" ID="{9784019F-47B3-457E-A1C1-4968EFB86CAC}" WorkUnitID="{418DD5E0-ECF0-4412-844D-37145812D6AB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+								</Reference>
+								<Reference Name="SwitchGroupOrStateGroup">
+									<ObjectRef Name="Enemy_Detection" ID="{BB613D90-95B4-440A-9458-FD2B578D755C}" WorkUnitID="{418DD5E0-ECF0-4412-844D-37145812D6AB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="Enemy_Detection_Stormtrooper" ID="{46D70C88-FB92-4BE2-802E-F033BE769CB9}" ShortID="1067878053">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Stormtrooper enemy detection 1" ID="{7CC73F90-5E0C-4F04-8D41-B8A7A48CE23E}" ShortID="377585718">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Stormtrooper enemy detection 1" ID="{828E2EF3-14C1-41BD-AC6F-9A7C00925D93}">
+													<Language>SFX</Language>
+													<AudioFile>Stormtrooper enemy detection 1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="936066558"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Stormtrooper enemy detection 1" ID="{828E2EF3-14C1-41BD-AC6F-9A7C00925D93}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Stormtrooper enemy detection 3" ID="{A0CD6F86-FAD6-44CB-8490-972E1A25148A}" ShortID="3385558">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Stormtrooper enemy detection 3" ID="{6CFB46B4-974C-4A4A-AF45-3873EB6B621C}">
+													<Language>SFX</Language>
+													<AudioFile>Stormtrooper enemy detection 3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="390628259"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Stormtrooper enemy detection 3" ID="{6CFB46B4-974C-4A4A-AF45-3873EB6B621C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Stormtrooper enemy detection 2" ID="{4B27534E-F61B-406B-831B-FF5319FF904E}" ShortID="439839926">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Stormtrooper enemy detection 2" ID="{8F932325-3398-47FE-A14D-3A81E1D00D5C}">
+													<Language>SFX</Language>
+													<AudioFile>Stormtrooper enemy detection 2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="356289844"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Stormtrooper enemy detection 2" ID="{8F932325-3398-47FE-A14D-3A81E1D00D5C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+							<GroupingInfo>
+								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="Enemy_Detection_Stormtrooper" ID="{46D70C88-FB92-4BE2-802E-F033BE769CB9}"/>
+									</GroupingBehavior>
+								</GroupingBehaviorList>
+								<GroupingList>
+									<Grouping>
+										<SwitchRef Name="Stormtrooper" ID="{9784019F-47B3-457E-A1C1-4968EFB86CAC}"/>
+										<ItemList>
+											<ItemRef Name="Enemy_Detection_Stormtrooper" ID="{46D70C88-FB92-4BE2-802E-F033BE769CB9}"/>
+										</ItemList>
+									</Grouping>
+								</GroupingList>
+							</GroupingInfo>
+						</SwitchContainer>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
