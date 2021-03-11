@@ -2227,151 +2227,6 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="blaster wav" ID="{64612784-14F3-474C-AD65-354FA54B42AD}" ShortID="457585075">
-									<PropertyList>
-										<Property Name="3DSpatialization" Type="int16" Value="2"/>
-										<Property Name="Pitch" Type="int32">
-											<ValueList>
-												<Value>500</Value>
-											</ValueList>
-											<ModifierList>
-												<ModifierInfo>
-													<Modifier Name="" ID="{F93307EB-9B5C-4611-89ED-5CA212750B84}">
-														<PropertyList>
-															<Property Name="Enabled" Type="bool" Value="True"/>
-															<Property Name="Max" Type="Real64" Value="600"/>
-														</PropertyList>
-													</Modifier>
-												</ModifierInfo>
-											</ModifierList>
-											<RTPCList>
-												<RTPC Name="" ID="{2C82735E-D223-4F64-8A5A-F52053E06F9F}" ShortID="836423760">
-													<ReferenceList>
-														<Reference Name="ControlInput">
-															<ObjectRef Name="SourcePitch" ID="{063FD5D8-ABBA-4473-9C43-5E699AB95696}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
-														</Reference>
-													</ReferenceList>
-													<Curve Name="" ID="{2DE3B26B-99B0-48A4-84A0-6B96A9E92A57}">
-														<PropertyList>
-															<Property Name="Flags" Type="int32" Value="65537"/>
-														</PropertyList>
-														<PointList>
-															<Point>
-																<XPos>0</XPos>
-																<YPos>-4800</YPos>
-																<Flags>5</Flags>
-															</Point>
-															<Point>
-																<XPos>100</XPos>
-																<YPos>4800</YPos>
-																<Flags>37</Flags>
-															</Point>
-														</PointList>
-													</Curve>
-												</RTPC>
-											</RTPCList>
-										</Property>
-										<Property Name="Volume" Type="Real64">
-											<RTPCList>
-												<RTPC Name="" ID="{CB2A4837-BD77-4A41-AB3F-593DAC22B760}" ShortID="451237952">
-													<ReferenceList>
-														<Reference Name="ControlInput">
-															<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
-														</Reference>
-													</ReferenceList>
-													<Curve Name="" ID="{543371B4-3C34-4F26-92B2-8B78316B4569}">
-														<PropertyList>
-															<Property Name="Flags" Type="int32" Value="3"/>
-														</PropertyList>
-														<PointList>
-															<Point>
-																<XPos>0</XPos>
-																<YPos>-179.89263</YPos>
-																<Flags>5</Flags>
-															</Point>
-															<Point>
-																<XPos>100</XPos>
-																<YPos>187.23853</YPos>
-																<Flags>37</Flags>
-															</Point>
-														</PointList>
-													</Curve>
-												</RTPC>
-											</RTPCList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Attenuation">
-											<Custom CreatedFrom="{D5D15008-70A9-4EBE-85F7-4662C8511080}">
-												<Attenuation Name="Main Attenuation (Custom)" ID="{F2550099-59B6-4627-B193-3F02097146AA}" ShortID="362197349">
-													<PropertyList>
-														<Property Name="RadiusMax" Type="Real64" Value="500"/>
-													</PropertyList>
-													<CurveUsageInfoList>
-														<VolumeDryUsage>
-															<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-																<Curve Name="VolumeDry" ID="{99A18911-9F25-4862-8AFC-930EEE7771EB}">
-																	<PropertyList>
-																		<Property Name="Flags" Type="int32" Value="3"/>
-																	</PropertyList>
-																	<PointList>
-																		<Point>
-																			<XPos>0</XPos>
-																			<YPos>0</YPos>
-																			<Flags>5</Flags>
-																			<SegmentShape>Log3</SegmentShape>
-																		</Point>
-																		<Point>
-																			<XPos>500</XPos>
-																			<YPos>-200</YPos>
-																			<Flags>37</Flags>
-																		</Point>
-																	</PointList>
-																</Curve>
-															</CurveUsageInfo>
-														</VolumeDryUsage>
-														<VolumeWetGameUsage>
-															<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
-														</VolumeWetGameUsage>
-														<VolumeWetUserUsage>
-															<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
-														</VolumeWetUserUsage>
-														<LowPassFilterUsage>
-															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
-														</LowPassFilterUsage>
-														<HighPassFilterUsage>
-															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
-														</HighPassFilterUsage>
-														<SpreadUsage>
-															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
-														</SpreadUsage>
-														<FocusUsage>
-															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
-														</FocusUsage>
-													</CurveUsageInfoList>
-												</Attenuation>
-											</Custom>
-										</Reference>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="blaster wav" ID="{7BDD13CF-B4EC-433A-9DAC-1BCCE6DB2B5D}">
-											<Language>SFX</Language>
-											<AudioFile>blaster wav.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="575059296"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="blaster wav" ID="{7BDD13CF-B4EC-433A-9DAC-1BCCE6DB2B5D}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
 								<Sound Name="Sniper shot" ID="{D9FE703C-BBF3-4008-892F-754C1147B9BF}" ShortID="17053318">
 									<PropertyList>
 										<Property Name="Pitch" Type="int32">
@@ -2466,6 +2321,35 @@
 										<ActiveSource Name="Sniper shot" ID="{2785C9FD-7B22-444E-B46A-9E3E4FEBD800}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
+								<Sound Name="Blaster Sound Effect" ID="{6DC80CD0-CEF9-4DA2-A718-EE3AFF357F6E}" ShortID="284173147">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>500</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="2Star Wars DC-15A Blaster Rifle Sound Effect" ID="{64079F3B-9099-480C-A4CB-ED76AA4D0651}">
+											<Language>SFX</Language>
+											<AudioFile>2Star Wars DC-15A Blaster Rifle Sound Effect.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="713708188"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="2Star Wars DC-15A Blaster Rifle Sound Effect" ID="{64079F3B-9099-480C-A4CB-ED76AA4D0651}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
 							<PositioningInfo>
 								<Panner Name="" ID="{E1EDA9A9-2D5D-40E2-BC8B-FE8FE71CD2D6}"/>
@@ -2476,14 +2360,14 @@
 										<ItemRef Name="Sniper shot" ID="{D9FE703C-BBF3-4008-892F-754C1147B9BF}"/>
 									</GroupingBehavior>
 									<GroupingBehavior>
-										<ItemRef Name="blaster wav" ID="{64612784-14F3-474C-AD65-354FA54B42AD}"/>
+										<ItemRef Name="Blaster Sound Effect" ID="{6DC80CD0-CEF9-4DA2-A718-EE3AFF357F6E}"/>
 									</GroupingBehavior>
 								</GroupingBehaviorList>
 								<GroupingList>
 									<Grouping>
 										<SwitchRef Name="Blaster" ID="{21D5D886-05F7-4F0D-AA11-6F543FC38106}"/>
 										<ItemList>
-											<ItemRef Name="blaster wav" ID="{64612784-14F3-474C-AD65-354FA54B42AD}"/>
+											<ItemRef Name="Blaster Sound Effect" ID="{6DC80CD0-CEF9-4DA2-A718-EE3AFF357F6E}"/>
 										</ItemList>
 									</Grouping>
 									<Grouping>
