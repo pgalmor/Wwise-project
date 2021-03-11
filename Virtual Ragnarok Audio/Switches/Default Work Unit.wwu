@@ -24,6 +24,12 @@
 						<Switch Name="Death" ID="{A0FCB77B-2597-4673-85F5-4AF2E02A1589}"/>
 					</ChildrenList>
 				</SwitchGroup>
+				<SwitchGroup Name="UI" ID="{B90637E8-1880-48EC-AA11-B5A8FF27E098}">
+					<ChildrenList>
+						<Switch Name="Button_play" ID="{3519497F-0821-4DDB-8AF7-DC4B94EB4351}"/>
+						<Switch Name="Button_hover" ID="{EB9FE43C-E322-40F6-936D-9CF60834698E}"/>
+					</ChildrenList>
+				</SwitchGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</Switches>

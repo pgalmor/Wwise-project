@@ -2954,6 +2954,103 @@
 						</SwitchContainer>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="UI" ID="{A5F52EDE-F32D-4C90-91AD-CE2FBB1CB5C7}" ShortID="728832589">
+					<ChildrenList>
+						<SwitchContainer Name="Button" ID="{E782FDD3-1214-4D1D-BEE5-DDBD48D8D1B2}" ShortID="812655415">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+								</Reference>
+								<Reference Name="DefaultSwitchOrState">
+									<ObjectRef Name="Button_play" ID="{3519497F-0821-4DDB-8AF7-DC4B94EB4351}" WorkUnitID="{418DD5E0-ECF0-4412-844D-37145812D6AB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+								</Reference>
+								<Reference Name="SwitchGroupOrStateGroup">
+									<ObjectRef Name="UI" ID="{B90637E8-1880-48EC-AA11-B5A8FF27E098}" WorkUnitID="{418DD5E0-ECF0-4412-844D-37145812D6AB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="UI Button click" ID="{0164BA6F-4521-4A15-B9A1-3DC71B66BC5C}" ShortID="650070397">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="UI Button click" ID="{EA9EA436-71A9-4C74-9068-698414DCB399}">
+											<Language>SFX</Language>
+											<AudioFile>UI Button click.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1056819870"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="UI Button click" ID="{EA9EA436-71A9-4C74-9068-698414DCB399}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="UI Button Hover" ID="{53050208-F1BE-435A-BDA5-9B25150340A2}" ShortID="493547370">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="UI Button Hover" ID="{2942662B-880F-4BAE-881A-D3A09E173B2D}">
+											<Language>SFX</Language>
+											<AudioFile>UI Button Hover.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="504086665"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="UI Button Hover" ID="{2942662B-880F-4BAE-881A-D3A09E173B2D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<GroupingInfo>
+								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="UI Button Hover" ID="{53050208-F1BE-435A-BDA5-9B25150340A2}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="UI Button click" ID="{0164BA6F-4521-4A15-B9A1-3DC71B66BC5C}"/>
+									</GroupingBehavior>
+								</GroupingBehaviorList>
+								<GroupingList>
+									<Grouping>
+										<SwitchRef Name="Button_hover" ID="{EB9FE43C-E322-40F6-936D-9CF60834698E}"/>
+										<ItemList>
+											<ItemRef Name="UI Button Hover" ID="{53050208-F1BE-435A-BDA5-9B25150340A2}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Button_play" ID="{3519497F-0821-4DDB-8AF7-DC4B94EB4351}"/>
+										<ItemList>
+											<ItemRef Name="UI Button click" ID="{0164BA6F-4521-4A15-B9A1-3DC71B66BC5C}"/>
+										</ItemList>
+									</Grouping>
+								</GroupingList>
+							</GroupingInfo>
+						</SwitchContainer>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

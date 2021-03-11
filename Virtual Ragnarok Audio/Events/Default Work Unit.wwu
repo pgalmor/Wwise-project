@@ -52,7 +52,7 @@
 						<Action Name="" ID="{02BB507F-90E0-4DB5-B2FC-8E2D3D8D67E7}" ShortID="935546817">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Growls_Bantha" ID="{22EB6702-A6F1-429A-ABE0-D56E314F4279}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+									<ObjectRef Name="Wood box broken" ID="{0F585902-EE5C-437A-A2E5-44C5A8CC541F}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -105,6 +105,28 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Growls_Bantha" ID="{22EB6702-A6F1-429A-ABE0-D56E314F4279}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_UI_Button_Play" ID="{AD8ACCAD-9E3D-4F28-BF84-19303322C9E7}">
+					<ChildrenList>
+						<Action Name="" ID="{528F6758-3456-4797-8127-206CA7D9574A}" ShortID="888409842">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI Button click" ID="{0164BA6F-4521-4A15-B9A1-3DC71B66BC5C}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_UI_Button_Hover" ID="{AC757C1A-086F-41F2-8282-EAB15A7C4795}">
+					<ChildrenList>
+						<Action Name="" ID="{06291A77-B2D3-4C1A-994A-3BE4F5E47D04}" ShortID="967028666">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI Button Hover" ID="{53050208-F1BE-435A-BDA5-9B25150340A2}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
