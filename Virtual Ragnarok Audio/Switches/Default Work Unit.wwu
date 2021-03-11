@@ -18,6 +18,12 @@
 						<Switch Name="Sniper" ID="{D9D7BAE3-FEAF-489E-A93F-E360579A008C}"/>
 					</ChildrenList>
 				</SwitchGroup>
+				<SwitchGroup Name="Growls" ID="{B6A73868-84BC-4B17-B6A1-BA4A85D18414}">
+					<ChildrenList>
+						<Switch Name="Hit" ID="{ABA05CC8-7108-4AFD-B56C-CF6E1C6561F5}"/>
+						<Switch Name="Death" ID="{A0FCB77B-2597-4673-85F5-4AF2E02A1589}"/>
+					</ChildrenList>
+				</SwitchGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</Switches>

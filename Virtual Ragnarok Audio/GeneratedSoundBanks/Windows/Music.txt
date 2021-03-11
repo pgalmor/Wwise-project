@@ -14,6 +14,6 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	209390670	Empire Music	C:\Users\roger\OneDrive\Documentos\GitHub\Wwise-project\Virtual Ragnarok Audio\.cache\Windows\SFX\Empire Music_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\Empire Music		18249568
-	739659711	Hud	C:\Users\roger\OneDrive\Documentos\GitHub\Wwise-project\Virtual Ragnarok Audio\.cache\Windows\SFX\Hud_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\Hud		13893676
+	209390670	Empire Music	C:\Users\admin\Documents\GitHub\Wwise-project\Virtual Ragnarok Audio\.cache\Windows\SFX\Empire Music_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\Empire Music		18249568
+	739659711	Hud	C:\Users\admin\Documents\GitHub\Wwise-project\Virtual Ragnarok Audio\.cache\Windows\SFX\Hud_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\Hud		13893676
 

@@ -3,23 +3,23 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="Play_Footstep" ID="{60B49344-6207-4795-AF55-52474E0BE44C}">
+				<Event Name="Play_Footsteps_Mando" ID="{60B49344-6207-4795-AF55-52474E0BE44C}">
 					<ChildrenList>
 						<Action Name="" ID="{3A1497B9-C75D-444D-8F64-74F7E6244B72}" ShortID="247776166">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Footsteps" ID="{F761ED29-E48D-45AE-BD06-5A1E62517FCA}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+									<ObjectRef Name="Footsteps_Mando" ID="{F761ED29-E48D-45AE-BD06-5A1E62517FCA}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_Weapon_Shoot" ID="{C3ADCA68-65F2-4741-89E2-2CCED5D4DA9D}">
+				<Event Name="Play_Weapon_Shoot_Mando" ID="{C3ADCA68-65F2-4741-89E2-2CCED5D4DA9D}">
 					<ChildrenList>
 						<Action Name="" ID="{C5546561-BBF2-41C3-AF61-1A1479603B27}" ShortID="888780605">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Weapon_Shoot" ID="{DEADE2A8-4F1A-4A8D-9675-266E82F5ABCF}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+									<ObjectRef Name="Weapon_Shoot_Mando" ID="{DEADE2A8-4F1A-4A8D-9675-266E82F5ABCF}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -52,7 +52,7 @@
 						<Action Name="" ID="{02BB507F-90E0-4DB5-B2FC-8E2D3D8D67E7}" ShortID="935546817">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Wood box broken" ID="{0F585902-EE5C-437A-A2E5-44C5A8CC541F}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+									<ObjectRef Name="Growls_Bantha" ID="{22EB6702-A6F1-429A-ABE0-D56E314F4279}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -96,6 +96,17 @@
 								<Property Name="ActionType" Type="int16" Value="10"/>
 							</PropertyList>
 							<ReferenceList/>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Growl_Bantha" ID="{A5A80DC8-AF4F-42AE-9EAB-6879F3835D30}">
+					<ChildrenList>
+						<Action Name="" ID="{C99A4E7E-A21A-4116-9E37-39EB309221BF}" ShortID="956795337">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Growls_Bantha" ID="{22EB6702-A6F1-429A-ABE0-D56E314F4279}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+								</Reference>
+							</ReferenceList>
 						</Action>
 					</ChildrenList>
 				</Event>

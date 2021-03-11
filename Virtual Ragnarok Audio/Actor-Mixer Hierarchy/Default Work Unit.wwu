@@ -237,7 +237,7 @@
 				</Folder>
 				<Folder Name="Mando" ID="{1E0D4BAC-931F-4437-97B5-D1A6DA2F6427}" ShortID="361305589">
 					<ChildrenList>
-						<SwitchContainer Name="Footsteps" ID="{F761ED29-E48D-45AE-BD06-5A1E62517FCA}" ShortID="208874372">
+						<SwitchContainer Name="Footsteps_Mando" ID="{F761ED29-E48D-45AE-BD06-5A1E62517FCA}" ShortID="208874372">
 							<PropertyList>
 								<Property Name="CenterPercentage" Type="int32">
 									<ValueList>
@@ -276,7 +276,6 @@
 												<ModifierInfo>
 													<Modifier Name="" ID="{24A04DCD-2C7B-4285-A5D1-225566512170}">
 														<PropertyList>
-															<Property Name="Enabled" Type="bool" Value="True"/>
 															<Property Name="Max" Type="Real64" Value="200"/>
 															<Property Name="Min" Type="Real64" Value="-1000"/>
 														</PropertyList>
@@ -395,7 +394,6 @@
 														<ModifierInfo>
 															<Modifier Name="" ID="{614E9282-B920-4379-B72E-F99CD677D980}">
 																<PropertyList>
-																	<Property Name="Enabled" Type="bool" Value="True"/>
 																	<Property Name="Max" Type="Real64" Value="700"/>
 																	<Property Name="Min" Type="Real64" Value="-300"/>
 																</PropertyList>
@@ -490,7 +488,6 @@
 														<ModifierInfo>
 															<Modifier Name="" ID="{3A3B0859-BA6E-4AE5-B079-6AC2177928F9}">
 																<PropertyList>
-																	<Property Name="Enabled" Type="bool" Value="True"/>
 																	<Property Name="Max" Type="Real64" Value="200"/>
 																	<Property Name="Min" Type="Real64" Value="-600"/>
 																</PropertyList>
@@ -584,7 +581,6 @@
 														<ModifierInfo>
 															<Modifier Name="" ID="{3453DD59-6D7A-4EE2-AAD4-AA22D0DD319F}">
 																<PropertyList>
-																	<Property Name="Enabled" Type="bool" Value="True"/>
 																	<Property Name="Max" Type="Real64" Value="300"/>
 																	<Property Name="Min" Type="Real64" Value="-200"/>
 																</PropertyList>
@@ -675,7 +671,6 @@
 														<ModifierInfo>
 															<Modifier Name="" ID="{D97ED318-3D57-4C12-9C0E-6B034F816F58}">
 																<PropertyList>
-																	<Property Name="Enabled" Type="bool" Value="True"/>
 																	<Property Name="Min" Type="Real64" Value="-300"/>
 																</PropertyList>
 															</Modifier>
@@ -774,7 +769,6 @@
 												<ModifierInfo>
 													<Modifier Name="" ID="{2353A704-AD51-443A-A4F0-93CFE3E3E09A}">
 														<PropertyList>
-															<Property Name="Enabled" Type="bool" Value="True"/>
 															<Property Name="Max" Type="Real64" Value="100"/>
 															<Property Name="Min" Type="Real64" Value="-100"/>
 														</PropertyList>
@@ -941,7 +935,6 @@
 														<ModifierInfo>
 															<Modifier Name="" ID="{999D262F-45B4-49DA-A621-FCE73A1AEA86}">
 																<PropertyList>
-																	<Property Name="Enabled" Type="bool" Value="True"/>
 																	<Property Name="Max" Type="Real64" Value="200"/>
 																	<Property Name="Min" Type="Real64" Value="-500"/>
 																</PropertyList>
@@ -1036,7 +1029,6 @@
 														<ModifierInfo>
 															<Modifier Name="" ID="{C3CF57D1-10C5-45A0-931C-977925D9ADFE}">
 																<PropertyList>
-																	<Property Name="Enabled" Type="bool" Value="True"/>
 																	<Property Name="Max" Type="Real64" Value="300"/>
 																	<Property Name="Min" Type="Real64" Value="-300"/>
 																</PropertyList>
@@ -1130,7 +1122,6 @@
 														<ModifierInfo>
 															<Modifier Name="" ID="{8024D842-EBFA-4450-A5F3-7E00D8D0B9E6}">
 																<PropertyList>
-																	<Property Name="Enabled" Type="bool" Value="True"/>
 																	<Property Name="Max" Type="Real64" Value="200"/>
 																	<Property Name="Min" Type="Real64" Value="-200"/>
 																</PropertyList>
@@ -1221,7 +1212,6 @@
 														<ModifierInfo>
 															<Modifier Name="" ID="{5CF93EBC-C92A-4368-95C8-24B2CA989378}">
 																<PropertyList>
-																	<Property Name="Enabled" Type="bool" Value="True"/>
 																	<Property Name="Max" Type="Real64" Value="300"/>
 																	<Property Name="Min" Type="Real64" Value="-200"/>
 																</PropertyList>
@@ -1344,7 +1334,6 @@
 														<ModifierInfo>
 															<Modifier Name="" ID="{14833AC3-2904-4BBE-983B-49198C309EAF}">
 																<PropertyList>
-																	<Property Name="Enabled" Type="bool" Value="True"/>
 																	<Property Name="Max" Type="Real64" Value="200"/>
 																	<Property Name="Min" Type="Real64" Value="-300"/>
 																</PropertyList>
@@ -1435,7 +1424,6 @@
 														<ModifierInfo>
 															<Modifier Name="" ID="{0FAC5213-01AC-4631-B58B-33B81B8EB33E}">
 																<PropertyList>
-																	<Property Name="Enabled" Type="bool" Value="True"/>
 																	<Property Name="Max" Type="Real64" Value="300"/>
 																	<Property Name="Min" Type="Real64" Value="-300"/>
 																</PropertyList>
@@ -1562,6 +1550,11 @@
 										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
 										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.12"/>
 										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-14</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -1963,7 +1956,6 @@
 														<ModifierInfo>
 															<Modifier Name="" ID="{E6D35444-5B99-480B-BCC0-E397FBC4DD80}">
 																<PropertyList>
-																	<Property Name="Enabled" Type="bool" Value="True"/>
 																	<Property Name="Max" Type="Real64" Value="200"/>
 																	<Property Name="Min" Type="Real64" Value="-200"/>
 																</PropertyList>
@@ -2054,7 +2046,6 @@
 														<ModifierInfo>
 															<Modifier Name="" ID="{F30D82F6-272C-4BB4-889F-AD07C48CD007}">
 																<PropertyList>
-																	<Property Name="Enabled" Type="bool" Value="True"/>
 																	<Property Name="Max" Type="Real64" Value="100"/>
 																	<Property Name="Min" Type="Real64" Value="-200"/>
 																</PropertyList>
@@ -2203,7 +2194,7 @@
 								</GroupingList>
 							</GroupingInfo>
 						</SwitchContainer>
-						<SwitchContainer Name="Weapon_Shoot" ID="{DEADE2A8-4F1A-4A8D-9675-266E82F5ABCF}" ShortID="984124489">
+						<SwitchContainer Name="Weapon_Shoot_Mando" ID="{DEADE2A8-4F1A-4A8D-9675-266E82F5ABCF}" ShortID="984124489">
 							<PropertyList>
 								<Property Name="CenterPercentage" Type="int32">
 									<ValueList>
@@ -2237,7 +2228,6 @@
 												<ModifierInfo>
 													<Modifier Name="" ID="{DDD991D9-EDFE-43AB-9165-66BC5EFC0F53}">
 														<PropertyList>
-															<Property Name="Enabled" Type="bool" Value="True"/>
 															<Property Name="Max" Type="Real64" Value="300"/>
 															<Property Name="Min" Type="Real64" Value="-300"/>
 														</PropertyList>
@@ -2327,6 +2317,60 @@
 											<ValueList>
 												<Value>500</Value>
 											</ValueList>
+											<RTPCList>
+												<RTPC Name="" ID="{C0918F4F-AB72-4E78-A35B-B7DF20966BFD}" ShortID="275919275">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="SourcePitch" ID="{063FD5D8-ABBA-4473-9C43-5E699AB95696}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{191CF8AA-93E1-4D45-9C9C-7C41E9116D12}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="65537"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-4800</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>4800</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{4D9D04F1-93E9-4102-9D94-85BC800ECC3C}" ShortID="578630408">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{8ED1E605-052E-43A1-AF7D-600B38FAEFB2}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
 										</Property>
 									</PropertyList>
 									<ReferenceList>
@@ -2338,7 +2382,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="2Star Wars DC-15A Blaster Rifle Sound Effect" ID="{64079F3B-9099-480C-A4CB-ED76AA4D0651}">
+										<AudioFileSource Name="Blaster mando" ID="{64079F3B-9099-480C-A4CB-ED76AA4D0651}">
 											<Language>SFX</Language>
 											<AudioFile>2Star Wars DC-15A Blaster Rifle Sound Effect.wav</AudioFile>
 											<MediaIDList>
@@ -2347,7 +2391,7 @@
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="2Star Wars DC-15A Blaster Rifle Sound Effect" ID="{64079F3B-9099-480C-A4CB-ED76AA4D0651}" Platform="Linked"/>
+										<ActiveSource Name="Blaster mando" ID="{64079F3B-9099-480C-A4CB-ED76AA4D0651}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
@@ -2566,6 +2610,348 @@
 								<ActiveSource Name="Wood box broken" ID="{018F3264-229A-45BD-B1B4-B03BBCE74519}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Bantha" ID="{15B11B24-C757-4ACD-9BC9-8CE86C92BE5D}" ShortID="159382654">
+					<ChildrenList>
+						<SwitchContainer Name="Footsteps_Bantha" ID="{BA020F94-EAFC-41ED-96FA-E2EEB8F8F210}" ShortID="179154791">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+								</Reference>
+							</ReferenceList>
+							<GroupingInfo/>
+						</SwitchContainer>
+						<SwitchContainer Name="Growls_Bantha" ID="{22EB6702-A6F1-429A-ABE0-D56E314F4279}" ShortID="975650352">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+								</Reference>
+								<Reference Name="DefaultSwitchOrState">
+									<ObjectRef Name="Hit" ID="{ABA05CC8-7108-4AFD-B56C-CF6E1C6561F5}" WorkUnitID="{418DD5E0-ECF0-4412-844D-37145812D6AB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+								</Reference>
+								<Reference Name="SwitchGroupOrStateGroup">
+									<ObjectRef Name="Growls" ID="{B6A73868-84BC-4B17-B6A1-BA4A85D18414}" WorkUnitID="{418DD5E0-ECF0-4412-844D-37145812D6AB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="Hit_Bantha" ID="{3C782E65-10EE-4D08-A734-1896B416A4EC}" ShortID="267330144">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-21</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Bantha hit" ID="{FE035F15-5003-4036-AADC-2D0C5E91A675}" ShortID="758734515">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>5</Value>
+													</ValueList>
+													<RTPCList>
+														<RTPC Name="" ID="{21475F6D-0680-4637-BF19-7A3D29A64487}" ShortID="905153060">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{9EB68CAF-72B0-4469-A5BF-FB98206A839F}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>200</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Bantha hit" ID="{99BD7929-9154-474E-9315-CC3A8F16E2B1}">
+													<Language>SFX</Language>
+													<AudioFile>Bantha hit.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="787605823"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Bantha hit" ID="{99BD7929-9154-474E-9315-CC3A8F16E2B1}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Bantha hit 3" ID="{F95D85F2-9862-4DDF-A051-365F773EA98C}" ShortID="947008909">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<RTPCList>
+														<RTPC Name="" ID="{0CCC36AE-5380-4680-B5A4-38B8FCA0A575}" ShortID="517804964">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{4EB77304-9FCC-4B72-9236-0FCE1DFB4DBF}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>200</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Bantha hit 3" ID="{E84C850B-34AA-43CD-A179-0BBBB1FC25FC}">
+													<Language>SFX</Language>
+													<AudioFile>Bantha hit 3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1062067289"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Bantha hit 3" ID="{E84C850B-34AA-43CD-A179-0BBBB1FC25FC}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Bantha hit 2" ID="{DA5E7855-8F65-4D31-BB67-5C788B065F18}" ShortID="1033176566">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<RTPCList>
+														<RTPC Name="" ID="{4F79ED2F-E1B1-451B-9DB9-15FFB08F5642}" ShortID="953800727">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{9BF4DA6C-1B65-42CA-A09B-6AB91FE6AE08}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>200</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Bantha hit 2" ID="{985C9368-A643-444B-BC7B-3B8FF585821F}">
+													<Language>SFX</Language>
+													<AudioFile>Bantha hit 2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="927501018"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Bantha hit 2" ID="{985C9368-A643-444B-BC7B-3B8FF585821F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Bantha hit 4" ID="{22726950-6168-497B-A8E0-94D462D8A6C8}" ShortID="482068157">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<RTPCList>
+														<RTPC Name="" ID="{419FE22B-E2CF-40BD-B779-10BD67045A9B}" ShortID="173782025">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{5CAD9F78-65C7-41B2-844D-275B1E383F25}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>200</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Bantha hit 4" ID="{D779DDC4-9D57-466F-93F8-D42024E98149}">
+													<Language>SFX</Language>
+													<AudioFile>Bantha hit 4.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="197876092"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Bantha hit 4" ID="{D779DDC4-9D57-466F-93F8-D42024E98149}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<Sound Name="Bantha Dead Roar" ID="{376826E6-BE20-4434-BEE3-8B6AD361AF4A}" ShortID="552441066">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-17</Value>
+											</ValueList>
+											<RTPCList>
+												<RTPC Name="" ID="{096531C2-6474-4AC4-A9FC-BC4C0E443A32}" ShortID="586409496">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{D2637C34-4A80-4DD2-AF74-7691E22FDEC4}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Bantha Dead Roar" ID="{92BE77D9-544F-41E5-8BB5-ACCCD6636CEA}">
+											<Language>SFX</Language>
+											<AudioFile>Bantha Dead Roar.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="210317130"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Bantha Dead Roar" ID="{92BE77D9-544F-41E5-8BB5-ACCCD6636CEA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<GroupingInfo>
+								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="Hit_Bantha" ID="{3C782E65-10EE-4D08-A734-1896B416A4EC}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Bantha Dead Roar" ID="{376826E6-BE20-4434-BEE3-8B6AD361AF4A}"/>
+									</GroupingBehavior>
+								</GroupingBehaviorList>
+								<GroupingList>
+									<Grouping>
+										<SwitchRef Name="Death" ID="{A0FCB77B-2597-4673-85F5-4AF2E02A1589}"/>
+										<ItemList>
+											<ItemRef Name="Bantha Dead Roar" ID="{376826E6-BE20-4434-BEE3-8B6AD361AF4A}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Hit" ID="{ABA05CC8-7108-4AFD-B56C-CF6E1C6561F5}"/>
+										<ItemList>
+											<ItemRef Name="Hit_Bantha" ID="{3C782E65-10EE-4D08-A734-1896B416A4EC}"/>
+										</ItemList>
+									</Grouping>
+								</GroupingList>
+							</GroupingInfo>
+						</SwitchContainer>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>
