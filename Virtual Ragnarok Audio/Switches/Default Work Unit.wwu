@@ -35,6 +35,13 @@
 						<Switch Name="Stormtrooper" ID="{9784019F-47B3-457E-A1C1-4968EFB86CAC}"/>
 					</ChildrenList>
 				</SwitchGroup>
+				<SwitchGroup Name="Mando_State" ID="{B55E615C-53DF-4AD8-8A57-AD91A6466226}">
+					<ChildrenList>
+						<Switch Name="Combat" ID="{1D5229D0-D8A4-4584-B8E3-CA86E5FFA619}"/>
+						<Switch Name="Exploring" ID="{B8C42406-EC1A-4D01-86D1-0A27B9A2E1F7}"/>
+						<Switch Name="NoMando" ID="{82C0BFFA-996E-4768-972E-E7970DB54B1C}"/>
+					</ChildrenList>
+				</SwitchGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</Switches>
