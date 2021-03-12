@@ -18,21 +18,16 @@
 						<Switch Name="Sniper" ID="{D9D7BAE3-FEAF-489E-A93F-E360579A008C}"/>
 					</ChildrenList>
 				</SwitchGroup>
-				<SwitchGroup Name="Growls" ID="{B6A73868-84BC-4B17-B6A1-BA4A85D18414}">
-					<ChildrenList>
-						<Switch Name="Hit" ID="{ABA05CC8-7108-4AFD-B56C-CF6E1C6561F5}"/>
-						<Switch Name="Death" ID="{A0FCB77B-2597-4673-85F5-4AF2E02A1589}"/>
-					</ChildrenList>
-				</SwitchGroup>
 				<SwitchGroup Name="UI" ID="{B90637E8-1880-48EC-AA11-B5A8FF27E098}">
 					<ChildrenList>
 						<Switch Name="Button_play" ID="{3519497F-0821-4DDB-8AF7-DC4B94EB4351}"/>
 						<Switch Name="Button_hover" ID="{EB9FE43C-E322-40F6-936D-9CF60834698E}"/>
 					</ChildrenList>
 				</SwitchGroup>
-				<SwitchGroup Name="Enemy_Detection" ID="{BB613D90-95B4-440A-9458-FD2B578D755C}">
+				<SwitchGroup Name="Growl_Bantha" ID="{30ACC56A-4E1A-4F36-A85E-1361D2C8E7C6}">
 					<ChildrenList>
-						<Switch Name="Stormtrooper" ID="{9784019F-47B3-457E-A1C1-4968EFB86CAC}"/>
+						<Switch Name="Hit" ID="{9B3D5D53-69E5-4767-B78E-8F25A24D6C8B}"/>
+						<Switch Name="Roar" ID="{C6831CAA-E9CB-452B-9F17-B70C43C98F66}"/>
 					</ChildrenList>
 				</SwitchGroup>
 			</ChildrenList>

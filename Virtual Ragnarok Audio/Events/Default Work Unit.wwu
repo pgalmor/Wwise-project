@@ -104,7 +104,7 @@
 						<Action Name="" ID="{C99A4E7E-A21A-4116-9E37-39EB309221BF}" ShortID="956795337">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Growls_Bantha" ID="{22EB6702-A6F1-429A-ABE0-D56E314F4279}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+									<ObjectRef Name="Growls_bantha" ID="{0FD26538-E1B4-4EE6-A9DB-38DD4DFDF95E}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -127,6 +127,39 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="UI Button Hover" ID="{53050208-F1BE-435A-BDA5-9B25150340A2}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Enemy_Detection" ID="{AE4358DC-ABBE-49A7-B868-FD5227EC3257}">
+					<ChildrenList>
+						<Action Name="" ID="{90B756BF-4DE6-4B05-A3F5-0865A97B2DB6}" ShortID="592823674">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Enemy_Detection_Stormtrooper" ID="{46D70C88-FB92-4BE2-802E-F033BE769CB9}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Bantha_Attack" ID="{148153E8-A0AD-4934-8AA4-A01810440843}">
+					<ChildrenList>
+						<Action Name="" ID="{5C136DF1-67DE-4558-84BE-5A9AA5614C4F}" ShortID="505481045">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Bantha_attack" ID="{B01E8559-4B46-4DF0-A91B-2D3FCF44941A}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Mando_Voice" ID="{2EF4772C-C6CE-40B8-B875-1F4D58B2ED4A}">
+					<ChildrenList>
+						<Action Name="" ID="{DA865B4F-063B-49B1-9AAD-EB08EFB2971F}" ShortID="82322660">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Mando_Voice" ID="{DA352849-C647-4451-BFD8-5A8B693033B0}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
