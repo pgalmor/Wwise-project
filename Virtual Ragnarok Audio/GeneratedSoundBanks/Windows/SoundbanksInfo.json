@@ -16,9 +16,83 @@
   "MediaFilesNotInAnyBank": [],
   "SoundBanks": [
    {
+    "Id": "833070093",
+    "Language": "SFX",
+    "Hash": "4021576263",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Stormtrooper",
+    "ShortName": "Stormtrooper",
+    "Path": "Stormtrooper.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "192623117",
+      "Name": "Pause_Object",
+      "ObjectPath": "\\Events\\Default Work Unit\\Pause_Object",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
+     },
+     {
+      "Id": "4180674362",
+      "Name": "Play_Enemy_Detection",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Enemy_Detection",
+      "DurationType": "OneShot",
+      "DurationMin": "0.645042",
+      "DurationMax": "1.101500",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "356289844",
+        "Language": "SFX",
+        "ShortName": "Stormtrooper enemy detection 2.wav",
+        "Path": "SFX\\Stormtrooper enemy detection 2_10C4C929.wem"
+       },
+       {
+        "Id": "390628259",
+        "Language": "SFX",
+        "ShortName": "Stormtrooper enemy detection 3.wav",
+        "Path": "SFX\\Stormtrooper enemy detection 3_10C4C929.wem"
+       },
+       {
+        "Id": "936066558",
+        "Language": "SFX",
+        "ShortName": "Stormtrooper enemy detection 1.wav",
+        "Path": "SFX\\Stormtrooper enemy detection 1_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1931338186",
+      "Name": "Resume_Object",
+      "ObjectPath": "\\Events\\Default Work Unit\\Resume_Object",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
+     },
+     {
+      "Id": "3318621861",
+      "Name": "Stop_Object",
+      "ObjectPath": "\\Events\\Default Work Unit\\Stop_Object",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "467158820",
+      "Name": "SourceVolume",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\SourceVolume"
+     },
+     {
+      "Id": "2704707011",
+      "Name": "BusVolume",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\BusVolume"
+     }
+    ]
+   },
+   {
     "Id": "1093318992",
     "Language": "SFX",
-    "Hash": "4033406703",
+    "Hash": "2306021697",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Mando",
     "ShortName": "Mando",
     "Path": "Mando.bnk",
@@ -217,6 +291,34 @@
           "Id": "925297908"
          }
         ]
+       }
+      ]
+     },
+     {
+      "Id": "3609957406",
+      "Name": "Play_Mando_Voice",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Mando_Voice",
+      "DurationType": "OneShot",
+      "DurationMin": "0.777551",
+      "DurationMax": "0.823832",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "236232383",
+        "Language": "SFX",
+        "ShortName": "Mando voice 2.wav",
+        "Path": "SFX\\Mando voice 2_10C4C929.wem"
+       },
+       {
+        "Id": "715733657",
+        "Language": "SFX",
+        "ShortName": "Mando voice 3.wav",
+        "Path": "SFX\\Mando voice 3_10C4C929.wem"
+       },
+       {
+        "Id": "1039797385",
+        "Language": "SFX",
+        "ShortName": "Mando voice 1.wav",
+        "Path": "SFX\\Mando voice 1_10C4C929.wem"
        }
       ]
      },
@@ -432,7 +534,7 @@
    {
     "Id": "1551306167",
     "Language": "SFX",
-    "Hash": "1982422242",
+    "Hash": "608913012",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\UI",
     "ShortName": "UI",
     "Path": "UI.bnk",
@@ -472,6 +574,11 @@
     ],
     "GameParameters": [
      {
+      "Id": "467158820",
+      "Name": "SourceVolume",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\SourceVolume"
+     },
+     {
       "Id": "2704707011",
       "Name": "BusVolume",
       "ObjectPath": "\\Game Parameters\\Default Work Unit\\BusVolume"
@@ -500,7 +607,7 @@
    {
     "Id": "3795682265",
     "Language": "SFX",
-    "Hash": "3371454133",
+    "Hash": "351107114",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Bantha",
     "ShortName": "Bantha",
     "Path": "Bantha.bnk",
@@ -512,6 +619,28 @@
       "DurationType": "OneShot",
       "DurationMin": "0.000000",
       "DurationMax": "0.000000"
+     },
+     {
+      "Id": "2176463949",
+      "Name": "Play_Bantha_Attack",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Bantha_Attack",
+      "DurationType": "OneShot",
+      "DurationMin": "0.512354",
+      "DurationMax": "0.517187",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "228824925",
+        "Language": "SFX",
+        "ShortName": "Bantha attack 2.wav",
+        "Path": "SFX\\Bantha attack 2_10C4C929.wem"
+       },
+       {
+        "Id": "291424242",
+        "Language": "SFX",
+        "ShortName": "Bantha attack 1.wav",
+        "Path": "SFX\\Bantha attack 1_10C4C929.wem"
+       }
+      ]
      },
      {
       "Id": "3912954324",
@@ -552,10 +681,10 @@
         "Path": "SFX\\Bantha hit 3_10C4C929.wem"
        }
       ],
-      "DefaultSwitchValue": "{ABA05CC8-7108-4AFD-B56C-CF6E1C6561F5}",
+      "DefaultSwitchValue": "{9B3D5D53-69E5-4767-B78E-8F25A24D6C8B}",
       "SwitchContainers": [
        {
-        "SwitchValue": "{ABA05CC8-7108-4AFD-B56C-CF6E1C6561F5}",
+        "SwitchValue": "{9B3D5D53-69E5-4767-B78E-8F25A24D6C8B}",
         "Media": [
          {
           "Id": "197876092"
@@ -572,7 +701,7 @@
         ]
        },
        {
-        "SwitchValue": "{A0FCB77B-2597-4673-85F5-4AF2E02A1589}",
+        "SwitchValue": "{C6831CAA-E9CB-452B-9F17-B70C43C98F66}",
         "Media": [
          {
           "Id": "210317130"
@@ -612,19 +741,19 @@
     ],
     "SwitchGroups": [
      {
-      "Id": "1957821939",
-      "Name": "Growls",
-      "ObjectPath": "\\Switches\\Default Work Unit\\Growls",
+      "Id": "1239559603",
+      "Name": "Growl_Bantha",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Growl_Bantha",
       "Switches": [
        {
         "Id": "1116398592",
         "Name": "Hit",
-        "ObjectPath": "\\Switches\\Default Work Unit\\Growls\\Hit"
+        "ObjectPath": "\\Switches\\Default Work Unit\\Growl_Bantha\\Hit"
        },
        {
-        "Id": "779278001",
-        "Name": "Death",
-        "ObjectPath": "\\Switches\\Default Work Unit\\Growls\\Death"
+        "Id": "2110808665",
+        "Name": "Roar",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Growl_Bantha\\Roar"
        }
       ]
      }

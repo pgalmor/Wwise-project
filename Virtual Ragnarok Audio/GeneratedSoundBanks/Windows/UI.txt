@@ -10,6 +10,7 @@ Switch	ID	Name	Switch Group			Notes
 	1701177942	Button_hover	UI			
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
+	467158820	SourceVolume			\Default Work Unit\SourceVolume	
 	2704707011	BusVolume			\Default Work Unit\BusVolume	
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
