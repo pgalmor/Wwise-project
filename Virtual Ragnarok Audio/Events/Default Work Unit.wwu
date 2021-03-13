@@ -28,9 +28,24 @@
 				<Event Name="Play_Music" ID="{170AAE06-7CD8-4762-B03D-7C08E5E0249C}">
 					<ChildrenList>
 						<Action Name="" ID="{A8006FD2-0D41-4AAE-85FC-1EF5F0698D4D}" ShortID="134171936">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="5"/>
+								<Property Name="FadeTime" Type="Real64" Value="10"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Empire Music" ID="{F2D2E0BD-1696-4CBD-9266-912DD17E04B9}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+									<ObjectRef Name="Hud" ID="{3398E72C-382A-4B11-AF52-D21968113AF2}" WorkUnitID="{BA49786C-8F21-4CAC-A757-58A39DA4BB08}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{F1DC0DEC-3E43-4586-85B2-2B325ED610D5}" ShortID="377056284">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="10"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Combat Music" ID="{E5BED87B-73A9-40F5-98D1-C31D158A0DB5}" WorkUnitID="{BA49786C-8F21-4CAC-A757-58A39DA4BB08}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -39,9 +54,24 @@
 				<Event Name="Play_Music_2" ID="{3CF913D0-8E74-4F4C-B6DE-7EF358101510}">
 					<ChildrenList>
 						<Action Name="" ID="{CB492E91-A994-43A1-9D6A-B1A0FC8E02B8}" ShortID="461000228">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="5"/>
+								<Property Name="FadeTime" Type="Real64" Value="10"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Hud" ID="{127FDE73-4F18-40CB-B5BF-ACB943091359}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+									<ObjectRef Name="Combat Music" ID="{E5BED87B-73A9-40F5-98D1-C31D158A0DB5}" WorkUnitID="{BA49786C-8F21-4CAC-A757-58A39DA4BB08}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{904A771A-DAC0-4AB0-AFC6-40EC514227D8}" ShortID="730533447">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="10"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Hud" ID="{3398E72C-382A-4B11-AF52-D21968113AF2}" WorkUnitID="{BA49786C-8F21-4CAC-A757-58A39DA4BB08}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
