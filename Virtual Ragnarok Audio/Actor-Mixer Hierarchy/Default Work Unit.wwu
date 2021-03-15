@@ -2584,6 +2584,83 @@
 								</Sound>
 							</ChildrenList>
 						</RandomSequenceContainer>
+						<Sound Name="Dash Transition" ID="{700894BD-858F-4CE8-8D22-16D81876B6B6}" ShortID="754628297">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-25</Value>
+									</ValueList>
+									<RTPCList>
+										<RTPC Name="" ID="{1EEA0726-F18B-4022-B9C4-1D38E26FD479}" ShortID="387279055">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{19A216EA-EB77-48F0-BC48-42455D2332F6}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>200</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Dash Transition" ID="{2CAD66C5-E319-4397-9155-E2A89BA7E468}">
+									<Language>SFX</Language>
+									<AudioFile>Dash Transition.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="409049906"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Dash Transition" ID="{2CAD66C5-E319-4397-9155-E2A89BA7E468}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Mando death 1" ID="{FFA8C746-2579-4CAA-9A6D-F655B58ECA27}" ShortID="486129690">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Mando death 1" ID="{CAE53FD1-7DD6-4C4F-ABA0-11EF9598E9D4}">
+									<Language>SFX</Language>
+									<AudioFile>Mando death 1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="565054485"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Mando death 1" ID="{CAE53FD1-7DD6-4C4F-ABA0-11EF9598E9D4}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Environment" ID="{36AF372A-C793-42A6-BF55-F7FC1D1746C4}" ShortID="44594731">
@@ -2716,6 +2793,13 @@
 							</ReferenceList>
 							<ChildrenList>
 								<RandomSequenceContainer Name="Bantha_Hit" ID="{1798CE29-E6E4-4E4C-9963-06D51CB7A31F}" ShortID="1062848810">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-13</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
@@ -2946,6 +3030,9 @@
 								<Sound Name="Bantha Dead Roar" ID="{E71BDA1E-008B-46F5-9214-D09813664AAE}" ShortID="1020229575">
 									<PropertyList>
 										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-12</Value>
+											</ValueList>
 											<RTPCList>
 												<RTPC Name="" ID="{C9B7C57B-F1B7-42C5-9CDB-972EDBE2EC13}" ShortID="15485197">
 													<ReferenceList>
@@ -3141,7 +3228,7 @@
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-13</Value>
+										<Value>-16</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -3153,6 +3240,262 @@
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
 								</Reference>
 							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Bantha Footstep 2" ID="{0B2B0551-F2AA-4E3E-8892-C1415621DF93}" ShortID="479862156">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Bantha Footstep 2" ID="{844CD19D-D1B2-4143-980E-5A57F0849B79}">
+											<Language>SFX</Language>
+											<AudioFile>Bantha Footstep 2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="502347880"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Bantha Footstep 2" ID="{844CD19D-D1B2-4143-980E-5A57F0849B79}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Bantha Footstep 3" ID="{F9484F41-9243-4A38-A628-88FD164E8794}" ShortID="619435238">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Bantha Footstep 3" ID="{CAB49AC8-C323-4D4C-A8B3-DC4B98425C68}">
+											<Language>SFX</Language>
+											<AudioFile>Bantha Footstep 3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="491745401"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Bantha Footstep 3" ID="{CAB49AC8-C323-4D4C-A8B3-DC4B98425C68}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Bantha Footstep" ID="{CFA98F60-15EC-453E-82A8-0CDAB722F936}" ShortID="357139570">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Bantha Footstep" ID="{E48E8A48-6AA0-4ACF-B63F-0DB7500965E1}">
+											<Language>SFX</Language>
+											<AudioFile>Bantha Footstep.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="656291019"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Bantha Footstep" ID="{E48E8A48-6AA0-4ACF-B63F-0DB7500965E1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Bantha_Ramming" ID="{74165999-245A-4E91-AF23-E0955179DA62}" ShortID="362534248">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-14</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Bantha attack ramming 1" ID="{28A45FB9-4650-40BB-B384-11D6C965E7A3}" ShortID="474356737">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>5</Value>
+											</ValueList>
+											<RTPCList>
+												<RTPC Name="" ID="{EE1ED75A-B342-4BDE-A236-510E673169A1}" ShortID="177778482">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{D573EBE2-558D-4482-801D-476C077E9D68}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Bantha attack ramming 1" ID="{6D34438E-B341-42E9-8B27-162F9F8D1942}">
+											<Language>SFX</Language>
+											<AudioFile>Bantha attack ramming 1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="647876168"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Bantha attack ramming 1" ID="{6D34438E-B341-42E9-8B27-162F9F8D1942}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Bantha attack ramming 2" ID="{0E0F829B-3ACE-4557-9360-01C6616D1FF9}" ShortID="528380819">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{B2644B61-ED01-4E1B-AEA8-ED7C952E594B}" ShortID="728232337">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{DBD0F515-45C1-4B31-BD52-5F5C4739037A}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Bantha attack ramming 2" ID="{3A1086A2-0008-4CB7-9A00-BBF6176623FE}">
+											<Language>SFX</Language>
+											<AudioFile>Bantha attack ramming 2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="426481162"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Bantha attack ramming 2" ID="{3A1086A2-0008-4CB7-9A00-BBF6176623FE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Bantha attack ramming 3" ID="{94BECDC9-9BCE-4E3E-8DED-416EE063F9C0}" ShortID="93462367">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+											<RTPCList>
+												<RTPC Name="" ID="{2CA76466-9ED3-4F9D-9C6F-AEB0F580A59F}" ShortID="154701122">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{ECC6869E-5A49-4BD8-9AC2-4B7BAA92A951}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Bantha attack ramming 3" ID="{9D5ADC9C-B02E-4D26-9604-673C01A46314}">
+											<Language>SFX</Language>
+											<AudioFile>Bantha attack ramming 3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="166122849"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Bantha attack ramming 3" ID="{9D5ADC9C-B02E-4D26-9604-673C01A46314}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
 						</RandomSequenceContainer>
 					</ChildrenList>
 				</Folder>
@@ -3324,9 +3667,374 @@
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
 								</Reference>
 							</ReferenceList>
-							<GroupingInfo/>
+							<ChildrenList>
+								<RandomSequenceContainer Name="Footsteps sand" ID="{7FBBB870-5C25-43D0-8295-A2FB691BEBA8}" ShortID="657114879">
+									<PropertyList>
+										<Property Name="CenterPercentage" Type="int32">
+											<ValueList>
+												<Value>100</Value>
+											</ValueList>
+										</Property>
+										<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.12"/>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-14</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Footstep sand 1" ID="{1468AEFC-525D-4310-BE5B-C61FD0252417}" ShortID="944719176">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<RTPCList>
+														<RTPC Name="" ID="{2C6C2D98-B6BE-4533-8F03-8601800473C3}" ShortID="469010714">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="SourcePitch" ID="{063FD5D8-ABBA-4473-9C43-5E699AB95696}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{334A533B-BBA1-4221-86AC-25E97D328DFF}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="65537"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-4800</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>4800</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<RTPCList>
+														<RTPC Name="" ID="{07878D19-13C0-4DAF-B5CF-77BAF2C6E092}" ShortID="796863790">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{11126175-2337-4461-838A-9448DB38E08C}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>179.72935</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Footstep sand 1" ID="{863DA525-5690-4F88-934F-D917CF4BB7F0}">
+													<Language>SFX</Language>
+													<AudioFile>Footstep sand 1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="222927635"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Footstep sand 1" ID="{863DA525-5690-4F88-934F-D917CF4BB7F0}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Footstep sand 2" ID="{B0B9402C-6F97-431F-932B-357D151885A0}" ShortID="342138176">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<RTPCList>
+														<RTPC Name="" ID="{2E9585D4-F8C8-4490-A0B8-0E379E7DB3A3}" ShortID="892748419">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="SourcePitch" ID="{063FD5D8-ABBA-4473-9C43-5E699AB95696}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{5A1A0025-54C2-4682-A0E4-5490DBE3D5DD}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="65537"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-4800</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>4800</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<RTPCList>
+														<RTPC Name="" ID="{98665CF3-88A5-4CDA-8197-DAECC0F7364F}" ShortID="649852286">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{AA26B18F-1D27-42C6-AE07-756CAD3D5149}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>200</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Footstep sand 2" ID="{D63E2A59-48B6-49DA-B46E-9671D25CCAB5}">
+													<Language>SFX</Language>
+													<AudioFile>Footstep sand 2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="326576311"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Footstep sand 2" ID="{D63E2A59-48B6-49DA-B46E-9671D25CCAB5}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Footstep sand 3" ID="{407C835F-6C80-4FE8-8B89-98726EB976D9}" ShortID="682490474">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<RTPCList>
+														<RTPC Name="" ID="{731FCC4A-0DA3-48C7-9A7D-A40BB534535B}" ShortID="262602176">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="SourcePitch" ID="{063FD5D8-ABBA-4473-9C43-5E699AB95696}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{AA2B27B9-E4B7-4A99-8CA5-AE0D6A62FA4B}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="65537"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-4800</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>4800</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<RTPCList>
+														<RTPC Name="" ID="{BCA1F229-304B-4D2C-9F10-5A3BE5C866DA}" ShortID="1011072569">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{4D2C33DD-0670-4126-B378-04FC5BDFC4EF}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>200</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Footstep sand 3" ID="{DDD91C32-0E61-456D-9677-CE28EF3154A9}">
+													<Language>SFX</Language>
+													<AudioFile>Footstep sand 3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="793534180"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Footstep sand 3" ID="{DDD91C32-0E61-456D-9677-CE28EF3154A9}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Footstep sand 4" ID="{973B580C-AAA7-4198-858E-9F542F342D7F}" ShortID="393882410">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<RTPCList>
+														<RTPC Name="" ID="{167D3AF7-3B8F-4C34-B04B-C2AB56C9697D}" ShortID="45033600">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="SourcePitch" ID="{063FD5D8-ABBA-4473-9C43-5E699AB95696}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{9B78BAC4-8705-4CB4-9646-A82209CB2137}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="65537"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-4800</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>4800</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<RTPCList>
+														<RTPC Name="" ID="{61FA323F-3702-48B3-82F9-8915C1320ADF}" ShortID="943641924">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{5D48122B-ED81-4FB7-BF72-281381318CE7}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>186.35973</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Footstep sand 4" ID="{0A97390D-A175-43FD-8249-229EF7751EFC}">
+													<Language>SFX</Language>
+													<AudioFile>Footstep sand 4.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="925297908"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Footstep sand 4" ID="{0A97390D-A175-43FD-8249-229EF7751EFC}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+							<GroupingInfo>
+								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="Footsteps sand" ID="{7FBBB870-5C25-43D0-8295-A2FB691BEBA8}"/>
+									</GroupingBehavior>
+								</GroupingBehaviorList>
+							</GroupingInfo>
 						</SwitchContainer>
 						<RandomSequenceContainer Name="Enemy_Detection_Stormtrooper" ID="{46D70C88-FB92-4BE2-802E-F033BE769CB9}" ShortID="1067878053">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-4</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
@@ -3336,37 +4044,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="Stormtrooper enemy detection 1" ID="{7CC73F90-5E0C-4F04-8D41-B8A7A48CE23E}" ShortID="377585718">
-									<PropertyList>
-										<Property Name="Volume" Type="Real64">
-											<RTPCList>
-												<RTPC Name="" ID="{10FE6C14-9BE3-473D-8B26-013281411BA0}" ShortID="570499914">
-													<ReferenceList>
-														<Reference Name="ControlInput">
-															<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
-														</Reference>
-													</ReferenceList>
-													<Curve Name="" ID="{C0E2D722-5448-4628-A4A5-2F1B0E7B9E22}">
-														<PropertyList>
-															<Property Name="Flags" Type="int32" Value="3"/>
-														</PropertyList>
-														<PointList>
-															<Point>
-																<XPos>0</XPos>
-																<YPos>-200</YPos>
-																<Flags>5</Flags>
-															</Point>
-															<Point>
-																<XPos>100</XPos>
-																<YPos>200</YPos>
-																<Flags>37</Flags>
-															</Point>
-														</PointList>
-													</Curve>
-												</RTPC>
-											</RTPCList>
-										</Property>
-									</PropertyList>
+								<Sound Name="Stormtrooper enemy detection 1" ID="{0A2F6B13-4143-48BA-A786-FDAF0A481E44}" ShortID="963783425">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
@@ -3376,7 +4054,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Stormtrooper enemy detection 1" ID="{828E2EF3-14C1-41BD-AC6F-9A7C00925D93}">
+										<AudioFileSource Name="Stormtrooper enemy detection 1" ID="{3DEBB42A-8FBD-4BF6-8B25-0AD4CCA07416}">
 											<Language>SFX</Language>
 											<AudioFile>Stormtrooper enemy detection 1.wav</AudioFile>
 											<MediaIDList>
@@ -3385,40 +4063,10 @@
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Stormtrooper enemy detection 1" ID="{828E2EF3-14C1-41BD-AC6F-9A7C00925D93}" Platform="Linked"/>
+										<ActiveSource Name="Stormtrooper enemy detection 1" ID="{3DEBB42A-8FBD-4BF6-8B25-0AD4CCA07416}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="Stormtrooper enemy detection 3" ID="{A0CD6F86-FAD6-44CB-8490-972E1A25148A}" ShortID="3385558">
-									<PropertyList>
-										<Property Name="Volume" Type="Real64">
-											<RTPCList>
-												<RTPC Name="" ID="{28C05ECE-0839-4B59-80A5-297FB6123819}" ShortID="534475321">
-													<ReferenceList>
-														<Reference Name="ControlInput">
-															<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
-														</Reference>
-													</ReferenceList>
-													<Curve Name="" ID="{9D95CD20-286F-4878-AEB6-9308AA397E46}">
-														<PropertyList>
-															<Property Name="Flags" Type="int32" Value="3"/>
-														</PropertyList>
-														<PointList>
-															<Point>
-																<XPos>0</XPos>
-																<YPos>-200</YPos>
-																<Flags>5</Flags>
-															</Point>
-															<Point>
-																<XPos>100</XPos>
-																<YPos>200</YPos>
-																<Flags>37</Flags>
-															</Point>
-														</PointList>
-													</Curve>
-												</RTPC>
-											</RTPCList>
-										</Property>
-									</PropertyList>
+								<Sound Name="Stormtrooper enemy detection 2" ID="{BA4973FB-D739-4AB4-BAA9-65FB45F2DFEA}" ShortID="973044269">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
@@ -3428,59 +4076,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Stormtrooper enemy detection 3" ID="{6CFB46B4-974C-4A4A-AF45-3873EB6B621C}">
-											<Language>SFX</Language>
-											<AudioFile>Stormtrooper enemy detection 3.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="390628259"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Stormtrooper enemy detection 3" ID="{6CFB46B4-974C-4A4A-AF45-3873EB6B621C}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Stormtrooper enemy detection 2" ID="{4B27534E-F61B-406B-831B-FF5319FF904E}" ShortID="439839926">
-									<PropertyList>
-										<Property Name="Volume" Type="Real64">
-											<RTPCList>
-												<RTPC Name="" ID="{2881792A-A163-44D4-94DF-8CD3AA6A22C8}" ShortID="29509566">
-													<ReferenceList>
-														<Reference Name="ControlInput">
-															<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
-														</Reference>
-													</ReferenceList>
-													<Curve Name="" ID="{BC8D8A9F-7876-4EFB-878C-81C6AF0FE290}">
-														<PropertyList>
-															<Property Name="Flags" Type="int32" Value="3"/>
-														</PropertyList>
-														<PointList>
-															<Point>
-																<XPos>0</XPos>
-																<YPos>-200</YPos>
-																<Flags>5</Flags>
-															</Point>
-															<Point>
-																<XPos>100</XPos>
-																<YPos>200</YPos>
-																<Flags>37</Flags>
-															</Point>
-														</PointList>
-													</Curve>
-												</RTPC>
-											</RTPCList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Stormtrooper enemy detection 2" ID="{8F932325-3398-47FE-A14D-3A81E1D00D5C}">
+										<AudioFileSource Name="Stormtrooper enemy detection 2" ID="{EC942503-1E3B-4F6E-A6AE-2C5C007EF568}">
 											<Language>SFX</Language>
 											<AudioFile>Stormtrooper enemy detection 2.wav</AudioFile>
 											<MediaIDList>
@@ -3489,13 +4085,216 @@
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Stormtrooper enemy detection 2" ID="{8F932325-3398-47FE-A14D-3A81E1D00D5C}" Platform="Linked"/>
+										<ActiveSource Name="Stormtrooper enemy detection 2" ID="{EC942503-1E3B-4F6E-A6AE-2C5C007EF568}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Stormtrooper enemy detection 3" ID="{3BB2296B-8193-44DB-9D7C-BF40AC42A5C4}" ShortID="687116063">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Stormtrooper enemy detection 3" ID="{CA84E5F5-EF8C-4F8A-BC9B-D41613B6C653}">
+											<Language>SFX</Language>
+											<AudioFile>Stormtrooper enemy detection 3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="390628259"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Stormtrooper enemy detection 3" ID="{CA84E5F5-EF8C-4F8A-BC9B-D41613B6C653}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<Sound Name="Stormtrooper blaster" ID="{232F2915-7DB5-4839-A389-F5F845E7D9CE}" ShortID="238976889">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Stormtrooper blaster" ID="{DF47B41D-A3B4-4834-9D1C-7B32912417C8}">
+									<Language>SFX</Language>
+									<AudioFile>Stormtrooper blaster.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1058641518"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Stormtrooper blaster" ID="{DF47B41D-A3B4-4834-9D1C-7B32912417C8}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<RandomSequenceContainer Name="Stormtrooper_Hit" ID="{C3CBD8CE-EA45-4D69-B7B1-05A815A38A80}" ShortID="137985378">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Stormtrooper hit 1" ID="{29F54C1D-1993-4EC7-8C6E-21BD7B5BBAF9}" ShortID="689442676">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Stormtrooper hit 1" ID="{E7B1285F-45B5-498E-9A96-267397F8A9C0}">
+											<Language>SFX</Language>
+											<AudioFile>Stormtrooper hit 1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="220722716"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Stormtrooper hit 1" ID="{E7B1285F-45B5-498E-9A96-267397F8A9C0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Stormtrooper hit 2" ID="{79672FD9-D46D-4641-A03F-DA72871FCAB5}" ShortID="897948551">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Stormtrooper hit 2" ID="{9C9F1A01-08C3-4741-8819-B52F9A67D457}">
+											<Language>SFX</Language>
+											<AudioFile>Stormtrooper hit 2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="152306303"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Stormtrooper hit 2" ID="{9C9F1A01-08C3-4741-8819-B52F9A67D457}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Stormtrooper hit 3" ID="{D37225EF-24A0-4FBE-8D9D-C1E3245EE1C5}" ShortID="39665240">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Stormtrooper hit 3" ID="{EAA5188C-664D-4E91-A155-C49E1D3D82DC}">
+											<Language>SFX</Language>
+											<AudioFile>Stormtrooper hit 3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="353870287"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Stormtrooper hit 3" ID="{EAA5188C-664D-4E91-A155-C49E1D3D82DC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Stormtrooper_Death" ID="{183642A1-C92C-43F2-BC8C-A24DCB29C44D}" ShortID="629616805">
+							<PropertyList>
+								<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Stormtrooper death 1" ID="{CF74C013-A8E7-470D-BD00-560F5B349F25}" ShortID="793415">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Stormtrooper death 1" ID="{8A9D97CB-B470-4DD1-B3C3-CC9A6798D8C8}">
+											<Language>SFX</Language>
+											<AudioFile>Stormtrooper death 1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="520687832"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Stormtrooper death 1" ID="{8A9D97CB-B470-4DD1-B3C3-CC9A6798D8C8}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Stormtrooper death 2" ID="{E907A026-F61A-49D8-B1E2-C4391A90B583}" ShortID="600873388">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Stormtrooper death 2" ID="{926030C9-B1B4-4CA7-9C86-CA61F3D67BEB}">
+											<Language>SFX</Language>
+											<AudioFile>Stormtrooper death 2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="296902962"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Stormtrooper death 2" ID="{926030C9-B1B4-4CA7-9C86-CA61F3D67BEB}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
 						</RandomSequenceContainer>
 					</ChildrenList>
 				</Folder>
+				<Sound Name="Blaster hit 1" ID="{4DE9AEF0-92A0-4E8B-A0BF-40401957DB8A}" ShortID="106719089">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Blaster hit 1" ID="{EAE3F37F-4E36-4167-A747-95E43F90C428}">
+							<Language>SFX</Language>
+							<AudioFile>Blaster hit 1.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="365530627"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Blaster hit 1" ID="{EAE3F37F-4E36-4167-A747-95E43F90C428}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
