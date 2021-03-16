@@ -851,6 +851,288 @@
 						</MusicPlaylistItem>
 					</Playlist>
 				</MusicPlaylistContainer>
+				<MusicPlaylistContainer Name="Explore" ID="{0CF5682F-7AA7-4006-8E7B-4DDCDC86FDFD}" ShortID="271259110">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicSegment Name="Explore Music A" ID="{9B2A05DE-518A-4300-962A-FB8CDF068F48}" ShortID="172866790">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="313104"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="EXPLORER THEME A-Reverb" ID="{B5BAC021-73C1-4CFC-8FDB-90AF410F03ED}" ShortID="252805052">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="EXPLORER THEME A-Reverb" ID="{8A7DF462-8B08-414A-B5A8-44B0AA20DF63}">
+											<Language>SFX</Language>
+											<AudioFile>Explore Music A\EXPLORER THEME A-Reverb.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="929528731"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{789D900D-6CC7-435D-B7D7-FB5BEA19F73B}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{E1623290-F696-4FB7-9D9F-E198257A0808}">
+											<ClipList>
+												<MusicClip Name="EXPLORER THEME A-Reverb" ID="{EF5EE0C5-3AF2-45DC-9939-5A4C075FD1D5}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="313104"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="EXPLORER THEME A-Reverb" ID="{8A7DF462-8B08-414A-B5A8-44B0AA20DF63}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="EXPLORER THEME FLUTE 1" ID="{6B2592F3-B4EC-4464-B070-65AFC5184E2B}" ShortID="248542660">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="EXPLORER THEME FLUTE 1" ID="{FD74EBFF-FE75-4197-9235-6B9F8FCF93E9}">
+											<Language>SFX</Language>
+											<AudioFile>Explore Music A\EXPLORER THEME FLUTE 1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1068132881"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{C9043977-CDC7-4145-A1D8-A4540F9185E0}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{BC4247F0-8530-434D-AB1E-F536A612F136}">
+											<ClipList>
+												<MusicClip Name="EXPLORER THEME FLUTE 1" ID="{65FB4F2B-658E-40B8-816F-3F40CA281D71}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="313104"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="EXPLORER THEME FLUTE 1" ID="{FD74EBFF-FE75-4197-9235-6B9F8FCF93E9}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="EXPLORER THEME FLUTE 2" ID="{36F93803-9CB8-4633-A1E9-945A9C69F049}" ShortID="269840231">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="EXPLORER THEME FLUTE 2" ID="{7C61B9EE-3A65-4554-B51E-3CA8BF3B69B6}">
+											<Language>SFX</Language>
+											<AudioFile>Explore Music A\EXPLORER THEME FLUTE 2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="3171606"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{0200B4D2-B72E-4618-8B0D-A1AE1607DB49}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{B13547A8-0ECA-4975-A434-220B660909DA}">
+											<ClipList>
+												<MusicClip Name="EXPLORER THEME FLUTE 2" ID="{971C2309-E3CE-4354-BAF1-F800A0160CEF}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="313104"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="EXPLORER THEME FLUTE 2" ID="{7C61B9EE-3A65-4554-B51E-3CA8BF3B69B6}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="EXPLORER THEME Strings 1" ID="{9408A67B-A004-4891-8539-74CDA3E86EF2}" ShortID="141898782">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="EXPLORER THEME Strings 1" ID="{670CABBA-FFED-4F20-B1FA-F2B241823ACB}">
+											<Language>SFX</Language>
+											<AudioFile>Explore Music A\EXPLORER THEME Strings 1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="661863985"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{64976D74-70FA-45AE-942B-D31DDFB81BAA}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{C91B4E99-A1C7-4126-9EDA-9CC8F5D50DB0}">
+											<ClipList>
+												<MusicClip Name="EXPLORER THEME Strings 1" ID="{90A5ECFF-F6F5-45CE-B8B1-2068D5A2A133}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="313104"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="EXPLORER THEME Strings 1" ID="{670CABBA-FFED-4F20-B1FA-F2B241823ACB}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="EXPLORER THEME Strings 2" ID="{AA17196B-6D6F-4855-BEFC-C679226460C4}" ShortID="556831060">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="EXPLORER THEME Strings 2" ID="{EAFB6940-A06B-4A0F-9A64-497BB415C853}">
+											<Language>SFX</Language>
+											<AudioFile>Explore Music A\EXPLORER THEME Strings 2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="175787775"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{E1D8F7DF-A003-4B76-A1D6-072AB9BEA816}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList/>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{24856106-CA85-43DB-A54B-9A200C57662F}">
+											<ClipList>
+												<MusicClip Name="EXPLORER THEME Strings 2" ID="{DBB769FA-971F-455D-B8D9-BAB45386589E}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="313104"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="EXPLORER THEME Strings 2" ID="{EAFB6940-A06B-4A0F-9A64-497BB415C853}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="EXPLORER THEME Strings" ID="{728E7237-F494-4621-9266-E249B33D7A50}" ShortID="294231655">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="EXPLORER THEME Strings" ID="{E749A191-03C0-4EF9-BC3F-762A7EB6DEDC}">
+											<Language>SFX</Language>
+											<AudioFile>Explore Music A\EXPLORER THEME Strings.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="817390936"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{C22874C8-DCFE-4816-A20E-BA43A9B115DD}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList/>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{CC6C7266-F360-4C39-A813-B3123A74D0AF}">
+											<ClipList>
+												<MusicClip Name="EXPLORER THEME Strings" ID="{A9CFC575-2CE4-4F69-B7B4-928BD6323EF7}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="313104"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="EXPLORER THEME Strings" ID="{E749A191-03C0-4EF9-BC3F-762A7EB6DEDC}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{74DEDA3F-60BE-473E-AA6E-89D8D803873B}"/>
+								<MusicCue Name="Exit Cue" ID="{E9EAF6ED-EA73-42B6-A2B6-4DD3CBFDCA03}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="1000"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+					</ChildrenList>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{9E265022-7980-4AF2-AA89-76316EB542CC}">
+							<PropertyList>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicTransition Name="Transition" ID="{88B494C5-8DFB-4ED0-8721-B7300182484B}">
+									<TransitionInfo/>
+								</MusicTransition>
+							</ChildrenList>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+					<Playlist>
+						<MusicPlaylistItem Name="" ID="{DC7A94FC-EA63-4DEC-ACBA-3000E9DCDA6A}" ShortID="193559752"/>
+					</Playlist>
+				</MusicPlaylistContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</InteractiveMusic>
