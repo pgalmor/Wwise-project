@@ -211,7 +211,7 @@
    {
     "Id": "1093318992",
     "Language": "SFX",
-    "Hash": "1081351287",
+    "Hash": "2746963132",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Mando",
     "ShortName": "Mando",
     "Path": "Mando.bnk",
@@ -478,6 +478,28 @@
       ]
      },
      {
+      "Id": "2203710711",
+      "Name": "Play_Mando_Hit",
+      "ObjectPath": "\\Events\\Default Work Unit\\Mando\\Play_Mando_Hit",
+      "DurationType": "OneShot",
+      "DurationMin": "0.340680",
+      "DurationMax": "0.539456",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "218041158",
+        "Language": "SFX",
+        "ShortName": "Mando hit 1.wav",
+        "Path": "SFX\\Mando hit 1_10C4C929.wem"
+       },
+       {
+        "Id": "1010296783",
+        "Language": "SFX",
+        "ShortName": "Mando hit 2.wav",
+        "Path": "SFX\\Mando hit 2_10C4C929.wem"
+       }
+      ]
+     },
+     {
       "Id": "3609957406",
       "Name": "Play_Mando_Voice",
       "ObjectPath": "\\Events\\Default Work Unit\\Mando\\Play_Mando_Voice",
@@ -610,7 +632,7 @@
    {
     "Id": "1229948536",
     "Language": "SFX",
-    "Hash": "3209250772",
+    "Hash": "2664944260",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Environment",
     "ShortName": "Environment",
     "Path": "Environment.bnk",
@@ -636,6 +658,52 @@
         "Language": "SFX",
         "ShortName": "Wood box broken.wav",
         "Path": "SFX\\Wood box broken_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "260317159",
+      "Name": "Play_Enemy_Respawn",
+      "ObjectPath": "\\Events\\Default Work Unit\\Environment\\Play_Enemy_Respawn",
+      "DurationType": "OneShot",
+      "DurationMin": "1.609333",
+      "DurationMax": "1.609333",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "419693254",
+        "Language": "SFX",
+        "ShortName": "Spawn Enemies.wav",
+        "Path": "SFX\\Spawn Enemies_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3935346668",
+      "Name": "Play_Mando_Respawn",
+      "ObjectPath": "\\Events\\Default Work Unit\\Environment\\Play_Mando_Respawn",
+      "DurationType": "OneShot",
+      "DurationMin": "1.088885",
+      "DurationMax": "1.088885",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "575047190",
+        "Language": "SFX",
+        "ShortName": "Spawn Mando.wav",
+        "Path": "SFX\\Spawn Mando_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3984843485",
+      "Name": "Play_Wind_Exterior",
+      "ObjectPath": "\\Events\\Default Work Unit\\Environment\\Play_Wind_Exterior",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "420370470",
+        "Language": "SFX",
+        "ShortName": "Wind Exterior.wav",
+        "Path": "SFX\\Wind Exterior_D79FB2B7.wem"
        }
       ]
      },

@@ -112,6 +112,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_Mando_Hit" ID="{FBDC3730-6B53-4C2F-B93A-451E05E078F2}">
+							<ChildrenList>
+								<Action Name="" ID="{47696617-98DB-471B-BD1D-33431420107B}" ShortID="935245966">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Mando_Hit" ID="{B2EAD3CB-041A-44F2-8349-B1859483E875}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Bantha" ID="{FA6AEF98-09DC-4D8D-96DA-FEA40FD0647A}" ShortID="121923056">
@@ -266,6 +277,39 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Wood box broken" ID="{0F585902-EE5C-437A-A2E5-44C5A8CC541F}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Enemy_Respawn" ID="{F09006DD-E97A-4C36-B324-111A23BA1980}">
+							<ChildrenList>
+								<Action Name="" ID="{F0FF65FD-8C77-4248-92EE-E79897A66A43}" ShortID="1032477646">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Spawn Enemies" ID="{D973CE0B-A1BD-41B0-8824-96E07E2F02D7}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Mando_Respawn" ID="{3C80CDA4-00FF-467D-946B-CDEB8144C055}">
+							<ChildrenList>
+								<Action Name="" ID="{F8768E1F-0170-4A97-9FCC-DE756C9C248E}" ShortID="403201078">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Spawn Mando" ID="{8883D6AE-960B-4063-9848-6BA813E790B1}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Wind_Exterior" ID="{CE2C346C-B29E-492E-9592-197A5352B614}">
+							<ChildrenList>
+								<Action Name="" ID="{A7C04327-A860-4122-BA5A-A239A841F34F}" ShortID="75025437">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Wind Exterior" ID="{E4DC72E6-C0B9-43FA-B385-98BE11EE535C}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
