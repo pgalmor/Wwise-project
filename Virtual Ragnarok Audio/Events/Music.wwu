@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{252EA750-1E19-4429-8C3F-0D1FE2A18061}" SchemaVersion="97">
+	<Events>
+		<WorkUnit Name="Music" ID="{252EA750-1E19-4429-8C3F-0D1FE2A18061}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_Music" ID="{A7DACA69-D9AC-4D4F-AF0B-824485C5D1CD}">
+					<ChildrenList>
+						<Action Name="" ID="{23C983C8-7FE6-409B-9045-F526BE5A2DFB}" ShortID="1051478028">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Mando Game Music" ID="{7136AD72-4566-4C74-B62B-C07797B62E73}" WorkUnitID="{4C260AF4-7CB0-49AB-8879-846B5CE4C5B9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

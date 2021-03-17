@@ -10,6 +10,12 @@
 						<Switch Name="Critical" ID="{6B09A628-1388-4144-83A2-D1C0FD238EEB}"/>
 					</ChildrenList>
 				</SwitchGroup>
+				<SwitchGroup Name="Player_Action" ID="{979A83A1-5FD3-4444-AB96-1ABEDBCBCCEC}">
+					<ChildrenList>
+						<Switch Name="Combat" ID="{BA4F0BB3-ECC2-4F1E-BDF6-D3A727FBFF1E}"/>
+						<Switch Name="Exploring" ID="{14FF8C72-F46D-4D5D-90BD-E12CD2053E44}"/>
+					</ChildrenList>
+				</SwitchGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</Switches>
