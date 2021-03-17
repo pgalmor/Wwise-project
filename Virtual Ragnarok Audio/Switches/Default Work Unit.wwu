@@ -30,13 +30,6 @@
 						<Switch Name="Roar" ID="{C6831CAA-E9CB-452B-9F17-B70C43C98F66}"/>
 					</ChildrenList>
 				</SwitchGroup>
-				<SwitchGroup Name="Mando_State" ID="{B55E615C-53DF-4AD8-8A57-AD91A6466226}">
-					<ChildrenList>
-						<Switch Name="Combat" ID="{1D5229D0-D8A4-4584-B8E3-CA86E5FFA619}"/>
-						<Switch Name="Exploring" ID="{B8C42406-EC1A-4D01-86D1-0A27B9A2E1F7}"/>
-						<Switch Name="NoMando" ID="{82C0BFFA-996E-4768-972E-E7970DB54B1C}"/>
-					</ChildrenList>
-				</SwitchGroup>
 				<SwitchGroup Name="Player_Health" ID="{BF861E8F-D3A8-4C0E-BEBA-8334B90D2546}">
 					<ChildrenList>
 						<Switch Name="Healthy" ID="{B6DA0743-D679-47B8-BE88-F2FF7B6B1818}"/>

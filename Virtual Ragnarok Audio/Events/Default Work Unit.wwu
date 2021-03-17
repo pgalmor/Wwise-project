@@ -341,12 +341,23 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Test" ID="{19DDD9D7-4013-4B4E-8C20-2352E4EA87B4}">
+						<Event Name="Play_Test" ID="{19DDD9D7-4013-4B4E-8C20-2352E4EA87B4}">
 							<ChildrenList>
 								<Action Name="" ID="{25A9A4D9-739A-46B0-98F8-8AC6C927C891}" ShortID="1022404607">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Test" ID="{BB1CF79E-E2DF-4718-9BCA-5C7680BF573D}" WorkUnitID="{BA49786C-8F21-4CAC-A757-58A39DA4BB08}"/>
+											<ObjectRef Name="ES_Hydra - Dream Cave" ID="{7472732D-3FD4-4D2D-8C7B-4ECA224D8D02}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Segment" ID="{893235FB-0DCC-41FA-B0FA-90A98B96CF7C}">
+							<ChildrenList>
+								<Action Name="" ID="{EF55337E-55B3-44A4-AF8D-BE35BCB610B6}" ShortID="679836279">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Game_Music" ID="{4145545F-B00F-414A-8944-D7A794D116A5}" WorkUnitID="{BA49786C-8F21-4CAC-A757-58A39DA4BB08}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
