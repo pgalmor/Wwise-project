@@ -328,6 +328,32 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Folder Name="Music" ID="{343009C6-3BE6-4ED3-BA83-37910A02C674}" ShortID="438753766">
+					<ChildrenList>
+						<Event Name="Play_Music_V02" ID="{92DA5D87-5316-4497-8ED0-02048A1C4FC0}">
+							<ChildrenList>
+								<Action Name="" ID="{915AE5C9-8816-47E2-B1C6-CFF61C6A8F2C}" ShortID="680510118">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Mando Game Music" ID="{7136AD72-4566-4C74-B62B-C07797B62E73}" WorkUnitID="{BA49786C-8F21-4CAC-A757-58A39DA4BB08}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Test" ID="{19DDD9D7-4013-4B4E-8C20-2352E4EA87B4}">
+							<ChildrenList>
+								<Action Name="" ID="{25A9A4D9-739A-46B0-98F8-8AC6C927C891}" ShortID="1022404607">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Test" ID="{BB1CF79E-E2DF-4718-9BCA-5C7680BF573D}" WorkUnitID="{BA49786C-8F21-4CAC-A757-58A39DA4BB08}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

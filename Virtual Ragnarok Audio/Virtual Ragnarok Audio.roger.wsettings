@@ -3,11 +3,14 @@
 	<UserProjectSettingsInfo>
 		<UserProjectSettings Name="" ID="{0A005F76-CEAE-4789-BBB8-88A540D6D193}">
 			<PropertyList>
-				<Property Name="AudioFilesImporter\Path" Type="string" Value="C:\UPC CITM\3r CITM\pROJECTE\Sprint 3\Audios\"/>
+				<Property Name="AudioFilesImporter\Path" Type="string" Value="C:\UPC CITM\3r CITM\pROJECTE\Sprint 3\Audios\Music\NoModularMusic\"/>
 				<Property Name="Event Action List\{170AAE06-7CD8-4762-B03D-7C08E5E0249C}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{19DDD9D7-4013-4B4E-8C20-2352E4EA87B4}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{2EF4772C-C6CE-40B8-B875-1F4D58B2ED4A}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{378C77F3-FD97-4C7E-B169-7A27282200DE}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{3CF913D0-8E74-4F4C-B6DE-7EF358101510}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{60B49344-6207-4795-AF55-52474E0BE44C}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{92DA5D87-5316-4497-8ED0-02048A1C4FC0}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{A7DACA69-D9AC-4D4F-AF0B-824485C5D1CD}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{B3E49AD5-6A93-4EB1-9837-0321993DA353}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{C3ADCA68-65F2-4741-89E2-2CCED5D4DA9D}\x64_Expand States" Type="string" Value=""/>
@@ -25,6 +28,7 @@
 				<Property Name="Game Profiler\Voice Monitor\LastBus" Type="string" Value="{00000000-0000-0000-0000-000000000000}"/>
 				<Property Name="General\LatestLanguage" Type="int32" Value="684519430"/>
 				<Property Name="General\LatestPlatform" Type="string" Value="Windows"/>
+				<Property Name="General\SourceControlPluginID" Type="string" Value="{C403A906-0C19-4ED5-808E-748707065301}"/>
 				<Property Name="GenerateSoundBankJSON" Type="bool" Value="True"/>
 				<Property Name="GenerateSoundBankXML" Type="bool" Value="False"/>
 				<Property Name="GenerateSoundBanks\x64_SelectedLanguages" Type="string" Value="BvDMKA=="/>
@@ -35,6 +39,7 @@
 				<Property Name="Interactive Music\x64_{4D96DE02-34B9-486F-997D-190F74D8122B} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwP2wSF4MSmRlAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
 				<Property Name="Interactive Music\x64_{6D324670-9C59-49CC-A7B2-165549EA8FA3} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwPycMMT0/PSdAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
 				<Property Name="Interactive Music\x64_{9B2A05DE-518A-4300-962A-FB8CDF068F48} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwPwSTuur5YAdAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
+				<Property Name="Interactive Music\x64_{BB1CF79E-E2DF-4718-9BCA-5C7680BF573D} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwPwAAAAAAmGxAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
 				<Property Name="Interactive Music\x64_{C680B54F-CEF0-4A7D-A71C-A5D132CDB2F1} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8YXXTRRRftP/0oKbQ5XxlAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
 				<Property Name="Interactive Music\x64_{C7FCF8DA-FD27-4115-891B-CC20004D1406} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwPwSTuur5YAdAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
 				<Property Name="Interactive Music\x64_{D028C301-0EAF-47A5-9BD2-FC483173689E} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwP8v6D8C+NidAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
