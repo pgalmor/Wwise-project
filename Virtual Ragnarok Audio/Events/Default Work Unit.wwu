@@ -341,6 +341,7 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_Music_Run" ID="{E744C8FC-822C-4DD8-826A-7E4F0D85D1BF}"/>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>
