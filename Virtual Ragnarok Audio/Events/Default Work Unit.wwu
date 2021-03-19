@@ -51,7 +51,7 @@
 								<Action Name="" ID="{8A351F0C-38AA-4A75-B21A-8676980F4A38}" ShortID="203598216">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Dash Movement" ID="{D16462A2-3647-41C4-B49A-B05B23226101}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+											<ObjectRef Name="Dash Movement" ID="{1DF711E1-B836-4E93-9048-311689FBD81A}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -95,7 +95,7 @@
 								<Action Name="" ID="{A75619E2-C92D-47D0-980D-E11CBE688107}" ShortID="184265800">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Dash Transition" ID="{700894BD-858F-4CE8-8D22-16D81876B6B6}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+											<ObjectRef Name="Dash Transition" ID="{ABA586E9-D310-467A-8090-EE37FE97ED06}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -118,6 +118,17 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Mando_Hit" ID="{B2EAD3CB-041A-44F2-8349-B1859483E875}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Mando_Grenade" ID="{E035921F-4D3F-4875-A920-2510E96147FB}">
+							<ChildrenList>
+								<Action Name="" ID="{D9E158E7-349A-417A-8CBE-0227E0CD314D}" ShortID="66962319">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Mando_Grenade" ID="{005D960F-F836-4A10-AE4B-982FFC995755}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -317,17 +328,6 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
-				<Event Name="Play_Blaster_Shell_Hit" ID="{DD84A7B6-3517-4738-A2A0-72D24637CFD9}">
-					<ChildrenList>
-						<Action Name="" ID="{274693E9-36A2-48DD-96B0-DD22B6095E19}" ShortID="610827783">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Blaster hit 1" ID="{4DE9AEF0-92A0-4E8B-A0BF-40401957DB8A}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Folder Name="Music" ID="{343009C6-3BE6-4ED3-BA83-37910A02C674}" ShortID="438753766">
 					<ChildrenList>
 						<Event Name="Play_Music_V02" ID="{92DA5D87-5316-4497-8ED0-02048A1C4FC0}">
@@ -341,7 +341,6 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Play_Music_Run" ID="{E744C8FC-822C-4DD8-826A-7E4F0D85D1BF}"/>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

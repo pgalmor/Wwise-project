@@ -23,6 +23,7 @@
 					</ValueList>
 				</Property>
 				<Property Name="GenerateSoundBankJSON" Type="bool" Value="True"/>
+				<Property Name="GenerateSoundBankXML" Type="bool" Value="False"/>
 				<Property Name="GlobalVoiceInstancesLimit" Type="int16">
 					<ValueList>
 						<Value Platform="Windows">256</Value>
@@ -9642,7 +9643,7 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="Wwise Convolution Reverb" PluginType="3" CompanyID="0" PluginID="127">
+				<SharedPropertyList ClassName="" PluginType="3" CompanyID="0" PluginID="127">
 					<PropertyList>
 						<Property Name="AlgoTypeSelect" Type="int32">
 							<ValueList>
@@ -11576,9 +11577,7 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="Tencent GME Source" PluginType="2" CompanyID="289" PluginID="9001"/>
-				<SharedPropertyList ClassName="Tencent GME Receive" PluginType="2" CompanyID="289" PluginID="9003"/>
-				<SharedPropertyList ClassName="Tencent GME Send" PluginType="3" CompanyID="289" PluginID="9004">
+				<SharedPropertyList ClassName="" PluginType="3" CompanyID="289" PluginID="9004">
 					<PropertyList>
 						<Property Name="Color" Type="int16">
 							<ValueList>
@@ -11597,7 +11596,7 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="Tencent GME Session" PluginType="3" CompanyID="289" PluginID="9005">
+				<SharedPropertyList ClassName="" PluginType="3" CompanyID="289" PluginID="9005">
 					<PropertyList>
 						<Property Name="Color" Type="int16">
 							<ValueList>

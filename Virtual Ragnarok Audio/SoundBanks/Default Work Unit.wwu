@@ -10,9 +10,9 @@
 						<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Sniper_Shoot_Mando" ID="{1D6672B6-9394-438A-B536-69EE29BF0A41}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Mando_Death" ID="{5257122D-4B91-4442-95E1-35D961869CF3}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_Blaster_Shell_Hit" ID="{DD84A7B6-3517-4738-A2A0-72D24637CFD9}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Blaster_Shoot_Mando" ID="{C3ADCA68-65F2-4741-89E2-2CCED5D4DA9D}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Footsteps_Mando" ID="{60B49344-6207-4795-AF55-52474E0BE44C}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Mando_Grenade" ID="{E035921F-4D3F-4875-A920-2510E96147FB}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Dash_Transition" ID="{55038C51-B170-491A-8F20-6FC6C981F0AB}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Pause_Object" ID="{257203BA-872A-4BD2-9340-B10FBEB45376}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Mando_Hit" ID="{FBDC3730-6B53-4C2F-B93A-451E05E078F2}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
@@ -77,7 +77,6 @@
 				<SoundBank Name="Stormtrooper" ID="{8AC2FC95-4FE7-4999-AC3B-1EB26469DF0E}">
 					<ObjectInclusionList>
 						<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_Blaster_Shell_Hit" ID="{DD84A7B6-3517-4738-A2A0-72D24637CFD9}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Enemy_Detection" ID="{AE4358DC-ABBE-49A7-B868-FD5227EC3257}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Blaster_Stormtrooper" ID="{C2C52395-9742-49DE-A78C-9CDD14D4FE84}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Pause_Object" ID="{257203BA-872A-4BD2-9340-B10FBEB45376}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>

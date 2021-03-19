@@ -45,16 +45,16 @@
 	<ValidationCacheItem File="C:\Users\admin\Documents\WwiseProjects\Virtual Ragnarok Audio\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects.wwu" DateLow="1614515220" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\admin\Documents\WwiseProjects\Virtual Ragnarok Audio\Actor-Mixer Hierarchy\Factory Motion.wwu" DateLow="1614518969" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\admin\Documents\WwiseProjects\Virtual Ragnarok Audio\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1614769866" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\admin\Documents\GitHub\Wwise-project\Virtual Ragnarok Audio\Virtual Ragnarok Audio.wproj" DateLow="1615487453" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\admin\Documents\GitHub\Wwise-project\Virtual Ragnarok Audio\Virtual Ragnarok Audio.admin.wsettings" DateLow="1615837759" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\admin\Documents\GitHub\Wwise-project\Virtual Ragnarok Audio\Virtual Ragnarok Audio.wproj" DateLow="1616067140" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\admin\Documents\GitHub\Wwise-project\Virtual Ragnarok Audio\Virtual Ragnarok Audio.admin.wsettings" DateLow="1616179088" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\admin\Documents\GitHub\Wwise-project\Virtual Ragnarok Audio\Virtual Acoustics\Factory Reflect Acoustic Textures.wwu" DateLow="1615069590" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\admin\Documents\GitHub\Wwise-project\Virtual Ragnarok Audio\Virtual Acoustics\Default Work Unit.wwu" DateLow="1615069590" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\admin\Documents\GitHub\Wwise-project\Virtual Ragnarok Audio\Triggers\Default Work Unit.wwu" DateLow="1615069590" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\admin\Documents\GitHub\Wwise-project\Virtual Ragnarok Audio\Switches\Music.wwu" DateLow="1615888292" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\admin\Documents\GitHub\Wwise-project\Virtual Ragnarok Audio\Switches\Default Work Unit.wwu" DateLow="1615575201" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\admin\Documents\GitHub\Wwise-project\Virtual Ragnarok Audio\States\Default Work Unit.wwu" DateLow="1615729747" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\admin\Documents\GitHub\Wwise-project\Virtual Ragnarok Audio\Switches\Default Work Unit.wwu" DateLow="1616067140" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\admin\Documents\GitHub\Wwise-project\Virtual Ragnarok Audio\States\Default Work Unit.wwu" DateLow="1616008613" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\admin\Documents\GitHub\Wwise-project\Virtual Ragnarok Audio\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1615069590" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\admin\Documents\GitHub\Wwise-project\Virtual Ragnarok Audio\SoundBanks\Default Work Unit.wwu" DateLow="1615837643" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\admin\Documents\GitHub\Wwise-project\Virtual Ragnarok Audio\SoundBanks\Default Work Unit.wwu" DateLow="1616179031" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\admin\Documents\GitHub\Wwise-project\Virtual Ragnarok Audio\Queries\Factory Queries.wwu" DateLow="1615069590" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\admin\Documents\GitHub\Wwise-project\Virtual Ragnarok Audio\Queries\Default Work Unit.wwu" DateLow="1615069590" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\admin\Documents\GitHub\Wwise-project\Virtual Ragnarok Audio\Presets\Factory Spatial Audio.wwu" DateLow="1615069590" DateHigh="0"/>
@@ -64,11 +64,11 @@
 	<ValidationCacheItem File="C:\Users\admin\Documents\GitHub\Wwise-project\Virtual Ragnarok Audio\Mixing Sessions\Default Work Unit.wwu" DateLow="1615069582" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\admin\Documents\GitHub\Wwise-project\Virtual Ragnarok Audio\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1615069582" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\admin\Documents\GitHub\Wwise-project\Virtual Ragnarok Audio\Interactive Music Hierarchy\Music.wwu" DateLow="1615888292" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\admin\Documents\GitHub\Wwise-project\Virtual Ragnarok Audio\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1615832618" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\admin\Documents\GitHub\Wwise-project\Virtual Ragnarok Audio\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1616179018" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\admin\Documents\GitHub\Wwise-project\Virtual Ragnarok Audio\Game Parameters\Factory SoundSeed Air Game Syncs.wwu" DateLow="1615069581" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\admin\Documents\GitHub\Wwise-project\Virtual Ragnarok Audio\Game Parameters\Factory Motion.wwu" DateLow="1615069581" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\admin\Documents\GitHub\Wwise-project\Virtual Ragnarok Audio\Game Parameters\Default Work Unit.wwu" DateLow="1615069581" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\admin\Documents\GitHub\Wwise-project\Virtual Ragnarok Audio\Events\Default Work Unit.wwu" DateLow="1615837520" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\admin\Documents\GitHub\Wwise-project\Virtual Ragnarok Audio\Events\Default Work Unit.wwu" DateLow="1616179089" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\admin\Documents\GitHub\Wwise-project\Virtual Ragnarok Audio\Effects\Factory Reflect.wwu" DateLow="1615069581" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\admin\Documents\GitHub\Wwise-project\Virtual Ragnarok Audio\Effects\Factory McDSP Effects.wwu" DateLow="1615069581" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\admin\Documents\GitHub\Wwise-project\Virtual Ragnarok Audio\Effects\Factory Mastering Suite.wwu" DateLow="1615069581" DateHigh="0"/>
@@ -84,12 +84,12 @@
 	<ValidationCacheItem File="C:\Users\admin\Documents\GitHub\Wwise-project\Virtual Ragnarok Audio\Effects\Default Work Unit.wwu" DateLow="1615069581" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\admin\Documents\GitHub\Wwise-project\Virtual Ragnarok Audio\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1615069581" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\admin\Documents\GitHub\Wwise-project\Virtual Ragnarok Audio\Conversion Settings\Factory Conversion Settings.wwu" DateLow="1615069581" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\admin\Documents\GitHub\Wwise-project\Virtual Ragnarok Audio\Conversion Settings\Default Work Unit.wwu" DateLow="1615069581" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\admin\Documents\GitHub\Wwise-project\Virtual Ragnarok Audio\Conversion Settings\Default Work Unit.wwu" DateLow="1616179017" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\admin\Documents\GitHub\Wwise-project\Virtual Ragnarok Audio\Control Surface Sessions\Default Work Unit.wwu" DateLow="1615069581" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\admin\Documents\GitHub\Wwise-project\Virtual Ragnarok Audio\Audio Devices\Default Work Unit.wwu" DateLow="1615069581" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\admin\Documents\GitHub\Wwise-project\Virtual Ragnarok Audio\Attenuations\Default Work Unit.wwu" DateLow="1615069581" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\admin\Documents\GitHub\Wwise-project\Virtual Ragnarok Audio\Actor-Mixer Hierarchy\Factory Synth One.wwu" DateLow="1615069581" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\admin\Documents\GitHub\Wwise-project\Virtual Ragnarok Audio\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects.wwu" DateLow="1615069581" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\admin\Documents\GitHub\Wwise-project\Virtual Ragnarok Audio\Actor-Mixer Hierarchy\Factory Motion.wwu" DateLow="1615069581" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\admin\Documents\GitHub\Wwise-project\Virtual Ragnarok Audio\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1615837520" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\admin\Documents\GitHub\Wwise-project\Virtual Ragnarok Audio\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1616179105" DateHigh="0"/>
 </ValidationCache>
