@@ -2114,7 +2114,7 @@
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-19</Value>
+												<Value>-24</Value>
 											</ValueList>
 											<RTPCList>
 												<RTPC Name="" ID="{4D9D04F1-93E9-4102-9D94-85BC800ECC3C}" ShortID="578630408">
@@ -2657,6 +2657,9 @@
 						<Sound Name="Dash Movement" ID="{1DF711E1-B836-4E93-9048-311689FBD81A}" ShortID="446795910">
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-24</Value>
+									</ValueList>
 									<RTPCList>
 										<RTPC Name="" ID="{1A3D87F9-035E-4253-8D80-CC092B71A742}" ShortID="993353287">
 											<ReferenceList>
@@ -2709,6 +2712,9 @@
 						<Sound Name="Dash Transition" ID="{ABA586E9-D310-467A-8090-EE37FE97ED06}" ShortID="92249705">
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
 									<RTPCList>
 										<RTPC Name="" ID="{34A9CEB2-25AD-4B57-B68A-67F33825C618}" ShortID="435975001">
 											<ReferenceList>
@@ -3216,7 +3222,7 @@
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-15</Value>
+										<Value>-23</Value>
 									</ValueList>
 									<RTPCList>
 										<RTPC Name="" ID="{C039CC97-78F0-4038-B8BB-21C8D3D23AE6}" ShortID="70280322">
@@ -5546,6 +5552,120 @@
 								</Sound>
 							</ChildrenList>
 						</RandomSequenceContainer>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Grogu" ID="{815C69AD-9C6B-4E3C-AD04-4272B6CFEE07}" ShortID="656433788">
+					<ChildrenList>
+						<Sound Name="Force pull" ID="{B5A6F604-42CA-46A5-9982-BE22A423DD62}" ShortID="893683087">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-5</Value>
+									</ValueList>
+									<RTPCList>
+										<RTPC Name="" ID="{9E3B648E-F779-45F5-BC03-FBD1530E0097}" ShortID="835672990">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{794254EC-6D8E-4B46-A307-D6AEB1D56AC7}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>200</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Force pull" ID="{E01F1912-DA2C-4CF2-9D31-EEF432ED1546}">
+									<Language>SFX</Language>
+									<AudioFile>Force pull.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="220532221"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Force pull" ID="{E01F1912-DA2C-4CF2-9D31-EEF432ED1546}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Force push" ID="{A1DE1F0E-0F03-4944-A269-32B5D5FC99BF}" ShortID="759789452">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-5</Value>
+									</ValueList>
+									<RTPCList>
+										<RTPC Name="" ID="{AFFACFFA-5EA6-4618-84CC-3B0F97490E83}" ShortID="894269100">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{F7DE28C3-3589-4C4C-86F6-30DF01D696BE}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>200</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Force push" ID="{BD4627E2-F46F-4ACD-B2A6-94D5635AB66C}">
+									<Language>SFX</Language>
+									<AudioFile>Force push.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="927955603"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Force push" ID="{BD4627E2-F46F-4ACD-B2A6-94D5635AB66C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>
