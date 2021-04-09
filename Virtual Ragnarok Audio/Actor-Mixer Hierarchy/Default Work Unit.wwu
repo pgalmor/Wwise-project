@@ -2764,16 +2764,33 @@
 								<ActiveSource Name="Dash Transition" ID="{EDF49BA0-70AB-4DB1-A030-32995881BC9F}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<RandomSequenceContainer Name="Mando_Grenade" ID="{005D960F-F836-4A10-AE4B-982FFC995755}" ShortID="710932360">
+						<Sound Name="Grenade explosion 1 and charge 2" ID="{9ADCD53F-5FDA-43B7-8032-D86F7B04E5F8}" ShortID="330859939">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Grenade explosion 1 and charge 2" ID="{E154CE8F-432A-4EC5-BD1F-A2524BE87096}">
+									<Language>SFX</Language>
+									<AudioFile>Grenade explosion 1 and charge 2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="604637895"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Grenade explosion 1 and charge 2" ID="{E154CE8F-432A-4EC5-BD1F-A2524BE87096}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Grenade charge 1" ID="{1F931F78-AA0B-483A-92BC-AB464680D900}" ShortID="1022138009">
 							<PropertyList>
-								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
-								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
-								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.3"/>
-								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
-								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
-								<Property Name="Volume" Type="Real64">
+								<Property Name="InitialDelay" Type="Real64">
 									<ValueList>
-										<Value>-8</Value>
+										<Value>0.4</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -2786,276 +2803,40 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="Grenade charge 1" ID="{70A16588-9079-4971-B0AA-3B1FF5AF8A8E}" ShortID="122924954">
-									<PropertyList>
-										<Property Name="Volume" Type="Real64">
-											<RTPCList>
-												<RTPC Name="" ID="{D3F25279-B680-4011-9277-65EA87048C97}" ShortID="986019584">
-													<ReferenceList>
-														<Reference Name="ControlInput">
-															<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
-														</Reference>
-													</ReferenceList>
-													<Curve Name="" ID="{145D5B67-C32A-4935-BEEE-95D33B67292D}">
-														<PropertyList>
-															<Property Name="Flags" Type="int32" Value="3"/>
-														</PropertyList>
-														<PointList>
-															<Point>
-																<XPos>0</XPos>
-																<YPos>-200</YPos>
-																<Flags>5</Flags>
-															</Point>
-															<Point>
-																<XPos>100</XPos>
-																<YPos>200</YPos>
-																<Flags>37</Flags>
-															</Point>
-														</PointList>
-													</Curve>
-												</RTPC>
-											</RTPCList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Grenade charge 1" ID="{9CF41F85-1A65-48F1-85C3-8749D5CAB9F5}">
-											<Language>SFX</Language>
-											<AudioFile>Grenade charge 1.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="371786017"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Grenade charge 1" ID="{9CF41F85-1A65-48F1-85C3-8749D5CAB9F5}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Grenade explosion 1" ID="{9573742F-B176-4689-AEE4-52B9DF6CF59C}" ShortID="19159764">
-									<PropertyList>
-										<Property Name="Volume" Type="Real64">
-											<RTPCList>
-												<RTPC Name="" ID="{686157A2-2CD6-441E-9ED9-7571C113A070}" ShortID="933002847">
-													<ReferenceList>
-														<Reference Name="ControlInput">
-															<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
-														</Reference>
-													</ReferenceList>
-													<Curve Name="" ID="{4EE8AF5E-B975-4A44-976E-91FB524C6B9F}">
-														<PropertyList>
-															<Property Name="Flags" Type="int32" Value="3"/>
-														</PropertyList>
-														<PointList>
-															<Point>
-																<XPos>0</XPos>
-																<YPos>-200</YPos>
-																<Flags>5</Flags>
-															</Point>
-															<Point>
-																<XPos>100</XPos>
-																<YPos>200</YPos>
-																<Flags>37</Flags>
-															</Point>
-														</PointList>
-													</Curve>
-												</RTPC>
-											</RTPCList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Grenade explosion 1" ID="{EFF2014A-D4D6-43AA-8E47-970DD3A97994}">
-											<Language>SFX</Language>
-											<AudioFile>Grenade explosion 1.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="531979089"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Grenade explosion 1" ID="{EFF2014A-D4D6-43AA-8E47-970DD3A97994}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Grenade explosion 2" ID="{B65EF926-0B8F-4BC9-98C8-346F916DC63D}" ShortID="472435809">
-									<PropertyList>
-										<Property Name="Volume" Type="Real64">
-											<RTPCList>
-												<RTPC Name="" ID="{CAEBCEDE-6A8C-4309-AD11-56A3EEE880E7}" ShortID="444274590">
-													<ReferenceList>
-														<Reference Name="ControlInput">
-															<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
-														</Reference>
-													</ReferenceList>
-													<Curve Name="" ID="{6F9EFD08-0DC1-488C-BD74-900CEB3A1E8E}">
-														<PropertyList>
-															<Property Name="Flags" Type="int32" Value="3"/>
-														</PropertyList>
-														<PointList>
-															<Point>
-																<XPos>0</XPos>
-																<YPos>-200</YPos>
-																<Flags>5</Flags>
-															</Point>
-															<Point>
-																<XPos>100</XPos>
-																<YPos>200</YPos>
-																<Flags>37</Flags>
-															</Point>
-														</PointList>
-													</Curve>
-												</RTPC>
-											</RTPCList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Grenade explosion 2" ID="{85EB1088-C4A9-4CD0-974F-EDBAD7ED8CB5}">
-											<Language>SFX</Language>
-											<AudioFile>Grenade explosion 2.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="287122511"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Grenade explosion 2" ID="{85EB1088-C4A9-4CD0-974F-EDBAD7ED8CB5}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Grenade nail 1" ID="{79AB614C-77B1-4177-8FBC-883E14919317}" ShortID="907243171">
-									<PropertyList>
-										<Property Name="Volume" Type="Real64">
-											<RTPCList>
-												<RTPC Name="" ID="{92ADE095-9F75-4DCC-B3A6-87573DB832E7}" ShortID="462882353">
-													<ReferenceList>
-														<Reference Name="ControlInput">
-															<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
-														</Reference>
-													</ReferenceList>
-													<Curve Name="" ID="{5E74291E-52D1-4A15-B91E-BEF9934430D7}">
-														<PropertyList>
-															<Property Name="Flags" Type="int32" Value="3"/>
-														</PropertyList>
-														<PointList>
-															<Point>
-																<XPos>0</XPos>
-																<YPos>-200</YPos>
-																<Flags>5</Flags>
-															</Point>
-															<Point>
-																<XPos>100</XPos>
-																<YPos>200</YPos>
-																<Flags>37</Flags>
-															</Point>
-														</PointList>
-													</Curve>
-												</RTPC>
-											</RTPCList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Grenade nail 1" ID="{7179466F-8E4C-4707-A780-80F22AFF495E}">
-											<Language>SFX</Language>
-											<AudioFile>Grenade nail 1.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="199357886"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Grenade nail 1" ID="{7179466F-8E4C-4707-A780-80F22AFF495E}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Grenade nail 2" ID="{CE95749E-C72E-4F36-BE9B-F9E357687885}" ShortID="41575860">
-									<PropertyList>
-										<Property Name="Volume" Type="Real64">
-											<RTPCList>
-												<RTPC Name="" ID="{20177CC6-6221-4AAB-97E2-501918117AAB}" ShortID="303012539">
-													<ReferenceList>
-														<Reference Name="ControlInput">
-															<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
-														</Reference>
-													</ReferenceList>
-													<Curve Name="" ID="{AD4E527C-88BB-4061-8A13-2E71A6466FA2}">
-														<PropertyList>
-															<Property Name="Flags" Type="int32" Value="3"/>
-														</PropertyList>
-														<PointList>
-															<Point>
-																<XPos>0</XPos>
-																<YPos>-200</YPos>
-																<Flags>5</Flags>
-															</Point>
-															<Point>
-																<XPos>100</XPos>
-																<YPos>200</YPos>
-																<Flags>37</Flags>
-															</Point>
-														</PointList>
-													</Curve>
-												</RTPC>
-											</RTPCList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Grenade nail 2" ID="{6964C162-E7F9-4E05-9248-34C95E85552A}">
-											<Language>SFX</Language>
-											<AudioFile>Grenade nail 2.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="401317078"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Grenade nail 2" ID="{6964C162-E7F9-4E05-9248-34C95E85552A}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
+								<AudioFileSource Name="Grenade charge 1" ID="{1EED81B9-D8E3-4363-8E07-149674819382}">
+									<Language>SFX</Language>
+									<AudioFile>Grenade charge 1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="371786017"/>
+									</MediaIDList>
+								</AudioFileSource>
 							</ChildrenList>
-							<Playlist>
-								<ItemRef Name="Grenade nail 1" ID="{79AB614C-77B1-4177-8FBC-883E14919317}"/>
-								<ItemRef Name="Grenade nail 2" ID="{CE95749E-C72E-4F36-BE9B-F9E357687885}"/>
-								<ItemRef Name="Grenade charge 1" ID="{70A16588-9079-4971-B0AA-3B1FF5AF8A8E}"/>
-								<ItemRef Name="Grenade explosion 1" ID="{9573742F-B176-4689-AEE4-52B9DF6CF59C}"/>
-								<ItemRef Name="Grenade nail 2" ID="{CE95749E-C72E-4F36-BE9B-F9E357687885}"/>
-								<ItemRef Name="Grenade explosion 2" ID="{B65EF926-0B8F-4BC9-98C8-346F916DC63D}"/>
-							</Playlist>
-						</RandomSequenceContainer>
+							<ActiveSourceList>
+								<ActiveSource Name="Grenade charge 1" ID="{1EED81B9-D8E3-4363-8E07-149674819382}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Grenade explosion 2" ID="{F9DCA93F-7096-42A1-B282-8C18BCA2A8F9}" ShortID="1008132136">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Grenade explosion 2" ID="{39ED46B3-45CD-4A53-A036-304B9BDFEA67}">
+									<Language>SFX</Language>
+									<AudioFile>Grenade explosion 2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="287122511"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Grenade explosion 2" ID="{39ED46B3-45CD-4A53-A036-304B9BDFEA67}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Environment" ID="{36AF372A-C793-42A6-BF55-F7FC1D1746C4}" ShortID="44594731">
@@ -3996,7 +3777,7 @@
 								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-16</Value>
+										<Value>-14</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -5664,6 +5445,153 @@
 							</ChildrenList>
 							<ActiveSourceList>
 								<ActiveSource Name="Force push" ID="{BD4627E2-F46F-4ACD-B2A6-94D5635AB66C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Hub" ID="{CA002D1B-F1CE-462F-9BC0-7A9947738535}" ShortID="792360483">
+					<ChildrenList>
+						<Sound Name="Cantine ambience" ID="{9961131C-4AE5-41A1-A61A-DF0437F55589}" ShortID="40361449">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-9</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Cantine ambience" ID="{DCA9CCD2-7912-46FD-8754-C03FE7E295A6}">
+									<Language>SFX</Language>
+									<AudioFile>Cantine ambience.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="729275084"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Cantine ambience" ID="{DCA9CCD2-7912-46FD-8754-C03FE7E295A6}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Rancor" ID="{A0603E6C-87FE-4EDE-ADD7-9C4D076FB03B}" ShortID="43615610">
+					<ChildrenList>
+						<RandomSequenceContainer Name="Footsteps Rancor" ID="{5BCAEF47-E947-4676-A673-2C1C1B66CF35}" ShortID="391784306">
+							<PropertyList>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.25"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Rancor chain step 1" ID="{D47F1C93-6EF8-4AB9-B23E-7FC5C6A0453E}" ShortID="1021637529">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Rancor chain step 1" ID="{9634EB2C-CFA2-469D-839F-F431E9003494}">
+											<Language>SFX</Language>
+											<AudioFile>Rancor chain step 1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="208519487"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Rancor chain step 1" ID="{9634EB2C-CFA2-469D-839F-F431E9003494}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Rancor chain step 2" ID="{081AD8A8-0FB2-4B80-BE6E-A69A81E2E486}" ShortID="498213888">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Rancor chain step 2" ID="{73928F47-B9A7-4D87-B4A6-D4A73BCCB394}">
+											<Language>SFX</Language>
+											<AudioFile>Rancor chain step 2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="92596664"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Rancor chain step 2" ID="{73928F47-B9A7-4D87-B4A6-D4A73BCCB394}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<Playlist>
+								<ItemRef Name="Rancor chain step 1" ID="{D47F1C93-6EF8-4AB9-B23E-7FC5C6A0453E}"/>
+								<ItemRef Name="Rancor chain step 2" ID="{081AD8A8-0FB2-4B80-BE6E-A69A81E2E486}"/>
+							</Playlist>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Rancor combo" ID="{5E663582-BE4F-4DDC-B4B4-C202A019B6C6}" ShortID="890340909">
+							<PropertyList>
+								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+								</Reference>
+							</ReferenceList>
+						</RandomSequenceContainer>
+						<Sound Name="Rancor Breath" ID="{68585205-7FC7-4F63-AAAA-5F7C0D90BAA1}" ShortID="826077727">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-14</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Rancor Breath" ID="{12AF5CD8-7D70-4B84-846C-CFA7575A59BE}">
+									<Language>SFX</Language>
+									<AudioFile>Rancor Breath.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1050047278"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Rancor Breath" ID="{12AF5CD8-7D70-4B84-846C-CFA7575A59BE}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>

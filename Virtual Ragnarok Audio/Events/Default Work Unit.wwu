@@ -40,7 +40,7 @@
 								<Action Name="" ID="{3A1497B9-C75D-444D-8F64-74F7E6244B72}" ShortID="247776166">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Footsteps_Mando" ID="{F761ED29-E48D-45AE-BD06-5A1E62517FCA}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+											<ObjectRef Name="Footsteps sand" ID="{9C14407E-838E-4C7F-A744-BB4A597A5A44}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -123,12 +123,34 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Play_Mando_Grenade" ID="{E035921F-4D3F-4875-A920-2510E96147FB}">
+						<Event Name="Play_Mando_Grenade_1_Charge" ID="{E035921F-4D3F-4875-A920-2510E96147FB}">
 							<ChildrenList>
 								<Action Name="" ID="{D9E158E7-349A-417A-8CBE-0227E0CD314D}" ShortID="66962319">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Mando_Grenade" ID="{005D960F-F836-4A10-AE4B-982FFC995755}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+											<ObjectRef Name="Grenade charge 1" ID="{1F931F78-AA0B-483A-92BC-AB464680D900}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Mando_Grenade_Explosion_1_Charge" ID="{BB35012A-1854-45EF-A842-74F5AFEDC300}">
+							<ChildrenList>
+								<Action Name="" ID="{25EB222E-B121-4D3A-8447-4B8EB0935774}" ShortID="821705274">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Grenade explosion 1 and charge 2" ID="{9ADCD53F-5FDA-43B7-8032-D86F7B04E5F8}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Mando_Grenade_Explosion_2" ID="{2029F31A-295C-437F-A344-A8C32F99542D}">
+							<ChildrenList>
+								<Action Name="" ID="{03B92962-FFC7-4426-92AE-FE028DFCEFB6}" ShortID="319905677">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Grenade explosion 2" ID="{F9DCA93F-7096-42A1-B282-8C18BCA2A8F9}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -362,6 +384,48 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Force push" ID="{A1DE1F0E-0F03-4944-A269-32B5D5FC99BF}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Cantine" ID="{139CBB3B-6FF9-450A-B4AA-9A7DB995373E}" ShortID="744848047">
+					<ChildrenList>
+						<Event Name="Play_Cantine_Voices" ID="{DD2CD7DB-0234-4D1C-92E9-61CE507B0499}">
+							<ChildrenList>
+								<Action Name="" ID="{677A755A-49F0-423F-A349-A163A0D8B190}" ShortID="388323778">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Cantine ambience" ID="{9961131C-4AE5-41A1-A61A-DF0437F55589}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Rancor" ID="{85DB28B6-0A50-4AE9-BD42-CA39F8025729}" ShortID="642488356">
+					<ChildrenList>
+						<Event Name="Play_Rancor_Combo" ID="{850D55E0-148C-4103-965B-C1A5AFF3B5C8}"/>
+						<Event Name="Play_Rancor_Footsteps" ID="{E2E6301E-EF8D-410C-BE12-F9E783C9A0D7}">
+							<ChildrenList>
+								<Action Name="" ID="{42802FAF-C873-4B66-9563-A7A16C00724E}" ShortID="28069963">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Footsteps Rancor" ID="{5BCAEF47-E947-4676-A673-2C1C1B66CF35}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Rancor_Breath" ID="{D3766FA6-0D7E-40F4-8A9C-1730752B1298}">
+							<ChildrenList>
+								<Action Name="" ID="{620245F9-7178-4C23-ABD8-5754BE1522D6}" ShortID="592106279">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Rancor Breath" ID="{68585205-7FC7-4F63-AAAA-5F7C0D90BAA1}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

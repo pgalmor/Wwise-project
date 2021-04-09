@@ -1242,6 +1242,9 @@
 							</TransitionList>
 							<Playlist>
 								<MusicPlaylistItem Name="" ID="{BA0C2648-60DB-4887-81DA-055F189374AD}" ShortID="762871453">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+									</PropertyList>
 									<ChildrenList>
 										<MusicPlaylistItem Name="" ID="{E6FFF921-2876-424C-8E84-332413BDCA51}" ShortID="129494279">
 											<PropertyList>
@@ -1822,6 +1825,9 @@
 							</TransitionList>
 							<Playlist>
 								<MusicPlaylistItem Name="" ID="{DC7A94FC-EA63-4DEC-ACBA-3000E9DCDA6A}" ShortID="193559752">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+									</PropertyList>
 									<ChildrenList>
 										<MusicPlaylistItem Name="" ID="{19DF2B20-89F3-4DD1-B56E-932B5CAC7682}" ShortID="246316415">
 											<PropertyList>
@@ -1833,7 +1839,7 @@
 								</MusicPlaylistItem>
 							</Playlist>
 						</MusicPlaylistContainer>
-						<MusicPlaylistContainer Name="HUB" ID="{596A1A26-B215-4264-BB75-28253E8661A9}" ShortID="594014891">
+						<MusicPlaylistContainer Name="Main Menu" ID="{596A1A26-B215-4264-BB75-28253E8661A9}" ShortID="594014891">
 							<PropertyList>
 								<Property Name="OverrideClockSettings" Type="bool" Value="True"/>
 								<Property Name="Tempo" Type="Real64" Value="126"/>
@@ -1847,7 +1853,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<MusicSegment Name="Hud" ID="{6D324670-9C59-49CC-A7B2-165549EA8FA3}" ShortID="773878395">
+								<MusicSegment Name="Main menu" ID="{6D324670-9C59-49CC-A7B2-165549EA8FA3}" ShortID="773878395">
 									<PropertyList>
 										<Property Name="EndPosition" Type="Real64" Value="78746.0997732426"/>
 									</PropertyList>
@@ -1860,14 +1866,14 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<MusicTrack Name="Hud" ID="{97A494E8-ED47-4DF4-A04C-0B2F3916FE3E}" ShortID="333985956">
+										<MusicTrack Name="Hud" ID="{9041F78D-AD07-43E2-8771-B037FC4E2F60}" ShortID="903653120">
 											<ReferenceList>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Hud" ID="{652CCC38-0CDD-46E3-80EC-B6E6993B6DD9}">
+												<AudioFileSource Name="Hud" ID="{D27CBA0E-02CE-42DE-A7F5-27E862BD5A43}">
 													<Language>SFX</Language>
 													<AudioFile>Hud.wav</AudioFile>
 													<MediaIDList>
@@ -1876,7 +1882,7 @@
 												</AudioFileSource>
 											</ChildrenList>
 											<TransitionList>
-												<MusicTransition Name="Root" ID="{B68D76F9-6925-45E3-B573-5E835334DBDB}">
+												<MusicTransition Name="Root" ID="{5A638A19-CA2A-4475-BAD6-9BA8126BA940}">
 													<PropertyList>
 														<Property Name="IsFolder" Type="bool" Value="True"/>
 													</PropertyList>
@@ -1884,15 +1890,15 @@
 												</MusicTransition>
 											</TransitionList>
 											<SequenceList>
-												<MusicTrackSequence Name="" ID="{ED41FC9A-58E1-41DF-8AF9-B901078AE214}">
+												<MusicTrackSequence Name="" ID="{C6FEB5F2-A588-444E-B03D-113FB737B287}">
 													<ClipList>
-														<MusicClip Name="Hud" ID="{2FDD86D8-E24E-48A6-8599-2D1C128C8937}">
+														<MusicClip Name="Hud" ID="{B4B7789D-5DA7-47C3-9FD6-765DEE7B2449}">
 															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="78746.0997732426"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="70715.873015873"/>
 																<Property Name="FadeInMode" Type="int16" Value="0"/>
 																<Property Name="FadeOutMode" Type="int16" Value="0"/>
 															</PropertyList>
-															<AudioSourceRef Name="Hud" ID="{652CCC38-0CDD-46E3-80EC-B6E6993B6DD9}"/>
+															<AudioSourceRef Name="Hud" ID="{D27CBA0E-02CE-42DE-A7F5-27E862BD5A43}"/>
 														</MusicClip>
 													</ClipList>
 												</MusicTrackSequence>
@@ -1925,12 +1931,118 @@
 							</TransitionList>
 							<Playlist>
 								<MusicPlaylistItem Name="" ID="{804BEAAB-BB4B-4067-82DE-6F24805F14C3}" ShortID="42603467">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+									</PropertyList>
 									<ChildrenList>
 										<MusicPlaylistItem Name="" ID="{F4FDDE7F-8628-4A00-B6B4-4DC76719577B}" ShortID="297210358">
 											<PropertyList>
 												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
 											</PropertyList>
-											<SegmentRef Name="Hud" ID="{6D324670-9C59-49CC-A7B2-165549EA8FA3}"/>
+											<SegmentRef Name="Main menu" ID="{6D324670-9C59-49CC-A7B2-165549EA8FA3}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
+						<MusicPlaylistContainer Name="Cantine" ID="{E9431B44-4560-4087-B0DF-76EAD1F5CDA1}" ShortID="48177223">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="Cantine jazz" ID="{888C51E4-3D3B-4333-B71A-E8ABF2490DC4}" ShortID="610725753">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="39688.0498866213"/>
+										<Property Name="Tempo" Type="Real64" Value="143"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="ADPCM Conversion" ID="{384E1760-6F42-466F-9F03-4A65F92CC655}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Cantine jazz" ID="{E72DFCBD-9CD6-4301-9243-AC059B51EE9A}" ShortID="220944526">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Cantine jazz" ID="{CD5D3C7E-A9C5-4341-9416-3FA0F37C429A}">
+													<Language>SFX</Language>
+													<AudioFile>Cantine jazz.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="837220159"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{9758226B-A346-485A-8D44-62C8E2E879DF}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{BFB87F38-E31F-4387-BF75-3F1C6C6554FC}">
+													<ClipList>
+														<MusicClip Name="Cantine jazz" ID="{2780719B-18A2-49B1-898B-F4D3031BEF38}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="39688.0498866213"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Cantine jazz" ID="{CD5D3C7E-A9C5-4341-9416-3FA0F37C429A}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{5FAAA7AC-C575-4589-9D95-5CC84C8E401C}"/>
+										<MusicCue Name="Exit Cue" ID="{587B4287-BE99-4749-A119-4B3C415507D5}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="39688.0498866213"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{ADCCD5FA-EF8A-4A88-A65D-2B884C14E522}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{3F6CBF4B-BF66-4B30-8988-C449E88272B0}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{4AFF059C-6716-40E0-9785-A3B2308D7EFE}" ShortID="620690059">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{92D54234-6FC1-43B7-926E-A7EE4A96E547}" ShortID="238327962">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Cantine jazz" ID="{888C51E4-3D3B-4333-B71A-E8ABF2490DC4}"/>
 										</MusicPlaylistItem>
 									</ChildrenList>
 								</MusicPlaylistItem>
@@ -1949,6 +2061,74 @@
 									</PropertyList>
 									<TransitionInfo/>
 								</MusicTransition>
+								<MusicTransition Name="Transition" ID="{273CF326-F8F1-4991-B6F7-D2BF9FFCF745}">
+									<PropertyList>
+										<Property Name="DestinationContextType" Type="int16" Value="2"/>
+										<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
+										<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+										<Property Name="ExitSourceAt" Type="int16" Value="0"/>
+										<Property Name="SourceContextType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="DestinationContextObject">
+											<ObjectRef Name="Cantine" ID="{E9431B44-4560-4087-B0DF-76EAD1F5CDA1}" WorkUnitID="{BA49786C-8F21-4CAC-A757-58A39DA4BB08}"/>
+										</Reference>
+										<Reference Name="SourceContextObject">
+											<ObjectRef Name="Main Menu" ID="{596A1A26-B215-4264-BB75-28253E8661A9}" WorkUnitID="{BA49786C-8F21-4CAC-A757-58A39DA4BB08}"/>
+										</Reference>
+									</ReferenceList>
+									<TransitionInfo>
+										<SourceFadeOut>
+											<MusicFade Name="Source Fade-out" ID="{734A1EF8-559A-4CF3-87C8-AAAF1D22AD23}">
+												<PropertyList>
+													<Property Name="FadeOffset" Type="Real64" Value="1"/>
+													<Property Name="FadeTime" Type="Real64" Value="2"/>
+													<Property Name="FadeType" Type="int16" Value="1"/>
+												</PropertyList>
+											</MusicFade>
+										</SourceFadeOut>
+										<DestinationFadeIn>
+											<MusicFade Name="Destination Fade-in" ID="{7B85073B-4B36-430E-A253-3FC01C53F525}">
+												<PropertyList>
+													<Property Name="FadeOffset" Type="Real64" Value="-1"/>
+													<Property Name="FadeTime" Type="Real64" Value="2"/>
+												</PropertyList>
+											</MusicFade>
+										</DestinationFadeIn>
+									</TransitionInfo>
+								</MusicTransition>
+								<MusicTransition Name="Transition" ID="{9B06DFE8-21A9-4304-9E48-76FA9E3F0697}">
+									<PropertyList>
+										<Property Name="DestinationContextType" Type="int16" Value="2"/>
+										<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
+										<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+										<Property Name="ExitSourceAt" Type="int16" Value="0"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="DestinationContextObject">
+											<ObjectRef Name="Cantine" ID="{E9431B44-4560-4087-B0DF-76EAD1F5CDA1}" WorkUnitID="{BA49786C-8F21-4CAC-A757-58A39DA4BB08}"/>
+										</Reference>
+									</ReferenceList>
+									<TransitionInfo>
+										<SourceFadeOut>
+											<MusicFade Name="Source Fade-out" ID="{C6D01ED8-BF37-4B04-9375-B144B8C0C92D}">
+												<PropertyList>
+													<Property Name="FadeOffset" Type="Real64" Value="1"/>
+													<Property Name="FadeTime" Type="Real64" Value="2"/>
+													<Property Name="FadeType" Type="int16" Value="1"/>
+												</PropertyList>
+											</MusicFade>
+										</SourceFadeOut>
+										<DestinationFadeIn>
+											<MusicFade Name="Destination Fade-in" ID="{A8606925-217B-4A18-968B-F905C321A2A5}">
+												<PropertyList>
+													<Property Name="FadeOffset" Type="Real64" Value="-1"/>
+													<Property Name="FadeTime" Type="Real64" Value="2"/>
+												</PropertyList>
+											</MusicFade>
+										</DestinationFadeIn>
+									</TransitionInfo>
+								</MusicTransition>
 								<MusicTransition Name="Transition" ID="{FAB590A0-0AB9-4E14-9483-26308F7DCE1D}">
 									<PropertyList>
 										<Property Name="DestinationContextType" Type="int16" Value="2"/>
@@ -1962,15 +2142,15 @@
 											<ObjectRef Name="Explore" ID="{0CF5682F-7AA7-4006-8E7B-4DDCDC86FDFD}" WorkUnitID="{BA49786C-8F21-4CAC-A757-58A39DA4BB08}"/>
 										</Reference>
 										<Reference Name="SourceContextObject">
-											<ObjectRef Name="HUB" ID="{596A1A26-B215-4264-BB75-28253E8661A9}" WorkUnitID="{BA49786C-8F21-4CAC-A757-58A39DA4BB08}"/>
+											<ObjectRef Name="Cantine" ID="{E9431B44-4560-4087-B0DF-76EAD1F5CDA1}" WorkUnitID="{BA49786C-8F21-4CAC-A757-58A39DA4BB08}"/>
 										</Reference>
 									</ReferenceList>
 									<TransitionInfo>
 										<SourceFadeOut>
 											<MusicFade Name="Source Fade-out" ID="{1D762936-0609-42B1-92A9-7D2E0D07AF30}">
 												<PropertyList>
-													<Property Name="FadeOffset" Type="Real64" Value="8"/>
-													<Property Name="FadeTime" Type="Real64" Value="10"/>
+													<Property Name="FadeOffset" Type="Real64" Value="4"/>
+													<Property Name="FadeTime" Type="Real64" Value="5"/>
 													<Property Name="FadeType" Type="int16" Value="1"/>
 												</PropertyList>
 											</MusicFade>
@@ -1978,8 +2158,8 @@
 										<DestinationFadeIn>
 											<MusicFade Name="Destination Fade-in" ID="{9F6E625A-C6D5-490C-A675-987663D3231C}">
 												<PropertyList>
-													<Property Name="FadeOffset" Type="Real64" Value="-1"/>
-													<Property Name="FadeTime" Type="Real64" Value="2"/>
+													<Property Name="FadeOffset" Type="Real64" Value="-2"/>
+													<Property Name="FadeTime" Type="Real64" Value="3"/>
 												</PropertyList>
 											</MusicFade>
 										</DestinationFadeIn>
@@ -2066,7 +2246,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="DestinationContextObject">
-											<ObjectRef Name="HUB" ID="{596A1A26-B215-4264-BB75-28253E8661A9}" WorkUnitID="{BA49786C-8F21-4CAC-A757-58A39DA4BB08}"/>
+											<ObjectRef Name="Main Menu" ID="{596A1A26-B215-4264-BB75-28253E8661A9}" WorkUnitID="{BA49786C-8F21-4CAC-A757-58A39DA4BB08}"/>
 										</Reference>
 									</ReferenceList>
 									<TransitionInfo>
@@ -2121,12 +2301,22 @@
 						</Entry>
 						<Entry>
 							<Path>
-								<PathElementRef Name="Player_State" ID="{409BC8C4-0CBE-4013-9D58-927CDA350096}"/>
-								<PathElementRef Name="Game_State" ID="{9FB3B783-6554-4159-8ED7-7CBE608ADBBC}"/>
+								<PathElementRef Name="Alive" ID="{D651359C-1684-4E02-8D22-5225AA612899}"/>
+								<PathElementRef Name="Menu" ID="{0BB1D2F8-A704-4DEA-A3FF-883660A0C089}"/>
 								<PathElementRef Name="Player_Action" ID="{979A83A1-5FD3-4444-AB96-1ABEDBCBCCEC}"/>
 							</Path>
 							<AudioNodeInfo>
-								<AudioNodeRef Name="HUB" ID="{596A1A26-B215-4264-BB75-28253E8661A9}" WorkUnitID="{BA49786C-8F21-4CAC-A757-58A39DA4BB08}" Platform="Linked"/>
+								<AudioNodeRef Name="Main Menu" ID="{596A1A26-B215-4264-BB75-28253E8661A9}" WorkUnitID="{BA49786C-8F21-4CAC-A757-58A39DA4BB08}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Alive" ID="{D651359C-1684-4E02-8D22-5225AA612899}"/>
+								<PathElementRef Name="HUB" ID="{4F9F25AA-C274-4561-8A3B-EC2F2656D5F8}"/>
+								<PathElementRef Name="Player_Action" ID="{979A83A1-5FD3-4444-AB96-1ABEDBCBCCEC}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="Cantine" ID="{E9431B44-4560-4087-B0DF-76EAD1F5CDA1}" WorkUnitID="{BA49786C-8F21-4CAC-A757-58A39DA4BB08}" Platform="Linked"/>
 							</AudioNodeInfo>
 						</Entry>
 					</EntryList>
