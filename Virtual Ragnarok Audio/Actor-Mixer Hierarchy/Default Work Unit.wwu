@@ -5492,6 +5492,11 @@
 								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.25"/>
 								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-5</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -5564,12 +5569,72 @@
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
 								</Reference>
 							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="rancor punch swish" ID="{9FE21C8E-BD0C-4844-AB06-7EAC34642CF4}" ShortID="891908195">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="rancor punch swish" ID="{580CCDED-80D4-4C89-9578-CD9287B59BD2}">
+											<Language>SFX</Language>
+											<AudioFile>rancor punch swish.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="872536724"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="rancor punch swish" ID="{580CCDED-80D4-4C89-9578-CD9287B59BD2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
 						</RandomSequenceContainer>
+						<Sound Name="Rancor wall impact" ID="{905F24F3-45C6-4013-90DD-9632B34D1C0D}" ShortID="38059703">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-8</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Rancor wall impact" ID="{9F14FDFE-B7E3-42C2-AB7A-06322AF3896A}">
+									<Language>SFX</Language>
+									<AudioFile>Rancor wall impact.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="825049687"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Rancor wall impact" ID="{9F14FDFE-B7E3-42C2-AB7A-06322AF3896A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 						<Sound Name="Rancor Breath" ID="{68585205-7FC7-4F63-AAAA-5F7C0D90BAA1}" ShortID="826077727">
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-14</Value>
+										<Value>-12</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -5594,6 +5659,113 @@
 								<ActiveSource Name="Rancor Breath" ID="{12AF5CD8-7D70-4B84-846C-CFA7575A59BE}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<Sound Name="Rancor_HandSlam" ID="{AAA5CE7E-993C-4B9F-A0E0-012121E511D0}" ShortID="1028101468">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-8</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Rancor_HandSlam" ID="{4E4F42B5-14AC-4097-950C-7DFB982DE128}">
+									<Language>SFX</Language>
+									<AudioFile>Rancor_HandSlam.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="818849677"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Rancor_HandSlam" ID="{4E4F42B5-14AC-4097-950C-7DFB982DE128}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<RandomSequenceContainer Name="Rancor death" ID="{D40271C4-B121-4D3D-BD08-6DB411D688EE}" ShortID="462565188">
+							<PropertyList>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="rancor death fall" ID="{028E9D57-286B-4B6E-8D1C-BF84DDF790E1}" ShortID="536912817">
+									<PropertyList>
+										<Property Name="InitialDelay" Type="Real64">
+											<ValueList>
+												<Value>1.2</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="rancor death fall" ID="{77E94B50-189A-4BEE-B2D4-CA24222D5397}">
+											<Language>SFX</Language>
+											<AudioFile>rancor death fall.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="685391831"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="rancor death fall" ID="{77E94B50-189A-4BEE-B2D4-CA24222D5397}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Rancor death voice" ID="{18C2E3B5-F18A-47D2-904E-51E199B7F8FF}" ShortID="89205293">
+									<PropertyList>
+										<Property Name="InitialDelay" Type="Real64">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Rancor death voice" ID="{7AAA9C15-933C-46FD-92B9-5F40445847DE}">
+											<Language>SFX</Language>
+											<AudioFile>Rancor death voice.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="287144272"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Rancor death voice" ID="{7AAA9C15-933C-46FD-92B9-5F40445847DE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<Playlist>
+								<ItemRef Name="Rancor death voice" ID="{18C2E3B5-F18A-47D2-904E-51E199B7F8FF}"/>
+								<ItemRef Name="rancor death fall" ID="{028E9D57-286B-4B6E-8D1C-BF84DDF790E1}"/>
+							</Playlist>
+						</RandomSequenceContainer>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

@@ -431,6 +431,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_Rancor_Recovery" ID="{170265DF-AF93-4FFF-BF33-3ED530F1C8C8}">
+							<ChildrenList>
+								<Action Name="" ID="{F0A692C9-EE6F-4553-9362-2E2057C364B3}" ShortID="836557866">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Rancor wall impact" ID="{905F24F3-45C6-4013-90DD-9632B34D1C0D}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>
