@@ -5559,6 +5559,7 @@
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="Rancor combo" ID="{5E663582-BE4F-4DDC-B4B4-C202A019B6C6}" ShortID="890340909">
 							<PropertyList>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
 							</PropertyList>
 							<ReferenceList>
@@ -5572,9 +5573,14 @@
 							<ChildrenList>
 								<Sound Name="rancor punch swish" ID="{9FE21C8E-BD0C-4844-AB06-7EAC34642CF4}" ShortID="891908195">
 									<PropertyList>
+										<Property Name="InitialDelay" Type="Real64">
+											<ValueList>
+												<Value>0.78</Value>
+											</ValueList>
+										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-6</Value>
+												<Value>-5</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -5599,7 +5605,75 @@
 										<ActiveSource Name="rancor punch swish" ID="{580CCDED-80D4-4C89-9578-CD9287B59BD2}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
+								<Sound Name="Rancor booty impact" ID="{10289599-AF64-4975-947C-FF0EBB98B26B}" ShortID="128238562">
+									<PropertyList>
+										<Property Name="InitialDelay" Type="Real64">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-8</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Rancor booty impact" ID="{13B18C41-BF36-413F-96A5-E5E1E52BCCD5}">
+											<Language>SFX</Language>
+											<AudioFile>Rancor booty impact.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="36736387"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Rancor booty impact" ID="{13B18C41-BF36-413F-96A5-E5E1E52BCCD5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="rancor punch swish 2" ID="{0EDD812A-8583-4407-B267-7C7D69814531}" ShortID="296479095">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="rancor punch swish 2" ID="{DABFB2C1-7AAF-496E-9604-41418A9A2C28}">
+											<Language>SFX</Language>
+											<AudioFile>rancor punch swish 2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="30862167"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="rancor punch swish 2" ID="{DABFB2C1-7AAF-496E-9604-41418A9A2C28}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
+							<Playlist>
+								<ItemRef Name="rancor punch swish" ID="{9FE21C8E-BD0C-4844-AB06-7EAC34642CF4}"/>
+								<ItemRef Name="rancor punch swish 2" ID="{0EDD812A-8583-4407-B267-7C7D69814531}"/>
+								<ItemRef Name="Rancor booty impact" ID="{10289599-AF64-4975-947C-FF0EBB98B26B}"/>
+							</Playlist>
 						</RandomSequenceContainer>
 						<Sound Name="Rancor wall impact" ID="{905F24F3-45C6-4013-90DD-9632B34D1C0D}" ShortID="38059703">
 							<PropertyList>
@@ -5766,8 +5840,47 @@
 								<ItemRef Name="rancor death fall" ID="{028E9D57-286B-4B6E-8D1C-BF84DDF790E1}"/>
 							</Playlist>
 						</RandomSequenceContainer>
+						<Sound Name="Rancor rock pull" ID="{BB47CBCA-BA31-44FE-9983-CD5E4E699A8A}" ShortID="501538047">
+							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>0.5</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-7</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Rancor rock pull" ID="{3D690453-CBAA-4F70-92A2-BA566BE0FF5A}">
+									<Language>SFX</Language>
+									<AudioFile>Rancor rock pull.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="22332606"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Rancor rock pull" ID="{3D690453-CBAA-4F70-92A2-BA566BE0FF5A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 						<Sound Name="Rancor Projectile throw" ID="{B1476715-D3DE-4F11-8C12-832CDF3FCFFC}" ShortID="252438271">
 							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>0.93</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-7</Value>
@@ -5795,7 +5908,7 @@
 								<ActiveSource Name="Rancor Projectile throw" ID="{DC26FCB0-C2F7-42AC-BC2E-B851312C6D7F}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="Rancor rock pull" ID="{BB47CBCA-BA31-44FE-9983-CD5E4E699A8A}" ShortID="501538047">
+						<Sound Name="Rock impact" ID="{542EE985-F6A8-462E-98B0-2687AF30F5C1}" ShortID="294555045">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
@@ -5805,31 +5918,18 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="Rancor rock pull" ID="{3D690453-CBAA-4F70-92A2-BA566BE0FF5A}">
+								<AudioFileSource Name="Rock impact" ID="{D430A2EE-A978-4F3A-AC58-B076044DAA8E}">
 									<Language>SFX</Language>
-									<AudioFile>Rancor rock pull.wav</AudioFile>
+									<AudioFile>Rock impact.wav</AudioFile>
 									<MediaIDList>
-										<MediaID ID="22332606"/>
+										<MediaID ID="769836140"/>
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="Rancor rock pull" ID="{3D690453-CBAA-4F70-92A2-BA566BE0FF5A}" Platform="Linked"/>
+								<ActiveSource Name="Rock impact" ID="{D430A2EE-A978-4F3A-AC58-B076044DAA8E}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<RandomSequenceContainer Name="Rancor Projectile" ID="{EF0EA497-A73D-48DA-84C1-C8313453DEEB}" ShortID="546934893">
-							<PropertyList>
-								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
-								</Reference>
-							</ReferenceList>
-						</RandomSequenceContainer>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>
