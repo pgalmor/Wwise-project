@@ -408,12 +408,12 @@
 				</Folder>
 				<Folder Name="Rancor" ID="{85DB28B6-0A50-4AE9-BD42-CA39F8025729}" ShortID="642488356">
 					<ChildrenList>
-						<Event Name="Play_Rancor_Melee" ID="{850D55E0-148C-4103-965B-C1A5AFF3B5C8}">
+						<Event Name="Play_Rancor_Melee_1rst_punch" ID="{850D55E0-148C-4103-965B-C1A5AFF3B5C8}">
 							<ChildrenList>
 								<Action Name="" ID="{2DC111D1-5380-4A99-8DE0-8FFE9150EB6F}" ShortID="404328272">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Rancor combo" ID="{5E663582-BE4F-4DDC-B4B4-C202A019B6C6}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+											<ObjectRef Name="rancor punch swish" ID="{9FE21C8E-BD0C-4844-AB06-7EAC34642CF4}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -513,6 +513,28 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Rock impact" ID="{542EE985-F6A8-462E-98B0-2687AF30F5C1}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Rancor_Melee_2nd_punch" ID="{A3071F72-DABC-4502-8F2E-D2B5FD20A2F5}">
+							<ChildrenList>
+								<Action Name="" ID="{AFF23BB8-612D-4647-9844-4994BB3BA58D}" ShortID="337371844">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="rancor punch swish 2" ID="{0EDD812A-8583-4407-B267-7C7D69814531}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Rancor_Area_Impact" ID="{8FB81C59-8104-46BB-86BD-CEB108D5E797}">
+							<ChildrenList>
+								<Action Name="" ID="{A0159FB5-5DC5-41F0-AC3E-8925CED88969}" ShortID="240713239">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Rancor booty impact" ID="{10289599-AF64-4975-947C-FF0EBB98B26B}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
