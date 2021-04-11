@@ -5688,7 +5688,7 @@
 								<ActiveSource Name="Rancor_HandSlam" ID="{4E4F42B5-14AC-4097-950C-7DFB982DE128}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<RandomSequenceContainer Name="Rancor death" ID="{D40271C4-B121-4D3D-BD08-6DB411D688EE}" ShortID="462565188">
+						<RandomSequenceContainer Name="Rancor Death" ID="{D40271C4-B121-4D3D-BD08-6DB411D688EE}" ShortID="462565188">
 							<PropertyList>
 								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
@@ -5765,6 +5765,70 @@
 								<ItemRef Name="Rancor death voice" ID="{18C2E3B5-F18A-47D2-904E-51E199B7F8FF}"/>
 								<ItemRef Name="rancor death fall" ID="{028E9D57-286B-4B6E-8D1C-BF84DDF790E1}"/>
 							</Playlist>
+						</RandomSequenceContainer>
+						<Sound Name="Rancor Projectile throw" ID="{B1476715-D3DE-4F11-8C12-832CDF3FCFFC}" ShortID="252438271">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-7</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Rancor Projectile throw" ID="{DC26FCB0-C2F7-42AC-BC2E-B851312C6D7F}">
+									<Language>SFX</Language>
+									<AudioFile>Rancor Projectile throw.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="930133299"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Rancor Projectile throw" ID="{DC26FCB0-C2F7-42AC-BC2E-B851312C6D7F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Rancor rock pull" ID="{BB47CBCA-BA31-44FE-9983-CD5E4E699A8A}" ShortID="501538047">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Rancor rock pull" ID="{3D690453-CBAA-4F70-92A2-BA566BE0FF5A}">
+									<Language>SFX</Language>
+									<AudioFile>Rancor rock pull.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="22332606"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Rancor rock pull" ID="{3D690453-CBAA-4F70-92A2-BA566BE0FF5A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<RandomSequenceContainer Name="Rancor Projectile" ID="{EF0EA497-A73D-48DA-84C1-C8313453DEEB}" ShortID="546934893">
+							<PropertyList>
+								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+								</Reference>
+							</ReferenceList>
 						</RandomSequenceContainer>
 					</ChildrenList>
 				</Folder>
