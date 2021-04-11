@@ -408,7 +408,17 @@
 				</Folder>
 				<Folder Name="Rancor" ID="{85DB28B6-0A50-4AE9-BD42-CA39F8025729}" ShortID="642488356">
 					<ChildrenList>
-						<Event Name="Play_Rancor_Combo" ID="{850D55E0-148C-4103-965B-C1A5AFF3B5C8}"/>
+						<Event Name="Play_Rancor_Melee" ID="{850D55E0-148C-4103-965B-C1A5AFF3B5C8}">
+							<ChildrenList>
+								<Action Name="" ID="{2DC111D1-5380-4A99-8DE0-8FFE9150EB6F}" ShortID="404328272">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Rancor combo" ID="{5E663582-BE4F-4DDC-B4B4-C202A019B6C6}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 						<Event Name="Play_Rancor_Footsteps" ID="{E2E6301E-EF8D-410C-BE12-F9E783C9A0D7}">
 							<ChildrenList>
 								<Action Name="" ID="{42802FAF-C873-4B66-9563-A7A16C00724E}" ShortID="28069963">
@@ -437,6 +447,72 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Rancor wall impact" ID="{905F24F3-45C6-4013-90DD-9632B34D1C0D}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Rancor_Death" ID="{0C502B87-C783-437C-A67B-360AA384628D}">
+							<ChildrenList>
+								<Action Name="" ID="{62369D1A-202C-4D6C-9E3D-8D96839DDAEA}" ShortID="592162523">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Rancor Death" ID="{D40271C4-B121-4D3D-BD08-6DB411D688EE}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Rancor_Rush_Steps" ID="{C222820F-922D-4588-A936-66710A4E2062}">
+							<ChildrenList>
+								<Action Name="" ID="{62A624DE-2B7F-4990-9AA6-7485601250CB}" ShortID="201519130">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Rancor rush" ID="{201D53D4-620C-4798-BBC0-6CB543D6C8EF}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Rancor_Rush_Fall" ID="{2138A901-192B-48C5-A7D6-D6FBFCCED3E3}">
+							<ChildrenList>
+								<Action Name="" ID="{BB506120-7228-47EA-927D-0EBE755A300F}" ShortID="835867576">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="rancor rush fall" ID="{AB380AD5-B44F-4827-AF09-7FD6624E8849}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Rancor_Throw" ID="{86DDF474-67ED-4C1D-AA89-350254BAC690}">
+							<ChildrenList>
+								<Action Name="" ID="{9DD9DD4E-EEA3-448A-B82B-EE7121D2D8CD}" ShortID="993504781">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Rancor Rock Throw" ID="{479B56E8-F27E-44D8-930E-BFB432F05E12}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Rancor_Hand_Slam" ID="{63ECCE12-D6FF-431B-B504-55A7B0B7EB67}">
+							<ChildrenList>
+								<Action Name="" ID="{A4E349EF-FE8A-4530-9377-B280E6D76A15}" ShortID="340067965">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Rancor_HandSlam" ID="{AAA5CE7E-993C-4B9F-A0E0-012121E511D0}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Rock_Impact" ID="{971C4B84-322A-46DB-BA79-FF51EEE659D6}">
+							<ChildrenList>
+								<Action Name="" ID="{06402165-EE04-4FD9-920B-27846B976751}" ShortID="238477900">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Rock impact" ID="{542EE985-F6A8-462E-98B0-2687AF30F5C1}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

@@ -102,10 +102,19 @@
 				</SoundBank>
 				<SoundBank Name="Rancor" ID="{29324695-5933-4E7C-81DF-9959B2CBF3B4}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Play_Rancor_Breath" ID="{D3766FA6-0D7E-40F4-8A9C-1730752B1298}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Rancor_Melee" ID="{850D55E0-148C-4103-965B-C1A5AFF3B5C8}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Rancor_Footsteps" ID="{E2E6301E-EF8D-410C-BE12-F9E783C9A0D7}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Rancor_Hand_Slam" ID="{63ECCE12-D6FF-431B-B504-55A7B0B7EB67}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Rancor_Death" ID="{0C502B87-C783-437C-A67B-360AA384628D}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Rancor_Rush_Steps" ID="{C222820F-922D-4588-A936-66710A4E2062}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Rock_Impact" ID="{971C4B84-322A-46DB-BA79-FF51EEE659D6}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Rancor_Rush_Fall" ID="{2138A901-192B-48C5-A7D6-D6FBFCCED3E3}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Pause_Object" ID="{257203BA-872A-4BD2-9340-B10FBEB45376}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Rancor_Throw" ID="{86DDF474-67ED-4C1D-AA89-350254BAC690}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_Object" ID="{378C77F3-FD97-4C7E-B169-7A27282200DE}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Resume_Object" ID="{B3E49AD5-6A93-4EB1-9837-0321993DA353}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Rancor_Recovery" ID="{170265DF-AF93-4FFF-BF33-3ED530F1C8C8}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

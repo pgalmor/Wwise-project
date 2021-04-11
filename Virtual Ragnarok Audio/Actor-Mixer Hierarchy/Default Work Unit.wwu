@@ -5508,6 +5508,36 @@
 							</ReferenceList>
 							<ChildrenList>
 								<Sound Name="Rancor chain step 1" ID="{D47F1C93-6EF8-4AB9-B23E-7FC5C6A0453E}" ShortID="1021637529">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{7AE1BC7D-714B-4731-8287-0D9BCC76A5B8}" ShortID="930256887">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{6C43C25C-74E6-42F2-A3CD-96DCF47F8B18}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
@@ -5530,6 +5560,36 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Rancor chain step 2" ID="{081AD8A8-0FB2-4B80-BE6E-A69A81E2E486}" ShortID="498213888">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{D4DC4CED-D87D-4FD1-B6E7-C7F6BCAADF12}" ShortID="97144907">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{2C3EE027-B260-40C4-862D-13EFD2820E4C}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
@@ -5582,6 +5642,32 @@
 											<ValueList>
 												<Value>-5</Value>
 											</ValueList>
+											<RTPCList>
+												<RTPC Name="" ID="{551108E8-CD51-40E5-AF96-2073B17B1C93}" ShortID="93723405">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{831E4EF6-21F8-4D11-8FEE-4B9D3045D56F}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
 										</Property>
 									</PropertyList>
 									<ReferenceList>
@@ -5616,6 +5702,32 @@
 											<ValueList>
 												<Value>-8</Value>
 											</ValueList>
+											<RTPCList>
+												<RTPC Name="" ID="{B75688DE-B95C-4CC0-A29D-04AB155E23FE}" ShortID="621969344">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{5158AEE5-2409-4E91-AB73-644EF7EDE680}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
 										</Property>
 									</PropertyList>
 									<ReferenceList>
@@ -5645,6 +5757,32 @@
 											<ValueList>
 												<Value>-4</Value>
 											</ValueList>
+											<RTPCList>
+												<RTPC Name="" ID="{32D03813-77A8-4ACB-BFD2-B91831869056}" ShortID="473774777">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{82D65E17-89DB-4E24-A644-0248D60FFCE7}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
 										</Property>
 									</PropertyList>
 									<ReferenceList>
@@ -5681,6 +5819,32 @@
 									<ValueList>
 										<Value>-6</Value>
 									</ValueList>
+									<RTPCList>
+										<RTPC Name="" ID="{C7454D13-68CC-49A5-AC9E-FEB548E85224}" ShortID="311403401">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{9345E395-A4AA-4695-B506-1FC3ED3C0F36}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>200</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
 								</Property>
 							</PropertyList>
 							<ReferenceList>
@@ -5710,6 +5874,32 @@
 									<ValueList>
 										<Value>-12</Value>
 									</ValueList>
+									<RTPCList>
+										<RTPC Name="" ID="{84CC4FC3-5817-45DA-BA59-3DD5E0282B79}" ShortID="18666775">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{2E8BE383-3E42-477F-A299-92BAB6A8593F}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>200</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
 								</Property>
 							</PropertyList>
 							<ReferenceList>
@@ -5739,6 +5929,32 @@
 									<ValueList>
 										<Value>-8</Value>
 									</ValueList>
+									<RTPCList>
+										<RTPC Name="" ID="{CAB1883C-8AB8-411F-8865-6F7B7AD9FC8E}" ShortID="151255849">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{B8E056FE-BDAA-4BD4-9CF2-F2715F1B6B17}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>200</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
 								</Property>
 							</PropertyList>
 							<ReferenceList>
@@ -5783,6 +5999,34 @@
 												<Value>1.2</Value>
 											</ValueList>
 										</Property>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{1AA570D7-4E30-4719-BC9D-0606C697D953}" ShortID="116844470">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{33F24FAB-5082-4955-8767-A38923A3D91C}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -5812,6 +6056,34 @@
 												<Value>1</Value>
 											</ValueList>
 										</Property>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{71E641FA-B7A6-49F1-9521-A19BAE7DD3E5}" ShortID="1014159354">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{032A5F1A-A5D7-4C6F-B4F8-97B25C3A14C1}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -5840,75 +6112,40 @@
 								<ItemRef Name="rancor death fall" ID="{028E9D57-286B-4B6E-8D1C-BF84DDF790E1}"/>
 							</Playlist>
 						</RandomSequenceContainer>
-						<Sound Name="Rancor rock pull" ID="{BB47CBCA-BA31-44FE-9983-CD5E4E699A8A}" ShortID="501538047">
-							<PropertyList>
-								<Property Name="InitialDelay" Type="Real64">
-									<ValueList>
-										<Value>0.5</Value>
-									</ValueList>
-								</Property>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-7</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Rancor rock pull" ID="{3D690453-CBAA-4F70-92A2-BA566BE0FF5A}">
-									<Language>SFX</Language>
-									<AudioFile>Rancor rock pull.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="22332606"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Rancor rock pull" ID="{3D690453-CBAA-4F70-92A2-BA566BE0FF5A}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Rancor Projectile throw" ID="{B1476715-D3DE-4F11-8C12-832CDF3FCFFC}" ShortID="252438271">
-							<PropertyList>
-								<Property Name="InitialDelay" Type="Real64">
-									<ValueList>
-										<Value>0.93</Value>
-									</ValueList>
-								</Property>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-7</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Rancor Projectile throw" ID="{DC26FCB0-C2F7-42AC-BC2E-B851312C6D7F}">
-									<Language>SFX</Language>
-									<AudioFile>Rancor Projectile throw.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="930133299"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Rancor Projectile throw" ID="{DC26FCB0-C2F7-42AC-BC2E-B851312C6D7F}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
 						<Sound Name="Rock impact" ID="{542EE985-F6A8-462E-98B0-2687AF30F5C1}" ShortID="294555045">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-7</Value>
+									</ValueList>
+									<RTPCList>
+										<RTPC Name="" ID="{59164462-171E-4F75-8726-0010B63B1426}" ShortID="207426484">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{C82CA663-0BF5-4A27-847B-352A0B69D57A}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>200</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
@@ -5930,6 +6167,341 @@
 								<ActiveSource Name="Rock impact" ID="{D430A2EE-A978-4F3A-AC58-B076044DAA8E}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<RandomSequenceContainer Name="Rancor rush" ID="{201D53D4-620C-4798-BBC0-6CB543D6C8EF}" ShortID="971229811">
+							<PropertyList>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.01"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Rancor chain step 2" ID="{0EFBBC51-27E6-4053-BA95-A720662193B9}" ShortID="268482180">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>700</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{86EFAACD-40C8-454B-AA92-A1A263EF8155}" ShortID="708208883">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{4C7A221D-7A08-48F2-99DA-C424D8CEAD22}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Rancor chain step 2" ID="{61230A89-AC6B-4624-B115-9C0FD5C769E3}">
+											<Language>SFX</Language>
+											<AudioFile>Rancor chain step 2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="92596664"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Rancor chain step 2" ID="{61230A89-AC6B-4624-B115-9C0FD5C769E3}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Rancor chain step 1" ID="{C4EB7D62-1D5A-4CC9-B502-ECC0FCB88FFB}" ShortID="1012044287">
+									<PropertyList>
+										<Property Name="InitialDelay" Type="Real64">
+											<ValueList>
+												<Value>0.1</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>800</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{878544A9-1AD5-4212-9687-07A7F663D239}" ShortID="347987854">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{45DE4D08-F06C-434C-BEA9-3018904DBFBB}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Rancor chain step 1" ID="{C763F4B4-31C1-468F-B50B-85FA938BA19F}">
+											<Language>SFX</Language>
+											<AudioFile>Rancor chain step 1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="208519487"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Rancor chain step 1" ID="{C763F4B4-31C1-468F-B50B-85FA938BA19F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<Playlist>
+								<ItemRef Name="Rancor chain step 1" ID="{C4EB7D62-1D5A-4CC9-B502-ECC0FCB88FFB}"/>
+								<ItemRef Name="Rancor chain step 2" ID="{0EFBBC51-27E6-4053-BA95-A720662193B9}"/>
+							</Playlist>
+						</RandomSequenceContainer>
+						<Sound Name="rancor rush fall" ID="{AB380AD5-B44F-4827-AF09-7FD6624E8849}" ShortID="461255773">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>600</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{46EB7BB9-2314-4CE1-9DCE-A964FF6A770E}" ShortID="822456746">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{B3600360-7D2A-40A9-A3EF-8772671B25C7}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>200</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="rancor death fall" ID="{B15A21BF-C813-46A8-980E-46043530F86C}">
+									<Language>SFX</Language>
+									<AudioFile>rancor death fall.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="685391831"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="rancor death fall" ID="{B15A21BF-C813-46A8-980E-46043530F86C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<RandomSequenceContainer Name="Rancor Rock Throw" ID="{479B56E8-F27E-44D8-930E-BFB432F05E12}" ShortID="466349453">
+							<PropertyList>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Rancor Projectile throw" ID="{B1476715-D3DE-4F11-8C12-832CDF3FCFFC}" ShortID="252438271">
+									<PropertyList>
+										<Property Name="InitialDelay" Type="Real64">
+											<ValueList>
+												<Value>0.93</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-7</Value>
+											</ValueList>
+											<RTPCList>
+												<RTPC Name="" ID="{310BAFE9-8BC4-4CAB-A039-11C008F37E3D}" ShortID="1025941385">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{5ED885AF-F4D6-4169-8C69-A49FAC2B79CD}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Rancor Projectile throw" ID="{DC26FCB0-C2F7-42AC-BC2E-B851312C6D7F}">
+											<Language>SFX</Language>
+											<AudioFile>Rancor Projectile throw.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="930133299"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Rancor Projectile throw" ID="{DC26FCB0-C2F7-42AC-BC2E-B851312C6D7F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Rancor rock pull" ID="{BB47CBCA-BA31-44FE-9983-CD5E4E699A8A}" ShortID="501538047">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-7</Value>
+											</ValueList>
+											<RTPCList>
+												<RTPC Name="" ID="{F2457594-9FC1-4CF4-8DA0-BAB31509EE22}" ShortID="397317518">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{7D702E10-C362-4A08-8E45-AC755B587AAE}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Rancor rock pull" ID="{3D690453-CBAA-4F70-92A2-BA566BE0FF5A}">
+											<Language>SFX</Language>
+											<AudioFile>Rancor rock pull.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="22332606"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Rancor rock pull" ID="{3D690453-CBAA-4F70-92A2-BA566BE0FF5A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<Playlist>
+								<ItemRef Name="Rancor rock pull" ID="{BB47CBCA-BA31-44FE-9983-CD5E4E699A8A}"/>
+								<ItemRef Name="Rancor Projectile throw" ID="{B1476715-D3DE-4F11-8C12-832CDF3FCFFC}"/>
+							</Playlist>
+						</RandomSequenceContainer>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>
