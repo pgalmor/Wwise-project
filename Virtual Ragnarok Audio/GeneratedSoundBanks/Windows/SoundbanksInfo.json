@@ -699,7 +699,6 @@
    {
     "Id": "3049191116",
     "Language": "SFX",
-    "Hash": "1666941359",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Rancor",
     "ShortName": "Rancor",
     "Path": "Rancor.bnk",
@@ -952,6 +951,7 @@
    {
     "Id": "3434002875",
     "Language": "SFX",
+    "Hash": "884523574",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Cantine",
     "ShortName": "Cantine",
     "Path": "Cantine.bnk",
@@ -968,15 +968,13 @@
       "Id": "3663622300",
       "Name": "Play_Cantine_Voices",
       "ObjectPath": "\\Events\\Default Work Unit\\Cantine\\Play_Cantine_Voices",
-      "DurationType": "OneShot",
-      "DurationMin": "6.392540",
-      "DurationMax": "6.392540",
+      "DurationType": "Infinite",
       "IncludedMemoryFiles": [
        {
         "Id": "729275084",
         "Language": "SFX",
         "ShortName": "Cantine ambience.wav",
-        "Path": "SFX\\Cantine ambience_10C4C929.wem"
+        "Path": "SFX\\Cantine ambience_D79FB2B7.wem"
        }
       ]
      },

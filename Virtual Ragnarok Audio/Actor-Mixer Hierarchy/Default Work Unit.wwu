@@ -5453,6 +5453,7 @@
 					<ChildrenList>
 						<Sound Name="Cantine ambience" ID="{9961131C-4AE5-41A1-A61A-DF0437F55589}" ShortID="40361449">
 							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-9</Value>
