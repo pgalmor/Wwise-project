@@ -6190,7 +6190,7 @@
 									<PropertyList>
 										<Property Name="InitialDelay" Type="Real64">
 											<ValueList>
-												<Value>0.93</Value>
+												<Value>0.5</Value>
 											</ValueList>
 										</Property>
 										<Property Name="Volume" Type="Real64">
@@ -6364,11 +6364,6 @@
 						</Sound>
 						<Sound Name="Rancor booty impact" ID="{10289599-AF64-4975-947C-FF0EBB98B26B}" ShortID="128238562">
 							<PropertyList>
-								<Property Name="InitialDelay" Type="Real64">
-									<ValueList>
-										<Value>1</Value>
-									</ValueList>
-								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-8</Value>

@@ -5,11 +5,11 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "135",
   "RootPaths": {
-   "ProjectRoot": "C:\\Users\\PC1\\Documents\\GitHub\\Wwise-project\\Virtual Ragnarok Audio\\",
-   "SourceFilesRoot": "C:\\Users\\PC1\\Documents\\GitHub\\Wwise-project\\Virtual Ragnarok Audio\\.cache\\Windows\\",
-   "SoundBanksRoot": "C:\\Users\\PC1\\Documents\\GitHub\\Wwise-project\\Virtual Ragnarok Audio\\GeneratedSoundBanks\\Windows\\",
+   "ProjectRoot": "C:\\Users\\admin\\Documents\\GitHub\\Wwise-project\\Virtual Ragnarok Audio\\",
+   "SourceFilesRoot": "C:\\Users\\admin\\Documents\\GitHub\\Wwise-project\\Virtual Ragnarok Audio\\.cache\\Windows\\",
+   "SoundBanksRoot": "C:\\Users\\admin\\Documents\\GitHub\\Wwise-project\\Virtual Ragnarok Audio\\GeneratedSoundBanks\\Windows\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "C:\\Users\\PC1\\Documents\\GitHub\\Wwise-project\\Virtual Ragnarok Audio\\GeneratedSoundBanks\\Windows"
+   "ExternalSourcesOutputRoot": "C:\\Users\\admin\\Documents\\GitHub\\Wwise-project\\Virtual Ragnarok Audio\\GeneratedSoundBanks\\Windows"
   },
   "DialogueEvents": [],
   "StreamedFiles": [],
@@ -699,6 +699,7 @@
    {
     "Id": "3049191116",
     "Language": "SFX",
+    "Hash": "1630070250",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Rancor",
     "ShortName": "Rancor",
     "Path": "Rancor.bnk",
@@ -716,8 +717,8 @@
       "Name": "Play_Rancor_Area_Impact",
       "ObjectPath": "\\Events\\Default Work Unit\\Rancor\\Play_Rancor_Area_Impact",
       "DurationType": "OneShot",
-      "DurationMin": "2.331917",
-      "DurationMax": "2.331917",
+      "DurationMin": "1.331917",
+      "DurationMax": "1.331917",
       "IncludedMemoryFiles": [
        {
         "Id": "36736387",
@@ -890,8 +891,8 @@
       "Name": "Play_Rancor_Throw",
       "ObjectPath": "\\Events\\Default Work Unit\\Rancor\\Play_Rancor_Throw",
       "DurationType": "OneShot",
-      "DurationMin": "3.140181",
-      "DurationMax": "3.140181",
+      "DurationMin": "2.710181",
+      "DurationMax": "2.710181",
       "IncludedMemoryFiles": [
        {
         "Id": "22332606",
@@ -951,7 +952,6 @@
    {
     "Id": "3434002875",
     "Language": "SFX",
-    "Hash": "884523574",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Cantine",
     "ShortName": "Cantine",
     "Path": "Cantine.bnk",
