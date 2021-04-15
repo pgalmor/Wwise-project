@@ -4264,6 +4264,28 @@
 										<ActiveSource Name="UI Button Hover" ID="{2942662B-880F-4BAE-881A-D3A09E173B2D}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
+								<Sound Name="UI Button select" ID="{FC2EA8E2-52FD-4F93-9F6E-81F22BFB5D0D}" ShortID="27894094">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="UI Button select" ID="{5117CF14-B85A-4B55-9141-C89FAA8C934B}">
+											<Language>SFX</Language>
+											<AudioFile>UI Button select.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="913807497"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="UI Button select" ID="{5117CF14-B85A-4B55-9141-C89FAA8C934B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
 							<GroupingInfo>
 								<GroupingBehaviorList>
@@ -4272,6 +4294,9 @@
 									</GroupingBehavior>
 									<GroupingBehavior>
 										<ItemRef Name="UI Button click" ID="{0164BA6F-4521-4A15-B9A1-3DC71B66BC5C}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="UI Button select" ID="{FC2EA8E2-52FD-4F93-9F6E-81F22BFB5D0D}"/>
 									</GroupingBehavior>
 								</GroupingBehaviorList>
 								<GroupingList>

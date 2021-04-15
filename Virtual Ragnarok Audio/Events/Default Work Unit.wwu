@@ -60,6 +60,9 @@
 						<Event Name="Play_Mando_Voice" ID="{2EF4772C-C6CE-40B8-B875-1F4D58B2ED4A}">
 							<ChildrenList>
 								<Action Name="" ID="{DA865B4F-063B-49B1-9AAD-EB08EFB2971F}" ShortID="82322660">
+									<PropertyList>
+										<Property Name="Probability" Type="Real64" Value="80"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Mando_Voice" ID="{DA352849-C647-4451-BFD8-5A8B693033B0}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
@@ -115,6 +118,9 @@
 						<Event Name="Play_Mando_Hit" ID="{FBDC3730-6B53-4C2F-B93A-451E05E078F2}">
 							<ChildrenList>
 								<Action Name="" ID="{47696617-98DB-471B-BD1D-33431420107B}" ShortID="935245966">
+									<PropertyList>
+										<Property Name="Probability" Type="Real64" Value="60"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Mando_Hit" ID="{B2EAD3CB-041A-44F2-8349-B1859483E875}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
@@ -185,6 +191,9 @@
 						<Event Name="Play_Growl_Bantha_Hit" ID="{A5A80DC8-AF4F-42AE-9EAB-6879F3835D30}">
 							<ChildrenList>
 								<Action Name="" ID="{C99A4E7E-A21A-4116-9E37-39EB309221BF}" ShortID="956795337">
+									<PropertyList>
+										<Property Name="Probability" Type="Real64" Value="60"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Bantha_Hit" ID="{1798CE29-E6E4-4E4C-9963-06D51CB7A31F}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
@@ -222,6 +231,9 @@
 						<Event Name="Play_Enemy_Detection" ID="{AE4358DC-ABBE-49A7-B868-FD5227EC3257}">
 							<ChildrenList>
 								<Action Name="" ID="{90B756BF-4DE6-4B05-A3F5-0865A97B2DB6}" ShortID="592823674">
+									<PropertyList>
+										<Property Name="Probability" Type="Real64" Value="80"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Enemy_Detection_Stormtrooper" ID="{46D70C88-FB92-4BE2-802E-F033BE769CB9}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
@@ -255,6 +267,9 @@
 						<Event Name="Play_Stormtrooper_Hit" ID="{93E43E7B-5FD2-4D27-AD0B-C4850ECF5286}">
 							<ChildrenList>
 								<Action Name="" ID="{2B4023B2-D33F-42E3-BF0E-BD1977A130E4}" ShortID="747044492">
+									<PropertyList>
+										<Property Name="Probability" Type="Real64" Value="60"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Stormtrooper_Hit" ID="{C3CBD8CE-EA45-4D69-B7B1-05A815A38A80}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
@@ -295,6 +310,17 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="UI Button click" ID="{0164BA6F-4521-4A15-B9A1-3DC71B66BC5C}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_UI_Button_Select" ID="{4D169CE3-92CA-4734-81D2-882E17143EAF}">
+							<ChildrenList>
+								<Action Name="" ID="{CCDBAEDD-7C6A-495E-9A84-8BC1E619E5C4}" ShortID="425236221">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI Button select" ID="{FC2EA8E2-52FD-4F93-9F6E-81F22BFB5D0D}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
