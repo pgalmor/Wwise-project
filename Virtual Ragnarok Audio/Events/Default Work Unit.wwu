@@ -57,7 +57,7 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Play_Mando_Voice" ID="{2EF4772C-C6CE-40B8-B875-1F4D58B2ED4A}">
+						<Event Name="Play_Mando_Kill_Voice" ID="{2EF4772C-C6CE-40B8-B875-1F4D58B2ED4A}">
 							<ChildrenList>
 								<Action Name="" ID="{DA865B4F-063B-49B1-9AAD-EB08EFB2971F}" ShortID="82322660">
 									<PropertyList>
@@ -65,7 +65,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Mando_Voice" ID="{DA352849-C647-4451-BFD8-5A8B693033B0}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+											<ObjectRef Name="Mando_Kill_Voice" ID="{DA352849-C647-4451-BFD8-5A8B693033B0}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -160,6 +160,11 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Mando_Clean_Room_Voice" ID="{82A047F6-E7E4-4BC3-930C-A8EFB8BA02C6}">
+							<ChildrenList>
+								<Action Name="" ID="{75D0F58E-7174-43E3-A984-4C397E21F772}" ShortID="768002223"/>
 							</ChildrenList>
 						</Event>
 					</ChildrenList>

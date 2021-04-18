@@ -5,7 +5,7 @@
 			<ChildrenList>
 				<SoundBank Name="Mando" ID="{FC17244F-E6E6-437B-B358-81CFC8631BEC}">
 					<ObjectInclusionList>
-						<ObjectRef Name="Play_Mando_Voice" ID="{2EF4772C-C6CE-40B8-B875-1F4D58B2ED4A}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Mando_Kill_Voice" ID="{2EF4772C-C6CE-40B8-B875-1F4D58B2ED4A}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Dash" ID="{BEAF66A2-E253-4122-9CF7-77443402A08D}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Mando_Grenade_Explosion_2" ID="{2029F31A-295C-437F-A344-A8C32F99542D}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
