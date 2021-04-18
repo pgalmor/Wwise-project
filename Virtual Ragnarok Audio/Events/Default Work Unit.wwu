@@ -35,7 +35,7 @@
 				</Event>
 				<Folder Name="Mando" ID="{F3F09BA9-0469-41D2-85DB-5722D3376639}" ShortID="42917560">
 					<ChildrenList>
-						<Event Name="Play_Footsteps_Mando" ID="{60B49344-6207-4795-AF55-52474E0BE44C}">
+						<Event Name="Play_Footsteps_Sand_Mando" ID="{60B49344-6207-4795-AF55-52474E0BE44C}">
 							<ChildrenList>
 								<Action Name="" ID="{3A1497B9-C75D-444D-8F64-74F7E6244B72}" ShortID="247776166">
 									<ReferenceList>
@@ -164,7 +164,24 @@
 						</Event>
 						<Event Name="Play_Mando_Clean_Room_Voice" ID="{82A047F6-E7E4-4BC3-930C-A8EFB8BA02C6}">
 							<ChildrenList>
-								<Action Name="" ID="{75D0F58E-7174-43E3-A984-4C397E21F772}" ShortID="768002223"/>
+								<Action Name="" ID="{75D0F58E-7174-43E3-A984-4C397E21F772}" ShortID="768002223">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Mando Clear Room Voice" ID="{A39A8CA7-CDA7-4C4F-8A14-314E0B4C9012}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Footsteps_Metal_Platform_Mando" ID="{F9DF517B-EB8D-4933-ADAA-064BE5D7A720}">
+							<ChildrenList>
+								<Action Name="" ID="{65F7BB3F-9354-4FE1-991A-8D81B3B0CE47}" ShortID="840423702">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Footsteps metal platform" ID="{601E5E36-55E4-4F65-8501-073E915D2F4F}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 							</ChildrenList>
 						</Event>
 					</ChildrenList>
@@ -224,6 +241,17 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Bantha_Ramming" ID="{74165999-245A-4E91-AF23-E0955179DA62}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Bantha_Breath" ID="{E6B21B63-EADE-4E7F-9690-F6029DD9FA87}">
+							<ChildrenList>
+								<Action Name="" ID="{6173E75E-E7A1-4FA2-B029-8E7ED6913924}" ShortID="731910234">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Bantha tired breath" ID="{FA780017-A305-43F7-A367-22658284ED71}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
