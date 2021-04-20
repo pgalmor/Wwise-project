@@ -2988,58 +2988,40 @@
 								<ActiveSource Name="Dash Transition" ID="{EDF49BA0-70AB-4DB1-A030-32995881BC9F}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="Grenade explosion 1 and charge 2" ID="{9ADCD53F-5FDA-43B7-8032-D86F7B04E5F8}" ShortID="330859939">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Grenade explosion 1 and charge 2" ID="{E154CE8F-432A-4EC5-BD1F-A2524BE87096}">
-									<Language>SFX</Language>
-									<AudioFile>Grenade explosion 1 and charge 2.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="604637895"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Grenade explosion 1 and charge 2" ID="{E154CE8F-432A-4EC5-BD1F-A2524BE87096}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Grenade charge 1" ID="{1F931F78-AA0B-483A-92BC-AB464680D900}" ShortID="1022138009">
+						<Sound Name="Grenade explosion 2" ID="{F9DCA93F-7096-42A1-B282-8C18BCA2A8F9}" ShortID="1008132136">
 							<PropertyList>
-								<Property Name="InitialDelay" Type="Real64">
+								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>0.4</Value>
+										<Value>-10</Value>
 									</ValueList>
+									<RTPCList>
+										<RTPC Name="" ID="{7A4DC7E7-7F4A-441B-A85E-B8FA9A98F8B7}" ShortID="547467758">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{687E686D-4DBA-4BF8-B2C8-8D6DADB461E2}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>200</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
 								</Property>
 							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Grenade charge 1" ID="{1EED81B9-D8E3-4363-8E07-149674819382}">
-									<Language>SFX</Language>
-									<AudioFile>Grenade charge 1.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="371786017"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Grenade charge 1" ID="{1EED81B9-D8E3-4363-8E07-149674819382}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Grenade explosion 2" ID="{F9DCA93F-7096-42A1-B282-8C18BCA2A8F9}" ShortID="1008132136">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
@@ -3072,6 +3054,13 @@
 							</ReferenceList>
 							<ChildrenList>
 								<Sound Name="Mando cleared room voice 1" ID="{91DD028A-F137-4452-87DB-36356F1AD7B3}" ShortID="846947192">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-7</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
@@ -3094,6 +3083,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Mando cleared room voice 2" ID="{8EA70C4B-AAE6-4EC7-8B17-78C6FC1913D2}" ShortID="982786165">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-7</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
@@ -3117,6 +3113,226 @@
 								</Sound>
 							</ChildrenList>
 						</RandomSequenceContainer>
+						<Sound Name="Grenade nail 1" ID="{D42E120A-6D54-4951-9511-197904ECEEF2}" ShortID="256418329">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+									<RTPCList>
+										<RTPC Name="" ID="{8CFF0E1E-CF94-41BB-B450-1ECE086A2238}" ShortID="1031946981">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{78406A97-FDFF-4C4B-B8F5-BE2C90C712AB}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>200</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Grenade nail 1" ID="{E272AF3B-2842-4C86-BA5B-69FA4F901B5C}">
+									<Language>SFX</Language>
+									<AudioFile>Grenade nail 1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="280654454"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Grenade nail 1" ID="{E272AF3B-2842-4C86-BA5B-69FA4F901B5C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Grenade charge 1" ID="{1FD45471-D89A-4B57-B945-659AA124DCAF}" ShortID="397271776">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-7</Value>
+									</ValueList>
+									<RTPCList>
+										<RTPC Name="" ID="{D1C77F27-8848-4560-9C30-DB59AD38A0A5}" ShortID="535566381">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{85B26658-D159-418C-9B4B-69CEB63323F4}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>200</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Grenade charge 1" ID="{F3F37F20-F806-4859-9840-FF6927DF2959}">
+									<Language>SFX</Language>
+									<AudioFile>Grenade charge 1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="371786017"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Grenade charge 1" ID="{F3F37F20-F806-4859-9840-FF6927DF2959}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Grenade charge 2" ID="{1C40C804-34E0-401E-966C-C40F581CF0F4}" ShortID="152191532">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-12</Value>
+									</ValueList>
+									<RTPCList>
+										<RTPC Name="" ID="{D8A8A108-91AA-4557-B77E-E5ABF96C49F9}" ShortID="807275736">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{C047C8FB-0190-40E6-ABA7-34FA374F36A1}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>200</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Grenade charge 2" ID="{969849CA-9287-4339-92FF-17AFF704751B}">
+									<Language>SFX</Language>
+									<AudioFile>Grenade charge 2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="445754893"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Grenade charge 2" ID="{969849CA-9287-4339-92FF-17AFF704751B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Grenade explosion 1" ID="{3827BA8A-9D63-4EB6-8130-88D328858E06}" ShortID="915391004">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-13</Value>
+									</ValueList>
+									<RTPCList>
+										<RTPC Name="" ID="{B5BCBA21-2EC6-4C69-A46E-D0ACD030371E}" ShortID="298002573">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{F906FBA5-D953-4011-9873-4886D13A5155}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>200</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Grenade explosion 1" ID="{A364365B-0BB5-4A8D-852A-3A3EB6687F92}">
+									<Language>SFX</Language>
+									<AudioFile>Grenade explosion 1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="626340448"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Grenade explosion 1" ID="{A364365B-0BB5-4A8D-852A-3A3EB6687F92}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Environment" ID="{36AF372A-C793-42A6-BF55-F7FC1D1746C4}" ShortID="44594731">
@@ -4563,6 +4779,61 @@
 								</GroupingList>
 							</GroupingInfo>
 						</SwitchContainer>
+						<Sound Name="UI Credit_Pickup" ID="{658BCD19-DBF9-4CB2-A05A-B8A5B2078D1D}" ShortID="216651908">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-13</Value>
+									</ValueList>
+									<RTPCList>
+										<RTPC Name="" ID="{36834999-CC27-4AF8-9CB5-1D07708266A7}" ShortID="900004674">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{FA2B2A57-E82A-4839-B117-973E7DE7EBCD}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>200</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="UI Credit_Pickup" ID="{BA50DA07-0962-4191-A72B-39C781C4D9CB}">
+									<Language>SFX</Language>
+									<AudioFile>UI Credit_Pickup.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="283926928"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="UI Credit_Pickup" ID="{BA50DA07-0962-4191-A72B-39C781C4D9CB}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Stormtrooper" ID="{10F4297F-EC0D-4578-9801-8ED85881C82A}" ShortID="770423477">
@@ -5610,20 +5881,20 @@
 				</Folder>
 				<Folder Name="Grogu" ID="{815C69AD-9C6B-4E3C-AD04-4272B6CFEE07}" ShortID="656433788">
 					<ChildrenList>
-						<Sound Name="Force pull" ID="{B5A6F604-42CA-46A5-9982-BE22A423DD62}" ShortID="893683087">
+						<Sound Name="Force push" ID="{C7314419-99E5-4B01-80D4-B1E5ACE04205}" ShortID="726974361">
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-5</Value>
+										<Value>-7</Value>
 									</ValueList>
 									<RTPCList>
-										<RTPC Name="" ID="{9E3B648E-F779-45F5-BC03-FBD1530E0097}" ShortID="835672990">
+										<RTPC Name="" ID="{C5BB597C-EADF-4B0F-BC02-0F59361441A0}" ShortID="498479232">
 											<ReferenceList>
 												<Reference Name="ControlInput">
 													<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
 												</Reference>
 											</ReferenceList>
-											<Curve Name="" ID="{794254EC-6D8E-4B46-A307-D6AEB1D56AC7}">
+											<Curve Name="" ID="{57B5C81C-7B3D-4ABC-86EE-35038B44DF22}">
 												<PropertyList>
 													<Property Name="Flags" Type="int32" Value="3"/>
 												</PropertyList>
@@ -5653,62 +5924,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="Force pull" ID="{E01F1912-DA2C-4CF2-9D31-EEF432ED1546}">
-									<Language>SFX</Language>
-									<AudioFile>Force pull.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="220532221"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Force pull" ID="{E01F1912-DA2C-4CF2-9D31-EEF432ED1546}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Force push" ID="{A1DE1F0E-0F03-4944-A269-32B5D5FC99BF}" ShortID="759789452">
-							<PropertyList>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-5</Value>
-									</ValueList>
-									<RTPCList>
-										<RTPC Name="" ID="{AFFACFFA-5EA6-4618-84CC-3B0F97490E83}" ShortID="894269100">
-											<ReferenceList>
-												<Reference Name="ControlInput">
-													<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
-												</Reference>
-											</ReferenceList>
-											<Curve Name="" ID="{F7DE28C3-3589-4C4C-86F6-30DF01D696BE}">
-												<PropertyList>
-													<Property Name="Flags" Type="int32" Value="3"/>
-												</PropertyList>
-												<PointList>
-													<Point>
-														<XPos>0</XPos>
-														<YPos>-200</YPos>
-														<Flags>5</Flags>
-													</Point>
-													<Point>
-														<XPos>100</XPos>
-														<YPos>200</YPos>
-														<Flags>37</Flags>
-													</Point>
-												</PointList>
-											</Curve>
-										</RTPC>
-									</RTPCList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Force push" ID="{BD4627E2-F46F-4ACD-B2A6-94D5635AB66C}">
+								<AudioFileSource Name="Force push" ID="{7831D7C0-5F2F-457C-8E03-2AD261F3EC15}">
 									<Language>SFX</Language>
 									<AudioFile>Force push.wav</AudioFile>
 									<MediaIDList>
@@ -5717,7 +5933,117 @@
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="Force push" ID="{BD4627E2-F46F-4ACD-B2A6-94D5635AB66C}" Platform="Linked"/>
+								<ActiveSource Name="Force push" ID="{7831D7C0-5F2F-457C-8E03-2AD261F3EC15}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Force pull" ID="{203733BB-6FBB-4B2C-A327-72686A7C8546}" ShortID="83012346">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-7</Value>
+									</ValueList>
+									<RTPCList>
+										<RTPC Name="" ID="{F8FE822E-535B-4559-ADD5-BC1F19DB55D0}" ShortID="958621719">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{2676BB88-AAD5-4EB2-8CB4-31D9576F6888}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>200</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Force pull" ID="{48C912D9-04D7-4180-9FAD-5D9EA5C53DC9}">
+									<Language>SFX</Language>
+									<AudioFile>Force pull.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="220532221"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Force pull" ID="{48C912D9-04D7-4180-9FAD-5D9EA5C53DC9}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Grogu wall" ID="{361FDB83-F99D-443F-A25D-703C0080264E}" ShortID="174685924">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-12</Value>
+									</ValueList>
+									<RTPCList>
+										<RTPC Name="" ID="{AE3DA827-9AE0-476C-9360-7EF1017AD7D6}" ShortID="878773108">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{01026D7F-EE8D-4E1A-863C-05F1E2AEE115}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>200</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Grogu wall" ID="{EA35087F-4019-4D35-A961-0F5B55B6D6BB}">
+									<Language>SFX</Language>
+									<AudioFile>Grogu wall.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="532606562"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Grogu wall" ID="{EA35087F-4019-4D35-A961-0F5B55B6D6BB}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>

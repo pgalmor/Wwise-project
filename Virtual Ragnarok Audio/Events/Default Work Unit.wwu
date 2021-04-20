@@ -129,23 +129,23 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Play_Mando_Grenade_1_Charge" ID="{E035921F-4D3F-4875-A920-2510E96147FB}">
+						<Event Name="Play_Mando_Grenade_Charge_1" ID="{E035921F-4D3F-4875-A920-2510E96147FB}">
 							<ChildrenList>
 								<Action Name="" ID="{D9E158E7-349A-417A-8CBE-0227E0CD314D}" ShortID="66962319">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Grenade charge 1" ID="{1F931F78-AA0B-483A-92BC-AB464680D900}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+											<ObjectRef Name="Grenade charge 1" ID="{1FD45471-D89A-4B57-B945-659AA124DCAF}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Play_Mando_Grenade_Explosion_1_Charge" ID="{BB35012A-1854-45EF-A842-74F5AFEDC300}">
+						<Event Name="Play_Mando_Grenade_Nail" ID="{BB35012A-1854-45EF-A842-74F5AFEDC300}">
 							<ChildrenList>
 								<Action Name="" ID="{25EB222E-B121-4D3A-8447-4B8EB0935774}" ShortID="821705274">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Grenade explosion 1 and charge 2" ID="{9ADCD53F-5FDA-43B7-8032-D86F7B04E5F8}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+											<ObjectRef Name="Grenade nail 1" ID="{D42E120A-6D54-4951-9511-197904ECEEF2}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -179,6 +179,28 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Footsteps metal platform" ID="{601E5E36-55E4-4F65-8501-073E915D2F4F}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Mando_Grenade_Explosion_1" ID="{10ED6EE5-617D-41C7-A8B3-65A87FC693D6}">
+							<ChildrenList>
+								<Action Name="" ID="{72CA39E2-0594-437A-9D7A-CF9FE594BEB5}" ShortID="1010895886">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Grenade explosion 1" ID="{3827BA8A-9D63-4EB6-8130-88D328858E06}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Mando_Grenade_Charge_2" ID="{9EDBD5A0-D5F6-4B60-8A45-CE6477B1AAD7}">
+							<ChildrenList>
+								<Action Name="" ID="{34448DDE-A3C6-4F66-9DB0-9F12935A2A5B}" ShortID="296624943">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Grenade charge 2" ID="{1C40C804-34E0-401E-966C-C40F581CF0F4}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -359,6 +381,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_UI_Credit_Pickup" ID="{7CEF4B25-E89A-4CEE-B63D-16A6594495D3}">
+							<ChildrenList>
+								<Action Name="" ID="{7CCB5945-C1AD-4D84-B16D-311F4E6A3A36}" ShortID="651869242">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI Credit_Pickup" ID="{658BCD19-DBF9-4CB2-A05A-B8A5B2078D1D}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Environment" ID="{8C060D61-9283-4117-BA2F-B10596916A2B}" ShortID="952097035">
@@ -431,7 +464,7 @@
 								<Action Name="" ID="{423D6B92-3D9C-471D-9459-FA6D29DE76CE}" ShortID="765005816">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Force pull" ID="{B5A6F604-42CA-46A5-9982-BE22A423DD62}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+											<ObjectRef Name="Force pull" ID="{203733BB-6FBB-4B2C-A327-72686A7C8546}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -442,7 +475,18 @@
 								<Action Name="" ID="{D38E87E7-311C-4B2D-BA81-4D4BE269B0D8}" ShortID="146494131">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Force push" ID="{A1DE1F0E-0F03-4944-A269-32B5D5FC99BF}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+											<ObjectRef Name="Force push" ID="{C7314419-99E5-4B01-80D4-B1E5ACE04205}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Grogu_Wall" ID="{90727D99-8C47-463E-BA4B-647E27D4BB41}">
+							<ChildrenList>
+								<Action Name="" ID="{121E412D-AB68-4FDE-84B3-78B13A575F22}" ShortID="64325036">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Grogu wall" ID="{361FDB83-F99D-443F-A25D-703C0080264E}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
