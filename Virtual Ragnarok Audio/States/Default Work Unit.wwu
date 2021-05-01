@@ -9,6 +9,8 @@
 						<State Name="Menu" ID="{0BB1D2F8-A704-4DEA-A3FF-883660A0C089}"/>
 						<State Name="HUB" ID="{4F9F25AA-C274-4561-8A3B-EC2F2656D5F8}"/>
 						<State Name="Run" ID="{78F63364-E080-40AA-B010-A5E50DF18F86}"/>
+						<State Name="Rancor_Room" ID="{285AA9B7-4013-42DA-8E6A-E0C4EB75AE03}"/>
+						<State Name="Wampa_Skel_Room" ID="{020C6B13-8A19-476C-B341-D02C1B0FF248}"/>
 					</ChildrenList>
 				</StateGroup>
 				<StateGroup Name="Player_State" ID="{409BC8C4-0CBE-4013-9D58-927CDA350096}">

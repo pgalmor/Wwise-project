@@ -109,7 +109,7 @@
 								<Action Name="" ID="{33644F8B-DA62-416B-B13C-50F200678E1C}" ShortID="1049932319">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Mando death 1" ID="{FFA8C746-2579-4CAA-9A6D-F655B58ECA27}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+											<ObjectRef Name="Mando Death" ID="{787E3F02-E05C-4188-838B-79835906696C}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -201,6 +201,57 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Grenade charge 2" ID="{1C40C804-34E0-401E-966C-C40F581CF0F4}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Footsteps_Snow_Mando" ID="{65E5B414-9C97-496B-BA14-C23FF149C59D}">
+							<ChildrenList>
+								<Action Name="" ID="{5A0AADF2-B140-4995-8B27-561FD4717F01}" ShortID="704759456">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Footsteps snow" ID="{7835D2FD-A5F5-4D3A-8650-02A4B785A0E7}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Footsteps_Water_Mando" ID="{B6FE9C42-A814-45D0-A86A-C4BA0D6CBF0B}">
+							<ChildrenList>
+								<Action Name="" ID="{FEC9D15F-A43D-44B1-9BAC-58EFFEB8F5F6}" ShortID="647235726">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Footsteps water" ID="{32ADFC52-1CDF-4A73-A7D2-40731235DE3A}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Mando_Damaging_Water" ID="{8ECF3B66-9336-4B1C-8140-36A220976793}">
+							<ChildrenList>
+								<Action Name="" ID="{4D4A0D73-EEFD-4CC0-9EAD-30D1CD02EC90}" ShortID="258794800">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="damaging water" ID="{1245969A-CDC1-4117-A68A-2D25A389D4CD}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{F0F7D28C-83B6-42E1-A7B8-8AC30A6C677C}" ShortID="669647208">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Mando water hit" ID="{F675D35A-6BB7-4BF7-AF57-5B918F10EE1F}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Footsteps_Stone_Mando" ID="{3FEC882C-DF52-45A0-AF96-0C7E683A106C}">
+							<ChildrenList>
+								<Action Name="" ID="{8E861BCE-B16D-461A-91C7-748A9F4E42D3}" ShortID="749361965">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Footsteps stone" ID="{5E0678CB-CB06-4515-8DD5-FD271357A800}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -392,6 +443,39 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_UI_Pause" ID="{E3F5C0AC-A3AB-4D41-9495-F70BD5F95866}">
+							<ChildrenList>
+								<Action Name="" ID="{B39E3CEE-E634-46A2-8710-3B784FF3C11A}" ShortID="987077085">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI Pause" ID="{D563E58A-E1A9-4BA3-A31F-0998A85591CF}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_UI_Resume" ID="{CA8293C0-F68C-4716-939D-B20D394CBE80}">
+							<ChildrenList>
+								<Action Name="" ID="{048BA420-F017-4A43-9275-A35D3565696D}" ShortID="923001807">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI Resume" ID="{388EC532-33B2-4324-8C4B-445C451C3754}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_UI_Skill_Tree_Open" ID="{0471F23D-3DA6-457D-A27F-064FB592F75F}">
+							<ChildrenList>
+								<Action Name="" ID="{8AC1008A-6420-4587-B4F0-ED6B48318541}" ShortID="456812606">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI Skill tree open" ID="{7ECD699F-14FD-4F39-A7AF-D665B78CEAC0}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Environment" ID="{8C060D61-9283-4117-BA2F-B10596916A2B}" ShortID="952097035">
@@ -429,12 +513,34 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Play_Wind_Exterior" ID="{CE2C346C-B29E-492E-9592-197A5352B614}">
+						<Event Name="Play_Post_Boss_Room_1_Ambience" ID="{CE2C346C-B29E-492E-9592-197A5352B614}">
 							<ChildrenList>
 								<Action Name="" ID="{A7C04327-A860-4122-BA5A-A239A841F34F}" ShortID="75025437">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Wind Exterior" ID="{E4DC72E6-C0B9-43FA-B385-98BE11EE535C}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+											<ObjectRef Name="post boss room 1 ambience" ID="{3E67CB17-7533-471B-8AE4-30C122086135}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Barrel_Explosion" ID="{BEFAD0E7-CB69-4428-A78F-EAE4CC621E54}">
+							<ChildrenList>
+								<Action Name="" ID="{1E08C1E6-FE4F-44BF-BCC2-4C6C5481EB27}" ShortID="688345364">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Barrel explosion" ID="{76172392-1805-4661-B429-092AE33DAACC}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Post_Boss_Room_2_Ambience" ID="{933E36FA-BDB2-4829-8BB9-750B2612C51D}">
+							<ChildrenList>
+								<Action Name="" ID="{0EFBA36F-5DD1-4A8F-A561-96F3278BAD79}" ShortID="663545085">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="post boss room 2 ambience" ID="{741C90C2-2591-4116-9CBA-777B94F39FB3}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -496,12 +602,19 @@
 				</Folder>
 				<Folder Name="Cantine" ID="{139CBB3B-6FF9-450A-B4AA-9A7DB995373E}" ShortID="744848047">
 					<ChildrenList>
-						<Event Name="Play_Cantine_Voices" ID="{DD2CD7DB-0234-4D1C-92E9-61CE507B0499}">
+						<Event Name="Play_Cantine_Ambience" ID="{DD2CD7DB-0234-4D1C-92E9-61CE507B0499}">
 							<ChildrenList>
 								<Action Name="" ID="{677A755A-49F0-423F-A349-A163A0D8B190}" ShortID="388323778">
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Cantine ambience" ID="{9961131C-4AE5-41A1-A61A-DF0437F55589}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{3E13E96C-27D0-499E-9A94-30CB4320E061}" ShortID="123750889">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Cantine plates and glasses" ID="{BB08EDDD-ADF7-4C72-B08D-05DCA7F20A9B}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -638,6 +751,153 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Rancor booty impact" ID="{10289599-AF64-4975-947C-FF0EBB98B26B}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Rancor_Hit" ID="{609DAE5D-76B0-4237-8351-39CEE9E90B90}">
+							<ChildrenList>
+								<Action Name="" ID="{5E28CFEF-1480-4D75-9A64-A6DEA1BCEF01}" ShortID="104772422">
+									<PropertyList>
+										<Property Name="Probability" Type="Real64" Value="65"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Rancor hit" ID="{4929DC59-A5A1-474F-9BC2-04A2BEA89C53}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Skytrooper" ID="{7A44256F-1B85-4271-8057-A21A9D1590FE}" ShortID="370157658">
+					<ChildrenList>
+						<Event Name="Play_Skytrooper_Jetpack_Loop" ID="{93BF6171-A02B-44D2-B128-779B5074B58E}">
+							<ChildrenList>
+								<Action Name="" ID="{D0B6EA2B-2E4A-4D15-AB3E-3235D0E75962}" ShortID="467151011">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Skytrooper dash loop" ID="{A9E95DE7-9555-426F-8D1D-D9F37172EF9B}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Skytrooper_Dash" ID="{63D21906-6C67-45FB-9857-C747250C7602}">
+							<ChildrenList>
+								<Action Name="" ID="{FEBE9F9E-927C-44F2-8BAF-BB2AB3FF8BA1}" ShortID="844264637">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Skytrooper dash" ID="{7FFAA037-6FBE-44FB-9262-3E626EE5526B}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Skytrooper_Grenade_Launch" ID="{36407788-13E4-43C3-A754-1610616EF92C}">
+							<ChildrenList>
+								<Action Name="" ID="{DAA324AE-8291-4B15-9A12-51ACAC34E7EA}" ShortID="67274800">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Skytrooper grenade launch" ID="{79F40755-3307-42CF-B440-DF01BDF29D88}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Wampa Skel" ID="{A6BBB47D-1FC1-4BCE-98EA-FE92839EEF7D}" ShortID="247503078">
+					<ChildrenList>
+						<Event Name="Play_Wampa_Skell_Previous_Rush_Roar" ID="{29230A26-A9C7-4369-BA70-08CB91781F3B}">
+							<ChildrenList>
+								<Action Name="" ID="{A819F2B7-A5E9-44D8-9E57-AF335F7805C3}" ShortID="1056310349">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="wampa skell roar preparation" ID="{55D413D6-6849-4511-8047-C915437B1384}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Wampa_Skell_Jump_Snow" ID="{B7B33A24-FF79-4A71-8DF5-0058F5528C5F}">
+							<ChildrenList>
+								<Action Name="" ID="{3DCD8B37-33F6-45FE-8BE0-AD168BD71D48}" ShortID="942508579">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="wampa skell jump from snow" ID="{F63156E9-D9AE-4FEE-A8A1-6E45FAFC3ABB}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Wampa_Skell_Jump_Impact" ID="{4D2B2F74-AFE0-4135-A548-3E73CB85FD67}">
+							<ChildrenList>
+								<Action Name="" ID="{A1361675-8C3C-42C2-A30F-19F7B4715B7C}" ShortID="536079162">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="wampa skell jump impact" ID="{D0CED1F8-63F2-4CFF-A1A7-751BC56B465F}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Wampa_Skell_Ice_Impact" ID="{1CEDEA2E-DCEB-4932-8A43-25C6D856FD3C}">
+							<ChildrenList>
+								<Action Name="" ID="{F5ED573B-3C11-440D-9B2E-0C28F2030FAA}" ShortID="101381664">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="wampa skell ice impact" ID="{9719AB40-47BE-43F9-A992-E1E6ACFFA903}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Wampa_Skell_Death_Roar" ID="{A06197E7-1EFF-45F9-BB64-75C730301844}">
+							<ChildrenList>
+								<Action Name="" ID="{6B60C5C6-BBA9-4A9D-B363-7A1A12525F1C}" ShortID="831931774">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="wampa skell death roar" ID="{08D4923B-ABD9-40AF-AF7F-399C45841F01}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Turret" ID="{73B77E5F-4888-4033-9F50-A24D8270206B}" ShortID="61953618">
+					<ChildrenList>
+						<Event Name="Play_Turret_Shot" ID="{8AECAF3A-669B-4205-B2F6-2720BD53C756}">
+							<ChildrenList>
+								<Action Name="" ID="{B29B4A91-3074-4C58-8B66-CCC7EDCE1055}" ShortID="887932046">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="turret shot" ID="{84C7289A-02A1-40AB-9538-80601097E1E9}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Turret_Charge" ID="{476A84E7-2BCF-4344-9A56-CE79B046F743}">
+							<ChildrenList>
+								<Action Name="" ID="{06813DDD-9246-4B3A-A839-4DDC071015D1}" ShortID="559845358">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="turret charge" ID="{6DD13467-1B3F-4DB9-AD5C-D4824960A72B}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Turret_Shot_Charge" ID="{8489B7D7-C6D7-4163-851D-73677154FA1D}">
+							<ChildrenList>
+								<Action Name="" ID="{8F4C8C3E-AC4E-4995-96F5-1ABE099B568D}" ShortID="652386347">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="turret charge shot" ID="{41D41F4B-2EE9-410B-B82D-9DD280B21248}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

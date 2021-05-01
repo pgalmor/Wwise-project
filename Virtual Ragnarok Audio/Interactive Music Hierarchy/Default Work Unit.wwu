@@ -1026,8 +1026,16 @@
 														<CustomState Name="" ID="{AE1773A8-48EB-4A7F-B1EC-B84E05B46292}" ShortID="558670481"/>
 													</CustomState>
 													<CustomState>
+														<StateRef Name="Rancor_Room" ID="{285AA9B7-4013-42DA-8E6A-E0C4EB75AE03}"/>
+														<CustomState Name="" ID="{05830D33-0221-434E-A1A0-774A2446E3C2}" ShortID="636602458"/>
+													</CustomState>
+													<CustomState>
 														<StateRef Name="HUB" ID="{4F9F25AA-C274-4561-8A3B-EC2F2656D5F8}"/>
 														<CustomState Name="" ID="{7A2257CB-BF65-4F0A-8DC3-3B4F2E6488BC}" ShortID="240203940"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Wampa_Skel_Room" ID="{020C6B13-8A19-476C-B341-D02C1B0FF248}"/>
+														<CustomState Name="" ID="{0D792ECC-3E29-4036-B2AE-FA6099689CDD}" ShortID="75266958"/>
 													</CustomState>
 													<CustomState>
 														<StateRef Name="Menu" ID="{0BB1D2F8-A704-4DEA-A3FF-883660A0C089}"/>
@@ -2048,6 +2056,227 @@
 								</MusicPlaylistItem>
 							</Playlist>
 						</MusicPlaylistContainer>
+						<MusicPlaylistContainer Name="Rancor" ID="{A474DA3A-0819-48CB-BD69-0F3E84C1DA6A}" ShortID="437959469">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="Rancor level music 1" ID="{5A6D2F0B-1F2D-4E4C-A44D-F2F68297F5C1}" ShortID="604775405">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="56891.4965986395"/>
+										<Property Name="Tempo" Type="Real64" Value="143"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-2</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="ADPCM Conversion" ID="{384E1760-6F42-466F-9F03-4A65F92CC655}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Rancor level music 1" ID="{25C85FF0-0B86-41D2-8510-5C61E8007A54}" ShortID="274754716">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Rancor level music 1" ID="{F39303D5-2D06-4C15-9FD2-2AFC4A4109A4}">
+													<Language>SFX</Language>
+													<AudioFile>Rancor level music 1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="32521209"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{22D09A70-8B24-4143-A981-DFDB153EED83}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{4B16DECF-9CBD-41BB-A5D3-D1577BE54DBB}">
+													<ClipList>
+														<MusicClip Name="Rancor level music 1" ID="{1998BD66-C903-4CCF-ADE0-DCFA14216C2E}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="56891.4965986395"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Rancor level music 1" ID="{F39303D5-2D06-4C15-9FD2-2AFC4A4109A4}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{4348968A-3DB2-42E8-B9B1-68B0DE783C5D}"/>
+										<MusicCue Name="Exit Cue" ID="{EF052C80-E9D0-4681-92CC-A265C08EE6CF}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="56891.4965986395"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{DD0B128B-0B62-4981-98C5-7644C98818EF}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{3C2CC599-C467-408E-AC85-34B38A68C70E}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{26581537-414F-4A05-B31A-D473C30B1459}" ShortID="552692580">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{8B55E3FF-E611-4DC7-AAD9-DA71B68D3D96}" ShortID="743176712">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Rancor level music 1" ID="{5A6D2F0B-1F2D-4E4C-A44D-F2F68297F5C1}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
+						<MusicPlaylistContainer Name="Wampa Skel" ID="{3D0D7CA9-83D6-4832-A6D1-6223A47A70E9}" ShortID="925862509">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="Wampa skel level music" ID="{611E7D84-65F2-4411-93F8-26731EF2D7B0}" ShortID="396195700">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="60561.5218297385"/>
+										<Property Name="Tempo" Type="Real64" Value="143"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="ADPCM Conversion" ID="{384E1760-6F42-466F-9F03-4A65F92CC655}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Wampa skel level music" ID="{2BF25F90-8914-4C7E-8E0D-124AECEB78AB}" ShortID="382542988">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Wampa skel level music" ID="{C49D4F18-C520-479F-9920-F9DA5026B012}">
+													<Language>SFX</Language>
+													<AudioFile>Wampa skel level music.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1027776590"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{C53ADC0B-3EF5-4510-B875-D1F678441BE5}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{5715EB65-54DC-45F3-8009-462614C86B2B}">
+													<ClipList>
+														<MusicClip Name="Wampa skel level music" ID="{D8487BB9-16AF-4B10-AE1B-D9482C3C30B7}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="51016.8027210884"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																<Property Name="PlayAt" Type="Real64" Value="111.634141621638"/>
+															</PropertyList>
+															<AudioSourceRef Name="Wampa skel level music" ID="{C49D4F18-C520-479F-9920-F9DA5026B012}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{2F682A35-45AB-4F08-9FE5-9372165743B3}">
+											<PropertyList>
+												<Property Name="TimeMs" Type="Real64" Value="111.634141621638"/>
+											</PropertyList>
+										</MusicCue>
+										<MusicCue Name="Exit Cue" ID="{9E452FC6-544A-4D8E-9F88-8ECEF00B8057}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="51128.4368627102"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{DB1C94A3-F999-494E-9588-E4C3B7B5275C}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{2D41A9AC-E902-4556-85CF-BAB78ACB92C6}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{9C6D72CC-656E-48B4-91A7-128B6EA117FE}" ShortID="1018922655">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{2300B9C5-EAF5-4893-B69E-B7735CEA663B}" ShortID="176324766">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Wampa skel level music" ID="{611E7D84-65F2-4411-93F8-26731EF2D7B0}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
 					</ChildrenList>
 					<TransitionList>
 						<MusicTransition Name="Root" ID="{502FDD68-0580-44B2-A434-7F01F12805C0}">
@@ -2269,6 +2498,70 @@
 										</DestinationFadeIn>
 									</TransitionInfo>
 								</MusicTransition>
+								<MusicTransition Name="Transition" ID="{24A27F6A-E3AE-494D-AE87-8091EE1D34F3}">
+									<PropertyList>
+										<Property Name="DestinationContextType" Type="int16" Value="2"/>
+										<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
+										<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+										<Property Name="ExitSourceAt" Type="int16" Value="3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="DestinationContextObject">
+											<ObjectRef Name="Rancor" ID="{A474DA3A-0819-48CB-BD69-0F3E84C1DA6A}" WorkUnitID="{BA49786C-8F21-4CAC-A757-58A39DA4BB08}"/>
+										</Reference>
+									</ReferenceList>
+									<TransitionInfo>
+										<SourceFadeOut>
+											<MusicFade Name="Source Fade-out" ID="{A21823C5-8A6D-4978-BCF8-C22CA5653A79}">
+												<PropertyList>
+													<Property Name="FadeOffset" Type="Real64" Value="0.5"/>
+													<Property Name="FadeTime" Type="Real64" Value="2"/>
+													<Property Name="FadeType" Type="int16" Value="1"/>
+												</PropertyList>
+											</MusicFade>
+										</SourceFadeOut>
+										<DestinationFadeIn>
+											<MusicFade Name="Destination Fade-in" ID="{ED4E623A-C0E9-4884-8FBE-EAB2FAA435B3}">
+												<PropertyList>
+													<Property Name="FadeOffset" Type="Real64" Value="-1"/>
+													<Property Name="FadeTime" Type="Real64" Value="2"/>
+												</PropertyList>
+											</MusicFade>
+										</DestinationFadeIn>
+									</TransitionInfo>
+								</MusicTransition>
+								<MusicTransition Name="Transition" ID="{FE941D2C-FC8F-4A58-873D-E54E4FDF2B95}">
+									<PropertyList>
+										<Property Name="DestinationContextType" Type="int16" Value="2"/>
+										<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
+										<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+										<Property Name="ExitSourceAt" Type="int16" Value="3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="DestinationContextObject">
+											<ObjectRef Name="Wampa Skel" ID="{3D0D7CA9-83D6-4832-A6D1-6223A47A70E9}" WorkUnitID="{BA49786C-8F21-4CAC-A757-58A39DA4BB08}"/>
+										</Reference>
+									</ReferenceList>
+									<TransitionInfo>
+										<SourceFadeOut>
+											<MusicFade Name="Source Fade-out" ID="{7530252F-1114-4C85-A165-C4F4EF9EEC15}">
+												<PropertyList>
+													<Property Name="FadeOffset" Type="Real64" Value="0.5"/>
+													<Property Name="FadeTime" Type="Real64" Value="2"/>
+													<Property Name="FadeType" Type="int16" Value="1"/>
+												</PropertyList>
+											</MusicFade>
+										</SourceFadeOut>
+										<DestinationFadeIn>
+											<MusicFade Name="Destination Fade-in" ID="{E7CA5C21-9107-427A-9BE3-7711F80B2F70}">
+												<PropertyList>
+													<Property Name="FadeOffset" Type="Real64" Value="-1"/>
+													<Property Name="FadeTime" Type="Real64" Value="2"/>
+												</PropertyList>
+											</MusicFade>
+										</DestinationFadeIn>
+									</TransitionInfo>
+								</MusicTransition>
 							</ChildrenList>
 							<TransitionInfo/>
 						</MusicTransition>
@@ -2317,6 +2610,26 @@
 							</Path>
 							<AudioNodeInfo>
 								<AudioNodeRef Name="Cantine" ID="{E9431B44-4560-4087-B0DF-76EAD1F5CDA1}" WorkUnitID="{BA49786C-8F21-4CAC-A757-58A39DA4BB08}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Alive" ID="{D651359C-1684-4E02-8D22-5225AA612899}"/>
+								<PathElementRef Name="Rancor_Room" ID="{285AA9B7-4013-42DA-8E6A-E0C4EB75AE03}"/>
+								<PathElementRef Name="Player_Action" ID="{979A83A1-5FD3-4444-AB96-1ABEDBCBCCEC}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="Rancor" ID="{A474DA3A-0819-48CB-BD69-0F3E84C1DA6A}" WorkUnitID="{BA49786C-8F21-4CAC-A757-58A39DA4BB08}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Alive" ID="{D651359C-1684-4E02-8D22-5225AA612899}"/>
+								<PathElementRef Name="Wampa_Skel_Room" ID="{020C6B13-8A19-476C-B341-D02C1B0FF248}"/>
+								<PathElementRef Name="Player_Action" ID="{979A83A1-5FD3-4444-AB96-1ABEDBCBCCEC}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="Wampa Skel" ID="{3D0D7CA9-83D6-4832-A6D1-6223A47A70E9}" WorkUnitID="{BA49786C-8F21-4CAC-A757-58A39DA4BB08}" Platform="Linked"/>
 							</AudioNodeInfo>
 						</Entry>
 					</EntryList>
