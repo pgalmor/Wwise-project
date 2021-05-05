@@ -257,6 +257,50 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_Mando_Blaster_Overcharged" ID="{DBB01673-592D-4CBC-A2ED-F5AFD9B0AAEF}">
+							<ChildrenList>
+								<Action Name="" ID="{E3A41FF3-17F0-4190-869F-3F231D0EF7AF}" ShortID="1072320515">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Blaster Mando overcharged" ID="{3CF12282-2E18-4091-9EE8-C903E5304801}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Mando_Respawn" ID="{3C80CDA4-00FF-467D-946B-CDEB8144C055}">
+							<ChildrenList>
+								<Action Name="" ID="{F8768E1F-0170-4A97-9FCC-DE756C9C248E}" ShortID="403201078">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Spawn Mando" ID="{8883D6AE-960B-4063-9848-6BA813E790B1}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Sniper_Cooldown_Finish" ID="{310FC4BC-EF02-4CAE-A90E-70C44B90C9F6}">
+							<ChildrenList>
+								<Action Name="" ID="{33D03B8A-EACB-4FD0-9C14-AF536D698ACA}" ShortID="98374615">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Sniper cooldown finish" ID="{3A0AA44B-C1B3-40D4-A2BA-CCA3FA776C81}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Grenade_Cooldown_Finish" ID="{2D0ACA26-D3B6-4016-834D-8F92C0417603}">
+							<ChildrenList>
+								<Action Name="" ID="{8B76549D-74FD-4BB6-9E9F-08A222E1FE2D}" ShortID="601578431">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Grenade cooldown finish" ID="{45D2B475-B968-421C-9EE6-01E133ABF0A2}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Bantha" ID="{FA6AEF98-09DC-4D8D-96DA-FEA40FD0647A}" ShortID="121923056">
@@ -476,21 +520,6 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-					</ChildrenList>
-				</Folder>
-				<Folder Name="Environment" ID="{8C060D61-9283-4117-BA2F-B10596916A2B}" ShortID="952097035">
-					<ChildrenList>
-						<Event Name="Play_Broken_Box" ID="{B7AFA03E-0C3C-40E4-A0C8-F7EBEC308FF0}">
-							<ChildrenList>
-								<Action Name="" ID="{02BB507F-90E0-4DB5-B2FC-8E2D3D8D67E7}" ShortID="935546817">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Wood box broken" ID="{0F585902-EE5C-437A-A2E5-44C5A8CC541F}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
 						<Event Name="Play_Enemy_Respawn" ID="{F09006DD-E97A-4C36-B324-111A23BA1980}">
 							<ChildrenList>
 								<Action Name="" ID="{F0FF65FD-8C77-4248-92EE-E79897A66A43}" ShortID="1032477646">
@@ -502,12 +531,16 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Play_Mando_Respawn" ID="{3C80CDA4-00FF-467D-946B-CDEB8144C055}">
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Environment" ID="{8C060D61-9283-4117-BA2F-B10596916A2B}" ShortID="952097035">
+					<ChildrenList>
+						<Event Name="Play_Broken_Box" ID="{B7AFA03E-0C3C-40E4-A0C8-F7EBEC308FF0}">
 							<ChildrenList>
-								<Action Name="" ID="{F8768E1F-0170-4A97-9FCC-DE756C9C248E}" ShortID="403201078">
+								<Action Name="" ID="{02BB507F-90E0-4DB5-B2FC-8E2D3D8D67E7}" ShortID="935546817">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Spawn Mando" ID="{8883D6AE-960B-4063-9848-6BA813E790B1}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+											<ObjectRef Name="Wood box broken" ID="{0F585902-EE5C-437A-A2E5-44C5A8CC541F}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -898,6 +931,72 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="turret charge shot" ID="{41D41F4B-2EE9-410B-B82D-9DD280B21248}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Moff Guideon" ID="{0948B394-126A-4932-9808-06CA6C176957}" ShortID="1073382540">
+					<ChildrenList>
+						<Event Name="Play_Moff_Guideon_Hit" ID="{30905040-9317-4E23-84AB-FDBD7017F3D5}">
+							<ChildrenList>
+								<Action Name="" ID="{89937C3A-5D9B-4503-B352-EF729986733F}" ShortID="285477178">
+									<PropertyList>
+										<Property Name="Probability" Type="Real64" Value="80"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Moff guideon hit" ID="{06D53DD5-88E7-41C7-82B8-EAD535B50838}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Moff_Guideon_Dash" ID="{45C0A1BE-3E4F-4D74-824F-9E88A9429654}">
+							<ChildrenList>
+								<Action Name="" ID="{B8DFC483-CA1D-4EF3-A8B5-CD898B63BE53}" ShortID="722291406">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="moff gideon dash" ID="{7382125D-CD40-48DB-A116-47CD3E0F88AE}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Moff_Guideon_Spawn_Enemies" ID="{623F118A-C195-479D-8E49-BE6B3BF8F04F}">
+							<ChildrenList>
+								<Action Name="" ID="{7626688F-AF75-4874-B28D-3D1DA9DAF36F}" ShortID="295810419">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="moff gideon snap fingers" ID="{E6901D1E-30E6-4CD9-BD4F-EAB672448982}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Heavytrooper" ID="{500B03D5-1D33-44F2-AA3F-524BE50C2F87}" ShortID="336321460">
+					<ChildrenList>
+						<Event Name="Play_Heavytrooper_Dash" ID="{0293D80A-6AF8-48C9-B61C-067031154AD1}">
+							<ChildrenList>
+								<Action Name="" ID="{AAB816BE-9684-45D1-A81E-FB1F4DBDDBEC}" ShortID="545112474">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="heavytrooper dash" ID="{73627C04-F407-4C82-9DDE-BBC864BB3E17}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Heavytrooper_Attack" ID="{E4BA388F-4A98-45F9-B281-108FDA66A555}">
+							<ChildrenList>
+								<Action Name="" ID="{7EEF86E6-4806-4657-ABBE-0BA26D383255}" ShortID="596906147">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Heavytrooper whoosh" ID="{71680462-7AAE-4012-B96B-DBE770EF71A5}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
