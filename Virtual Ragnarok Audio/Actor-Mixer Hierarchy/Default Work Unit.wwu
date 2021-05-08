@@ -1083,11 +1083,8 @@
 												</ModifierInfo>
 											</ModifierList>
 										</Property>
-										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
-										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
 										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
 										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.12"/>
-										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
 												<Value>-14</Value>
@@ -1679,10 +1676,9 @@
 										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
 										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
 										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.12"/>
-										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-13</Value>
+												<Value>-15</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -1959,12 +1955,8 @@
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="Footsteps snow" ID="{7835D2FD-A5F5-4D3A-8650-02A4B785A0E7}" ShortID="552216846">
 									<PropertyList>
-										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
-										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
 										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
 										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.12"/>
-										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
-										<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
 												<Value>-28</Value>
@@ -3383,6 +3375,12 @@
 						</Sound>
 						<Sound Name="Grenade explosion 2" ID="{F9DCA93F-7096-42A1-B282-8C18BCA2A8F9}" ShortID="1008132136">
 							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="CenterPercentage" Type="int32">
+									<ValueList>
+										<Value>50</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-10</Value>
@@ -3416,6 +3414,9 @@
 								</Property>
 							</PropertyList>
 							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Main Attenuation" ID="{D5D15008-70A9-4EBE-85F7-4662C8511080}" WorkUnitID="{BF5D0A66-53A6-4978-B06F-8D86FDD56684}"/>
+								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
 								</Reference>
@@ -3508,6 +3509,12 @@
 						</RandomSequenceContainer>
 						<Sound Name="Grenade nail 1" ID="{D42E120A-6D54-4951-9511-197904ECEEF2}" ShortID="256418329">
 							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="CenterPercentage" Type="int32">
+									<ValueList>
+										<Value>50</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-10</Value>
@@ -3541,6 +3548,9 @@
 								</Property>
 							</PropertyList>
 							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Main Attenuation" ID="{D5D15008-70A9-4EBE-85F7-4662C8511080}" WorkUnitID="{BF5D0A66-53A6-4978-B06F-8D86FDD56684}"/>
+								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
 								</Reference>
@@ -3563,6 +3573,12 @@
 						</Sound>
 						<Sound Name="Grenade charge 1" ID="{1FD45471-D89A-4B57-B945-659AA124DCAF}" ShortID="397271776">
 							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="CenterPercentage" Type="int32">
+									<ValueList>
+										<Value>50</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-7</Value>
@@ -3596,6 +3612,9 @@
 								</Property>
 							</PropertyList>
 							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Main Attenuation" ID="{D5D15008-70A9-4EBE-85F7-4662C8511080}" WorkUnitID="{BF5D0A66-53A6-4978-B06F-8D86FDD56684}"/>
+								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
 								</Reference>
@@ -3618,6 +3637,12 @@
 						</Sound>
 						<Sound Name="Grenade charge 2" ID="{1C40C804-34E0-401E-966C-C40F581CF0F4}" ShortID="152191532">
 							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="CenterPercentage" Type="int32">
+									<ValueList>
+										<Value>50</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-12</Value>
@@ -3651,6 +3676,9 @@
 								</Property>
 							</PropertyList>
 							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Main Attenuation" ID="{D5D15008-70A9-4EBE-85F7-4662C8511080}" WorkUnitID="{BF5D0A66-53A6-4978-B06F-8D86FDD56684}"/>
+								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
 								</Reference>
@@ -3673,6 +3701,12 @@
 						</Sound>
 						<Sound Name="Grenade explosion 1" ID="{3827BA8A-9D63-4EB6-8130-88D328858E06}" ShortID="915391004">
 							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="CenterPercentage" Type="int32">
+									<ValueList>
+										<Value>50</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-13</Value>
@@ -3706,6 +3740,9 @@
 								</Property>
 							</PropertyList>
 							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Main Attenuation" ID="{D5D15008-70A9-4EBE-85F7-4662C8511080}" WorkUnitID="{BF5D0A66-53A6-4978-B06F-8D86FDD56684}"/>
+								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
 								</Reference>
@@ -4204,6 +4241,35 @@
 								<ActiveSource Name="Grenade cooldown finish" ID="{B9C7E0C9-5B15-49DE-B7E6-4743B70D8D89}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<Sound Name="Blaster Mando overcharged finished" ID="{F326A241-5DC6-4560-8DE6-128529366D84}" ShortID="178367671">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-28</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Blaster Mando overcharged finished" ID="{300D648E-F14C-470B-8BDD-47DC3571097A}">
+									<Language>SFX</Language>
+									<AudioFile>Blaster Mando overcharged finished.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="357751838"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Blaster Mando overcharged finished" ID="{300D648E-F14C-470B-8BDD-47DC3571097A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Environment" ID="{36AF372A-C793-42A6-BF55-F7FC1D1746C4}" ShortID="44594731">
@@ -4409,12 +4475,15 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
-									<Custom>
-										<Attenuation Name="Attenuation (Custom)" ID="{69BAAD3C-3815-4642-A4C7-9528703D43DC}" ShortID="216624153">
+									<Custom CreatedFrom="{D5D15008-70A9-4EBE-85F7-4662C8511080}">
+										<Attenuation Name="Main Attenuation (Custom)" ID="{63BA8DFB-2455-40EB-A613-F483D064AB6A}" ShortID="690599588">
+											<PropertyList>
+												<Property Name="RadiusMax" Type="Real64" Value="500"/>
+											</PropertyList>
 											<CurveUsageInfoList>
 												<VolumeDryUsage>
 													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-														<Curve Name="VolumeDry" ID="{165A9318-7301-4923-BFD9-51BFF7D6CDA6}">
+														<Curve Name="VolumeDry" ID="{4B93B2B0-9B5D-4F34-AE8C-3C1923C89C17}">
 															<PropertyList>
 																<Property Name="Flags" Type="int32" Value="3"/>
 															</PropertyList>
@@ -4423,9 +4492,10 @@
 																	<XPos>0</XPos>
 																	<YPos>0</YPos>
 																	<Flags>5</Flags>
+																	<SegmentShape>Log3</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>100</XPos>
+																	<XPos>500</XPos>
 																	<YPos>-200</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -4681,12 +4751,15 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
-									<Custom>
-										<Attenuation Name="Attenuation (Custom)" ID="{50FA9BF6-3FC1-4863-A59C-DB90336DD585}" ShortID="743705720">
+									<Custom CreatedFrom="{D5D15008-70A9-4EBE-85F7-4662C8511080}">
+										<Attenuation Name="Main Attenuation (Custom)" ID="{980551C8-E7EB-466E-A04F-26B7C7AA6799}" ShortID="560780213">
+											<PropertyList>
+												<Property Name="RadiusMax" Type="Real64" Value="500"/>
+											</PropertyList>
 											<CurveUsageInfoList>
 												<VolumeDryUsage>
 													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-														<Curve Name="VolumeDry" ID="{26AFD552-2C93-44EB-A1AF-3BF8AD41C664}">
+														<Curve Name="VolumeDry" ID="{48E47BD3-A97E-4755-B463-4296A9ADE5EF}">
 															<PropertyList>
 																<Property Name="Flags" Type="int32" Value="3"/>
 															</PropertyList>
@@ -4695,9 +4768,10 @@
 																	<XPos>0</XPos>
 																	<YPos>0</YPos>
 																	<Flags>5</Flags>
+																	<SegmentShape>Log3</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>100</XPos>
+																	<XPos>500</XPos>
 																	<YPos>-200</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -5208,12 +5282,15 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
-									<Custom>
-										<Attenuation Name="Attenuation (Custom)" ID="{8B3B238A-BCC7-43F0-BDF0-7B96972E7859}" ShortID="815085333">
+									<Custom CreatedFrom="{D5D15008-70A9-4EBE-85F7-4662C8511080}">
+										<Attenuation Name="Main Attenuation (Custom)" ID="{47B32568-D7A7-43DC-B361-D6EEFF28AF61}" ShortID="1071684960">
+											<PropertyList>
+												<Property Name="RadiusMax" Type="Real64" Value="500"/>
+											</PropertyList>
 											<CurveUsageInfoList>
 												<VolumeDryUsage>
 													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-														<Curve Name="VolumeDry" ID="{19CC0E37-5667-426C-855E-68F25C3096E2}">
+														<Curve Name="VolumeDry" ID="{43D887FE-1C68-4A8C-8097-2519D99CA3C3}">
 															<PropertyList>
 																<Property Name="Flags" Type="int32" Value="3"/>
 															</PropertyList>
@@ -5222,9 +5299,10 @@
 																	<XPos>0</XPos>
 																	<YPos>0</YPos>
 																	<Flags>5</Flags>
+																	<SegmentShape>Log3</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>100</XPos>
+																	<XPos>500</XPos>
 																	<YPos>-200</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -5389,12 +5467,15 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
-									<Custom>
-										<Attenuation Name="Attenuation (Custom)" ID="{3172EFF4-59CA-4F7B-ABD4-E6960972CF22}" ShortID="731724708">
+									<Custom CreatedFrom="{D5D15008-70A9-4EBE-85F7-4662C8511080}">
+										<Attenuation Name="Main Attenuation (Custom)" ID="{988EFA53-954D-434F-9D52-04B528B7706D}" ShortID="96866730">
+											<PropertyList>
+												<Property Name="RadiusMax" Type="Real64" Value="500"/>
+											</PropertyList>
 											<CurveUsageInfoList>
 												<VolumeDryUsage>
 													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-														<Curve Name="VolumeDry" ID="{66FF8E92-B29B-4578-B43F-A80BF89369B2}">
+														<Curve Name="VolumeDry" ID="{3CF873C4-1BAD-4973-A14D-F9AF6F32DD33}">
 															<PropertyList>
 																<Property Name="Flags" Type="int32" Value="3"/>
 															</PropertyList>
@@ -5403,9 +5484,10 @@
 																	<XPos>0</XPos>
 																	<YPos>0</YPos>
 																	<Flags>5</Flags>
+																	<SegmentShape>Log3</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>100</XPos>
+																	<XPos>500</XPos>
 																	<YPos>-200</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -5621,12 +5703,15 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
-									<Custom>
-										<Attenuation Name="Attenuation (Custom)" ID="{B786AE4F-1FDE-4EC6-B9D3-63E157F0DEBA}" ShortID="228010699">
+									<Custom CreatedFrom="{D5D15008-70A9-4EBE-85F7-4662C8511080}">
+										<Attenuation Name="Main Attenuation (Custom)" ID="{08A2FC7E-1DDB-4B77-80D7-AD6822B876C2}" ShortID="1035043920">
+											<PropertyList>
+												<Property Name="RadiusMax" Type="Real64" Value="500"/>
+											</PropertyList>
 											<CurveUsageInfoList>
 												<VolumeDryUsage>
 													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-														<Curve Name="VolumeDry" ID="{71F8A357-4331-42EF-BBC1-9AEDEF51979F}">
+														<Curve Name="VolumeDry" ID="{F027FAD0-1823-48B7-BAAB-1F8A4BB3C7AB}">
 															<PropertyList>
 																<Property Name="Flags" Type="int32" Value="3"/>
 															</PropertyList>
@@ -5635,9 +5720,10 @@
 																	<XPos>0</XPos>
 																	<YPos>0</YPos>
 																	<Flags>5</Flags>
+																	<SegmentShape>Log3</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>100</XPos>
+																	<XPos>500</XPos>
 																	<YPos>-200</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -5841,6 +5927,12 @@
 						</RandomSequenceContainer>
 						<Sound Name="Bantha tired breath" ID="{FA780017-A305-43F7-A367-22658284ED71}" ShortID="306409863">
 							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="CenterPercentage" Type="int32">
+									<ValueList>
+										<Value>50</Value>
+									</ValueList>
+								</Property>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
@@ -5849,6 +5941,57 @@
 								</Property>
 							</PropertyList>
 							<ReferenceList>
+								<Reference Name="Attenuation">
+									<Custom CreatedFrom="{D5D15008-70A9-4EBE-85F7-4662C8511080}">
+										<Attenuation Name="Main Attenuation (Custom)" ID="{84FFA7CE-950B-42F9-AEE1-0E8A48F6A003}" ShortID="586997311">
+											<PropertyList>
+												<Property Name="RadiusMax" Type="Real64" Value="500"/>
+											</PropertyList>
+											<CurveUsageInfoList>
+												<VolumeDryUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+														<Curve Name="VolumeDry" ID="{58185024-1EC1-46E4-8566-8B03240A3AA0}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="3"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>0</YPos>
+																	<Flags>5</Flags>
+																	<SegmentShape>Log3</SegmentShape>
+																</Point>
+																<Point>
+																	<XPos>500</XPos>
+																	<YPos>-200</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
+												</VolumeDryUsage>
+												<VolumeWetGameUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+												</VolumeWetGameUsage>
+												<VolumeWetUserUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+												</VolumeWetUserUsage>
+												<LowPassFilterUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</LowPassFilterUsage>
+												<HighPassFilterUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</HighPassFilterUsage>
+												<SpreadUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</SpreadUsage>
+												<FocusUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</FocusUsage>
+											</CurveUsageInfoList>
+										</Attenuation>
+									</Custom>
+								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
 								</Reference>
@@ -6247,9 +6390,15 @@
 						</Sound>
 						<Sound Name="Spawn Enemies" ID="{D973CE0B-A1BD-41B0-8824-96E07E2F02D7}" ShortID="853445807">
 							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="CenterPercentage" Type="int32">
+									<ValueList>
+										<Value>50</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-10</Value>
+										<Value>-21</Value>
 									</ValueList>
 									<RTPCList>
 										<RTPC Name="" ID="{2AA19B37-838E-4981-BC86-517678529E13}" ShortID="589927670">
@@ -6280,6 +6429,9 @@
 								</Property>
 							</PropertyList>
 							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Main Attenuation" ID="{D5D15008-70A9-4EBE-85F7-4662C8511080}" WorkUnitID="{BF5D0A66-53A6-4978-B06F-8D86FDD56684}"/>
+								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
 								</Reference>
@@ -6315,12 +6467,15 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
-									<Custom>
-										<Attenuation Name="Attenuation (Custom)" ID="{2C1CC9A4-2749-41F2-839F-7B38AB556DBE}" ShortID="583420447">
+									<Custom CreatedFrom="{D5D15008-70A9-4EBE-85F7-4662C8511080}">
+										<Attenuation Name="Main Attenuation (Custom)" ID="{9C76D49C-B344-4F3F-9133-75F39267D133}" ShortID="691149255">
+											<PropertyList>
+												<Property Name="RadiusMax" Type="Real64" Value="500"/>
+											</PropertyList>
 											<CurveUsageInfoList>
 												<VolumeDryUsage>
 													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-														<Curve Name="VolumeDry" ID="{76564E61-A967-42CC-898B-D405C82F2B15}">
+														<Curve Name="VolumeDry" ID="{CE10E65D-AE83-4D0F-B15D-4A1DCA88E3CF}">
 															<PropertyList>
 																<Property Name="Flags" Type="int32" Value="3"/>
 															</PropertyList>
@@ -6329,9 +6484,10 @@
 																	<XPos>0</XPos>
 																	<YPos>0</YPos>
 																	<Flags>5</Flags>
+																	<SegmentShape>Log3</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>100</XPos>
+																	<XPos>500</XPos>
 																	<YPos>-200</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -6749,12 +6905,15 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
-									<Custom>
-										<Attenuation Name="Attenuation (Custom)" ID="{2C688054-36B2-44BE-83E0-364D4284BA0C}" ShortID="699645856">
+									<Custom CreatedFrom="{D5D15008-70A9-4EBE-85F7-4662C8511080}">
+										<Attenuation Name="Main Attenuation (Custom)" ID="{05524A0A-208F-4211-8090-08269BFA0803}" ShortID="873465431">
+											<PropertyList>
+												<Property Name="RadiusMax" Type="Real64" Value="500"/>
+											</PropertyList>
 											<CurveUsageInfoList>
 												<VolumeDryUsage>
 													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-														<Curve Name="VolumeDry" ID="{D7522E0A-9CA5-42C0-8A93-616030115054}">
+														<Curve Name="VolumeDry" ID="{E7983B33-3CB4-4A9D-ADE5-E138A5098DD5}">
 															<PropertyList>
 																<Property Name="Flags" Type="int32" Value="3"/>
 															</PropertyList>
@@ -6763,9 +6922,10 @@
 																	<XPos>0</XPos>
 																	<YPos>0</YPos>
 																	<Flags>5</Flags>
+																	<SegmentShape>Log3</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>100</XPos>
+																	<XPos>500</XPos>
 																	<YPos>-200</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -7003,12 +7163,15 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
-									<Custom>
-										<Attenuation Name="Attenuation (Custom)" ID="{7B34A28F-8A05-4A5C-932B-F10AC5573D3A}" ShortID="629759600">
+									<Custom CreatedFrom="{D5D15008-70A9-4EBE-85F7-4662C8511080}">
+										<Attenuation Name="Main Attenuation (Custom)" ID="{201439C9-4A61-4BF4-9019-EFD6305959FD}" ShortID="392456633">
+											<PropertyList>
+												<Property Name="RadiusMax" Type="Real64" Value="500"/>
+											</PropertyList>
 											<CurveUsageInfoList>
 												<VolumeDryUsage>
 													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-														<Curve Name="VolumeDry" ID="{0FB43940-F306-4187-8338-C4285E339C0C}">
+														<Curve Name="VolumeDry" ID="{49396C4C-B758-4BA4-8CE7-1227D9B2B532}">
 															<PropertyList>
 																<Property Name="Flags" Type="int32" Value="3"/>
 															</PropertyList>
@@ -7017,9 +7180,10 @@
 																	<XPos>0</XPos>
 																	<YPos>0</YPos>
 																	<Flags>5</Flags>
+																	<SegmentShape>Log3</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>100</XPos>
+																	<XPos>500</XPos>
 																	<YPos>-200</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -7086,12 +7250,15 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
-									<Custom>
-										<Attenuation Name="Attenuation (Custom)" ID="{E18FA8F4-4D0C-4E4D-9ECE-40CF06996057}" ShortID="806815324">
+									<Custom CreatedFrom="{D5D15008-70A9-4EBE-85F7-4662C8511080}">
+										<Attenuation Name="Main Attenuation (Custom)" ID="{5361B926-F62A-4BAD-98B7-EDD1E4E4B24E}" ShortID="506040628">
+											<PropertyList>
+												<Property Name="RadiusMax" Type="Real64" Value="500"/>
+											</PropertyList>
 											<CurveUsageInfoList>
 												<VolumeDryUsage>
 													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-														<Curve Name="VolumeDry" ID="{189B69EB-23A7-401B-81B1-A89EE2A9BE38}">
+														<Curve Name="VolumeDry" ID="{694BBA61-BD6C-45EE-93F4-30BCC80A2A35}">
 															<PropertyList>
 																<Property Name="Flags" Type="int32" Value="3"/>
 															</PropertyList>
@@ -7100,9 +7267,10 @@
 																	<XPos>0</XPos>
 																	<YPos>0</YPos>
 																	<Flags>5</Flags>
+																	<SegmentShape>Log3</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>100</XPos>
+																	<XPos>500</XPos>
 																	<YPos>-200</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -7450,12 +7618,15 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
-									<Custom>
-										<Attenuation Name="Attenuation (Custom)" ID="{CA63EDC5-4809-4FEB-B6AF-39C2F659B2BB}" ShortID="326717615">
+									<Custom CreatedFrom="{D5D15008-70A9-4EBE-85F7-4662C8511080}">
+										<Attenuation Name="Main Attenuation (Custom)" ID="{66994A15-3A55-4118-8396-895CF2A9ADB9}" ShortID="1038683103">
+											<PropertyList>
+												<Property Name="RadiusMax" Type="Real64" Value="500"/>
+											</PropertyList>
 											<CurveUsageInfoList>
 												<VolumeDryUsage>
 													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-														<Curve Name="VolumeDry" ID="{F72C89EC-DB8C-481C-839F-61929A61E99C}">
+														<Curve Name="VolumeDry" ID="{32A11CA2-0B49-4B8E-B7A6-53C217AFD75C}">
 															<PropertyList>
 																<Property Name="Flags" Type="int32" Value="3"/>
 															</PropertyList>
@@ -7464,9 +7635,10 @@
 																	<XPos>0</XPos>
 																	<YPos>0</YPos>
 																	<Flags>5</Flags>
+																	<SegmentShape>Log3</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>100</XPos>
+																	<XPos>500</XPos>
 																	<YPos>-200</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -8122,12 +8294,15 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
-									<Custom>
-										<Attenuation Name="Attenuation (Custom)" ID="{D14FDE81-E8A9-41CC-BEBD-DD320AC973D9}" ShortID="249888811">
+									<Custom CreatedFrom="{D5D15008-70A9-4EBE-85F7-4662C8511080}">
+										<Attenuation Name="Main Attenuation (Custom)" ID="{8E627B87-3CAE-4DAD-9479-5E38D56EE5C3}" ShortID="692123796">
+											<PropertyList>
+												<Property Name="RadiusMax" Type="Real64" Value="500"/>
+											</PropertyList>
 											<CurveUsageInfoList>
 												<VolumeDryUsage>
 													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-														<Curve Name="VolumeDry" ID="{B21808C3-D99A-4CD6-9499-A5FF75AB4C72}">
+														<Curve Name="VolumeDry" ID="{3C9B1AE4-56B6-419F-B0FC-3329AA04F975}">
 															<PropertyList>
 																<Property Name="Flags" Type="int32" Value="3"/>
 															</PropertyList>
@@ -8136,9 +8311,10 @@
 																	<XPos>0</XPos>
 																	<YPos>0</YPos>
 																	<Flags>5</Flags>
+																	<SegmentShape>Log3</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>100</XPos>
+																	<XPos>500</XPos>
 																	<YPos>-200</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -8328,12 +8504,15 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
-									<Custom>
-										<Attenuation Name="Attenuation (Custom)" ID="{346A08F3-DC70-4409-8773-39253A5C40A0}" ShortID="109898334">
+									<Custom CreatedFrom="{D5D15008-70A9-4EBE-85F7-4662C8511080}">
+										<Attenuation Name="Main Attenuation (Custom)" ID="{AB3A64FC-B14D-4CAE-8CF0-09C694C00DE7}" ShortID="803004334">
+											<PropertyList>
+												<Property Name="RadiusMax" Type="Real64" Value="500"/>
+											</PropertyList>
 											<CurveUsageInfoList>
 												<VolumeDryUsage>
 													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-														<Curve Name="VolumeDry" ID="{2CBAAF26-44BC-4EA1-8D81-E60458288CD9}">
+														<Curve Name="VolumeDry" ID="{1D1A88BB-3A8D-46B2-A580-933E707732D4}">
 															<PropertyList>
 																<Property Name="Flags" Type="int32" Value="3"/>
 															</PropertyList>
@@ -8342,9 +8521,10 @@
 																	<XPos>0</XPos>
 																	<YPos>0</YPos>
 																	<Flags>5</Flags>
+																	<SegmentShape>Log3</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>100</XPos>
+																	<XPos>500</XPos>
 																	<YPos>-200</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -8436,12 +8616,15 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
-									<Custom>
-										<Attenuation Name="Attenuation (Custom)" ID="{E0D27871-4001-4FDE-8866-DDEB596A15E4}" ShortID="537292264">
+									<Custom CreatedFrom="{D5D15008-70A9-4EBE-85F7-4662C8511080}">
+										<Attenuation Name="Main Attenuation (Custom)" ID="{8D3C158E-4230-459F-B979-2A358535CA43}" ShortID="165364362">
+											<PropertyList>
+												<Property Name="RadiusMax" Type="Real64" Value="500"/>
+											</PropertyList>
 											<CurveUsageInfoList>
 												<VolumeDryUsage>
 													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-														<Curve Name="VolumeDry" ID="{48EDDE81-EAF1-44F0-B96A-EC3A53CE3895}">
+														<Curve Name="VolumeDry" ID="{6BABEAAF-F793-4FB5-A2F2-244CB8D2D7CD}">
 															<PropertyList>
 																<Property Name="Flags" Type="int32" Value="3"/>
 															</PropertyList>
@@ -8450,9 +8633,10 @@
 																	<XPos>0</XPos>
 																	<YPos>0</YPos>
 																	<Flags>5</Flags>
+																	<SegmentShape>Log3</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>100</XPos>
+																	<XPos>500</XPos>
 																	<YPos>-200</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -8544,12 +8728,15 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
-									<Custom>
-										<Attenuation Name="Attenuation (Custom)" ID="{4E05AE63-1354-42B4-9A09-E784A0CC31F3}" ShortID="434571317">
+									<Custom CreatedFrom="{D5D15008-70A9-4EBE-85F7-4662C8511080}">
+										<Attenuation Name="Main Attenuation (Custom)" ID="{7D7B5B43-3200-48E4-9DF0-93E5BF3DB90A}" ShortID="369050083">
+											<PropertyList>
+												<Property Name="RadiusMax" Type="Real64" Value="500"/>
+											</PropertyList>
 											<CurveUsageInfoList>
 												<VolumeDryUsage>
 													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-														<Curve Name="VolumeDry" ID="{B670D7ED-A1B5-4963-AABD-42B8C68755C7}">
+														<Curve Name="VolumeDry" ID="{E10563D3-DA7B-4AB5-8E24-454C54000207}">
 															<PropertyList>
 																<Property Name="Flags" Type="int32" Value="3"/>
 															</PropertyList>
@@ -8558,9 +8745,10 @@
 																	<XPos>0</XPos>
 																	<YPos>0</YPos>
 																	<Flags>5</Flags>
+																	<SegmentShape>Log3</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>100</XPos>
+																	<XPos>500</XPos>
 																	<YPos>-200</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -8623,12 +8811,15 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
-									<Custom>
-										<Attenuation Name="Attenuation (Custom)" ID="{A4D15670-A589-47B4-824B-B8E6E4B5EDA0}" ShortID="288506179">
+									<Custom CreatedFrom="{D5D15008-70A9-4EBE-85F7-4662C8511080}">
+										<Attenuation Name="Main Attenuation (Custom)" ID="{F73DDA37-2001-4D0E-8B9B-D2405D6C0FB2}" ShortID="1030256312">
+											<PropertyList>
+												<Property Name="RadiusMax" Type="Real64" Value="500"/>
+											</PropertyList>
 											<CurveUsageInfoList>
 												<VolumeDryUsage>
 													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-														<Curve Name="VolumeDry" ID="{042AC1C8-FC3D-40DA-8A46-916D8F8DB987}">
+														<Curve Name="VolumeDry" ID="{A95F5979-0EE4-43E6-8D08-83A492AB659D}">
 															<PropertyList>
 																<Property Name="Flags" Type="int32" Value="3"/>
 															</PropertyList>
@@ -8637,9 +8828,10 @@
 																	<XPos>0</XPos>
 																	<YPos>0</YPos>
 																	<Flags>5</Flags>
+																	<SegmentShape>Log3</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>100</XPos>
+																	<XPos>500</XPos>
 																	<YPos>-200</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -8839,12 +9031,15 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
-									<Custom>
-										<Attenuation Name="Attenuation (Custom)" ID="{EEA35CB9-E849-4E32-8A3E-44676B2AF7C6}" ShortID="250741511">
+									<Custom CreatedFrom="{D5D15008-70A9-4EBE-85F7-4662C8511080}">
+										<Attenuation Name="Main Attenuation (Custom)" ID="{D7D78390-0ED9-4006-BC4A-13559A2437CB}" ShortID="723019036">
+											<PropertyList>
+												<Property Name="RadiusMax" Type="Real64" Value="500"/>
+											</PropertyList>
 											<CurveUsageInfoList>
 												<VolumeDryUsage>
 													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-														<Curve Name="VolumeDry" ID="{78F5C9F1-C230-477B-B9A0-3F0F71ECCA70}">
+														<Curve Name="VolumeDry" ID="{003478D7-08E4-4582-BCCF-7EAC59A224C8}">
 															<PropertyList>
 																<Property Name="Flags" Type="int32" Value="3"/>
 															</PropertyList>
@@ -8853,9 +9048,10 @@
 																	<XPos>0</XPos>
 																	<YPos>0</YPos>
 																	<Flags>5</Flags>
+																	<SegmentShape>Log3</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>100</XPos>
+																	<XPos>500</XPos>
 																	<YPos>-200</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -8927,12 +9123,15 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
-									<Custom>
-										<Attenuation Name="Attenuation (Custom)" ID="{6EC9E4A5-4016-42C8-B611-B79062A47687}" ShortID="743730355">
+									<Custom CreatedFrom="{D5D15008-70A9-4EBE-85F7-4662C8511080}">
+										<Attenuation Name="Main Attenuation (Custom)" ID="{A7C4AA3C-5811-40C2-B0C1-9C7D9E21B099}" ShortID="719654837">
+											<PropertyList>
+												<Property Name="RadiusMax" Type="Real64" Value="500"/>
+											</PropertyList>
 											<CurveUsageInfoList>
 												<VolumeDryUsage>
 													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-														<Curve Name="VolumeDry" ID="{75FF57B4-AAA8-4EFC-B94F-74E211BEBFE7}">
+														<Curve Name="VolumeDry" ID="{BC1EBA9B-EE62-4315-8079-2739202967E6}">
 															<PropertyList>
 																<Property Name="Flags" Type="int32" Value="3"/>
 															</PropertyList>
@@ -8941,9 +9140,10 @@
 																	<XPos>0</XPos>
 																	<YPos>0</YPos>
 																	<Flags>5</Flags>
+																	<SegmentShape>Log3</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>100</XPos>
+																	<XPos>500</XPos>
 																	<YPos>-200</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -9153,12 +9353,15 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
-									<Custom>
-										<Attenuation Name="Attenuation (Custom)" ID="{A451724B-FF14-42EE-9423-E1DC54DDCB93}" ShortID="138205101">
+									<Custom CreatedFrom="{D5D15008-70A9-4EBE-85F7-4662C8511080}">
+										<Attenuation Name="Main Attenuation (Custom)" ID="{84BAF1A1-A34A-45B3-BB6D-50FE57189D1C}" ShortID="153557257">
+											<PropertyList>
+												<Property Name="RadiusMax" Type="Real64" Value="500"/>
+											</PropertyList>
 											<CurveUsageInfoList>
 												<VolumeDryUsage>
 													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-														<Curve Name="VolumeDry" ID="{3F4C58D2-247D-4FEF-8A62-94C8604B14D6}">
+														<Curve Name="VolumeDry" ID="{80B3CC12-AF0B-49B7-96F2-375224B525E5}">
 															<PropertyList>
 																<Property Name="Flags" Type="int32" Value="3"/>
 															</PropertyList>
@@ -9167,9 +9370,10 @@
 																	<XPos>0</XPos>
 																	<YPos>0</YPos>
 																	<Flags>5</Flags>
+																	<SegmentShape>Log3</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>100</XPos>
+																	<XPos>500</XPos>
 																	<YPos>-200</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -9237,12 +9441,15 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
-									<Custom>
-										<Attenuation Name="Attenuation (Custom)" ID="{CA6EE3B2-0FD9-4813-B535-D4306F238A98}" ShortID="909821353">
+									<Custom CreatedFrom="{D5D15008-70A9-4EBE-85F7-4662C8511080}">
+										<Attenuation Name="Main Attenuation (Custom)" ID="{51FFA361-0DA1-4BB1-ABC6-7920236CBF87}" ShortID="595195729">
+											<PropertyList>
+												<Property Name="RadiusMax" Type="Real64" Value="500"/>
+											</PropertyList>
 											<CurveUsageInfoList>
 												<VolumeDryUsage>
 													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-														<Curve Name="VolumeDry" ID="{872773D0-4E5D-4589-A8BA-638BA595F65F}">
+														<Curve Name="VolumeDry" ID="{908B95CE-EE65-4422-AA8D-907A9BF01659}">
 															<PropertyList>
 																<Property Name="Flags" Type="int32" Value="3"/>
 															</PropertyList>
@@ -9251,9 +9458,10 @@
 																	<XPos>0</XPos>
 																	<YPos>0</YPos>
 																	<Flags>5</Flags>
+																	<SegmentShape>Log3</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>100</XPos>
+																	<XPos>500</XPos>
 																	<YPos>-200</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -9454,12 +9662,15 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
-									<Custom>
-										<Attenuation Name="Attenuation (Custom)" ID="{1C984BA6-C1EB-45E8-A25B-C0EEA44BB32C}" ShortID="492229790">
+									<Custom CreatedFrom="{D5D15008-70A9-4EBE-85F7-4662C8511080}">
+										<Attenuation Name="Main Attenuation (Custom)" ID="{2C755D0F-00FE-4F49-8FF9-BF7E09695BA7}" ShortID="480706678">
+											<PropertyList>
+												<Property Name="RadiusMax" Type="Real64" Value="500"/>
+											</PropertyList>
 											<CurveUsageInfoList>
 												<VolumeDryUsage>
 													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-														<Curve Name="VolumeDry" ID="{7A57E0A2-F0DD-4CB0-9E18-69B7A78A2374}">
+														<Curve Name="VolumeDry" ID="{6AFEE6B3-7328-473E-96F5-DCA91936C6E9}">
 															<PropertyList>
 																<Property Name="Flags" Type="int32" Value="3"/>
 															</PropertyList>
@@ -9468,9 +9679,10 @@
 																	<XPos>0</XPos>
 																	<YPos>0</YPos>
 																	<Flags>5</Flags>
+																	<SegmentShape>Log3</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>100</XPos>
+																	<XPos>500</XPos>
 																	<YPos>-200</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -9562,12 +9774,15 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
-									<Custom>
-										<Attenuation Name="Attenuation (Custom)" ID="{E8CF3DB3-B341-492A-B04F-79B2ADAFBE25}" ShortID="408165368">
+									<Custom CreatedFrom="{D5D15008-70A9-4EBE-85F7-4662C8511080}">
+										<Attenuation Name="Main Attenuation (Custom)" ID="{2C594D72-9338-4390-955A-212F6750E2AA}" ShortID="523167826">
+											<PropertyList>
+												<Property Name="RadiusMax" Type="Real64" Value="500"/>
+											</PropertyList>
 											<CurveUsageInfoList>
 												<VolumeDryUsage>
 													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-														<Curve Name="VolumeDry" ID="{69EAFB3E-026A-42A7-B950-CFA3EE65985E}">
+														<Curve Name="VolumeDry" ID="{DEDBB359-5B39-48E6-BBF4-E869ABD95937}">
 															<PropertyList>
 																<Property Name="Flags" Type="int32" Value="3"/>
 															</PropertyList>
@@ -9576,9 +9791,10 @@
 																	<XPos>0</XPos>
 																	<YPos>0</YPos>
 																	<Flags>5</Flags>
+																	<SegmentShape>Log3</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>100</XPos>
+																	<XPos>500</XPos>
 																	<YPos>-200</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -9675,12 +9891,15 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
-									<Custom>
-										<Attenuation Name="Attenuation (Custom)" ID="{2FFE6E21-6592-470B-B246-F8741FE9ECFB}" ShortID="837307305">
+									<Custom CreatedFrom="{D5D15008-70A9-4EBE-85F7-4662C8511080}">
+										<Attenuation Name="Main Attenuation (Custom)" ID="{7D580E76-284B-4F90-89C7-A66B0F8B1082}" ShortID="727001854">
+											<PropertyList>
+												<Property Name="RadiusMax" Type="Real64" Value="500"/>
+											</PropertyList>
 											<CurveUsageInfoList>
 												<VolumeDryUsage>
 													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-														<Curve Name="VolumeDry" ID="{2BC99961-C1ED-4C44-8684-AEE800F26370}">
+														<Curve Name="VolumeDry" ID="{7F0D1098-5339-4D19-B309-5EC3B730C738}">
 															<PropertyList>
 																<Property Name="Flags" Type="int32" Value="3"/>
 															</PropertyList>
@@ -9689,9 +9908,10 @@
 																	<XPos>0</XPos>
 																	<YPos>0</YPos>
 																	<Flags>5</Flags>
+																	<SegmentShape>Log3</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>100</XPos>
+																	<XPos>500</XPos>
 																	<YPos>-200</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -9757,12 +9977,15 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
-									<Custom>
-										<Attenuation Name="Attenuation (Custom)" ID="{959E7E1A-C63F-4A49-8AB3-5BD6F08599AF}" ShortID="860308426">
+									<Custom CreatedFrom="{D5D15008-70A9-4EBE-85F7-4662C8511080}">
+										<Attenuation Name="Main Attenuation (Custom)" ID="{B592EB4C-7022-470B-AB06-2E00E86289B9}" ShortID="207469027">
+											<PropertyList>
+												<Property Name="RadiusMax" Type="Real64" Value="500"/>
+											</PropertyList>
 											<CurveUsageInfoList>
 												<VolumeDryUsage>
 													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-														<Curve Name="VolumeDry" ID="{054A93C5-503B-4BA1-BE2C-8FE3A599557E}">
+														<Curve Name="VolumeDry" ID="{0DEC0708-C5E0-4C3A-9057-AEF9BC187CAE}">
 															<PropertyList>
 																<Property Name="Flags" Type="int32" Value="3"/>
 															</PropertyList>
@@ -9771,9 +9994,10 @@
 																	<XPos>0</XPos>
 																	<YPos>0</YPos>
 																	<Flags>5</Flags>
+																	<SegmentShape>Log3</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>100</XPos>
+																	<XPos>500</XPos>
 																	<YPos>-200</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -10110,6 +10334,118 @@
 								</Sound>
 							</ChildrenList>
 						</RandomSequenceContainer>
+						<Sound Name="Rancor roar presentation" ID="{DA99813D-62B8-4FBF-A677-5D7039C83BE4}" ShortID="563489276">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="CenterPercentage" Type="int32">
+									<ValueList>
+										<Value>50</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+									<RTPCList>
+										<RTPC Name="" ID="{6535102C-B8B1-4210-93EA-C1101431A345}" ShortID="84427130">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{D9B04016-CD1F-44F8-AC66-80582A53BEFA}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>200</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<Custom CreatedFrom="{D5D15008-70A9-4EBE-85F7-4662C8511080}">
+										<Attenuation Name="Main Attenuation (Custom)" ID="{0401659C-C5E8-4897-BCBF-3309BDA05A5B}" ShortID="452955192">
+											<PropertyList>
+												<Property Name="RadiusMax" Type="Real64" Value="500"/>
+											</PropertyList>
+											<CurveUsageInfoList>
+												<VolumeDryUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+														<Curve Name="VolumeDry" ID="{C7A9B050-78A2-43AE-A8EB-21D832ED7AC0}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="3"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>0</YPos>
+																	<Flags>5</Flags>
+																	<SegmentShape>Log3</SegmentShape>
+																</Point>
+																<Point>
+																	<XPos>500</XPos>
+																	<YPos>-200</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
+												</VolumeDryUsage>
+												<VolumeWetGameUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+												</VolumeWetGameUsage>
+												<VolumeWetUserUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+												</VolumeWetUserUsage>
+												<LowPassFilterUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</LowPassFilterUsage>
+												<HighPassFilterUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</HighPassFilterUsage>
+												<SpreadUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</SpreadUsage>
+												<FocusUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</FocusUsage>
+											</CurveUsageInfoList>
+										</Attenuation>
+									</Custom>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Rancor roar presentation" ID="{100FDE24-D9A2-4FDB-BD1D-BD1194E978E8}">
+									<Language>SFX</Language>
+									<AudioFile>Rancor roar presentation.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="792758880"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Rancor roar presentation" ID="{100FDE24-D9A2-4FDB-BD1D-BD1194E978E8}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Skytrooper" ID="{21388E5A-96AD-4931-94B9-7FD6BE1F7EA2}" ShortID="487561877">
@@ -10157,12 +10493,15 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
-									<Custom>
-										<Attenuation Name="Attenuation (Custom)" ID="{6DFD5036-C577-42D1-AAFC-881BB18B14D9}" ShortID="1009182197">
+									<Custom CreatedFrom="{D5D15008-70A9-4EBE-85F7-4662C8511080}">
+										<Attenuation Name="Main Attenuation (Custom)" ID="{9857D62A-922A-4AF7-B99F-5745A548E44F}" ShortID="894531576">
+											<PropertyList>
+												<Property Name="RadiusMax" Type="Real64" Value="500"/>
+											</PropertyList>
 											<CurveUsageInfoList>
 												<VolumeDryUsage>
 													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-														<Curve Name="VolumeDry" ID="{3B8A477E-EA0F-4E1E-B944-C5183B7D4258}">
+														<Curve Name="VolumeDry" ID="{1E23B78D-0504-41A6-AEBD-DBD0F3609E26}">
 															<PropertyList>
 																<Property Name="Flags" Type="int32" Value="3"/>
 															</PropertyList>
@@ -10171,9 +10510,10 @@
 																	<XPos>0</XPos>
 																	<YPos>0</YPos>
 																	<Flags>5</Flags>
+																	<SegmentShape>Log3</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>100</XPos>
+																	<XPos>500</XPos>
 																	<YPos>-200</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -10239,12 +10579,15 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
-									<Custom>
-										<Attenuation Name="Attenuation (Custom)" ID="{11899189-485F-416F-82E5-DEC8CD8E0FAE}" ShortID="41011507">
+									<Custom CreatedFrom="{D5D15008-70A9-4EBE-85F7-4662C8511080}">
+										<Attenuation Name="Main Attenuation (Custom)" ID="{AD307FFB-5173-4C19-A697-D76E8581314F}" ShortID="576947975">
+											<PropertyList>
+												<Property Name="RadiusMax" Type="Real64" Value="500"/>
+											</PropertyList>
 											<CurveUsageInfoList>
 												<VolumeDryUsage>
 													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-														<Curve Name="VolumeDry" ID="{711B4D28-ACD3-4253-A96E-46F18118F3FE}">
+														<Curve Name="VolumeDry" ID="{41D4DFCD-DC9E-45BF-8AF4-C62D021B9A37}">
 															<PropertyList>
 																<Property Name="Flags" Type="int32" Value="3"/>
 															</PropertyList>
@@ -10253,9 +10596,10 @@
 																	<XPos>0</XPos>
 																	<YPos>0</YPos>
 																	<Flags>5</Flags>
+																	<SegmentShape>Log3</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>100</XPos>
+																	<XPos>500</XPos>
 																	<YPos>-200</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -10321,12 +10665,15 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
-									<Custom>
-										<Attenuation Name="Attenuation (Custom)" ID="{B77D9559-D22C-40AA-9BA7-F118474FA725}" ShortID="110920176">
+									<Custom CreatedFrom="{D5D15008-70A9-4EBE-85F7-4662C8511080}">
+										<Attenuation Name="Main Attenuation (Custom)" ID="{ED018649-D083-40FA-8DDB-02EE9B084151}" ShortID="591819720">
+											<PropertyList>
+												<Property Name="RadiusMax" Type="Real64" Value="500"/>
+											</PropertyList>
 											<CurveUsageInfoList>
 												<VolumeDryUsage>
 													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-														<Curve Name="VolumeDry" ID="{72C4FF7A-AC26-4BC6-8067-F5766BA7393C}">
+														<Curve Name="VolumeDry" ID="{B77804E0-8434-4008-9EC1-581895EE2C24}">
 															<PropertyList>
 																<Property Name="Flags" Type="int32" Value="3"/>
 															</PropertyList>
@@ -10335,9 +10682,10 @@
 																	<XPos>0</XPos>
 																	<YPos>0</YPos>
 																	<Flags>5</Flags>
+																	<SegmentShape>Log3</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>100</XPos>
+																	<XPos>500</XPos>
 																	<YPos>-200</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -10433,12 +10781,15 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
-									<Custom>
-										<Attenuation Name="Attenuation (Custom)" ID="{D4829017-29B6-4C4D-87BF-998566DE15B2}" ShortID="597565027">
+									<Custom CreatedFrom="{D5D15008-70A9-4EBE-85F7-4662C8511080}">
+										<Attenuation Name="Main Attenuation (Custom)" ID="{23593A15-1D53-46C4-AA7B-A509EF1E6F15}" ShortID="980419894">
+											<PropertyList>
+												<Property Name="RadiusMax" Type="Real64" Value="500"/>
+											</PropertyList>
 											<CurveUsageInfoList>
 												<VolumeDryUsage>
 													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-														<Curve Name="VolumeDry" ID="{F132C176-8FC0-4E4B-B362-19F931D55A63}">
+														<Curve Name="VolumeDry" ID="{0E9C9DA2-FEC5-47EF-AF5B-142CB8AFCE6B}">
 															<PropertyList>
 																<Property Name="Flags" Type="int32" Value="3"/>
 															</PropertyList>
@@ -10447,9 +10798,10 @@
 																	<XPos>0</XPos>
 																	<YPos>0</YPos>
 																	<Flags>5</Flags>
+																	<SegmentShape>Log3</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>100</XPos>
+																	<XPos>500</XPos>
 																	<YPos>-200</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -10649,12 +11001,15 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
-									<Custom>
-										<Attenuation Name="Attenuation (Custom)" ID="{DD0772B1-1C41-408C-82E5-D5971CAC0202}" ShortID="742606218">
+									<Custom CreatedFrom="{D5D15008-70A9-4EBE-85F7-4662C8511080}">
+										<Attenuation Name="Main Attenuation (Custom)" ID="{4E7DE85A-174B-43F4-90E7-7FF201BDE237}" ShortID="54567026">
+											<PropertyList>
+												<Property Name="RadiusMax" Type="Real64" Value="500"/>
+											</PropertyList>
 											<CurveUsageInfoList>
 												<VolumeDryUsage>
 													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-														<Curve Name="VolumeDry" ID="{E65416F7-BEFB-4E81-B443-8FBAB605FAC1}">
+														<Curve Name="VolumeDry" ID="{A0F13411-5AB7-4AF6-AC81-82753769554F}">
 															<PropertyList>
 																<Property Name="Flags" Type="int32" Value="3"/>
 															</PropertyList>
@@ -10663,9 +11018,10 @@
 																	<XPos>0</XPos>
 																	<YPos>0</YPos>
 																	<Flags>5</Flags>
+																	<SegmentShape>Log3</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>100</XPos>
+																	<XPos>500</XPos>
 																	<YPos>-200</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -10757,12 +11113,15 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
-									<Custom>
-										<Attenuation Name="Attenuation (Custom)" ID="{78BC7190-5DEB-42AF-BAB8-53334DFD5015}" ShortID="322820284">
+									<Custom CreatedFrom="{D5D15008-70A9-4EBE-85F7-4662C8511080}">
+										<Attenuation Name="Main Attenuation (Custom)" ID="{A3234CC1-B1B9-4E7D-9449-4670B6BE81F2}" ShortID="691729351">
+											<PropertyList>
+												<Property Name="RadiusMax" Type="Real64" Value="500"/>
+											</PropertyList>
 											<CurveUsageInfoList>
 												<VolumeDryUsage>
 													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-														<Curve Name="VolumeDry" ID="{8B98F859-1F59-4A2F-BD88-5B548915894E}">
+														<Curve Name="VolumeDry" ID="{7E6225DD-82D1-4E18-8388-C3390C837EC1}">
 															<PropertyList>
 																<Property Name="Flags" Type="int32" Value="3"/>
 															</PropertyList>
@@ -10771,9 +11130,10 @@
 																	<XPos>0</XPos>
 																	<YPos>0</YPos>
 																	<Flags>5</Flags>
+																	<SegmentShape>Log3</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>100</XPos>
+																	<XPos>500</XPos>
 																	<YPos>-200</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -10865,12 +11225,15 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
-									<Custom>
-										<Attenuation Name="Attenuation (Custom)" ID="{E0EBD4DF-E2E0-4A52-9FA6-54D339BFB765}" ShortID="958563781">
+									<Custom CreatedFrom="{D5D15008-70A9-4EBE-85F7-4662C8511080}">
+										<Attenuation Name="Main Attenuation (Custom)" ID="{2F9A75DE-2FA8-4607-BCFB-291E1A8F5908}" ShortID="374920207">
+											<PropertyList>
+												<Property Name="RadiusMax" Type="Real64" Value="500"/>
+											</PropertyList>
 											<CurveUsageInfoList>
 												<VolumeDryUsage>
 													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-														<Curve Name="VolumeDry" ID="{16433450-268A-4441-A091-EEB8FB2D349C}">
+														<Curve Name="VolumeDry" ID="{C94B6B28-A4BA-4A5E-8A92-38D14E324A3F}">
 															<PropertyList>
 																<Property Name="Flags" Type="int32" Value="3"/>
 															</PropertyList>
@@ -10879,9 +11242,10 @@
 																	<XPos>0</XPos>
 																	<YPos>0</YPos>
 																	<Flags>5</Flags>
+																	<SegmentShape>Log3</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>100</XPos>
+																	<XPos>500</XPos>
 																	<YPos>-200</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -10978,12 +11342,15 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
-									<Custom>
-										<Attenuation Name="Attenuation (Custom)" ID="{4AE22D07-B84E-4881-9CB4-17F02782393D}" ShortID="196729720">
+									<Custom CreatedFrom="{D5D15008-70A9-4EBE-85F7-4662C8511080}">
+										<Attenuation Name="Main Attenuation (Custom)" ID="{C4A89E18-D164-4322-B755-92855D077C0A}" ShortID="73344187">
+											<PropertyList>
+												<Property Name="RadiusMax" Type="Real64" Value="500"/>
+											</PropertyList>
 											<CurveUsageInfoList>
 												<VolumeDryUsage>
 													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-														<Curve Name="VolumeDry" ID="{F85F7F12-261C-4123-A926-2C1600DF3743}">
+														<Curve Name="VolumeDry" ID="{4E46771A-8ED2-4F26-A721-A3A1999242FB}">
 															<PropertyList>
 																<Property Name="Flags" Type="int32" Value="3"/>
 															</PropertyList>
@@ -10992,9 +11359,10 @@
 																	<XPos>0</XPos>
 																	<YPos>0</YPos>
 																	<Flags>5</Flags>
+																	<SegmentShape>Log3</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>100</XPos>
+																	<XPos>500</XPos>
 																	<YPos>-200</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -11087,12 +11455,15 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
-									<Custom>
-										<Attenuation Name="Attenuation (Custom)" ID="{0BD48536-8F89-4001-B98B-1C8BD4971266}" ShortID="5295388">
+									<Custom CreatedFrom="{D5D15008-70A9-4EBE-85F7-4662C8511080}">
+										<Attenuation Name="Main Attenuation (Custom)" ID="{6F37665F-6156-41E1-AAE3-7AF3DD21E6CA}" ShortID="451212169">
+											<PropertyList>
+												<Property Name="RadiusMax" Type="Real64" Value="500"/>
+											</PropertyList>
 											<CurveUsageInfoList>
 												<VolumeDryUsage>
 													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-														<Curve Name="VolumeDry" ID="{33C3FFF7-DEC0-4E06-9BB7-8BE2D9FA6CBF}">
+														<Curve Name="VolumeDry" ID="{BC4659D7-B022-4153-BFC2-3C6840D33D7B}">
 															<PropertyList>
 																<Property Name="Flags" Type="int32" Value="3"/>
 															</PropertyList>
@@ -11101,9 +11472,10 @@
 																	<XPos>0</XPos>
 																	<YPos>0</YPos>
 																	<Flags>5</Flags>
+																	<SegmentShape>Log3</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>100</XPos>
+																	<XPos>500</XPos>
 																	<YPos>-200</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -11195,12 +11567,15 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
-									<Custom>
-										<Attenuation Name="Attenuation (Custom)" ID="{BFFF25E3-766D-41F8-BC41-B36D4DFFC63E}" ShortID="1011105204">
+									<Custom CreatedFrom="{D5D15008-70A9-4EBE-85F7-4662C8511080}">
+										<Attenuation Name="Main Attenuation (Custom)" ID="{EE09D5FF-23E5-4F27-A168-C7569C89DF80}" ShortID="451971865">
+											<PropertyList>
+												<Property Name="RadiusMax" Type="Real64" Value="500"/>
+											</PropertyList>
 											<CurveUsageInfoList>
 												<VolumeDryUsage>
 													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-														<Curve Name="VolumeDry" ID="{4F7C6644-2034-44EB-B7B3-D86BB0BC442B}">
+														<Curve Name="VolumeDry" ID="{82894217-4967-4700-A54E-26B227B8C6E1}">
 															<PropertyList>
 																<Property Name="Flags" Type="int32" Value="3"/>
 															</PropertyList>
@@ -11209,9 +11584,10 @@
 																	<XPos>0</XPos>
 																	<YPos>0</YPos>
 																	<Flags>5</Flags>
+																	<SegmentShape>Log3</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>100</XPos>
+																	<XPos>500</XPos>
 																	<YPos>-200</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -11282,12 +11658,15 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
-									<Custom>
-										<Attenuation Name="Attenuation (Custom)" ID="{ACDBCCF5-ABCA-4F01-854A-9EEB1991D542}" ShortID="368330918">
+									<Custom CreatedFrom="{D5D15008-70A9-4EBE-85F7-4662C8511080}">
+										<Attenuation Name="Main Attenuation (Custom)" ID="{78487721-2580-4416-867C-02FAFD9BA6BB}" ShortID="697690432">
+											<PropertyList>
+												<Property Name="RadiusMax" Type="Real64" Value="500"/>
+											</PropertyList>
 											<CurveUsageInfoList>
 												<VolumeDryUsage>
 													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-														<Curve Name="VolumeDry" ID="{AD636B50-24DE-4D24-BA55-CE11836ACAC4}">
+														<Curve Name="VolumeDry" ID="{BB8D4BBA-3A76-4EEF-A732-6E6BE8A0956D}">
 															<PropertyList>
 																<Property Name="Flags" Type="int32" Value="3"/>
 															</PropertyList>
@@ -11296,9 +11675,10 @@
 																	<XPos>0</XPos>
 																	<YPos>0</YPos>
 																	<Flags>5</Flags>
+																	<SegmentShape>Log3</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>100</XPos>
+																	<XPos>500</XPos>
 																	<YPos>-200</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -11444,9 +11824,15 @@
 						</RandomSequenceContainer>
 						<Sound Name="heavytrooper dash" ID="{73627C04-F407-4C82-9DDE-BBC864BB3E17}" ShortID="914055900">
 							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="CenterPercentage" Type="int32">
+									<ValueList>
+										<Value>50</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-11</Value>
+										<Value>-18</Value>
 									</ValueList>
 									<RTPCList>
 										<RTPC Name="" ID="{29094507-2FA3-43DE-B68B-FA0D37BA7EBC}" ShortID="983238802">
@@ -11477,6 +11863,57 @@
 								</Property>
 							</PropertyList>
 							<ReferenceList>
+								<Reference Name="Attenuation">
+									<Custom CreatedFrom="{D5D15008-70A9-4EBE-85F7-4662C8511080}">
+										<Attenuation Name="Main Attenuation (Custom)" ID="{96D18B80-D33B-4624-9870-AF2CCF682748}" ShortID="793935503">
+											<PropertyList>
+												<Property Name="RadiusMax" Type="Real64" Value="500"/>
+											</PropertyList>
+											<CurveUsageInfoList>
+												<VolumeDryUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+														<Curve Name="VolumeDry" ID="{CF44C02B-F51D-41E1-94AC-58CFB2ADCA68}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="3"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>0</YPos>
+																	<Flags>5</Flags>
+																	<SegmentShape>Log3</SegmentShape>
+																</Point>
+																<Point>
+																	<XPos>500</XPos>
+																	<YPos>-200</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
+												</VolumeDryUsage>
+												<VolumeWetGameUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+												</VolumeWetGameUsage>
+												<VolumeWetUserUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+												</VolumeWetUserUsage>
+												<LowPassFilterUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</LowPassFilterUsage>
+												<HighPassFilterUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</HighPassFilterUsage>
+												<SpreadUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</SpreadUsage>
+												<FocusUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</FocusUsage>
+											</CurveUsageInfoList>
+										</Attenuation>
+									</Custom>
+								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
 								</Reference>
@@ -11497,13 +11934,1898 @@
 								<ActiveSource Name="heavytrooper dash" ID="{0FCD329F-B5B4-4C50-8CBF-E19E32CBF930}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<RandomSequenceContainer Name="Footsteps wander heavytrooper" ID="{E8AAC8A0-2A11-4C17-9EE1-EEE166C47A76}" ShortID="457427826">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="CenterPercentage" Type="int32">
+									<ValueList>
+										<Value>50</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{6A7B3E5A-93B3-474E-A5F7-B068EA404D3A}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="25"/>
+													<Property Name="Min" Type="Real64" Value="-25"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.4"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-11</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<Custom CreatedFrom="{D5D15008-70A9-4EBE-85F7-4662C8511080}">
+										<Attenuation Name="Main Attenuation (Custom)" ID="{347F3B60-11D6-4622-82B1-FD2F54E7ACD5}" ShortID="670094120">
+											<PropertyList>
+												<Property Name="RadiusMax" Type="Real64" Value="500"/>
+											</PropertyList>
+											<CurveUsageInfoList>
+												<VolumeDryUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+														<Curve Name="VolumeDry" ID="{77080673-1C34-40CA-8824-52D6D5A01C13}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="3"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>0</YPos>
+																	<Flags>5</Flags>
+																	<SegmentShape>Log3</SegmentShape>
+																</Point>
+																<Point>
+																	<XPos>500</XPos>
+																	<YPos>-200</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
+												</VolumeDryUsage>
+												<VolumeWetGameUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+												</VolumeWetGameUsage>
+												<VolumeWetUserUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+												</VolumeWetUserUsage>
+												<LowPassFilterUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</LowPassFilterUsage>
+												<HighPassFilterUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</HighPassFilterUsage>
+												<SpreadUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</SpreadUsage>
+												<FocusUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</FocusUsage>
+											</CurveUsageInfoList>
+										</Attenuation>
+									</Custom>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="heavytrooper footstep 1" ID="{3ED13FFD-3B40-4BA9-B6D4-69D153F44AFF}" ShortID="980974533">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{693B067F-AD3C-4EBA-816A-84CB484E372A}"/>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-7</Value>
+											</ValueList>
+											<RTPCList>
+												<RTPC Name="" ID="{EAADFF74-9774-424C-AD6B-1B1D5242EE7E}" ShortID="375595641">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{B3C0E65D-7E2D-4480-81B5-401848104793}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="heavytrooper footstep 1" ID="{9B41F220-75A6-4790-AEE4-BC93EF97FE25}">
+											<Language>SFX</Language>
+											<AudioFile>heavytrooper footstep 1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="507314420"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="heavytrooper footstep 1" ID="{9B41F220-75A6-4790-AEE4-BC93EF97FE25}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="heavytrooper footstep 2" ID="{9C4B315D-5DB0-49A7-AA4F-294C7E43E0E4}" ShortID="243174423">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>3</Value>
+											</ValueList>
+											<RTPCList>
+												<RTPC Name="" ID="{1E590C98-AFDE-4B2E-85DF-027B599C137E}" ShortID="496392847">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{B0B311A7-E47F-4489-8AD2-F3449ED40474}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="heavytrooper footstep 2" ID="{753B2CE3-99CE-4550-9B93-BA5E26C530D9}">
+											<Language>SFX</Language>
+											<AudioFile>heavytrooper footstep 2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="225865834"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="heavytrooper footstep 2" ID="{753B2CE3-99CE-4550-9B93-BA5E26C530D9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="heavytrooper footstep 3" ID="{2EAE6EA6-8683-4BF1-9F79-A866E6A62B9C}" ShortID="96327515">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{C25E8BC5-3EC2-48DD-84D7-15A85B3E8DE6}" ShortID="613353585">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{FC3003CB-CC4A-48B0-B708-A1E56FECA8CA}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="heavytrooper footstep 3" ID="{0440C118-B650-4447-A12A-0E367E168487}">
+											<Language>SFX</Language>
+											<AudioFile>heavytrooper footstep 3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1059915617"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="heavytrooper footstep 3" ID="{0440C118-B650-4447-A12A-0E367E168487}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="heavytrooper footstep 4" ID="{2932555F-61D0-43EE-81D7-20406993BDA4}" ShortID="554184152">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-2</Value>
+											</ValueList>
+											<RTPCList>
+												<RTPC Name="" ID="{CCD18CC3-1587-449C-94BF-391EF93E6C57}" ShortID="1013311391">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{42AF1FC1-6BAD-4277-A917-94C84FB62808}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="heavytrooper footstep 4" ID="{6BDB6C00-4E2A-4952-B3BA-BA42745F8169}">
+											<Language>SFX</Language>
+											<AudioFile>heavytrooper footstep 4.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="622395172"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="heavytrooper footstep 4" ID="{6BDB6C00-4E2A-4952-B3BA-BA42745F8169}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Heavytrooper death" ID="{0EB91D41-7797-44B8-A4A2-EC65307AD141}" ShortID="448694011">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="CenterPercentage" Type="int32">
+									<ValueList>
+										<Value>50</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-12</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<Custom CreatedFrom="{D5D15008-70A9-4EBE-85F7-4662C8511080}">
+										<Attenuation Name="Main Attenuation (Custom)" ID="{40B0D470-B9D2-47C9-BB89-F2E8EFECFD9A}" ShortID="150519859">
+											<PropertyList>
+												<Property Name="RadiusMax" Type="Real64" Value="500"/>
+											</PropertyList>
+											<CurveUsageInfoList>
+												<VolumeDryUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+														<Curve Name="VolumeDry" ID="{8DA41389-9D1C-4BA1-BC57-287568868B2C}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="3"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>0</YPos>
+																	<Flags>5</Flags>
+																	<SegmentShape>Log3</SegmentShape>
+																</Point>
+																<Point>
+																	<XPos>500</XPos>
+																	<YPos>-200</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
+												</VolumeDryUsage>
+												<VolumeWetGameUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+												</VolumeWetGameUsage>
+												<VolumeWetUserUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+												</VolumeWetUserUsage>
+												<LowPassFilterUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</LowPassFilterUsage>
+												<HighPassFilterUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</HighPassFilterUsage>
+												<SpreadUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</SpreadUsage>
+												<FocusUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</FocusUsage>
+											</CurveUsageInfoList>
+										</Attenuation>
+									</Custom>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="heavytrooper death 2" ID="{2D2AB5DD-F117-47C0-9C8F-CD7EF619CF8B}" ShortID="779782394">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{39C3E27F-B822-4B15-B3C9-4ECEF16A51B8}" ShortID="655868519">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{7F2998DC-1E9D-435F-9052-0A40DEF20310}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="heavytrooper death 2" ID="{D11DB710-2818-4D03-AB90-4B29B2876641}">
+											<Language>SFX</Language>
+											<AudioFile>heavytrooper death 2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="714211610"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="heavytrooper death 2" ID="{D11DB710-2818-4D03-AB90-4B29B2876641}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="heavytrooper death" ID="{5666B033-C8BA-474B-9178-0F7FFC6C2656}" ShortID="1055867297">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+											<RTPCList>
+												<RTPC Name="" ID="{299BD78A-2CA6-4DB4-A4EC-9340F0AA454D}" ShortID="907242145">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{3EEB9274-E842-4A88-A409-A4718EDF153E}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="heavytrooper death" ID="{9023684E-CFDD-456D-9D18-8E26ACD830BD}">
+											<Language>SFX</Language>
+											<AudioFile>heavytrooper death.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="600365897"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="heavytrooper death" ID="{9023684E-CFDD-456D-9D18-8E26ACD830BD}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="heavytrooper enemy detection" ID="{BFE1B289-DC2E-4F5F-B501-5EC74C10D793}" ShortID="399930400">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="CenterPercentage" Type="int32">
+									<ValueList>
+										<Value>50</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-12</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<Custom CreatedFrom="{D5D15008-70A9-4EBE-85F7-4662C8511080}">
+										<Attenuation Name="Main Attenuation (Custom)" ID="{9D894F45-DC6B-44EC-93A7-837EF72578D9}" ShortID="162382995">
+											<PropertyList>
+												<Property Name="RadiusMax" Type="Real64" Value="500"/>
+											</PropertyList>
+											<CurveUsageInfoList>
+												<VolumeDryUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+														<Curve Name="VolumeDry" ID="{A307B4B0-F014-467A-B96C-3C49E846AC45}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="3"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>0</YPos>
+																	<Flags>5</Flags>
+																	<SegmentShape>Log3</SegmentShape>
+																</Point>
+																<Point>
+																	<XPos>500</XPos>
+																	<YPos>-200</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
+												</VolumeDryUsage>
+												<VolumeWetGameUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+												</VolumeWetGameUsage>
+												<VolumeWetUserUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+												</VolumeWetUserUsage>
+												<LowPassFilterUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</LowPassFilterUsage>
+												<HighPassFilterUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</HighPassFilterUsage>
+												<SpreadUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</SpreadUsage>
+												<FocusUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</FocusUsage>
+											</CurveUsageInfoList>
+										</Attenuation>
+									</Custom>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="heavytrooper enemy detection 1" ID="{DDBD84E9-97A1-4B2F-A39D-077CB56D73DA}" ShortID="202262397">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{AB14509C-28E4-4F13-99CF-F0A91C56604D}" ShortID="671754202">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{699B8FF9-F9AF-4899-B5E4-8A6B271FE119}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="heavytrooper enemy detection 1" ID="{AC81C6FC-9004-4B23-A1CB-645F7E581BF8}">
+											<Language>SFX</Language>
+											<AudioFile>heavytrooper enemy detection 1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="76206835"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="heavytrooper enemy detection 1" ID="{AC81C6FC-9004-4B23-A1CB-645F7E581BF8}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="heavytrooper enemy detection 2" ID="{C6E630D8-AB7D-4D36-8D51-AFB52FE1FA46}" ShortID="326676689">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{0235F8DA-76F9-4E85-8587-92C635A5F665}" ShortID="33010540">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{92406D13-F805-46C9-901F-17B5303D3ACD}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="heavytrooper enemy detection 2" ID="{D249B34C-C0ED-4AAB-AF9C-801C3C776799}">
+											<Language>SFX</Language>
+											<AudioFile>heavytrooper enemy detection 2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="312255773"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="heavytrooper enemy detection 2" ID="{D249B34C-C0ED-4AAB-AF9C-801C3C776799}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Footsteps run heavytrooper" ID="{4399B0A0-488B-46D8-B8D8-B6973EB0AD35}" ShortID="862592027">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="CenterPercentage" Type="int32">
+									<ValueList>
+										<Value>50</Value>
+									</ValueList>
+								</Property>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.1"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-19</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<Custom CreatedFrom="{D5D15008-70A9-4EBE-85F7-4662C8511080}">
+										<Attenuation Name="Main Attenuation (Custom)" ID="{CB7C8E9F-D107-4AEC-B57A-80C503EA85F0}" ShortID="965923203">
+											<PropertyList>
+												<Property Name="RadiusMax" Type="Real64" Value="500"/>
+											</PropertyList>
+											<CurveUsageInfoList>
+												<VolumeDryUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+														<Curve Name="VolumeDry" ID="{A2887CDC-95C9-4B8A-BFA5-B960CC752A2C}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="3"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>0</YPos>
+																	<Flags>5</Flags>
+																	<SegmentShape>Log3</SegmentShape>
+																</Point>
+																<Point>
+																	<XPos>500</XPos>
+																	<YPos>-200</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
+												</VolumeDryUsage>
+												<VolumeWetGameUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+												</VolumeWetGameUsage>
+												<VolumeWetUserUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+												</VolumeWetUserUsage>
+												<LowPassFilterUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</LowPassFilterUsage>
+												<HighPassFilterUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</HighPassFilterUsage>
+												<SpreadUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</SpreadUsage>
+												<FocusUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</FocusUsage>
+											</CurveUsageInfoList>
+										</Attenuation>
+									</Custom>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="heavytrooper footstep run 1" ID="{FBC24477-7807-401F-A939-BDDE79495115}" ShortID="709522253">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{376C9D8C-D7E3-4421-A60F-D590FD7996AC}" ShortID="672848287">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{40ABF4B6-7A72-4303-897C-A53E1A4AA66E}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="heavytrooper footstep run 1" ID="{72864FA5-6DAC-4904-AF06-26F82273BA01}">
+											<Language>SFX</Language>
+											<AudioFile>heavytrooper footstep run 1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="351242191"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="heavytrooper footstep run 1" ID="{72864FA5-6DAC-4904-AF06-26F82273BA01}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="heavytrooper footstep run 2" ID="{051EC65B-511B-4B14-9136-A6B287D342CB}" ShortID="336694116">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{5BF89B19-3279-44F7-9C2E-D595FD0E9F42}" ShortID="24205527">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{08232C8E-A287-4CD9-958C-040A2EB3C322}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="heavytrooper footstep run 2" ID="{4AF95229-B3B7-4AF4-B42B-F3759A8C0804}">
+											<Language>SFX</Language>
+											<AudioFile>heavytrooper footstep run 2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="387898307"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="heavytrooper footstep run 2" ID="{4AF95229-B3B7-4AF4-B42B-F3759A8C0804}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="heavytrooper footstep run 3" ID="{F4842075-F298-4BEB-9D53-4D5B1BC83F11}" ShortID="1035459666">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{38538F30-9254-4549-8CE9-9147E8000C39}" ShortID="611177050">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{3952623C-2AE7-429E-921B-399801F33AD5}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="heavytrooper footstep run 3" ID="{488F9102-0799-439B-BE82-B09EC203E771}">
+											<Language>SFX</Language>
+											<AudioFile>heavytrooper footstep run 3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1023494932"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="heavytrooper footstep run 3" ID="{488F9102-0799-439B-BE82-B09EC203E771}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="heavytrooper footstep run 4" ID="{9195F4CB-60BC-4155-8B9D-2224CC712CC5}" ShortID="647147777">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{1029B0C6-53B1-4E33-BC9A-939B689FDE6B}" ShortID="529230005">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{E431607B-E27F-4B8E-AF5A-3BF7DB9F4151}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="heavytrooper footstep run 4" ID="{1130E149-C07A-49FA-A5FE-ECE9FDCB6016}">
+											<Language>SFX</Language>
+											<AudioFile>heavytrooper footstep run 4.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="765061511"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="heavytrooper footstep run 4" ID="{1130E149-C07A-49FA-A5FE-ECE9FDCB6016}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
 					</ChildrenList>
 				</Folder>
-				<Folder Name="Deathtrooper" ID="{FD29DA07-FD24-4AED-B5C6-0FECF2ADDD64}" ShortID="424670979"/>
+				<Folder Name="Deathtrooper" ID="{FD29DA07-FD24-4AED-B5C6-0FECF2ADDD64}" ShortID="424670979">
+					<ChildrenList>
+						<Sound Name="deathtrooper recoil" ID="{CBC212AE-1B02-41BE-AEAE-192A7681F87E}" ShortID="663804816">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="CenterPercentage" Type="int32">
+									<ValueList>
+										<Value>50</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{3FA30BAA-8B3B-455F-AF9E-FA2B27DB3E0B}"/>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+									<RTPCList>
+										<RTPC Name="" ID="{90DB5D6C-55EA-4ED9-AE9B-91661734B60D}" ShortID="823237685">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{98A12E64-EBBD-4967-A4CD-CE3A0A3D4FB5}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>200</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<Custom CreatedFrom="{D5D15008-70A9-4EBE-85F7-4662C8511080}">
+										<Attenuation Name="Main Attenuation (Custom)" ID="{41EEC0F5-71AD-4853-A697-63032ECF3446}" ShortID="222165954">
+											<PropertyList>
+												<Property Name="RadiusMax" Type="Real64" Value="500"/>
+											</PropertyList>
+											<CurveUsageInfoList>
+												<VolumeDryUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+														<Curve Name="VolumeDry" ID="{99A4CCEF-000E-4573-8D4B-311A58C32B6D}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="3"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>0</YPos>
+																	<Flags>5</Flags>
+																	<SegmentShape>Log3</SegmentShape>
+																</Point>
+																<Point>
+																	<XPos>500</XPos>
+																	<YPos>-200</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
+												</VolumeDryUsage>
+												<VolumeWetGameUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+												</VolumeWetGameUsage>
+												<VolumeWetUserUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+												</VolumeWetUserUsage>
+												<LowPassFilterUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</LowPassFilterUsage>
+												<HighPassFilterUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</HighPassFilterUsage>
+												<SpreadUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</SpreadUsage>
+												<FocusUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</FocusUsage>
+											</CurveUsageInfoList>
+										</Attenuation>
+									</Custom>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="deathtrooper recoil" ID="{8BEB5970-D221-4EEA-8DA6-F2EDC51EC090}">
+									<Language>SFX</Language>
+									<AudioFile>deathtrooper recoil.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="586533874"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="deathtrooper recoil" ID="{8BEB5970-D221-4EEA-8DA6-F2EDC51EC090}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<RandomSequenceContainer Name="Deathtrooper enemy detection" ID="{2C898712-01EB-452A-9713-43154EC25DB6}" ShortID="952463749">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="CenterPercentage" Type="int32">
+									<ValueList>
+										<Value>50</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<Custom CreatedFrom="{D5D15008-70A9-4EBE-85F7-4662C8511080}">
+										<Attenuation Name="Main Attenuation (Custom)" ID="{769E3499-D1FB-465D-9BBF-807309E5D8EF}" ShortID="199842998">
+											<PropertyList>
+												<Property Name="RadiusMax" Type="Real64" Value="500"/>
+											</PropertyList>
+											<CurveUsageInfoList>
+												<VolumeDryUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+														<Curve Name="VolumeDry" ID="{D306C670-2785-45B6-969E-0DD5290EB6B2}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="3"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>0</YPos>
+																	<Flags>5</Flags>
+																	<SegmentShape>Log3</SegmentShape>
+																</Point>
+																<Point>
+																	<XPos>500</XPos>
+																	<YPos>-200</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
+												</VolumeDryUsage>
+												<VolumeWetGameUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+												</VolumeWetGameUsage>
+												<VolumeWetUserUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+												</VolumeWetUserUsage>
+												<LowPassFilterUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</LowPassFilterUsage>
+												<HighPassFilterUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</HighPassFilterUsage>
+												<SpreadUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</SpreadUsage>
+												<FocusUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</FocusUsage>
+											</CurveUsageInfoList>
+										</Attenuation>
+									</Custom>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="deathtrooper enemy detection 1" ID="{C9EF18DA-5625-4358-9E4A-8602C052A61C}" ShortID="151022486">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-4</Value>
+											</ValueList>
+											<RTPCList>
+												<RTPC Name="" ID="{15D1983B-8092-4230-9B0C-8049699AD064}" ShortID="18484173">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{AF195502-B08C-454C-9095-F3CFCDB0F949}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="deathtrooper enemy detection 1" ID="{A7227E80-4688-4BAB-92EF-C99A02AA4DFE}">
+											<Language>SFX</Language>
+											<AudioFile>deathtrooper enemy detection 1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="896087691"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="deathtrooper enemy detection 1" ID="{A7227E80-4688-4BAB-92EF-C99A02AA4DFE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="deathtrooper enemy detection 2" ID="{B11CC90C-FDFA-476A-B7F6-124E66EC6827}" ShortID="211922549">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-2</Value>
+											</ValueList>
+											<RTPCList>
+												<RTPC Name="" ID="{06525A51-74FE-40EC-8CEF-1D82DD1A0E57}" ShortID="416639796">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{088031B6-E35F-491C-AD11-77F1B7179BDC}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="deathtrooper enemy detection 2" ID="{F20B1061-2A88-4D89-A007-C78625693928}">
+											<Language>SFX</Language>
+											<AudioFile>deathtrooper enemy detection 2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="855871336"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="deathtrooper enemy detection 2" ID="{F20B1061-2A88-4D89-A007-C78625693928}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<Sound Name="deathtrooper shotgun" ID="{4A9E04A6-BFD0-410B-800C-34AFC31272C2}" ShortID="68021609">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="CenterPercentage" Type="int32">
+									<ValueList>
+										<Value>50</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{BA197C60-0F35-4FCB-BBB9-DEE3667F2B2E}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="76"/>
+													<Property Name="Min" Type="Real64" Value="-76"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-19</Value>
+									</ValueList>
+									<RTPCList>
+										<RTPC Name="" ID="{51B708E4-B92F-4F52-A0FA-59B5A54D5A2E}" ShortID="993614271">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{9B3E373B-C58C-448A-9736-6B32DFAA6B0F}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>200</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<Custom CreatedFrom="{D5D15008-70A9-4EBE-85F7-4662C8511080}">
+										<Attenuation Name="Main Attenuation (Custom)" ID="{613A91EA-91F5-473B-93BC-A54CBB8F01F0}" ShortID="158234368">
+											<PropertyList>
+												<Property Name="RadiusMax" Type="Real64" Value="500"/>
+											</PropertyList>
+											<CurveUsageInfoList>
+												<VolumeDryUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+														<Curve Name="VolumeDry" ID="{8EC0C926-6423-42B2-8353-A3A089C1CD4E}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="3"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>0</YPos>
+																	<Flags>5</Flags>
+																	<SegmentShape>Log3</SegmentShape>
+																</Point>
+																<Point>
+																	<XPos>500</XPos>
+																	<YPos>-200</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
+												</VolumeDryUsage>
+												<VolumeWetGameUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+												</VolumeWetGameUsage>
+												<VolumeWetUserUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+												</VolumeWetUserUsage>
+												<LowPassFilterUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</LowPassFilterUsage>
+												<HighPassFilterUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</HighPassFilterUsage>
+												<SpreadUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</SpreadUsage>
+												<FocusUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</FocusUsage>
+											</CurveUsageInfoList>
+										</Attenuation>
+									</Custom>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="deathtrooper shotgun" ID="{04B2F72D-DB51-4880-95B9-CD04B6C5D45A}">
+									<Language>SFX</Language>
+									<AudioFile>deathtrooper shotgun.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="28788806"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="deathtrooper shotgun" ID="{04B2F72D-DB51-4880-95B9-CD04B6C5D45A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<RandomSequenceContainer Name="Deathtrooper death" ID="{F67FDD41-25EB-4DEA-BA8C-44DA7D0765A6}" ShortID="898460532">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="CenterPercentage" Type="int32">
+									<ValueList>
+										<Value>50</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-16</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<Custom CreatedFrom="{D5D15008-70A9-4EBE-85F7-4662C8511080}">
+										<Attenuation Name="Main Attenuation (Custom)" ID="{731971E6-6442-4873-ADAC-26F7BBF4A350}" ShortID="1022309553">
+											<PropertyList>
+												<Property Name="RadiusMax" Type="Real64" Value="500"/>
+											</PropertyList>
+											<CurveUsageInfoList>
+												<VolumeDryUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+														<Curve Name="VolumeDry" ID="{0E8A789C-2D98-4BA4-9CDC-BC2BE5976DE4}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="3"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>0</YPos>
+																	<Flags>5</Flags>
+																	<SegmentShape>Log3</SegmentShape>
+																</Point>
+																<Point>
+																	<XPos>500</XPos>
+																	<YPos>-200</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
+												</VolumeDryUsage>
+												<VolumeWetGameUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+												</VolumeWetGameUsage>
+												<VolumeWetUserUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+												</VolumeWetUserUsage>
+												<LowPassFilterUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</LowPassFilterUsage>
+												<HighPassFilterUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</HighPassFilterUsage>
+												<SpreadUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</SpreadUsage>
+												<FocusUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</FocusUsage>
+											</CurveUsageInfoList>
+										</Attenuation>
+									</Custom>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="deathtrooper death 1" ID="{46FE80EA-7871-4768-9510-4E6298BBE66A}" ShortID="634997696">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{3E5F2CE6-662B-43E6-8C8E-02E216DB43C5}" ShortID="310722922">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{7A871C21-58C4-4F63-A37C-97035DABCD61}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="deathtrooper death 1" ID="{42008F61-A96D-46BB-A75F-9421C22DC5CD}">
+											<Language>SFX</Language>
+											<AudioFile>deathtrooper death 1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="330372999"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="deathtrooper death 1" ID="{42008F61-A96D-46BB-A75F-9421C22DC5CD}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="deathtrooper death 2" ID="{EE7F8D5F-AFEA-4430-BCD2-47B0125B85DA}" ShortID="14205430">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{92EBB13F-8D3A-4F5C-B69F-2F0E2FABEB7C}" ShortID="713480924">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{8DCB07F1-C2CF-417B-8D07-3A3F9A69FBDC}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="deathtrooper death 2" ID="{B65457C6-A876-4C07-B736-7CA734F87FF2}">
+											<Language>SFX</Language>
+											<AudioFile>deathtrooper death 2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="576144405"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="deathtrooper death 2" ID="{B65457C6-A876-4C07-B736-7CA734F87FF2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Footsteps run Deathtrooper" ID="{0FDD3067-BDE6-417C-8988-6E79903E646C}" ShortID="562782132">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="CenterPercentage" Type="int32">
+									<ValueList>
+										<Value>50</Value>
+									</ValueList>
+								</Property>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.17"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-13</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Main Attenuation" ID="{D5D15008-70A9-4EBE-85F7-4662C8511080}" WorkUnitID="{BF5D0A66-53A6-4978-B06F-8D86FDD56684}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="deathtrooper footstep 1" ID="{C86D1249-961B-4C0B-812E-B3699EEDAF91}" ShortID="716601804">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{ADD7861E-ADA6-42AA-840D-207EDB42D6A4}" ShortID="110825249">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{2FDF747B-1951-447E-ACA6-EDF0BB98731E}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="deathtrooper footstep 1" ID="{11E798DD-1433-4F5E-8281-5FF4E6570241}">
+											<Language>SFX</Language>
+											<AudioFile>deathtrooper footstep 1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="214758412"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="deathtrooper footstep 1" ID="{11E798DD-1433-4F5E-8281-5FF4E6570241}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="deathtrooper footstep 2" ID="{590B2A12-8CBC-4D55-81FA-937FFB397C29}" ShortID="108572830">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{94B443A4-DC42-4BD8-B20C-22F523E02A39}" ShortID="92616823">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{EC33F7BC-6D41-4D3F-A16D-F4D193CE91DD}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="deathtrooper footstep 2" ID="{489AAA71-44CC-4A2E-9552-74517324E825}">
+											<Language>SFX</Language>
+											<AudioFile>deathtrooper footstep 2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1012641039"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="deathtrooper footstep 2" ID="{489AAA71-44CC-4A2E-9552-74517324E825}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="deathtrooper footstep 3" ID="{5B05DF85-8856-4E48-A48C-3201E2D294F2}" ShortID="298375265">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{A5C21022-A365-4345-80D2-685ED7C2971D}" ShortID="711831686">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{99F174E6-2D96-4385-9A2D-C9D95C2659F2}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="deathtrooper footstep 3" ID="{D215E9E0-EA50-4D84-B24E-AE689A0488BE}">
+											<Language>SFX</Language>
+											<AudioFile>deathtrooper footstep 3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="574463678"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="deathtrooper footstep 3" ID="{D215E9E0-EA50-4D84-B24E-AE689A0488BE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="deathtrooper footstep 4" ID="{4F194DDC-254C-4327-9BBD-E1C90C881ADF}" ShortID="682475309">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{6B927CBE-A9C1-4803-AD64-6443A1556F4A}" ShortID="743947232">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{75DEF9AF-F64A-41EC-966E-602516C48EC2}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="deathtrooper footstep 4" ID="{B270C4C5-72EA-486B-9072-8B445CAF6364}">
+											<Language>SFX</Language>
+											<AudioFile>deathtrooper footstep 4.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="772149242"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="deathtrooper footstep 4" ID="{B270C4C5-72EA-486B-9072-8B445CAF6364}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="deathtrooper footstep 5" ID="{F31AABEF-4D91-4A05-AAF8-FF317013AD76}" ShortID="505157516">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{A38DCBA4-14B4-4B2B-8299-5DAD79E80CB9}" ShortID="587849859">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{DAB8C09E-FDB4-401F-92E3-02E9CF96F4F7}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="deathtrooper footstep 5" ID="{59B6AC09-D644-4E49-9151-F14B833A02BF}">
+											<Language>SFX</Language>
+											<AudioFile>deathtrooper footstep 5.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="104748994"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="deathtrooper footstep 5" ID="{59B6AC09-D644-4E49-9151-F14B833A02BF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</Folder>
 				<Folder Name="Moff Guideon" ID="{FF635BB0-8DA8-4B1D-80F7-44C13F65CE8D}" ShortID="1052300159">
 					<ChildrenList>
 						<Sound Name="moff gideon dash" ID="{7382125D-CD40-48DB-A116-47CD3E0F88AE}" ShortID="365895174">
 							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="CenterPercentage" Type="int32">
+									<ValueList>
+										<Value>50</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-11</Value>
@@ -11537,6 +13859,9 @@
 								</Property>
 							</PropertyList>
 							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Main Attenuation" ID="{D5D15008-70A9-4EBE-85F7-4662C8511080}" WorkUnitID="{BF5D0A66-53A6-4978-B06F-8D86FDD56684}"/>
+								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
 								</Reference>
@@ -11559,6 +13884,12 @@
 						</Sound>
 						<Sound Name="moff gideon snap fingers" ID="{E6901D1E-30E6-4CD9-BD4F-EAB672448982}" ShortID="171221541">
 							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="CenterPercentage" Type="int32">
+									<ValueList>
+										<Value>50</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-4</Value>
@@ -11592,6 +13923,9 @@
 								</Property>
 							</PropertyList>
 							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Main Attenuation" ID="{D5D15008-70A9-4EBE-85F7-4662C8511080}" WorkUnitID="{BF5D0A66-53A6-4978-B06F-8D86FDD56684}"/>
+								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
 								</Reference>
@@ -11613,7 +13947,18 @@
 							</ActiveSourceList>
 						</Sound>
 						<RandomSequenceContainer Name="Moff guideon hit" ID="{06D53DD5-88E7-41C7-82B8-EAD535B50838}" ShortID="647839376">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="CenterPercentage" Type="int32">
+									<ValueList>
+										<Value>50</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Main Attenuation" ID="{D5D15008-70A9-4EBE-85F7-4662C8511080}" WorkUnitID="{BF5D0A66-53A6-4978-B06F-8D86FDD56684}"/>
+								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
 								</Reference>
@@ -11789,6 +14134,507 @@
 								</Sound>
 							</ChildrenList>
 						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Moff guideon intimidate" ID="{D06AF8EB-DD8D-41E2-BA1E-1C4085091E09}" ShortID="896890411">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="CenterPercentage" Type="int32">
+									<ValueList>
+										<Value>50</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-15</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Main Attenuation" ID="{D5D15008-70A9-4EBE-85F7-4662C8511080}" WorkUnitID="{BF5D0A66-53A6-4978-B06F-8D86FDD56684}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="moff guideon intimidate 1" ID="{D042334C-168E-4EAF-9249-B19EC63DA713}" ShortID="511147244">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-9</Value>
+											</ValueList>
+											<RTPCList>
+												<RTPC Name="" ID="{E5B924A1-F586-4414-B0EC-9EF14967EE01}" ShortID="937577567">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{0B76D71D-A3D2-4FE6-B5AC-56546903D87F}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="moff guideon intimidate 1" ID="{313CA36E-C018-4D81-B313-2713F6BB7C5E}">
+											<Language>SFX</Language>
+											<AudioFile>moff guideon intimidate 1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="767906425"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="moff guideon intimidate 1" ID="{313CA36E-C018-4D81-B313-2713F6BB7C5E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="moff guideon intimidate 2" ID="{B0EA8594-DC50-488A-800A-0FDBF6DDF271}" ShortID="519816846">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{B6356650-FB8B-413D-909C-B808BF4EAB5C}" ShortID="248400871">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{07E9E220-3439-46FC-80B9-5FF4D59C9F5C}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="moff guideon intimidate 2" ID="{7EC01F94-3546-496C-B523-3B1A9D055569}">
+											<Language>SFX</Language>
+											<AudioFile>moff guideon intimidate 2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="660269005"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="moff guideon intimidate 2" ID="{7EC01F94-3546-496C-B523-3B1A9D055569}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<Sound Name="moff guideon lightsaber turn on" ID="{472D3372-EBCE-42CC-95B6-6C4455511FD6}" ShortID="999791240">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="CenterPercentage" Type="int32">
+									<ValueList>
+										<Value>50</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-14</Value>
+									</ValueList>
+									<RTPCList>
+										<RTPC Name="" ID="{552C2673-CCE5-4112-8F6C-E9E263FB74CA}" ShortID="795504973">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{C764AC9E-B9B7-4E74-BFE8-0EC2472F33A3}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>200</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Main Attenuation" ID="{D5D15008-70A9-4EBE-85F7-4662C8511080}" WorkUnitID="{BF5D0A66-53A6-4978-B06F-8D86FDD56684}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="moff guideon lightsaber turn on" ID="{855AC664-3E49-4B25-A3B7-C78AA423D9E3}">
+									<Language>SFX</Language>
+									<AudioFile>moff guideon lightsaber turn on.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="354392164"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="moff guideon lightsaber turn on" ID="{855AC664-3E49-4B25-A3B7-C78AA423D9E3}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<RandomSequenceContainer Name="moff guideon lightsaber whoosh" ID="{1113CDD6-EFBF-499D-ABE7-3DF898487F8F}" ShortID="190399064">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="CenterPercentage" Type="int32">
+									<ValueList>
+										<Value>50</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-17</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Main Attenuation" ID="{D5D15008-70A9-4EBE-85F7-4662C8511080}" WorkUnitID="{BF5D0A66-53A6-4978-B06F-8D86FDD56684}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="moff guideon lightsaber whoosh 1" ID="{E6A3DBEB-F1BF-4721-A78D-4A4A2DA61C9F}" ShortID="740542074">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{C3492AC3-B5CE-4207-9E78-59EC0B43D343}" ShortID="510350978">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{A320DDC3-49FA-4EEC-B631-A856A799C6AD}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="moff guideon lightsaber whoosh 1" ID="{4F435DB0-1E57-4686-8C01-C532090C9EA9}">
+											<Language>SFX</Language>
+											<AudioFile>moff guideon lightsaber whoosh 1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="270470728"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="moff guideon lightsaber whoosh 1" ID="{4F435DB0-1E57-4686-8C01-C532090C9EA9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="moff guideon lightsaber whoosh 2" ID="{231C1304-DA31-4F3E-ACFB-6091AD5C6F3F}" ShortID="937809243">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{3340587E-A6F7-4815-A80E-9F2E875CF18A}" ShortID="739247701">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{ACDC2A84-77AD-474D-9657-4EC7A3801B94}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="moff guideon lightsaber whoosh 2" ID="{0D0DE0CA-AE23-4929-9D4A-EEF5D11A4D1F}">
+											<Language>SFX</Language>
+											<AudioFile>moff guideon lightsaber whoosh 2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="720678292"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="moff guideon lightsaber whoosh 2" ID="{0D0DE0CA-AE23-4929-9D4A-EEF5D11A4D1F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="moff guideon lightsaber attack" ID="{33EBBD86-482B-4CEA-B833-1B783968F98A}" ShortID="1072177926">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="CenterPercentage" Type="int32">
+									<ValueList>
+										<Value>50</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-19</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Main Attenuation" ID="{D5D15008-70A9-4EBE-85F7-4662C8511080}" WorkUnitID="{BF5D0A66-53A6-4978-B06F-8D86FDD56684}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="moff guideon lightsaber attack 1" ID="{93676855-D7B5-4005-871C-709DF740EC15}" ShortID="148839443">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{5F618956-EE6A-41F2-B17A-9E489F9162C5}" ShortID="196049512">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{A1D0D3C7-0C2E-456D-AA91-0F4310AA2BD9}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="moff guideon lightsaber attack 1" ID="{88AA3FB3-71FE-4519-A0C3-22A14FCDC539}">
+											<Language>SFX</Language>
+											<AudioFile>moff guideon lightsaber attack 1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="608559747"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="moff guideon lightsaber attack 1" ID="{88AA3FB3-71FE-4519-A0C3-22A14FCDC539}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="moff guideon lightsaber attack 2" ID="{19866FB2-EDDC-4C17-AC0C-3D2CC0D4336B}" ShortID="591958792">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{52818CA0-4416-49CD-A6DF-E3EFDD9A984B}" ShortID="698792599">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{CC6FA438-CD25-421E-A0D8-4638F7FFA682}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="moff guideon lightsaber attack 2" ID="{2F0C69FB-CBF5-4549-81F1-7D07DAD33726}">
+											<Language>SFX</Language>
+											<AudioFile>moff guideon lightsaber attack 2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="703060658"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="moff guideon lightsaber attack 2" ID="{2F0C69FB-CBF5-4549-81F1-7D07DAD33726}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<Sound Name="moff guideon lightsaber turn off" ID="{942F19A6-79F2-41D2-B0D4-E198C17899F6}" ShortID="392261576">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="CenterPercentage" Type="int32">
+									<ValueList>
+										<Value>50</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-24</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Main Attenuation" ID="{D5D15008-70A9-4EBE-85F7-4662C8511080}" WorkUnitID="{BF5D0A66-53A6-4978-B06F-8D86FDD56684}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="moff guideon lightsaber turn off" ID="{42E53995-D0E6-41F3-B893-C0296B2FA20E}">
+									<Language>SFX</Language>
+									<AudioFile>moff guideon lightsaber turn off.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1050035490"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="moff guideon lightsaber turn off" ID="{42E53995-D0E6-41F3-B893-C0296B2FA20E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

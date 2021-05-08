@@ -18,7 +18,7 @@
    {
     "Id": "225682233",
     "Language": "SFX",
-    "Hash": "2071329838",
+    "Hash": "1616735179",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Skytrooper",
     "ShortName": "Skytrooper",
     "Path": "Skytrooper.bnk",
@@ -110,7 +110,7 @@
    {
     "Id": "833070093",
     "Language": "SFX",
-    "Hash": "139654930",
+    "Hash": "2086276091",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Stormtrooper",
     "ShortName": "Stormtrooper",
     "Path": "Stormtrooper.bnk",
@@ -299,7 +299,7 @@
    {
     "Id": "913881297",
     "Language": "SFX",
-    "Hash": "3629725556",
+    "Hash": "2206406169",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Wampa_Skell",
     "ShortName": "Wampa_Skell",
     "Path": "Wampa_Skell.bnk",
@@ -445,7 +445,7 @@
    {
     "Id": "1019160887",
     "Language": "SFX",
-    "Hash": "2968997519",
+    "Hash": "2348834430",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Heavytrooper",
     "ShortName": "Heavytrooper",
     "Path": "Heavytrooper.bnk",
@@ -497,6 +497,114 @@
       ]
      },
      {
+      "Id": "2136671359",
+      "Name": "Play_Heavytrooper_Death",
+      "ObjectPath": "\\Events\\Default Work Unit\\Heavytrooper\\Play_Heavytrooper_Death",
+      "DurationType": "OneShot",
+      "DurationMin": "0.528458",
+      "DurationMax": "0.920295",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "600365897",
+        "Language": "SFX",
+        "ShortName": "heavytrooper death.wav",
+        "Path": "SFX\\heavytrooper death_FC2D3A10.wem"
+       },
+       {
+        "Id": "714211610",
+        "Language": "SFX",
+        "ShortName": "heavytrooper death 2.wav",
+        "Path": "SFX\\heavytrooper death 2_FC2D3A10.wem"
+       }
+      ]
+     },
+     {
+      "Id": "45482717",
+      "Name": "Play_Heavytrooper_Enemy_Detection",
+      "ObjectPath": "\\Events\\Default Work Unit\\Heavytrooper\\Play_Heavytrooper_Enemy_Detection",
+      "DurationType": "OneShot",
+      "DurationMin": "1.205533",
+      "DurationMax": "1.396961",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "76206835",
+        "Language": "SFX",
+        "ShortName": "heavytrooper enemy detection 1.wav",
+        "Path": "SFX\\heavytrooper enemy detection 1_FC2D3A10.wem"
+       },
+       {
+        "Id": "312255773",
+        "Language": "SFX",
+        "ShortName": "heavytrooper enemy detection 2.wav",
+        "Path": "SFX\\heavytrooper enemy detection 2_FC2D3A10.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2896179758",
+      "Name": "Play_Heavytrooper_Run",
+      "ObjectPath": "\\Events\\Default Work Unit\\Heavytrooper\\Play_Heavytrooper_Run",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "351242191",
+        "Language": "SFX",
+        "ShortName": "heavytrooper footstep run 1.wav",
+        "Path": "SFX\\heavytrooper footstep run 1_FC2D3A10.wem"
+       },
+       {
+        "Id": "387898307",
+        "Language": "SFX",
+        "ShortName": "heavytrooper footstep run 2.wav",
+        "Path": "SFX\\heavytrooper footstep run 2_FC2D3A10.wem"
+       },
+       {
+        "Id": "765061511",
+        "Language": "SFX",
+        "ShortName": "heavytrooper footstep run 4.wav",
+        "Path": "SFX\\heavytrooper footstep run 4_FC2D3A10.wem"
+       },
+       {
+        "Id": "1023494932",
+        "Language": "SFX",
+        "ShortName": "heavytrooper footstep run 3.wav",
+        "Path": "SFX\\heavytrooper footstep run 3_FC2D3A10.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1984950140",
+      "Name": "Play_Heavytrooper_Wander",
+      "ObjectPath": "\\Events\\Default Work Unit\\Heavytrooper\\Play_Heavytrooper_Wander",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "225865834",
+        "Language": "SFX",
+        "ShortName": "heavytrooper footstep 2.wav",
+        "Path": "SFX\\heavytrooper footstep 2_FC2D3A10.wem"
+       },
+       {
+        "Id": "507314420",
+        "Language": "SFX",
+        "ShortName": "heavytrooper footstep 1.wav",
+        "Path": "SFX\\heavytrooper footstep 1_FC2D3A10.wem"
+       },
+       {
+        "Id": "622395172",
+        "Language": "SFX",
+        "ShortName": "heavytrooper footstep 4.wav",
+        "Path": "SFX\\heavytrooper footstep 4_FC2D3A10.wem"
+       },
+       {
+        "Id": "1059915617",
+        "Language": "SFX",
+        "ShortName": "heavytrooper footstep 3.wav",
+        "Path": "SFX\\heavytrooper footstep 3_FC2D3A10.wem"
+       }
+      ]
+     },
+     {
       "Id": "1931338186",
       "Name": "Resume_Object",
       "ObjectPath": "\\Events\\Default Work Unit\\Resume_Object",
@@ -518,13 +626,18 @@
       "Id": "467158820",
       "Name": "SourceVolume",
       "ObjectPath": "\\Game Parameters\\Default Work Unit\\SourceVolume"
+     },
+     {
+      "Id": "2704707011",
+      "Name": "BusVolume",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\BusVolume"
      }
     ]
    },
    {
     "Id": "1093318992",
     "Language": "SFX",
-    "Hash": "3681382874",
+    "Hash": "1744138558",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Mando",
     "ShortName": "Mando",
     "Path": "Mando.bnk",
@@ -536,6 +649,22 @@
       "DurationType": "OneShot",
       "DurationMin": "0.000000",
       "DurationMax": "0.000000"
+     },
+     {
+      "Id": "128036816",
+      "Name": "Play_Blaster_Cooldown_Finished",
+      "ObjectPath": "\\Events\\Default Work Unit\\Mando\\Play_Blaster_Cooldown_Finished",
+      "DurationType": "OneShot",
+      "DurationMin": "0.365465",
+      "DurationMax": "0.365465",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "357751838",
+        "Language": "SFX",
+        "ShortName": "Blaster Mando overcharged finished.wav",
+        "Path": "SFX\\Blaster Mando overcharged finished_FC2D3A10.wem"
+       }
+      ]
      },
      {
       "Id": "3416257419",
@@ -589,7 +718,9 @@
       "Id": "1421476365",
       "Name": "Play_Footsteps_Metal_Platform_Mando",
       "ObjectPath": "\\Events\\Default Work Unit\\Mando\\Play_Footsteps_Metal_Platform_Mando",
-      "DurationType": "Infinite",
+      "DurationType": "OneShot",
+      "DurationMin": "0.192834",
+      "DurationMax": "0.213515",
       "IncludedMemoryFiles": [
        {
         "Id": "217252079",
@@ -627,7 +758,9 @@
       "Id": "329581270",
       "Name": "Play_Footsteps_Sand_Mando",
       "ObjectPath": "\\Events\\Default Work Unit\\Mando\\Play_Footsteps_Sand_Mando",
-      "DurationType": "Infinite",
+      "DurationType": "OneShot",
+      "DurationMin": "0.235578",
+      "DurationMax": "0.257528",
       "IncludedMemoryFiles": [
        {
         "Id": "222927635",
@@ -659,7 +792,9 @@
       "Id": "500889257",
       "Name": "Play_Footsteps_Snow_Mando",
       "ObjectPath": "\\Events\\Default Work Unit\\Mando\\Play_Footsteps_Snow_Mando",
-      "DurationType": "Infinite",
+      "DurationType": "OneShot",
+      "DurationMin": "0.241906",
+      "DurationMax": "0.261104",
       "IncludedMemoryFiles": [
        {
         "Id": "180750331",
@@ -1106,7 +1241,7 @@
    {
     "Id": "1229948536",
     "Language": "SFX",
-    "Hash": "1254184586",
+    "Hash": "3344835459",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Environment",
     "ShortName": "Environment",
     "Path": "Environment.bnk",
@@ -1211,7 +1346,7 @@
    {
     "Id": "1551306167",
     "Language": "SFX",
-    "Hash": "2712277291",
+    "Hash": "3518476823",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\UI",
     "ShortName": "UI",
     "Path": "UI.bnk",
@@ -1404,7 +1539,7 @@
    {
     "Id": "2674766611",
     "Language": "SFX",
-    "Hash": "2069884685",
+    "Hash": "1346949771",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Turret",
     "ShortName": "Turret",
     "Path": "Turret.bnk",
@@ -1494,7 +1629,7 @@
    {
     "Id": "3049191116",
     "Language": "SFX",
-    "Hash": "1702500579",
+    "Hash": "973713104",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Rancor",
     "ShortName": "Rancor",
     "Path": "Rancor.bnk",
@@ -1686,6 +1821,22 @@
       ]
      },
      {
+      "Id": "1080480617",
+      "Name": "Play_Rancor_Roar_Presentation",
+      "ObjectPath": "\\Events\\Default Work Unit\\Rancor\\Play_Rancor_Roar_Presentation",
+      "DurationType": "OneShot",
+      "DurationMin": "1.905714",
+      "DurationMax": "1.905714",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "792758880",
+        "Language": "SFX",
+        "ShortName": "Rancor roar presentation.wav",
+        "Path": "SFX\\Rancor roar presentation_FC2D3A10.wem"
+       }
+      ]
+     },
+     {
       "Id": "3430546032",
       "Name": "Play_Rancor_Rush_Fall",
       "ObjectPath": "\\Events\\Default Work Unit\\Rancor\\Play_Rancor_Rush_Fall",
@@ -1756,6 +1907,166 @@
         "Language": "SFX",
         "ShortName": "Rock impact.wav",
         "Path": "SFX\\Rock impact_FC2D3A10.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1931338186",
+      "Name": "Resume_Object",
+      "ObjectPath": "\\Events\\Default Work Unit\\Resume_Object",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
+     },
+     {
+      "Id": "3318621861",
+      "Name": "Stop_Object",
+      "ObjectPath": "\\Events\\Default Work Unit\\Stop_Object",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "467158820",
+      "Name": "SourceVolume",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\SourceVolume"
+     },
+     {
+      "Id": "2704707011",
+      "Name": "BusVolume",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\BusVolume"
+     }
+    ]
+   },
+   {
+    "Id": "3363384534",
+    "Language": "SFX",
+    "Hash": "115889468",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Deathtrooper",
+    "ShortName": "Deathtrooper",
+    "Path": "Deathtrooper.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "192623117",
+      "Name": "Pause_Object",
+      "ObjectPath": "\\Events\\Default Work Unit\\Pause_Object",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
+     },
+     {
+      "Id": "499089618",
+      "Name": "Play_Deathtrooper_Death",
+      "ObjectPath": "\\Events\\Default Work Unit\\Deathtrooper\\Play_Deathtrooper_Death",
+      "DurationType": "OneShot",
+      "DurationMin": "0.933583",
+      "DurationMax": "0.933583",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "330372999",
+        "Language": "SFX",
+        "ShortName": "deathtrooper death 1.wav",
+        "Path": "SFX\\deathtrooper death 1_FC2D3A10.wem"
+       },
+       {
+        "Id": "576144405",
+        "Language": "SFX",
+        "ShortName": "deathtrooper death 2.wav",
+        "Path": "SFX\\deathtrooper death 2_FC2D3A10.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2950577012",
+      "Name": "Play_Deathtrooper_Enemy_Detection",
+      "ObjectPath": "\\Events\\Default Work Unit\\Deathtrooper\\Play_Deathtrooper_Enemy_Detection",
+      "DurationType": "OneShot",
+      "DurationMin": "0.816236",
+      "DurationMax": "0.901043",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "855871336",
+        "Language": "SFX",
+        "ShortName": "deathtrooper enemy detection 2.wav",
+        "Path": "SFX\\deathtrooper enemy detection 2_FC2D3A10.wem"
+       },
+       {
+        "Id": "896087691",
+        "Language": "SFX",
+        "ShortName": "deathtrooper enemy detection 1.wav",
+        "Path": "SFX\\deathtrooper enemy detection 1_FC2D3A10.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1043508822",
+      "Name": "Play_Deathtrooper_Recoil",
+      "ObjectPath": "\\Events\\Default Work Unit\\Deathtrooper\\Play_Deathtrooper_Recoil",
+      "DurationType": "OneShot",
+      "DurationMin": "0.446100",
+      "DurationMax": "0.446100",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "586533874",
+        "Language": "SFX",
+        "ShortName": "deathtrooper recoil.wav",
+        "Path": "SFX\\deathtrooper recoil_FC2D3A10.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1130779499",
+      "Name": "Play_Deathtrooper_Run",
+      "ObjectPath": "\\Events\\Default Work Unit\\Deathtrooper\\Play_Deathtrooper_Run",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "104748994",
+        "Language": "SFX",
+        "ShortName": "deathtrooper footstep 5.wav",
+        "Path": "SFX\\deathtrooper footstep 5_FC2D3A10.wem"
+       },
+       {
+        "Id": "214758412",
+        "Language": "SFX",
+        "ShortName": "deathtrooper footstep 1.wav",
+        "Path": "SFX\\deathtrooper footstep 1_FC2D3A10.wem"
+       },
+       {
+        "Id": "574463678",
+        "Language": "SFX",
+        "ShortName": "deathtrooper footstep 3.wav",
+        "Path": "SFX\\deathtrooper footstep 3_FC2D3A10.wem"
+       },
+       {
+        "Id": "772149242",
+        "Language": "SFX",
+        "ShortName": "deathtrooper footstep 4.wav",
+        "Path": "SFX\\deathtrooper footstep 4_FC2D3A10.wem"
+       },
+       {
+        "Id": "1012641039",
+        "Language": "SFX",
+        "ShortName": "deathtrooper footstep 2.wav",
+        "Path": "SFX\\deathtrooper footstep 2_FC2D3A10.wem"
+       }
+      ]
+     },
+     {
+      "Id": "319217948",
+      "Name": "Play_Deathtrooper_Shot",
+      "ObjectPath": "\\Events\\Default Work Unit\\Deathtrooper\\Play_Deathtrooper_Shot",
+      "DurationType": "OneShot",
+      "DurationMin": "0.742940",
+      "DurationMax": "0.811119",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "28788806",
+        "Language": "SFX",
+        "ShortName": "deathtrooper shotgun.wav",
+        "Path": "SFX\\deathtrooper shotgun_FC2D3A10.wem"
        }
       ]
      },
@@ -1876,7 +2187,7 @@
    {
     "Id": "3721236575",
     "Language": "SFX",
-    "Hash": "3466135868",
+    "Hash": "209905936",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Moff_Guideon",
     "ShortName": "Moff_Guideon",
     "Path": "Moff_Guideon.bnk",
@@ -1934,6 +2245,104 @@
       ]
      },
      {
+      "Id": "509258190",
+      "Name": "Play_Moff_Guideon_Intimidation",
+      "ObjectPath": "\\Events\\Default Work Unit\\Moff Guideon\\Play_Moff_Guideon_Intimidation",
+      "DurationType": "OneShot",
+      "DurationMin": "0.582336",
+      "DurationMax": "1.028594",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "660269005",
+        "Language": "SFX",
+        "ShortName": "moff guideon intimidate 2.wav",
+        "Path": "SFX\\moff guideon intimidate 2_FC2D3A10.wem"
+       },
+       {
+        "Id": "767906425",
+        "Language": "SFX",
+        "ShortName": "moff guideon intimidate 1.wav",
+        "Path": "SFX\\moff guideon intimidate 1_FC2D3A10.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3275430871",
+      "Name": "Play_Moff_Guideon_Lightsaber_Attack",
+      "ObjectPath": "\\Events\\Default Work Unit\\Moff Guideon\\Play_Moff_Guideon_Lightsaber_Attack",
+      "DurationType": "OneShot",
+      "DurationMin": "0.803084",
+      "DurationMax": "0.982358",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "608559747",
+        "Language": "SFX",
+        "ShortName": "moff guideon lightsaber attack 1.wav",
+        "Path": "SFX\\moff guideon lightsaber attack 1_FC2D3A10.wem"
+       },
+       {
+        "Id": "703060658",
+        "Language": "SFX",
+        "ShortName": "moff guideon lightsaber attack 2.wav",
+        "Path": "SFX\\moff guideon lightsaber attack 2_FC2D3A10.wem"
+       }
+      ]
+     },
+     {
+      "Id": "314845868",
+      "Name": "Play_Moff_Guideon_Lightsaber_Turn_Off",
+      "ObjectPath": "\\Events\\Default Work Unit\\Moff Guideon\\Play_Moff_Guideon_Lightsaber_Turn_Off",
+      "DurationType": "OneShot",
+      "DurationMin": "0.732104",
+      "DurationMax": "0.732104",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "1050035490",
+        "Language": "SFX",
+        "ShortName": "moff guideon lightsaber turn off.wav",
+        "Path": "SFX\\moff guideon lightsaber turn off_FC2D3A10.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1564184646",
+      "Name": "Play_Moff_Guideon_Lightsaber_Turn_On",
+      "ObjectPath": "\\Events\\Default Work Unit\\Moff Guideon\\Play_Moff_Guideon_Lightsaber_Turn_On",
+      "DurationType": "OneShot",
+      "DurationMin": "1.417868",
+      "DurationMax": "1.417868",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "354392164",
+        "Language": "SFX",
+        "ShortName": "moff guideon lightsaber turn on.wav",
+        "Path": "SFX\\moff guideon lightsaber turn on_FC2D3A10.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1818257593",
+      "Name": "Play_Moff_Guideon_Lightsaber_Whoosh",
+      "ObjectPath": "\\Events\\Default Work Unit\\Moff Guideon\\Play_Moff_Guideon_Lightsaber_Whoosh",
+      "DurationType": "OneShot",
+      "DurationMin": "0.720658",
+      "DurationMax": "0.771769",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "270470728",
+        "Language": "SFX",
+        "ShortName": "moff guideon lightsaber whoosh 1.wav",
+        "Path": "SFX\\moff guideon lightsaber whoosh 1_FC2D3A10.wem"
+       },
+       {
+        "Id": "720678292",
+        "Language": "SFX",
+        "ShortName": "moff guideon lightsaber whoosh 2.wav",
+        "Path": "SFX\\moff guideon lightsaber whoosh 2_FC2D3A10.wem"
+       }
+      ]
+     },
+     {
       "Id": "2615772781",
       "Name": "Play_Moff_Guideon_Spawn_Enemies",
       "ObjectPath": "\\Events\\Default Work Unit\\Moff Guideon\\Play_Moff_Guideon_Spawn_Enemies",
@@ -1971,13 +2380,18 @@
       "Id": "467158820",
       "Name": "SourceVolume",
       "ObjectPath": "\\Game Parameters\\Default Work Unit\\SourceVolume"
+     },
+     {
+      "Id": "2704707011",
+      "Name": "BusVolume",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\BusVolume"
      }
     ]
    },
    {
     "Id": "3795682265",
     "Language": "SFX",
-    "Hash": "385920988",
+    "Hash": "4097206840",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Bantha",
     "ShortName": "Bantha",
     "Path": "Bantha.bnk",
