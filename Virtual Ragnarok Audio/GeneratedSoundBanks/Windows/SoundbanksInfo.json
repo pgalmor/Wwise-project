@@ -1241,7 +1241,7 @@
    {
     "Id": "1229948536",
     "Language": "SFX",
-    "Hash": "3344835459",
+    "Hash": "1712932303",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Environment",
     "ShortName": "Environment",
     "Path": "Environment.bnk",
@@ -1295,6 +1295,50 @@
         "Language": "SFX",
         "ShortName": "post boss room 2 ambience.wav",
         "Path": "SFX\\post boss room 2 ambience_B182BB5A.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1195492712",
+      "Name": "Play_Spaceship_Interior_Ambience",
+      "ObjectPath": "\\Events\\Default Work Unit\\Environment\\Play_Spaceship_Interior_Ambience",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "215622185",
+        "Language": "SFX",
+        "ShortName": "computer beep 1.wav",
+        "Path": "SFX\\computer beep 1_FC2D3A10.wem"
+       },
+       {
+        "Id": "254560471",
+        "Language": "SFX",
+        "ShortName": "computer beep 4.wav",
+        "Path": "SFX\\computer beep 4_FC2D3A10.wem"
+       },
+       {
+        "Id": "377178820",
+        "Language": "SFX",
+        "ShortName": "computer beep 3.wav",
+        "Path": "SFX\\computer beep 3_FC2D3A10.wem"
+       },
+       {
+        "Id": "685609859",
+        "Language": "SFX",
+        "ShortName": "spaceship interior loop.wav",
+        "Path": "SFX\\spaceship interior loop_B182BB5A.wem"
+       },
+       {
+        "Id": "719101735",
+        "Language": "SFX",
+        "ShortName": "computer beep 5.wav",
+        "Path": "SFX\\computer beep 5_FC2D3A10.wem"
+       },
+       {
+        "Id": "831264112",
+        "Language": "SFX",
+        "ShortName": "computer beep 2.wav",
+        "Path": "SFX\\computer beep 2_FC2D3A10.wem"
        }
       ]
      },
@@ -1943,7 +1987,7 @@
    {
     "Id": "3363384534",
     "Language": "SFX",
-    "Hash": "115889468",
+    "Hash": "2800418854",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Deathtrooper",
     "ShortName": "Deathtrooper",
     "Path": "Deathtrooper.bnk",
@@ -2060,13 +2104,51 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Deathtrooper\\Play_Deathtrooper_Shot",
       "DurationType": "OneShot",
       "DurationMin": "0.742940",
-      "DurationMax": "0.811119",
+      "DurationMax": "0.811118",
       "IncludedMemoryFiles": [
        {
         "Id": "28788806",
         "Language": "SFX",
         "ShortName": "deathtrooper shotgun.wav",
         "Path": "SFX\\deathtrooper shotgun_FC2D3A10.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1377203479",
+      "Name": "Play_Deathtrooper_Wander",
+      "ObjectPath": "\\Events\\Default Work Unit\\Deathtrooper\\Play_Deathtrooper_Wander",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "188616202",
+        "Language": "SFX",
+        "ShortName": "deathtrooper footstep wander 1.wav",
+        "Path": "SFX\\deathtrooper footstep wander 1_FC2D3A10.wem"
+       },
+       {
+        "Id": "244670322",
+        "Language": "SFX",
+        "ShortName": "deathtrooper footstep wander 2.wav",
+        "Path": "SFX\\deathtrooper footstep wander 2_FC2D3A10.wem"
+       },
+       {
+        "Id": "356727513",
+        "Language": "SFX",
+        "ShortName": "deathtrooper footstep wander 3.wav",
+        "Path": "SFX\\deathtrooper footstep wander 3_FC2D3A10.wem"
+       },
+       {
+        "Id": "454816313",
+        "Language": "SFX",
+        "ShortName": "deathtrooper footstep wander 4.wav",
+        "Path": "SFX\\deathtrooper footstep wander 4_FC2D3A10.wem"
+       },
+       {
+        "Id": "861321520",
+        "Language": "SFX",
+        "ShortName": "deathtrooper footstep wander 5.wav",
+        "Path": "SFX\\deathtrooper footstep wander 5_FC2D3A10.wem"
        }
       ]
      },
@@ -2103,7 +2185,7 @@
    {
     "Id": "3434002875",
     "Language": "SFX",
-    "Hash": "4267486589",
+    "Hash": "949786352",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Cantine",
     "ShortName": "Cantine",
     "Path": "Cantine.bnk",
@@ -2187,7 +2269,7 @@
    {
     "Id": "3721236575",
     "Language": "SFX",
-    "Hash": "209905936",
+    "Hash": "3778334465",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Moff_Guideon",
     "ShortName": "Moff_Guideon",
     "Path": "Moff_Guideon.bnk",
@@ -2217,52 +2299,102 @@
       ]
      },
      {
-      "Id": "4276044410",
-      "Name": "Play_Moff_Guideon_Hit",
-      "ObjectPath": "\\Events\\Default Work Unit\\Moff Guideon\\Play_Moff_Guideon_Hit",
+      "Id": "2058592530",
+      "Name": "Play_Moff_Guideon_Hit_Phase_1",
+      "ObjectPath": "\\Events\\Default Work Unit\\Moff Guideon\\Play_Moff_Guideon_Hit_Phase_1",
       "DurationType": "OneShot",
       "DurationMin": "0.000000",
       "DurationMax": "0.512086",
       "IncludedMemoryFiles": [
        {
-        "Id": "638780808",
+        "Id": "509161827",
         "Language": "SFX",
-        "ShortName": "moff gideon hit 3.wav",
-        "Path": "SFX\\moff gideon hit 3_FC2D3A10.wem"
+        "ShortName": "moff gideon hit 1rst phase 2.wav",
+        "Path": "SFX\\moff gideon hit 1rst phase 2_FC2D3A10.wem"
        },
        {
-        "Id": "733186374",
+        "Id": "626643442",
         "Language": "SFX",
-        "ShortName": "moff gideon hit 1.wav",
-        "Path": "SFX\\moff gideon hit 1_FC2D3A10.wem"
-       },
-       {
-        "Id": "1027955681",
-        "Language": "SFX",
-        "ShortName": "moff gideon hit 2.wav",
-        "Path": "SFX\\moff gideon hit 2_FC2D3A10.wem"
+        "ShortName": "moff gideon hit 1rst phase 1.wav",
+        "Path": "SFX\\moff gideon hit 1rst phase 1_FC2D3A10.wem"
        }
       ]
      },
      {
-      "Id": "509258190",
-      "Name": "Play_Moff_Guideon_Intimidation",
-      "ObjectPath": "\\Events\\Default Work Unit\\Moff Guideon\\Play_Moff_Guideon_Intimidation",
+      "Id": "2058592529",
+      "Name": "Play_Moff_Guideon_Hit_Phase_2",
+      "ObjectPath": "\\Events\\Default Work Unit\\Moff Guideon\\Play_Moff_Guideon_Hit_Phase_2",
+      "DurationType": "OneShot",
+      "DurationMin": "0.321088",
+      "DurationMax": "0.512086",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "134030243",
+        "Language": "SFX",
+        "ShortName": "moff gideon hit 2nd phase 1.wav",
+        "Path": "SFX\\moff gideon hit 2nd phase 1_FC2D3A10.wem"
+       },
+       {
+        "Id": "509161827",
+        "Language": "SFX",
+        "ShortName": "moff gideon hit 1rst phase 2.wav",
+        "Path": "SFX\\moff gideon hit 1rst phase 2_FC2D3A10.wem"
+       },
+       {
+        "Id": "578940370",
+        "Language": "SFX",
+        "ShortName": "moff gideon hit 2nd phase 2.wav",
+        "Path": "SFX\\moff gideon hit 2nd phase 2_FC2D3A10.wem"
+       },
+       {
+        "Id": "626643442",
+        "Language": "SFX",
+        "ShortName": "moff gideon hit 1rst phase 1.wav",
+        "Path": "SFX\\moff gideon hit 1rst phase 1_FC2D3A10.wem"
+       }
+      ]
+     },
+     {
+      "Id": "670133470",
+      "Name": "Play_Moff_Guideon_Intimidation_Phase_1",
+      "ObjectPath": "\\Events\\Default Work Unit\\Moff Guideon\\Play_Moff_Guideon_Intimidation_Phase_1",
       "DurationType": "OneShot",
       "DurationMin": "0.582336",
+      "DurationMax": "1.180454",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "336560564",
+        "Language": "SFX",
+        "ShortName": "moff guideon intimidate 1rst phase 2.wav",
+        "Path": "SFX\\moff guideon intimidate 1rst phase 2_FC2D3A10.wem"
+       },
+       {
+        "Id": "827580043",
+        "Language": "SFX",
+        "ShortName": "moff guideon intimidate 1rst phase 1.wav",
+        "Path": "SFX\\moff guideon intimidate 1rst phase 1_FC2D3A10.wem"
+       }
+      ]
+     },
+     {
+      "Id": "670133469",
+      "Name": "Play_Moff_Guideon_Intimidation_Phase_2",
+      "ObjectPath": "\\Events\\Default Work Unit\\Moff Guideon\\Play_Moff_Guideon_Intimidation_Phase_2",
+      "DurationType": "OneShot",
+      "DurationMin": "0.878753",
       "DurationMax": "1.028594",
       "IncludedMemoryFiles": [
        {
-        "Id": "660269005",
+        "Id": "132413711",
         "Language": "SFX",
-        "ShortName": "moff guideon intimidate 2.wav",
-        "Path": "SFX\\moff guideon intimidate 2_FC2D3A10.wem"
+        "ShortName": "moff guideon intimidate 2nd phase 2.wav",
+        "Path": "SFX\\moff guideon intimidate 2nd phase 2_FC2D3A10.wem"
        },
        {
-        "Id": "767906425",
+        "Id": "200020784",
         "Language": "SFX",
-        "ShortName": "moff guideon intimidate 1.wav",
-        "Path": "SFX\\moff guideon intimidate 1_FC2D3A10.wem"
+        "ShortName": "moff guideon intimidate 2nd phase 1.wav",
+        "Path": "SFX\\moff guideon intimidate 2nd phase 1_FC2D3A10.wem"
        }
       ]
      },
@@ -2285,6 +2417,22 @@
         "Language": "SFX",
         "ShortName": "moff guideon lightsaber attack 2.wav",
         "Path": "SFX\\moff guideon lightsaber attack 2_FC2D3A10.wem"
+       }
+      ]
+     },
+     {
+      "Id": "4120291933",
+      "Name": "Play_Moff_Guideon_Lightsaber_Throw",
+      "ObjectPath": "\\Events\\Default Work Unit\\Moff Guideon\\Play_Moff_Guideon_Lightsaber_Throw",
+      "DurationType": "OneShot",
+      "DurationMin": "0.863583",
+      "DurationMax": "0.863583",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "747483108",
+        "Language": "SFX",
+        "ShortName": "moff guideon lightsaber throw.wav",
+        "Path": "SFX\\moff guideon lightsaber throw_FC2D3A10.wem"
        }
       ]
      },
@@ -2339,6 +2487,22 @@
         "Language": "SFX",
         "ShortName": "moff guideon lightsaber whoosh 2.wav",
         "Path": "SFX\\moff guideon lightsaber whoosh 2_FC2D3A10.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1526398419",
+      "Name": "Play_Moff_Guideon_Shot",
+      "ObjectPath": "\\Events\\Default Work Unit\\Moff Guideon\\Play_Moff_Guideon_Shot",
+      "DurationType": "OneShot",
+      "DurationMin": "1.437732",
+      "DurationMax": "1.437732",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "274347457",
+        "Language": "SFX",
+        "ShortName": "moff guideon blaster shoot.wav",
+        "Path": "SFX\\moff guideon blaster shoot_FC2D3A10.wem"
        }
       ]
      },

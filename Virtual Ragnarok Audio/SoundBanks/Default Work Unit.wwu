@@ -51,6 +51,7 @@
 					<ObjectInclusionList>
 						<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Barrel_Explosion" ID="{BEFAD0E7-CB69-4428-A78F-EAE4CC621E54}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Spaceship_Interior_Ambience" ID="{E37DB526-8931-467C-9083-AB31EEB60D8D}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Post_Boss_Room_2_Ambience" ID="{933E36FA-BDB2-4829-8BB9-750B2612C51D}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Post_Boss_Room_1_Ambience" ID="{CE2C346C-B29E-492E-9592-197A5352B614}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Pause_Object" ID="{257203BA-872A-4BD2-9340-B10FBEB45376}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
@@ -204,15 +205,19 @@
 						<ObjectRef Name="Play_Moff_Guideon_Lightsaber_Turn_Off" ID="{F793D064-0396-4006-9D98-C1359B51BA07}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Moff_Guideon_Lightsaber_Whoosh" ID="{43F4076D-1676-43DE-9AE9-F18E189D3091}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Moff_Guideon_Intimidation_Phase_2" ID="{83DC6E4E-FB53-441C-923D-720708AFC26C}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Moff_Guideon_Spawn_Enemies" ID="{623F118A-C195-479D-8E49-BE6B3BF8F04F}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Moff_Guideon_Lightsaber_Throw" ID="{0597521B-0A64-4831-B7FA-52E21A5A8C28}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Moff_Guideon_Lightsaber_Turn_On" ID="{7CCEF3C5-F913-4962-B015-4E1B72C7A5F5}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_Moff_Guideon_Intimidation" ID="{FC8BB6D5-2C7C-4B18-9F09-4688BC2FA29D}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Moff_Guideon_Intimidation_Phase_1" ID="{FC8BB6D5-2C7C-4B18-9F09-4688BC2FA29D}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Pause_Object" ID="{257203BA-872A-4BD2-9340-B10FBEB45376}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_Object" ID="{378C77F3-FD97-4C7E-B169-7A27282200DE}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Moff_Guideon_Lightsaber_Attack" ID="{6027F188-D301-4CE0-8D11-9920C84BBF27}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Moff_Guideon_Hit_Phase_2" ID="{5FA9D315-092F-4D05-A807-0AC62E58FFBA}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Moff_Guideon_Dash" ID="{45C0A1BE-3E4F-4D74-824F-9E88A9429654}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_Moff_Guideon_Hit" ID="{30905040-9317-4E23-84AB-FDBD7017F3D5}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Moff_Guideon_Hit_Phase_1" ID="{30905040-9317-4E23-84AB-FDBD7017F3D5}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Resume_Object" ID="{B3E49AD5-6A93-4EB1-9837-0321993DA353}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Moff_Guideon_Shot" ID="{542BE569-D839-4EBF-AD75-423635CB0A6A}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
@@ -237,6 +242,7 @@
 					<ObjectInclusionList>
 						<ObjectRef Name="Play_Deathtrooper_Shot" ID="{50458DB7-A107-40A2-880D-5CCBDAAD9D1A}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Deathtrooper_Wander" ID="{A0B19C43-A1F7-439D-916F-5FB9E7312346}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Deathtrooper_Enemy_Detection" ID="{6896B0B6-E88F-4551-835D-7EC6388AB5F1}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Deathtrooper_Recoil" ID="{574E5E16-38AE-4862-B853-28956A339D06}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Deathtrooper_Run" ID="{BCDC99F7-01E1-4A5E-AF13-4051C7C8E3DA}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>

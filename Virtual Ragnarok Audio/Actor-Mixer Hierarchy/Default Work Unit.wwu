@@ -4731,6 +4731,383 @@
 								<ActiveSource Name="post boss room 2 ambience" ID="{17345190-4E04-4CDA-A331-01B920760D2D}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<Sound Name="spaceship interior loop" ID="{E99860C1-6B8A-4616-999C-25103C252AEC}" ShortID="652952259">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-15</Value>
+									</ValueList>
+									<RTPCList>
+										<RTPC Name="" ID="{83FF0833-CCC9-49DD-86D6-142C5FD1DA9C}" ShortID="611057108">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{5BECB509-9F31-442C-825E-53731E36044A}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>200</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="spaceship interior loop" ID="{0A6CEBD9-F51B-4464-8421-7DB74EF720FA}">
+									<Language>SFX</Language>
+									<AudioFile>spaceship interior loop.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="685609859"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="spaceship interior loop" ID="{0A6CEBD9-F51B-4464-8421-7DB74EF720FA}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<RandomSequenceContainer Name="Computer beeps" ID="{F527D528-7E26-4EB8-9490-52083A939C89}" ShortID="958598186">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{FD04F380-A700-41C2-AE01-388A1759D443}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="177"/>
+													<Property Name="Min" Type="Real64" Value="-152"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.7">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{45B1F256-B355-487D-B907-430086A6E3C4}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="1"/>
+													<Property Name="Min" Type="Real64" Value="-1"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-28</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="computer beep 1" ID="{5173E733-E7C6-44DB-BD85-9FA405F33F18}" ShortID="342377644">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+											<RTPCList>
+												<RTPC Name="" ID="{C564B6B6-5B45-45B3-B3FD-278C06789975}" ShortID="929284937">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{3C34FEB2-398C-4296-A62A-DFA3464DEB19}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="computer beep 1" ID="{CCF6DB48-5492-4873-AEF5-65F6C36B8207}">
+											<Language>SFX</Language>
+											<AudioFile>computer beep 1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="215622185"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="computer beep 1" ID="{CCF6DB48-5492-4873-AEF5-65F6C36B8207}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="computer beep 2" ID="{99ED57C4-101C-451D-BB96-1D59DE93963A}" ShortID="424134276">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{EA8039A2-9DCE-49EC-855A-FE2DD67CF6A7}" ShortID="575484236">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{58806A8B-3DC3-4282-A14B-32F9172CABE7}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="computer beep 2" ID="{B9967471-D76E-4283-839B-C6B6F9187313}">
+											<Language>SFX</Language>
+											<AudioFile>computer beep 2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="831264112"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="computer beep 2" ID="{B9967471-D76E-4283-839B-C6B6F9187313}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="computer beep 3" ID="{1BEFAE85-2A99-4A9D-A2F3-FDB43671F1E8}" ShortID="1241027">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>3</Value>
+											</ValueList>
+											<RTPCList>
+												<RTPC Name="" ID="{CFFF9489-CA7E-445E-844C-196E87B2442B}" ShortID="64770787">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{6FA4EA16-5688-4F5C-8F52-97E761C26C71}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="computer beep 3" ID="{C23D55C2-9838-4B2B-A929-35968C8B24BC}">
+											<Language>SFX</Language>
+											<AudioFile>computer beep 3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="377178820"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="computer beep 3" ID="{C23D55C2-9838-4B2B-A929-35968C8B24BC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="computer beep 4" ID="{D2E38EAA-6AC6-412A-8B1E-7A289D002F3C}" ShortID="173747247">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>8</Value>
+											</ValueList>
+											<RTPCList>
+												<RTPC Name="" ID="{19375D2F-FE82-45A1-BFF5-008E9240E9EE}" ShortID="258873352">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{4EB11D11-1FA8-4B40-BC96-6375FDE34BBD}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="computer beep 4" ID="{F2D33F37-1983-4FF5-97AD-D745CF31439B}">
+											<Language>SFX</Language>
+											<AudioFile>computer beep 4.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="254560471"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="computer beep 4" ID="{F2D33F37-1983-4FF5-97AD-D745CF31439B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="computer beep 5" ID="{FAC62C9A-1980-4919-98BB-C11DEC63AF26}" ShortID="912284878">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>8</Value>
+											</ValueList>
+											<RTPCList>
+												<RTPC Name="" ID="{E46D3EB3-CC39-4578-B411-80D897C0DB89}" ShortID="542050794">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{9190F8B1-2E90-4951-8384-097ED6867625}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="computer beep 5" ID="{E0028114-8CAA-4DFA-9C29-A73C8191CB00}">
+											<Language>SFX</Language>
+											<AudioFile>computer beep 5.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="719101735"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="computer beep 5" ID="{E0028114-8CAA-4DFA-9C29-A73C8191CB00}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Bantha" ID="{15B11B24-C757-4ACD-9BC9-8CE86C92BE5D}" ShortID="159382654">
@@ -8018,7 +8395,7 @@
 								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-15</Value>
+										<Value>-20</Value>
 									</ValueList>
 									<ModifierList>
 										<ModifierInfo>
@@ -8052,6 +8429,9 @@
 											</ModifierList>
 										</Property>
 										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-4</Value>
+											</ValueList>
 											<RTPCList>
 												<RTPC Name="" ID="{D1966CA6-81B2-45AB-88D7-9E5ED05AAE73}" ShortID="296246446">
 													<ReferenceList>
@@ -8105,7 +8485,7 @@
 									<PropertyList>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-5</Value>
+												<Value>-10</Value>
 											</ValueList>
 											<RTPCList>
 												<RTPC Name="" ID="{78A4734F-A4ED-4E1E-ABA7-01A73593B1AB}" ShortID="327022819">
@@ -8160,7 +8540,7 @@
 									<PropertyList>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>2</Value>
+												<Value>3</Value>
 											</ValueList>
 											<RTPCList>
 												<RTPC Name="" ID="{780E757F-B94D-4471-B3FD-187B9067A416}" ShortID="231760032">
@@ -13238,7 +13618,7 @@
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-19</Value>
+										<Value>-23</Value>
 									</ValueList>
 									<RTPCList>
 										<RTPC Name="" ID="{51B708E4-B92F-4F52-A0FA-59B5A54D5A2E}" ShortID="993614271">
@@ -13814,6 +14194,309 @@
 								</Sound>
 							</ChildrenList>
 						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Footsteps wander deathtrooper" ID="{46903735-DF6A-4DC7-9402-5451EF550062}" ShortID="625255388">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="CenterPercentage" Type="int32">
+									<ValueList>
+										<Value>50</Value>
+									</ValueList>
+								</Property>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.55"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-12</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Main Attenuation" ID="{D5D15008-70A9-4EBE-85F7-4662C8511080}" WorkUnitID="{BF5D0A66-53A6-4978-B06F-8D86FDD56684}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="deathtrooper footstep wander 1" ID="{7AB8D1CB-923E-4189-A7BA-BC942A6E2DE1}" ShortID="159651510">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+											<RTPCList>
+												<RTPC Name="" ID="{AC370485-C33C-4339-AA80-AF001C7590E8}" ShortID="239469806">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{A18FEA7C-8863-44FD-A06B-3C144D5DAB18}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="deathtrooper footstep wander 1" ID="{9420FA2C-D144-4960-96E5-6936DC0425EC}">
+											<Language>SFX</Language>
+											<AudioFile>deathtrooper footstep wander 1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="188616202"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="deathtrooper footstep wander 1" ID="{9420FA2C-D144-4960-96E5-6936DC0425EC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="deathtrooper footstep wander 2" ID="{73E38DE7-0D9A-493B-8D52-B90F73CD0C09}" ShortID="645185790">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{967B1A7F-F7A5-4AE8-A02A-654B55DE9307}" ShortID="39539966">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{54A95E24-29FF-4B40-A1A1-7B18C133652E}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="deathtrooper footstep wander 2" ID="{728A918A-B8A1-4FA5-9376-F79AAF460617}">
+											<Language>SFX</Language>
+											<AudioFile>deathtrooper footstep wander 2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="244670322"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="deathtrooper footstep wander 2" ID="{728A918A-B8A1-4FA5-9376-F79AAF460617}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="deathtrooper footstep wander 3" ID="{29D5A6FF-9640-45C4-97A4-D31F5B305F99}" ShortID="820154034">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+											<RTPCList>
+												<RTPC Name="" ID="{D25B5AAC-4676-4ABA-B879-69D3FCCBC08F}" ShortID="653398274">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{28E27738-35F6-4C66-915B-C1C31D47FDB8}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="deathtrooper footstep wander 3" ID="{81EDAE57-616C-4DD3-B599-9804684C4235}">
+											<Language>SFX</Language>
+											<AudioFile>deathtrooper footstep wander 3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="356727513"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="deathtrooper footstep wander 3" ID="{81EDAE57-616C-4DD3-B599-9804684C4235}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="deathtrooper footstep wander 4" ID="{24586A1F-B4D7-40FA-9EC1-303BB129F73F}" ShortID="361957533">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{C192887D-237C-4FDF-95D5-19A4C5D7A03B}" ShortID="598281215">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{E3524674-560F-40B1-A732-83EBFF5B325D}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="deathtrooper footstep wander 4" ID="{2A238CB0-5B0F-42F5-AEE2-E2F4D72C921F}">
+											<Language>SFX</Language>
+											<AudioFile>deathtrooper footstep wander 4.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="454816313"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="deathtrooper footstep wander 4" ID="{2A238CB0-5B0F-42F5-AEE2-E2F4D72C921F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="deathtrooper footstep wander 5" ID="{32D38365-1C02-46DD-9253-A4E6F98023DF}" ShortID="33532231">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>4</Value>
+											</ValueList>
+											<RTPCList>
+												<RTPC Name="" ID="{8FA38E2C-416D-45FA-BA30-F3369A5682DE}" ShortID="641450429">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{96DD331B-70F4-48B6-8E21-9C92CFBB830C}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="deathtrooper footstep wander 5" ID="{DB0546E3-8474-452A-A6B5-F1BEC3549CF7}">
+											<Language>SFX</Language>
+											<AudioFile>deathtrooper footstep wander 5.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="861321520"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="deathtrooper footstep wander 5" ID="{DB0546E3-8474-452A-A6B5-F1BEC3549CF7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Moff Guideon" ID="{FF635BB0-8DA8-4B1D-80F7-44C13F65CE8D}" ShortID="1052300159">
@@ -13946,195 +14629,7 @@
 								<ActiveSource Name="moff gideon snap fingers" ID="{3F3B1ADB-8174-4C3C-B134-E9ACBBF53E5F}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<RandomSequenceContainer Name="Moff guideon hit" ID="{06D53DD5-88E7-41C7-82B8-EAD535B50838}" ShortID="647839376">
-							<PropertyList>
-								<Property Name="3DSpatialization" Type="int16" Value="1"/>
-								<Property Name="CenterPercentage" Type="int32">
-									<ValueList>
-										<Value>50</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Attenuation">
-									<ObjectRef Name="Main Attenuation" ID="{D5D15008-70A9-4EBE-85F7-4662C8511080}" WorkUnitID="{BF5D0A66-53A6-4978-B06F-8D86FDD56684}"/>
-								</Reference>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<Sound Name="moff gideon hit 1" ID="{03C6AB23-6169-4489-A0E1-25A86E252CFA}" ShortID="283391455">
-									<PropertyList>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-16</Value>
-											</ValueList>
-											<RTPCList>
-												<RTPC Name="" ID="{3B592BBC-4AEB-4024-BDD0-7C8A529966E0}" ShortID="587744338">
-													<ReferenceList>
-														<Reference Name="ControlInput">
-															<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
-														</Reference>
-													</ReferenceList>
-													<Curve Name="" ID="{848B0A56-1F58-4499-8D7D-3DDAABFCA947}">
-														<PropertyList>
-															<Property Name="Flags" Type="int32" Value="3"/>
-														</PropertyList>
-														<PointList>
-															<Point>
-																<XPos>0</XPos>
-																<YPos>-200</YPos>
-																<Flags>5</Flags>
-															</Point>
-															<Point>
-																<XPos>100</XPos>
-																<YPos>200</YPos>
-																<Flags>37</Flags>
-															</Point>
-														</PointList>
-													</Curve>
-												</RTPC>
-											</RTPCList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="moff gideon hit 1" ID="{19BC9A0A-4A81-4BB5-910A-93844F5F3127}">
-											<Language>SFX</Language>
-											<AudioFile>moff gideon hit 1.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="733186374"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="moff gideon hit 1" ID="{19BC9A0A-4A81-4BB5-910A-93844F5F3127}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="moff gideon hit 2" ID="{5C90355B-106F-4C73-9F53-3093D6E5FA6A}" ShortID="464686342">
-									<PropertyList>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-14</Value>
-											</ValueList>
-											<RTPCList>
-												<RTPC Name="" ID="{DAAADFE2-85EF-4054-ACC4-1AB660406893}" ShortID="1059641738">
-													<ReferenceList>
-														<Reference Name="ControlInput">
-															<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
-														</Reference>
-													</ReferenceList>
-													<Curve Name="" ID="{0D1DBBD9-5F16-4BC5-BE99-8F572E4988DB}">
-														<PropertyList>
-															<Property Name="Flags" Type="int32" Value="3"/>
-														</PropertyList>
-														<PointList>
-															<Point>
-																<XPos>0</XPos>
-																<YPos>-200</YPos>
-																<Flags>5</Flags>
-															</Point>
-															<Point>
-																<XPos>100</XPos>
-																<YPos>200</YPos>
-																<Flags>37</Flags>
-															</Point>
-														</PointList>
-													</Curve>
-												</RTPC>
-											</RTPCList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="moff gideon hit 2" ID="{101B210E-E916-4FA5-9359-E45BC829F807}">
-											<Language>SFX</Language>
-											<AudioFile>moff gideon hit 2.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="1027955681"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="moff gideon hit 2" ID="{101B210E-E916-4FA5-9359-E45BC829F807}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="moff gideon hit 3" ID="{AB65EC8C-16CB-412D-9F47-F7A03E0C609C}" ShortID="361683279">
-									<PropertyList>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-17</Value>
-											</ValueList>
-											<RTPCList>
-												<RTPC Name="" ID="{9C078415-A96F-426B-BBF6-1AF6CAAE1345}" ShortID="415323063">
-													<ReferenceList>
-														<Reference Name="ControlInput">
-															<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
-														</Reference>
-													</ReferenceList>
-													<Curve Name="" ID="{4673A605-7E96-43A1-BFD6-9D2FC7E541DF}">
-														<PropertyList>
-															<Property Name="Flags" Type="int32" Value="3"/>
-														</PropertyList>
-														<PointList>
-															<Point>
-																<XPos>0</XPos>
-																<YPos>-200</YPos>
-																<Flags>5</Flags>
-															</Point>
-															<Point>
-																<XPos>100</XPos>
-																<YPos>200</YPos>
-																<Flags>37</Flags>
-															</Point>
-														</PointList>
-													</Curve>
-												</RTPC>
-											</RTPCList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="moff gideon hit 3" ID="{09E5CB25-13B1-4745-B215-3A46CF33DB4B}">
-											<Language>SFX</Language>
-											<AudioFile>moff gideon hit 3.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="638780808"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="moff gideon hit 3" ID="{09E5CB25-13B1-4745-B215-3A46CF33DB4B}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-							</ChildrenList>
-						</RandomSequenceContainer>
-						<RandomSequenceContainer Name="Moff guideon intimidate" ID="{D06AF8EB-DD8D-41E2-BA1E-1C4085091E09}" ShortID="896890411">
+						<RandomSequenceContainer Name="Moff guideon hit phase 1" ID="{06D53DD5-88E7-41C7-82B8-EAD535B50838}" ShortID="647839376">
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="1"/>
 								<Property Name="CenterPercentage" Type="int32">
@@ -14144,7 +14639,7 @@
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-15</Value>
+										<Value>-17</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -14160,20 +14655,152 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="moff guideon intimidate 1" ID="{D042334C-168E-4EAF-9249-B19EC63DA713}" ShortID="511147244">
+								<Sound Name="moff gideon hit 1rst phase 1" ID="{775531C9-5D6E-4FA7-868B-C5F8FBB9AEF3}" ShortID="967021647">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{F67AB894-584F-4936-AEFE-4480627B86CD}" ShortID="492703922">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{52A6DE18-F56F-456F-8D10-58F6E27799DD}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="moff gideon hit 1rst phase 1" ID="{BA9D8AA7-AD6D-4961-9D05-AB2FFDAAE6D7}">
+											<Language>SFX</Language>
+											<AudioFile>moff gideon hit 1rst phase 1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="626643442"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="moff gideon hit 1rst phase 1" ID="{BA9D8AA7-AD6D-4961-9D05-AB2FFDAAE6D7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="moff gideon hit 1rst phase 2" ID="{AFD8C6F3-5B94-4C3F-AA29-DB8FA7319D87}" ShortID="374238868">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{63E344D5-34C7-4B00-B80A-B76EDD622577}" ShortID="757766831">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{2F0FE7AD-4DE2-462C-8975-91AF223B1882}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="moff gideon hit 1rst phase 2" ID="{4447EDCE-1029-4C66-B0BF-5FC1BA4A3D06}">
+											<Language>SFX</Language>
+											<AudioFile>moff gideon hit 1rst phase 2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="509161827"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="moff gideon hit 1rst phase 2" ID="{4447EDCE-1029-4C66-B0BF-5FC1BA4A3D06}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Moff guideon intimidate phase 1" ID="{D06AF8EB-DD8D-41E2-BA1E-1C4085091E09}" ShortID="896890411">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="CenterPercentage" Type="int32">
+									<ValueList>
+										<Value>50</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-20</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Main Attenuation" ID="{D5D15008-70A9-4EBE-85F7-4662C8511080}" WorkUnitID="{BF5D0A66-53A6-4978-B06F-8D86FDD56684}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="moff guideon intimidate 1rst phase 1" ID="{D90E8249-5AE5-487B-BFFD-105B3E83C555}" ShortID="426433659">
 									<PropertyList>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-9</Value>
+												<Value>-5</Value>
 											</ValueList>
 											<RTPCList>
-												<RTPC Name="" ID="{E5B924A1-F586-4414-B0EC-9EF14967EE01}" ShortID="937577567">
+												<RTPC Name="" ID="{75F212E4-4BD2-4E5A-88B0-BE4D0015C751}" ShortID="101291138">
 													<ReferenceList>
 														<Reference Name="ControlInput">
 															<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
 														</Reference>
 													</ReferenceList>
-													<Curve Name="" ID="{0B76D71D-A3D2-4FE6-B5AC-56546903D87F}">
+													<Curve Name="" ID="{B49FE9AA-8B92-4577-8C61-912EA4814394}">
 														<PropertyList>
 															<Property Name="Flags" Type="int32" Value="3"/>
 														</PropertyList>
@@ -14203,29 +14830,29 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="moff guideon intimidate 1" ID="{313CA36E-C018-4D81-B313-2713F6BB7C5E}">
+										<AudioFileSource Name="moff guideon intimidate 1rst phase 1" ID="{A8FFC8BF-5008-4C2D-8FE2-81B62EA0C9A4}">
 											<Language>SFX</Language>
-											<AudioFile>moff guideon intimidate 1.wav</AudioFile>
+											<AudioFile>moff guideon intimidate 1rst phase 1.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="767906425"/>
+												<MediaID ID="827580043"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="moff guideon intimidate 1" ID="{313CA36E-C018-4D81-B313-2713F6BB7C5E}" Platform="Linked"/>
+										<ActiveSource Name="moff guideon intimidate 1rst phase 1" ID="{A8FFC8BF-5008-4C2D-8FE2-81B62EA0C9A4}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="moff guideon intimidate 2" ID="{B0EA8594-DC50-488A-800A-0FDBF6DDF271}" ShortID="519816846">
+								<Sound Name="moff guideon intimidate 1rst phase 2" ID="{D6BF354D-56DA-44E4-A761-3F40CE7DA852}" ShortID="206336278">
 									<PropertyList>
 										<Property Name="Volume" Type="Real64">
 											<RTPCList>
-												<RTPC Name="" ID="{B6356650-FB8B-413D-909C-B808BF4EAB5C}" ShortID="248400871">
+												<RTPC Name="" ID="{2DF31BFC-CBF2-4B42-8D94-87C214F9BBEC}" ShortID="761512858">
 													<ReferenceList>
 														<Reference Name="ControlInput">
 															<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
 														</Reference>
 													</ReferenceList>
-													<Curve Name="" ID="{07E9E220-3439-46FC-80B9-5FF4D59C9F5C}">
+													<Curve Name="" ID="{524282EF-2D83-4611-97E2-2A1CD5E48CBB}">
 														<PropertyList>
 															<Property Name="Flags" Type="int32" Value="3"/>
 														</PropertyList>
@@ -14255,16 +14882,16 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="moff guideon intimidate 2" ID="{7EC01F94-3546-496C-B523-3B1A9D055569}">
+										<AudioFileSource Name="moff guideon intimidate 1rst phase 2" ID="{4B8E310B-8DD6-4F4D-A2B8-30AA1DD689DF}">
 											<Language>SFX</Language>
-											<AudioFile>moff guideon intimidate 2.wav</AudioFile>
+											<AudioFile>moff guideon intimidate 1rst phase 2.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="660269005"/>
+												<MediaID ID="336560564"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="moff guideon intimidate 2" ID="{7EC01F94-3546-496C-B523-3B1A9D055569}" Platform="Linked"/>
+										<ActiveSource Name="moff guideon intimidate 1rst phase 2" ID="{4B8E310B-8DD6-4F4D-A2B8-30AA1DD689DF}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
@@ -14607,7 +15234,7 @@
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-24</Value>
+										<Value>-16</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -14633,6 +15260,541 @@
 							</ChildrenList>
 							<ActiveSourceList>
 								<ActiveSource Name="moff guideon lightsaber turn off" ID="{42E53995-D0E6-41F3-B893-C0296B2FA20E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<RandomSequenceContainer Name="Moff guideon intimidate phase 2" ID="{B509CDB2-B03F-4F71-A82B-E1D0BEB4B1DF}" ShortID="104790701">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-20</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="moff guideon intimidate 2nd phase 1" ID="{F045F3CC-8530-411A-A8CC-D9AE41A32602}" ShortID="502731590">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>3</Value>
+											</ValueList>
+											<RTPCList>
+												<RTPC Name="" ID="{F261ED4D-01FF-43DB-8ECF-7AAB6D66B2E6}" ShortID="127031142">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{1C0BCE7F-5E1A-4778-94D5-0EB17DDE983F}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="moff guideon intimidate 2nd phase 1" ID="{BAA188F6-E388-48F4-8478-ACFA918A2A01}">
+											<Language>SFX</Language>
+											<AudioFile>moff guideon intimidate 2nd phase 1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="200020784"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="moff guideon intimidate 2nd phase 1" ID="{BAA188F6-E388-48F4-8478-ACFA918A2A01}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="moff guideon intimidate 2nd phase 2" ID="{0804D10F-9A32-4A64-9DB6-1D9265FF3B9F}" ShortID="639647346">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>4</Value>
+											</ValueList>
+											<RTPCList>
+												<RTPC Name="" ID="{2FDFADA0-0D10-4131-AC27-4CC291E2D434}" ShortID="59202531">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{3EC38F49-5CA4-496E-BC5F-E2E55A9AFA5B}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="moff guideon intimidate 2nd phase 2" ID="{0A01AF36-0157-41CA-A881-A4C198D9D218}">
+											<Language>SFX</Language>
+											<AudioFile>moff guideon intimidate 2nd phase 2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="132413711"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="moff guideon intimidate 2nd phase 2" ID="{0A01AF36-0157-41CA-A881-A4C198D9D218}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Moff guideon hit phase 2" ID="{9156676C-E11D-46E5-A4BF-EA5129CDABEB}" ShortID="374545175">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="CenterPercentage" Type="int32">
+									<ValueList>
+										<Value>50</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-17</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Main Attenuation" ID="{D5D15008-70A9-4EBE-85F7-4662C8511080}" WorkUnitID="{BF5D0A66-53A6-4978-B06F-8D86FDD56684}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="moff gideon hit 1rst phase 2" ID="{BBEA4160-57FC-4C50-90AA-0AC76C23DF44}" ShortID="483477645">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="CenterPercentage" Type="int32">
+											<ValueList>
+												<Value>50</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{A8C84746-D4D8-421F-94F4-9CB3A6F78D93}" ShortID="336681223">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{D7A2ED82-CE3A-4E6D-ABA5-370EB84867E1}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Main Attenuation" ID="{D5D15008-70A9-4EBE-85F7-4662C8511080}" WorkUnitID="{BF5D0A66-53A6-4978-B06F-8D86FDD56684}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="moff gideon hit 1rst phase 2" ID="{24F107C6-E3C6-4E24-89BD-495574683708}">
+											<Language>SFX</Language>
+											<AudioFile>moff gideon hit 1rst phase 2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="509161827"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="moff gideon hit 1rst phase 2" ID="{24F107C6-E3C6-4E24-89BD-495574683708}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="moff gideon hit 2nd phase 2" ID="{EBEB19EE-184E-4B93-950B-E9C552D69765}" ShortID="606748919">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="CenterPercentage" Type="int32">
+											<ValueList>
+												<Value>50</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+											<RTPCList>
+												<RTPC Name="" ID="{3990CA2A-FE8E-4ABA-B832-5D967C6B76F4}" ShortID="985118690">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{A5A0109D-C4AF-483D-A5E9-4A11D3B5EA80}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Main Attenuation" ID="{D5D15008-70A9-4EBE-85F7-4662C8511080}" WorkUnitID="{BF5D0A66-53A6-4978-B06F-8D86FDD56684}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="moff gideon hit 2nd phase 2" ID="{D1443B2D-AA0D-4AEF-B6F0-557512A1A783}">
+											<Language>SFX</Language>
+											<AudioFile>moff gideon hit 2nd phase 2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="578940370"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="moff gideon hit 2nd phase 2" ID="{D1443B2D-AA0D-4AEF-B6F0-557512A1A783}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="moff gideon hit 2nd phase 1" ID="{C51519A4-3AD6-4D04-B40D-0004E53681D2}" ShortID="440084545">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="CenterPercentage" Type="int32">
+											<ValueList>
+												<Value>50</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+											<RTPCList>
+												<RTPC Name="" ID="{91B9D827-DAF8-47E0-A557-283C8E58ECC9}" ShortID="1015208795">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{A85CD782-24B6-4C7A-957C-472FA534BFCD}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Main Attenuation" ID="{D5D15008-70A9-4EBE-85F7-4662C8511080}" WorkUnitID="{BF5D0A66-53A6-4978-B06F-8D86FDD56684}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="moff gideon hit 2nd phase 1" ID="{FB3C0BE6-BB87-433E-B0B2-B947CFD449CA}">
+											<Language>SFX</Language>
+											<AudioFile>moff gideon hit 2nd phase 1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="134030243"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="moff gideon hit 2nd phase 1" ID="{FB3C0BE6-BB87-433E-B0B2-B947CFD449CA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="moff gideon hit 1rst phase 1" ID="{58FE2C7B-7DD8-4C3A-9B62-45C7816F79AB}" ShortID="780100232">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="CenterPercentage" Type="int32">
+											<ValueList>
+												<Value>50</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{7711E777-494D-447B-B024-290F5265BFEB}" ShortID="338288003">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{33AE733F-0813-4665-A186-CE75477FBF6A}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Main Attenuation" ID="{D5D15008-70A9-4EBE-85F7-4662C8511080}" WorkUnitID="{BF5D0A66-53A6-4978-B06F-8D86FDD56684}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="moff gideon hit 1rst phase 1" ID="{84942B2F-B34E-43EF-B2D5-5940AD911999}">
+											<Language>SFX</Language>
+											<AudioFile>moff gideon hit 1rst phase 1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="626643442"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="moff gideon hit 1rst phase 1" ID="{84942B2F-B34E-43EF-B2D5-5940AD911999}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<Sound Name="moff guideon lightsaber throw" ID="{17413A2E-2EB7-41FF-A53D-A75A95B51847}" ShortID="770953583">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="CenterPercentage" Type="int32">
+									<ValueList>
+										<Value>50</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-15</Value>
+									</ValueList>
+									<RTPCList>
+										<RTPC Name="" ID="{7A7BAFF9-3FE0-4C5B-BCE9-67546761F54B}" ShortID="676214595">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{40656D00-04CB-4E10-88D4-3123B32060CA}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>200</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Main Attenuation" ID="{D5D15008-70A9-4EBE-85F7-4662C8511080}" WorkUnitID="{BF5D0A66-53A6-4978-B06F-8D86FDD56684}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="moff guideon lightsaber throw" ID="{C11E0103-0B72-4E9A-BEC6-3D1937E739FB}">
+									<Language>SFX</Language>
+									<AudioFile>moff guideon lightsaber throw.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="747483108"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="moff guideon lightsaber throw" ID="{C11E0103-0B72-4E9A-BEC6-3D1937E739FB}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="moff guideon blaster shoot" ID="{59FA349C-7CBF-4814-9C3F-2B389EF55FC0}" ShortID="81929941">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="CenterPercentage" Type="int32">
+									<ValueList>
+										<Value>50</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-26</Value>
+									</ValueList>
+									<RTPCList>
+										<RTPC Name="" ID="{6343C101-091E-490B-A65C-652637254F18}" ShortID="439736062">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{48781414-848D-4DF3-9798-B64A3D9EC0AE}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>200</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Main Attenuation" ID="{D5D15008-70A9-4EBE-85F7-4662C8511080}" WorkUnitID="{BF5D0A66-53A6-4978-B06F-8D86FDD56684}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="moff guideon blaster shoot" ID="{FEC13E6B-05C2-4A60-922E-ACB3B0D23317}">
+									<Language>SFX</Language>
+									<AudioFile>moff guideon blaster shoot.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="274347457"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="moff guideon blaster shoot" ID="{FEC13E6B-05C2-4A60-922E-ACB3B0D23317}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>

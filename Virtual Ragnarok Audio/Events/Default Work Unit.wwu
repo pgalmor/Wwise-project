@@ -590,6 +590,24 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_Spaceship_Interior_Ambience" ID="{E37DB526-8931-467C-9083-AB31EEB60D8D}">
+							<ChildrenList>
+								<Action Name="" ID="{ABEA3F53-0543-48EF-B499-7F14FC35BAD1}" ShortID="236785639">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="spaceship interior loop" ID="{E99860C1-6B8A-4616-999C-25103C252AEC}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{8AB359B1-4AB3-494D-B36F-A3054FE80AB9}" ShortID="695156904">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Computer beeps" ID="{F527D528-7E26-4EB8-9490-52083A939C89}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Music" ID="{343009C6-3BE6-4ED3-BA83-37910A02C674}" ShortID="438753766">
@@ -962,7 +980,7 @@
 				</Folder>
 				<Folder Name="Moff Guideon" ID="{0948B394-126A-4932-9808-06CA6C176957}" ShortID="1073382540">
 					<ChildrenList>
-						<Event Name="Play_Moff_Guideon_Hit" ID="{30905040-9317-4E23-84AB-FDBD7017F3D5}">
+						<Event Name="Play_Moff_Guideon_Hit_Phase_1" ID="{30905040-9317-4E23-84AB-FDBD7017F3D5}">
 							<ChildrenList>
 								<Action Name="" ID="{89937C3A-5D9B-4503-B352-EF729986733F}" ShortID="285477178">
 									<PropertyList>
@@ -970,7 +988,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Moff guideon hit" ID="{06D53DD5-88E7-41C7-82B8-EAD535B50838}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+											<ObjectRef Name="Moff guideon hit phase 1" ID="{06D53DD5-88E7-41C7-82B8-EAD535B50838}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -998,12 +1016,12 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Play_Moff_Guideon_Intimidation" ID="{FC8BB6D5-2C7C-4B18-9F09-4688BC2FA29D}">
+						<Event Name="Play_Moff_Guideon_Intimidation_Phase_1" ID="{FC8BB6D5-2C7C-4B18-9F09-4688BC2FA29D}">
 							<ChildrenList>
 								<Action Name="" ID="{E8F07B95-F513-482A-BE56-A9EF58064616}" ShortID="1026999584">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Moff guideon intimidate" ID="{D06AF8EB-DD8D-41E2-BA1E-1C4085091E09}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+											<ObjectRef Name="Moff guideon intimidate phase 1" ID="{D06AF8EB-DD8D-41E2-BA1E-1C4085091E09}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -1048,6 +1066,50 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="moff guideon lightsaber turn off" ID="{942F19A6-79F2-41D2-B0D4-E198C17899F6}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Moff_Guideon_Hit_Phase_2" ID="{5FA9D315-092F-4D05-A807-0AC62E58FFBA}">
+							<ChildrenList>
+								<Action Name="" ID="{31215917-74CE-4569-964B-21641CF8BFE7}" ShortID="956210437">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Moff guideon hit phase 2" ID="{9156676C-E11D-46E5-A4BF-EA5129CDABEB}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Moff_Guideon_Intimidation_Phase_2" ID="{83DC6E4E-FB53-441C-923D-720708AFC26C}">
+							<ChildrenList>
+								<Action Name="" ID="{F2910B03-F3FC-4364-80BD-65B1E506CDA3}" ShortID="586892591">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Moff guideon intimidate phase 2" ID="{B509CDB2-B03F-4F71-A82B-E1D0BEB4B1DF}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Moff_Guideon_Lightsaber_Throw" ID="{0597521B-0A64-4831-B7FA-52E21A5A8C28}">
+							<ChildrenList>
+								<Action Name="" ID="{995B505E-0666-4797-9B8D-617E4D778A48}" ShortID="267473259">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="moff guideon lightsaber throw" ID="{17413A2E-2EB7-41FF-A53D-A75A95B51847}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Moff_Guideon_Shot" ID="{542BE569-D839-4EBF-AD75-423635CB0A6A}">
+							<ChildrenList>
+								<Action Name="" ID="{FE297B8F-A56D-4AA9-A90A-6D31B6F439BC}" ShortID="187880602">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="moff guideon blaster shoot" ID="{59FA349C-7CBF-4814-9C3F-2B389EF55FC0}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -1177,6 +1239,17 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Footsteps run Deathtrooper" ID="{0FDD3067-BDE6-417C-8988-6E79903E646C}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Deathtrooper_Wander" ID="{A0B19C43-A1F7-439D-916F-5FB9E7312346}">
+							<ChildrenList>
+								<Action Name="" ID="{55E6D510-1725-4441-9E39-96D1B6A966D4}" ShortID="363402149">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Footsteps wander deathtrooper" ID="{46903735-DF6A-4DC7-9402-5451EF550062}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
