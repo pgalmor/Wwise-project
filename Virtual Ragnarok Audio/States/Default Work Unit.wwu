@@ -11,6 +11,8 @@
 						<State Name="Run" ID="{78F63364-E080-40AA-B010-A5E50DF18F86}"/>
 						<State Name="Rancor_Room" ID="{285AA9B7-4013-42DA-8E6A-E0C4EB75AE03}"/>
 						<State Name="Wampa_Skel_Room" ID="{020C6B13-8A19-476C-B341-D02C1B0FF248}"/>
+						<State Name="Cruiser_Explore" ID="{7B56CD26-D41D-4E95-B202-EEE0956FC8CB}"/>
+						<State Name="Moff_Guideon_Room" ID="{C826D092-9E88-4F28-AD9B-BB26DAA56935}"/>
 					</ChildrenList>
 				</StateGroup>
 				<StateGroup Name="Player_State" ID="{409BC8C4-0CBE-4013-9D58-927CDA350096}">

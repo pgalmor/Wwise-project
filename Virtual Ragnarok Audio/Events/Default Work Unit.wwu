@@ -984,7 +984,7 @@
 							<ChildrenList>
 								<Action Name="" ID="{89937C3A-5D9B-4503-B352-EF729986733F}" ShortID="285477178">
 									<PropertyList>
-										<Property Name="Probability" Type="Real64" Value="80"/>
+										<Property Name="Probability" Type="Real64" Value="70"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
@@ -1019,6 +1019,9 @@
 						<Event Name="Play_Moff_Guideon_Intimidation_Phase_1" ID="{FC8BB6D5-2C7C-4B18-9F09-4688BC2FA29D}">
 							<ChildrenList>
 								<Action Name="" ID="{E8F07B95-F513-482A-BE56-A9EF58064616}" ShortID="1026999584">
+									<PropertyList>
+										<Property Name="Probability" Type="Real64" Value="20"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Moff guideon intimidate phase 1" ID="{D06AF8EB-DD8D-41E2-BA1E-1C4085091E09}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
@@ -1074,6 +1077,9 @@
 						<Event Name="Play_Moff_Guideon_Hit_Phase_2" ID="{5FA9D315-092F-4D05-A807-0AC62E58FFBA}">
 							<ChildrenList>
 								<Action Name="" ID="{31215917-74CE-4569-964B-21641CF8BFE7}" ShortID="956210437">
+									<PropertyList>
+										<Property Name="Probability" Type="Real64" Value="70"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Moff guideon hit phase 2" ID="{9156676C-E11D-46E5-A4BF-EA5129CDABEB}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
@@ -1085,6 +1091,9 @@
 						<Event Name="Play_Moff_Guideon_Intimidation_Phase_2" ID="{83DC6E4E-FB53-441C-923D-720708AFC26C}">
 							<ChildrenList>
 								<Action Name="" ID="{F2910B03-F3FC-4364-80BD-65B1E506CDA3}" ShortID="586892591">
+									<PropertyList>
+										<Property Name="Probability" Type="Real64" Value="20"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Moff guideon intimidate phase 2" ID="{B509CDB2-B03F-4F71-A82B-E1D0BEB4B1DF}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>

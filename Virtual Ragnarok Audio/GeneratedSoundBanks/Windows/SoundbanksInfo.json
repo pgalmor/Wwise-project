@@ -1241,7 +1241,7 @@
    {
     "Id": "1229948536",
     "Language": "SFX",
-    "Hash": "1712932303",
+    "Hash": "4232287413",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Environment",
     "ShortName": "Environment",
     "Path": "Environment.bnk",
@@ -2269,7 +2269,7 @@
    {
     "Id": "3721236575",
     "Language": "SFX",
-    "Hash": "3778334465",
+    "Hash": "1960534547",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Moff_Guideon",
     "ShortName": "Moff_Guideon",
     "Path": "Moff_Guideon.bnk",
@@ -2325,7 +2325,7 @@
       "Name": "Play_Moff_Guideon_Hit_Phase_2",
       "ObjectPath": "\\Events\\Default Work Unit\\Moff Guideon\\Play_Moff_Guideon_Hit_Phase_2",
       "DurationType": "OneShot",
-      "DurationMin": "0.321088",
+      "DurationMin": "0.000000",
       "DurationMax": "0.512086",
       "IncludedMemoryFiles": [
        {
@@ -2359,7 +2359,7 @@
       "Name": "Play_Moff_Guideon_Intimidation_Phase_1",
       "ObjectPath": "\\Events\\Default Work Unit\\Moff Guideon\\Play_Moff_Guideon_Intimidation_Phase_1",
       "DurationType": "OneShot",
-      "DurationMin": "0.582336",
+      "DurationMin": "0.000000",
       "DurationMax": "1.180454",
       "IncludedMemoryFiles": [
        {
@@ -2381,7 +2381,7 @@
       "Name": "Play_Moff_Guideon_Intimidation_Phase_2",
       "ObjectPath": "\\Events\\Default Work Unit\\Moff Guideon\\Play_Moff_Guideon_Intimidation_Phase_2",
       "DurationType": "OneShot",
-      "DurationMin": "0.878753",
+      "DurationMin": "0.000000",
       "DurationMax": "1.028594",
       "IncludedMemoryFiles": [
        {
@@ -2772,7 +2772,7 @@
    {
     "Id": "3991942870",
     "Language": "SFX",
-    "Hash": "10091446",
+    "Hash": "190598944",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Music",
     "ShortName": "Music",
     "Path": "Music.bnk",
@@ -2808,6 +2808,12 @@
         "Language": "SFX",
         "ShortName": "OST 12-17-Strings and Brass 2.wav",
         "Path": "SFX\\OST 12-17-Strings and Brass 2_0BA09294.wem"
+       },
+       {
+        "Id": "359960869",
+        "Language": "SFX",
+        "ShortName": "Moff guideon song.wav",
+        "Path": "SFX\\Moff guideon song_0BA09294.wem"
        },
        {
         "Id": "366591278",
@@ -2880,6 +2886,12 @@
         "Language": "SFX",
         "ShortName": "EXP STRINGS.wav",
         "Path": "SFX\\EXP STRINGS_0BA09294.wem"
+       },
+       {
+        "Id": "858066275",
+        "Language": "SFX",
+        "ShortName": "Spaceship Exploring.wav",
+        "Path": "SFX\\Spaceship Exploring_0BA09294.wem"
        },
        {
         "Id": "914423924",
@@ -3062,6 +3074,42 @@
           ]
          }
         ]
+       },
+       {
+        "SwitchValue": "{D651359C-1684-4E02-8D22-5225AA612899}",
+        "Children": [
+         {
+          "SwitchValue": "{7B56CD26-D41D-4E95-B202-EEE0956FC8CB}",
+          "Children": [
+           {
+            "SwitchValue": "{979A83A1-5FD3-4444-AB96-1ABEDBCBCCEC}",
+            "Media": [
+             {
+              "Id": "858066275"
+             }
+            ]
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{D651359C-1684-4E02-8D22-5225AA612899}",
+        "Children": [
+         {
+          "SwitchValue": "{C826D092-9E88-4F28-AD9B-BB26DAA56935}",
+          "Children": [
+           {
+            "SwitchValue": "{979A83A1-5FD3-4444-AB96-1ABEDBCBCCEC}",
+            "Media": [
+             {
+              "Id": "359960869"
+             }
+            ]
+           }
+          ]
+         }
+        ]
        }
       ]
      },
@@ -3129,6 +3177,16 @@
         "Id": "347961279",
         "Name": "Wampa_Skel_Room",
         "ObjectPath": "\\States\\Default Work Unit\\Game_State\\Wampa_Skel_Room"
+       },
+       {
+        "Id": "4178932914",
+        "Name": "Cruiser_Explore",
+        "ObjectPath": "\\States\\Default Work Unit\\Game_State\\Cruiser_Explore"
+       },
+       {
+        "Id": "1791748623",
+        "Name": "Moff_Guideon_Room",
+        "ObjectPath": "\\States\\Default Work Unit\\Game_State\\Moff_Guideon_Room"
        }
       ]
      },

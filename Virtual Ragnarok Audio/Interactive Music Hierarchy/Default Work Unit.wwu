@@ -1041,6 +1041,14 @@
 														<StateRef Name="Menu" ID="{0BB1D2F8-A704-4DEA-A3FF-883660A0C089}"/>
 														<CustomState Name="" ID="{F7442E88-CEFC-4F79-8C38-AF2B489F1C4E}" ShortID="701509258"/>
 													</CustomState>
+													<CustomState>
+														<StateRef Name="Cruiser_Explore" ID="{7B56CD26-D41D-4E95-B202-EEE0956FC8CB}"/>
+														<CustomState Name="" ID="{CBD042EA-2D15-4D91-9DF4-08DBC2E977B0}" ShortID="623020721"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Moff_Guideon_Room" ID="{C826D092-9E88-4F28-AD9B-BB26DAA56935}"/>
+														<CustomState Name="" ID="{DBA8E872-B89D-4901-A7CC-40E3DD229852}" ShortID="667367790"/>
+													</CustomState>
 												</CustomStateList>
 											</StateInfo>
 											<TransitionList>
@@ -2165,6 +2173,13 @@
 							</Playlist>
 						</MusicPlaylistContainer>
 						<MusicPlaylistContainer Name="Wampa Skel" ID="{3D0D7CA9-83D6-4832-A6D1-6223A47A70E9}" ShortID="925862509">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>5</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
@@ -2277,6 +2292,225 @@
 								</MusicPlaylistItem>
 							</Playlist>
 						</MusicPlaylistContainer>
+						<MusicPlaylistContainer Name="Cruiser Explore" ID="{7BD965C5-C3BE-4394-89BE-0E55D898694E}" ShortID="247631482">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>8</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="Spaceship Exploring" ID="{CD5867E1-313B-4F97-8FA7-76A24A72C6EC}" ShortID="840510503">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="42631.179138322"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Spaceship Exploring" ID="{75FD2CB6-287C-4D7D-A2E1-F53E271F3137}" ShortID="223907008">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Spaceship Exploring" ID="{61897A59-6EB4-4615-96A2-35E9B4F27716}">
+													<Language>SFX</Language>
+													<AudioFile>Spaceship Exploring.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="858066275"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{4BF5DE34-FA27-4B8B-8C1B-726CF681F71D}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{7341E004-4D44-499C-9E52-A11A88837498}">
+													<ClipList>
+														<MusicClip Name="Spaceship Exploring" ID="{8CC80CF1-24E2-40B0-ABD4-03A32258CE1E}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="42631.179138322"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Spaceship Exploring" ID="{61897A59-6EB4-4615-96A2-35E9B4F27716}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{3D3E1DA0-C636-479A-8A0C-C806758BCD5C}"/>
+										<MusicCue Name="Exit Cue" ID="{FD135FB5-2005-4FD2-B147-81E21D72A4E4}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="42631.179138322"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{FA5D49A0-C590-4DFD-8B25-EFA75BE37631}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{EF2667EC-B0A2-4CE5-A84F-025236186032}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{EE067000-1609-46F2-81B8-A4A194F8EC67}" ShortID="677352957">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{1B64C930-23B9-4539-8B88-6FC7055BB136}" ShortID="481991550">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Spaceship Exploring" ID="{CD5867E1-313B-4F97-8FA7-76A24A72C6EC}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
+						<MusicPlaylistContainer Name="Moff Guideon Room" ID="{49637AA6-763B-4C1D-BF3F-C30C23697FDC}" ShortID="607584017">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="Moff guideon song" ID="{8092F652-0475-4EA7-B542-66671D0FD6CE}" ShortID="440225763">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="36516.9387755102"/>
+										<Property Name="Tempo" Type="Real64" Value="143"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="ADPCM Conversion" ID="{384E1760-6F42-466F-9F03-4A65F92CC655}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Moff guideon song" ID="{1E415C0A-0E83-40FC-A510-E1D0B5F502CB}" ShortID="916704403">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Moff guideon song" ID="{09C00490-92BC-455E-804F-F49872D6606D}">
+													<Language>SFX</Language>
+													<AudioFile>Moff guideon song.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="359960869"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{13747066-5F8A-44B9-8234-331BF156807C}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{FCBA4855-E08D-4369-B477-7F0F16444A12}">
+													<ClipList>
+														<MusicClip Name="Moff guideon song" ID="{7C81975B-BA75-41BA-AC8C-BCB841325CE2}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="36516.9387755102"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Moff guideon song" ID="{09C00490-92BC-455E-804F-F49872D6606D}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{884DE928-A9B4-4D80-826F-0A25FB10E5C8}"/>
+										<MusicCue Name="Exit Cue" ID="{7EF26291-E199-48F4-B0F2-7AC1A6E6BBC6}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="36516.9387755102"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{DEA66D0A-C58D-493E-87B5-5D5B8DFBB18C}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{7FC71484-9608-4F39-86FB-60260678B2A3}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{4CB6B2BB-3A5B-4B7C-87AB-F23FFA24139C}" ShortID="179661848">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{3BCCEC14-1BCD-442A-89D9-50D8EF648E50}" ShortID="83174704">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Moff guideon song" ID="{8092F652-0475-4EA7-B542-66671D0FD6CE}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
 					</ChildrenList>
 					<TransitionList>
 						<MusicTransition Name="Root" ID="{502FDD68-0580-44B2-A434-7F01F12805C0}">
@@ -2286,9 +2520,20 @@
 							<ChildrenList>
 								<MusicTransition Name="Transition" ID="{524F2304-B218-445D-B4D2-6A56501C0741}">
 									<PropertyList>
+										<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
 										<Property Name="ExitSourceAt" Type="int16" Value="3"/>
 									</PropertyList>
-									<TransitionInfo/>
+									<TransitionInfo>
+										<SourceFadeOut>
+											<MusicFade Name="Source Fade-out" ID="{9B21E735-2073-4D71-80D3-8B0F46F49718}">
+												<PropertyList>
+													<Property Name="FadeOffset" Type="Real64" Value="1"/>
+													<Property Name="FadeTime" Type="Real64" Value="2"/>
+													<Property Name="FadeType" Type="int16" Value="1"/>
+												</PropertyList>
+											</MusicFade>
+										</SourceFadeOut>
+									</TransitionInfo>
 								</MusicTransition>
 								<MusicTransition Name="Transition" ID="{273CF326-F8F1-4991-B6F7-D2BF9FFCF745}">
 									<PropertyList>
@@ -2562,6 +2807,78 @@
 										</DestinationFadeIn>
 									</TransitionInfo>
 								</MusicTransition>
+								<MusicTransition Name="Transition" ID="{BC3255B3-F506-4199-A2FB-6D65BAB7D6F0}">
+									<PropertyList>
+										<Property Name="DestinationContextType" Type="int16" Value="2"/>
+										<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
+										<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+										<Property Name="ExitSourceAt" Type="int16" Value="3"/>
+										<Property Name="SourceContextType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="DestinationContextObject">
+											<ObjectRef Name="Cruiser Explore" ID="{7BD965C5-C3BE-4394-89BE-0E55D898694E}" WorkUnitID="{BA49786C-8F21-4CAC-A757-58A39DA4BB08}"/>
+										</Reference>
+										<Reference Name="SourceContextObject">
+											<ObjectRef Name="Wampa Skel" ID="{3D0D7CA9-83D6-4832-A6D1-6223A47A70E9}" WorkUnitID="{BA49786C-8F21-4CAC-A757-58A39DA4BB08}"/>
+										</Reference>
+									</ReferenceList>
+									<TransitionInfo>
+										<SourceFadeOut>
+											<MusicFade Name="Source Fade-out" ID="{33ACF1D7-522A-4815-A54A-F54943997DA4}">
+												<PropertyList>
+													<Property Name="FadeOffset" Type="Real64" Value="0.5"/>
+													<Property Name="FadeTime" Type="Real64" Value="2"/>
+													<Property Name="FadeType" Type="int16" Value="1"/>
+												</PropertyList>
+											</MusicFade>
+										</SourceFadeOut>
+										<DestinationFadeIn>
+											<MusicFade Name="Destination Fade-in" ID="{A83D96A4-6D16-4815-BA13-F394D7E62D7B}">
+												<PropertyList>
+													<Property Name="FadeOffset" Type="Real64" Value="-1"/>
+													<Property Name="FadeTime" Type="Real64" Value="2"/>
+												</PropertyList>
+											</MusicFade>
+										</DestinationFadeIn>
+									</TransitionInfo>
+								</MusicTransition>
+								<MusicTransition Name="Transition" ID="{0439134A-0D53-49E3-9AA6-E21E3191B5B4}">
+									<PropertyList>
+										<Property Name="DestinationContextType" Type="int16" Value="2"/>
+										<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
+										<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+										<Property Name="ExitSourceAt" Type="int16" Value="3"/>
+										<Property Name="SourceContextType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="DestinationContextObject">
+											<ObjectRef Name="Moff Guideon Room" ID="{49637AA6-763B-4C1D-BF3F-C30C23697FDC}" WorkUnitID="{BA49786C-8F21-4CAC-A757-58A39DA4BB08}"/>
+										</Reference>
+										<Reference Name="SourceContextObject">
+											<ObjectRef Name="Cruiser Explore" ID="{7BD965C5-C3BE-4394-89BE-0E55D898694E}" WorkUnitID="{BA49786C-8F21-4CAC-A757-58A39DA4BB08}"/>
+										</Reference>
+									</ReferenceList>
+									<TransitionInfo>
+										<SourceFadeOut>
+											<MusicFade Name="Source Fade-out" ID="{61BF1BE2-98FE-4929-B4F3-B34DD6A0A6F9}">
+												<PropertyList>
+													<Property Name="FadeOffset" Type="Real64" Value="0.5"/>
+													<Property Name="FadeTime" Type="Real64" Value="2"/>
+													<Property Name="FadeType" Type="int16" Value="1"/>
+												</PropertyList>
+											</MusicFade>
+										</SourceFadeOut>
+										<DestinationFadeIn>
+											<MusicFade Name="Destination Fade-in" ID="{9742BC42-CCCD-4F55-AD7C-0CE62AEDC388}">
+												<PropertyList>
+													<Property Name="FadeOffset" Type="Real64" Value="-1"/>
+													<Property Name="FadeTime" Type="Real64" Value="2"/>
+												</PropertyList>
+											</MusicFade>
+										</DestinationFadeIn>
+									</TransitionInfo>
+								</MusicTransition>
 							</ChildrenList>
 							<TransitionInfo/>
 						</MusicTransition>
@@ -2630,6 +2947,26 @@
 							</Path>
 							<AudioNodeInfo>
 								<AudioNodeRef Name="Wampa Skel" ID="{3D0D7CA9-83D6-4832-A6D1-6223A47A70E9}" WorkUnitID="{BA49786C-8F21-4CAC-A757-58A39DA4BB08}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Alive" ID="{D651359C-1684-4E02-8D22-5225AA612899}"/>
+								<PathElementRef Name="Cruiser_Explore" ID="{7B56CD26-D41D-4E95-B202-EEE0956FC8CB}"/>
+								<PathElementRef Name="Player_Action" ID="{979A83A1-5FD3-4444-AB96-1ABEDBCBCCEC}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="Cruiser Explore" ID="{7BD965C5-C3BE-4394-89BE-0E55D898694E}" WorkUnitID="{BA49786C-8F21-4CAC-A757-58A39DA4BB08}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Alive" ID="{D651359C-1684-4E02-8D22-5225AA612899}"/>
+								<PathElementRef Name="Moff_Guideon_Room" ID="{C826D092-9E88-4F28-AD9B-BB26DAA56935}"/>
+								<PathElementRef Name="Player_Action" ID="{979A83A1-5FD3-4444-AB96-1ABEDBCBCCEC}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="Moff Guideon Room" ID="{49637AA6-763B-4C1D-BF3F-C30C23697FDC}" WorkUnitID="{BA49786C-8F21-4CAC-A757-58A39DA4BB08}" Platform="Linked"/>
 							</AudioNodeInfo>
 						</Entry>
 					</EntryList>
