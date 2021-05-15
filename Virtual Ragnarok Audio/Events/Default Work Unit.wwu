@@ -1150,6 +1150,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_Moff_Guideon_Death" ID="{94E1529F-55F0-4401-A6FC-C5B6389BC3AC}">
+							<ChildrenList>
+								<Action Name="" ID="{3E4C143B-C9C1-443E-970E-1E6153C24E28}" ShortID="12465170">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="moff gideon death" ID="{04935E3D-E30E-4158-B492-C6F6B55F71F4}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Heavytrooper" ID="{500B03D5-1D33-44F2-AA3F-524BE50C2F87}" ShortID="336321460">

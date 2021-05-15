@@ -208,6 +208,7 @@
 						<ObjectRef Name="Play_Moff_Guideon_Lightsaber_Turn_Off" ID="{F793D064-0396-4006-9D98-C1359B51BA07}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Moff_Guideon_Lightsaber_Whoosh" ID="{43F4076D-1676-43DE-9AE9-F18E189D3091}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Moff_Guideon_Death" ID="{94E1529F-55F0-4401-A6FC-C5B6389BC3AC}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Moff_Guideon_Intimidation_Phase_2" ID="{83DC6E4E-FB53-441C-923D-720708AFC26C}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Moff_Guideon_Spawn_Enemies" ID="{623F118A-C195-479D-8E49-BE6B3BF8F04F}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Moff_Guideon_Lightsaber_Throw" ID="{0597521B-0A64-4831-B7FA-52E21A5A8C28}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
