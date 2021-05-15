@@ -62,6 +62,23 @@
 					</ValueList>
 				</Property>
 				<Property Name="WwiseVersionWhenCreated" Type="string" Value="Branch=wwise_v2019.2|Build=7459|VersionName=v2019.2.9|Config=Release"/>
+			
+				<Property Name="LicenseKey" Type="string" Value="PHByb2plY3QgaWQ9Ijk4MDAiIG1hc2s9IkZES1EzODI1IiBlbmM9IjAiPjxsaWNl
+bnNlIGlkPSIxIiBuYW1lPSJXd2lzZSIgdHlwZT0iMyIgcGxhdGZvcm1zPSIyLDMs
+NCwxMCwxMywxNCIgZXhwaXJlcz0iMjAyMS0wNy0zMSIgIC8+PGxpY2Vuc2UgaWQ9
+IjIyIiBuYW1lPSJMZXZlbCBBIExpY2Vuc2UiIHR5cGU9IjMiIHBsYXRmb3Jtcz0i
+MiwzLDQsMTAsMTMsMTQiIGV4cGlyZXM9IjIwMjEtMDctMzEiICAvPjxsaWNlbnNl
+IGlkPSIyMSIgbmFtZT0iTWFpbnRlbmFuY2UiIHR5cGU9IjMiIHBsYXRmb3Jtcz0i
+MiwzLDQsMTAsMTMsMTQiIGV4cGlyZXM9IjIwMjEtMDctMzEiICAvPjxsaWNlbnNl
+IGlkPSIyNSIgbmFtZT0iQWxsIFd3aXNlIFBsdWctSW5zIiB0eXBlPSIzIiAgZXhw
+aXJlcz0iMjAyMS0wNy0zMSIgIC8+PC9wcm9qZWN0Pg==|Wl90ivH4/E7iKtMDnYr
+N9dMTVuT0xjrLBrfB+SOjfPydrXM+aPIaQ/J+7FQcb66u5ED3rSYVvTO1S93KDH/
+w9WQU1/K0zqo4VngzSZo0YPL3eUGOraktdisFLw1CA+nvwNl0WG0LuX6Tfqumvu/
+395CinykFNDQ8yBx2YlV09nvyyJJSk+DvpYGuaOPM5jFtDTe+jS6F2QEFJXf6qNz
+/+nNGgLYs7KQWLGunebCU2nDB8KlhVIF1m/QUo6hQM15pn+0ugaupzeSFzkvip1L
+f5pUXyBBqEa8urhgo7aS609kYp0OZvwQ74jUbmNqIwnQ0v00Cnfvuw6AHQ6qsvg3
+puw==
+"/>
 			</PropertyList>
 			<MiscSettings>
 				<MiscSettingEntry Name="Cache"><![CDATA[.cache]]></MiscSettingEntry>

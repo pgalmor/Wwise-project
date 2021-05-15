@@ -230,13 +230,6 @@
 						</Event>
 						<Event Name="Play_Mando_Damaging_Water" ID="{8ECF3B66-9336-4B1C-8140-36A220976793}">
 							<ChildrenList>
-								<Action Name="" ID="{4D4A0D73-EEFD-4CC0-9EAD-30D1CD02EC90}" ShortID="258794800">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="damaging water" ID="{1245969A-CDC1-4117-A68A-2D25A389D4CD}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
 								<Action Name="" ID="{F0F7D28C-83B6-42E1-A7B8-8AC30A6C677C}" ShortID="669647208">
 									<ReferenceList>
 										<Reference Name="Target">
@@ -843,6 +836,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_Rancor_Roar_Attack" ID="{1A6197FB-0FF4-426C-95C2-093477CE76B3}">
+							<ChildrenList>
+								<Action Name="" ID="{DB4FF26F-3F97-40BC-A8CF-AEB8AC27BBB7}" ShortID="263566275">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Rancor roar attack" ID="{CC5A8704-DFE6-4CEA-8981-14B67993D879}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Skytrooper" ID="{7A44256F-1B85-4271-8057-A21A9D1590FE}" ShortID="370157658">
@@ -875,6 +879,28 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Skytrooper grenade launch" ID="{79F40755-3307-42CF-B440-DF01BDF29D88}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Skytrooper_Death" ID="{443B6CD7-F7F0-4D95-8E36-1C496C1B47A7}">
+							<ChildrenList>
+								<Action Name="" ID="{12D8B56E-F71D-4359-AC8C-D59FE144049B}" ShortID="1018633604">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Skytrooper death" ID="{E8F07E4F-2511-4431-84F2-826EB0DB2758}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Skytrooper_Hit" ID="{2511E821-9D78-49C6-8702-4BA079B42F58}">
+							<ChildrenList>
+								<Action Name="" ID="{2556F058-5004-40E5-9CEA-147480D27F79}" ShortID="137948737">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Skytrooper hit" ID="{0BECE5DB-72CB-4776-8B70-695189527450}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -1259,6 +1285,17 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Footsteps wander deathtrooper" ID="{46903735-DF6A-4DC7-9402-5451EF550062}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Deathtrooper_Hit" ID="{AFAD958A-92C4-4210-98B1-F32F0011CFFB}">
+							<ChildrenList>
+								<Action Name="" ID="{B45A9957-EBE7-472E-938A-B941D84B4C1E}" ShortID="993712302">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Deathtrooper hit" ID="{23F4A709-9C6E-4F41-BFFF-00406308C0A5}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
