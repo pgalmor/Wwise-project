@@ -229,6 +229,7 @@
 				<SoundBank Name="Heavytrooper" ID="{9116823B-EDC9-45B6-ACB5-0B49DDCC2477}">
 					<ObjectInclusionList>
 						<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Heavytrooper_Hit" ID="{56A4FAFA-0975-41DA-B9F1-3C607B6F7213}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Heavytrooper_Death" ID="{7CD8F79D-6B24-4260-B13C-3D65CB89FC0F}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Heavytrooper_Attack" ID="{E4BA388F-4A98-45F9-B281-108FDA66A555}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Heavytrooper_Wander" ID="{12F9119A-B2E0-4809-9FA0-054315C6B5EE}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>

@@ -1231,6 +1231,20 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_Heavytrooper_Hit" ID="{56A4FAFA-0975-41DA-B9F1-3C607B6F7213}">
+							<ChildrenList>
+								<Action Name="" ID="{5980DB25-7026-4189-995C-BC2E781D8CB4}" ShortID="398553618">
+									<PropertyList>
+										<Property Name="Probability" Type="Real64" Value="70"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Heavytrooper hit" ID="{696C8AE2-003F-4ADE-9419-324EB1BCC783}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Deathtrooper" ID="{AC0A12EC-964B-4FCC-8C05-A46A2C6AFC49}" ShortID="12235815">
@@ -1304,6 +1318,9 @@
 						<Event Name="Play_Deathtrooper_Hit" ID="{AFAD958A-92C4-4210-98B1-F32F0011CFFB}">
 							<ChildrenList>
 								<Action Name="" ID="{B45A9957-EBE7-472E-938A-B941D84B4C1E}" ShortID="993712302">
+									<PropertyList>
+										<Property Name="Probability" Type="Real64" Value="70"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Deathtrooper hit" ID="{23F4A709-9C6E-4F41-BFFF-00406308C0A5}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
