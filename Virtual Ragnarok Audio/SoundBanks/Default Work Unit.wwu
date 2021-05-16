@@ -49,6 +49,7 @@
 				</SoundBank>
 				<SoundBank Name="Environment" ID="{70909FAD-B717-4125-8340-B9A17FAD1C71}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Play_Geyser" ID="{B2C59197-0027-4111-8AAA-10C2EAB10D3E}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Barrel_Explosion" ID="{BEFAD0E7-CB69-4428-A78F-EAE4CC621E54}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Spaceship_Interior_Ambience" ID="{E37DB526-8931-467C-9083-AB31EEB60D8D}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>

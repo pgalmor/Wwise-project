@@ -601,6 +601,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_Geyser" ID="{B2C59197-0027-4111-8AAA-10C2EAB10D3E}">
+							<ChildrenList>
+								<Action Name="" ID="{239EB882-3E35-4463-A9D7-88546ABEA396}" ShortID="717466944">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="geyser" ID="{BE5A8F9A-1FCC-4B19-AF63-A97D1FF768F9}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Music" ID="{343009C6-3BE6-4ED3-BA83-37910A02C674}" ShortID="438753766">
