@@ -535,6 +535,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_UI_Boon_Pickup" ID="{7BF5F848-85F3-4EA8-819F-38AFD7D9AB65}">
+							<ChildrenList>
+								<Action Name="" ID="{776FC931-6036-475F-97D8-BD9DDB6CA3A5}" ShortID="982038162">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI boon pickup" ID="{12D6E476-D526-41E6-9AD4-8108AF45B6B7}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Environment" ID="{8C060D61-9283-4117-BA2F-B10596916A2B}" ShortID="952097035">

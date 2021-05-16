@@ -90,6 +90,7 @@
 						<ObjectRef Name="Stop_Object" ID="{378C77F3-FD97-4C7E-B169-7A27282200DE}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_UI_Credit_Pickup" ID="{7CEF4B25-E89A-4CEE-B63D-16A6594495D3}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_UI_Pause" ID="{E3F5C0AC-A3AB-4D41-9495-F70BD5F95866}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_UI_Boon_Pickup" ID="{7BF5F848-85F3-4EA8-819F-38AFD7D9AB65}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Resume_Object" ID="{B3E49AD5-6A93-4EB1-9837-0321993DA353}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_UI_Button_Play" ID="{AD8ACCAD-9E3D-4F28-BF84-19303322C9E7}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
