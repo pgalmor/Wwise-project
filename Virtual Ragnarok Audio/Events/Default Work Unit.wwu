@@ -987,6 +987,64 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_Wampa_Footsteps" ID="{F9CB0093-3430-478C-8581-C9F47D268425}">
+							<ChildrenList>
+								<Action Name="" ID="{FDE2D27B-0F68-4F6E-A28B-3E076B2775C5}" ShortID="591660790">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Footsteps wampa" ID="{8F9FB98A-E783-4026-9FB8-EBAEEC0DB9D4}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Wampa_Hit" ID="{5B3408D4-A753-4A2B-9160-2250A5CFB598}">
+							<ChildrenList>
+								<Action Name="" ID="{6DBB6050-1D55-4B48-9416-6D62CECD17FC}" ShortID="477275260">
+									<PropertyList>
+										<Property Name="Probability" Type="Real64" Value="69"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Wampa hit" ID="{962CEEB5-50A0-4D9E-9A70-9B7480163A6E}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Wampa_Roar_Presentation" ID="{2C8FE94B-02E9-4E25-8E2C-8F458ACAD797}">
+							<ChildrenList>
+								<Action Name="" ID="{5CAD7B82-EACD-468B-8C90-FED0CCBB9BF9}" ShortID="539669702">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="wampa roar presentation" ID="{BBE5074B-8059-4DF8-A2BC-FB2B8DB85254}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Wampa_Death" ID="{827DC0FE-A41D-498F-AE35-634C9B717677}">
+							<ChildrenList>
+								<Action Name="" ID="{B34775C5-2148-414A-80B1-6FD497749F6A}" ShortID="339436005">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="wampa death" ID="{BC703452-628A-40FD-9D28-D1CDB86D8BDE}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Wampa_When_Skel_Dies" ID="{6FE8C498-FB71-48B7-94D9-AF42F0C9A487}">
+							<ChildrenList>
+								<Action Name="" ID="{206685C7-3583-4A0A-BA46-020A31BD3753}" ShortID="577154901">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="wampa when skel die" ID="{E8312A4E-39F1-4AEE-A25A-4FF5AB7ED40B}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Turret" ID="{73B77E5F-4888-4033-9F50-A24D8270206B}" ShortID="61953618">
