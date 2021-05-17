@@ -1082,6 +1082,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_Turret_Destruction" ID="{0E1D0938-8343-4B28-9980-F512DB37D42A}">
+							<ChildrenList>
+								<Action Name="" ID="{70AC536A-600E-40A4-9E22-85D2395D7E39}" ShortID="845163077">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="turret destruction" ID="{5547E0D0-5ACA-4280-9E7F-6A33A3AD6116}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Moff Guideon" ID="{0948B394-126A-4932-9808-06CA6C176957}" ShortID="1073382540">

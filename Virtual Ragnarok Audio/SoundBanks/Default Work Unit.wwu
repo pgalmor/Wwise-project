@@ -184,7 +184,9 @@
 						<ObjectRef Name="Play_Wampa_Skell_Previous_Rush_Roar" ID="{29230A26-A9C7-4369-BA70-08CB91781F3B}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Wampa_Skell_Death_Roar" ID="{A06197E7-1EFF-45F9-BB64-75C730301844}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Wampa_Footsteps" ID="{F9CB0093-3430-478C-8581-C9F47D268425}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Wampa_When_Skel_Dies" ID="{6FE8C498-FB71-48B7-94D9-AF42F0C9A487}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Wampa_Skell_Ice_Impact" ID="{1CEDEA2E-DCEB-4932-8A43-25C6D856FD3C}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Wampa_Death" ID="{827DC0FE-A41D-498F-AE35-634C9B717677}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Wampa_Hit" ID="{5B3408D4-A753-4A2B-9160-2250A5CFB598}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Wampa_Skell_Jump_Snow" ID="{B7B33A24-FF79-4A71-8DF5-0058F5528C5F}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Pause_Object" ID="{257203BA-872A-4BD2-9340-B10FBEB45376}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
@@ -201,6 +203,7 @@
 						<ObjectRef Name="Play_Turret_Shot_Charge" ID="{8489B7D7-C6D7-4163-851D-73677154FA1D}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Turret_Shot" ID="{8AECAF3A-669B-4205-B2F6-2720BD53C756}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Turret_Charge" ID="{476A84E7-2BCF-4344-9A56-CE79B046F743}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Turret_Destruction" ID="{0E1D0938-8343-4B28-9980-F512DB37D42A}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Pause_Object" ID="{257203BA-872A-4BD2-9340-B10FBEB45376}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_Object" ID="{378C77F3-FD97-4C7E-B169-7A27282200DE}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Resume_Object" ID="{B3E49AD5-6A93-4EB1-9837-0321993DA353}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
