@@ -5,11 +5,11 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "135",
   "RootPaths": {
-   "ProjectRoot": "C:\\Users\\admin\\Documents\\GitHub\\Wwise-project\\Virtual Ragnarok Audio\\",
-   "SourceFilesRoot": "C:\\Users\\admin\\Documents\\GitHub\\Wwise-project\\Virtual Ragnarok Audio\\.cache\\Windows\\",
-   "SoundBanksRoot": "C:\\Users\\admin\\Documents\\GitHub\\Wwise-project\\Virtual Ragnarok Audio\\GeneratedSoundBanks\\Windows\\",
+   "ProjectRoot": "C:\\Users\\adell\\Documents\\GitHub\\Wwise-project\\Virtual Ragnarok Audio\\",
+   "SourceFilesRoot": "C:\\Users\\adell\\Documents\\GitHub\\Wwise-project\\Virtual Ragnarok Audio\\.cache\\Windows\\",
+   "SoundBanksRoot": "C:\\Users\\adell\\Documents\\GitHub\\Wwise-project\\Virtual Ragnarok Audio\\GeneratedSoundBanks\\Windows\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "C:\\Users\\admin\\Documents\\GitHub\\Wwise-project\\Virtual Ragnarok Audio\\GeneratedSoundBanks\\Windows"
+   "ExternalSourcesOutputRoot": "C:\\Users\\adell\\Documents\\GitHub\\Wwise-project\\Virtual Ragnarok Audio\\GeneratedSoundBanks\\Windows"
   },
   "DialogueEvents": [],
   "StreamedFiles": [],
@@ -18,7 +18,7 @@
    {
     "Id": "225682233",
     "Language": "SFX",
-    "Hash": "2755969463",
+    "Hash": "1171658432",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Skytrooper",
     "ShortName": "Skytrooper",
     "Path": "Skytrooper.bnk",
@@ -166,7 +166,7 @@
    {
     "Id": "833070093",
     "Language": "SFX",
-    "Hash": "2257730582",
+    "Hash": "3432519846",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Stormtrooper",
     "ShortName": "Stormtrooper",
     "Path": "Stormtrooper.bnk",
@@ -355,7 +355,7 @@
    {
     "Id": "913881297",
     "Language": "SFX",
-    "Hash": "3626196907",
+    "Hash": "1265986321",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Wampa_Skell",
     "ShortName": "Wampa_Skell",
     "Path": "Wampa_Skell.bnk",
@@ -385,110 +385,6 @@
         "Language": "SFX",
         "ShortName": "Rancor chain step 1.wav",
         "Path": "SFX\\Rancor chain step 1_FC2D3A10.wem"
-       }
-      ]
-     },
-     {
-      "Id": "3996625941",
-      "Name": "Play_Wampa_Death",
-      "ObjectPath": "\\Events\\Default Work Unit\\Wampa Skel\\Play_Wampa_Death",
-      "DurationType": "OneShot",
-      "DurationMin": "7.166168",
-      "DurationMax": "7.166168",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "741073719",
-        "Language": "SFX",
-        "ShortName": "wampa death.wav",
-        "Path": "SFX\\wampa death_FC2D3A10.wem"
-       }
-      ]
-     },
-     {
-      "Id": "126468322",
-      "Name": "Play_Wampa_Footsteps",
-      "ObjectPath": "\\Events\\Default Work Unit\\Wampa Skel\\Play_Wampa_Footsteps",
-      "DurationType": "Infinite",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "74697248",
-        "Language": "SFX",
-        "ShortName": "Footstep wampa 2.wav",
-        "Path": "SFX\\Footstep wampa 2_FC2D3A10.wem"
-       },
-       {
-        "Id": "233993644",
-        "Language": "SFX",
-        "ShortName": "Footstep wampa 1.wav",
-        "Path": "SFX\\Footstep wampa 1_FC2D3A10.wem"
-       },
-       {
-        "Id": "792452066",
-        "Language": "SFX",
-        "ShortName": "Footstep wampa 3.wav",
-        "Path": "SFX\\Footstep wampa 3_FC2D3A10.wem"
-       },
-       {
-        "Id": "1009562432",
-        "Language": "SFX",
-        "ShortName": "Footstep wampa 4.wav",
-        "Path": "SFX\\Footstep wampa 4_FC2D3A10.wem"
-       }
-      ]
-     },
-     {
-      "Id": "973421172",
-      "Name": "Play_Wampa_Hit",
-      "ObjectPath": "\\Events\\Default Work Unit\\Wampa Skel\\Play_Wampa_Hit",
-      "DurationType": "OneShot",
-      "DurationMin": "0.000000",
-      "DurationMax": "0.703991",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "11466863",
-        "Language": "SFX",
-        "ShortName": "wampa hit 1.wav",
-        "Path": "SFX\\wampa hit 1_FC2D3A10.wem"
-       },
-       {
-        "Id": "66287347",
-        "Language": "SFX",
-        "ShortName": "wampa body hit 1.wav",
-        "Path": "SFX\\wampa body hit 1_FC2D3A10.wem"
-       },
-       {
-        "Id": "250727717",
-        "Language": "SFX",
-        "ShortName": "wampa hit 2.wav",
-        "Path": "SFX\\wampa hit 2_FC2D3A10.wem"
-       },
-       {
-        "Id": "341527135",
-        "Language": "SFX",
-        "ShortName": "wampa body hit 2.wav",
-        "Path": "SFX\\wampa body hit 2_FC2D3A10.wem"
-       },
-       {
-        "Id": "555662456",
-        "Language": "SFX",
-        "ShortName": "wampa hit 3.wav",
-        "Path": "SFX\\wampa hit 3_FC2D3A10.wem"
-       }
-      ]
-     },
-     {
-      "Id": "1095659072",
-      "Name": "Play_Wampa_Roar_Presentation",
-      "ObjectPath": "\\Events\\Default Work Unit\\Wampa Skel\\Play_Wampa_Roar_Presentation",
-      "DurationType": "OneShot",
-      "DurationMin": "1.968005",
-      "DurationMax": "1.968005",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "900373277",
-        "Language": "SFX",
-        "ShortName": "wampa roar presentation.wav",
-        "Path": "SFX\\wampa roar presentation_FC2D3A10.wem"
        }
       ]
      },
@@ -573,22 +469,6 @@
       ]
      },
      {
-      "Id": "2094630229",
-      "Name": "Play_Wampa_When_Skel_Dies",
-      "ObjectPath": "\\Events\\Default Work Unit\\Wampa Skel\\Play_Wampa_When_Skel_Dies",
-      "DurationType": "OneShot",
-      "DurationMin": "1.970204",
-      "DurationMax": "1.970204",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "779676976",
-        "Language": "SFX",
-        "ShortName": "wampa when skel die.wav",
-        "Path": "SFX\\wampa when skel die_FC2D3A10.wem"
-       }
-      ]
-     },
-     {
       "Id": "1931338186",
       "Name": "Resume_Object",
       "ObjectPath": "\\Events\\Default Work Unit\\Resume_Object",
@@ -621,7 +501,7 @@
    {
     "Id": "1019160887",
     "Language": "SFX",
-    "Hash": "2321700344",
+    "Hash": "2636930677",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Heavytrooper",
     "ShortName": "Heavytrooper",
     "Path": "Heavytrooper.bnk",
@@ -847,7 +727,7 @@
    {
     "Id": "1093318992",
     "Language": "SFX",
-    "Hash": "2470408793",
+    "Hash": "994545189",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Mando",
     "ShortName": "Mando",
     "Path": "Mando.bnk",
@@ -1451,7 +1331,7 @@
    {
     "Id": "1229948536",
     "Language": "SFX",
-    "Hash": "3482951119",
+    "Hash": "2650427641",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Environment",
     "ShortName": "Environment",
     "Path": "Environment.bnk",
@@ -1616,7 +1496,7 @@
    {
     "Id": "1551306167",
     "Language": "SFX",
-    "Hash": "542181563",
+    "Hash": "3326613602",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\UI",
     "ShortName": "UI",
     "Path": "UI.bnk",
@@ -1825,7 +1705,7 @@
    {
     "Id": "2674766611",
     "Language": "SFX",
-    "Hash": "40657479",
+    "Hash": "2037353229",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Turret",
     "ShortName": "Turret",
     "Path": "Turret.bnk",
@@ -1849,22 +1729,6 @@
         "Language": "SFX",
         "ShortName": "turret charge.wav",
         "Path": "SFX\\turret charge_B182BB5A.wem"
-       }
-      ]
-     },
-     {
-      "Id": "3578431673",
-      "Name": "Play_Turret_Destruction",
-      "ObjectPath": "\\Events\\Default Work Unit\\Turret\\Play_Turret_Destruction",
-      "DurationType": "OneShot",
-      "DurationMin": "1.739458",
-      "DurationMax": "1.739458",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "889661503",
-        "Language": "SFX",
-        "ShortName": "turret destruction.wav",
-        "Path": "SFX\\turret destruction_FC2D3A10.wem"
        }
       ]
      },
@@ -1931,7 +1795,7 @@
    {
     "Id": "3049191116",
     "Language": "SFX",
-    "Hash": "1756636871",
+    "Hash": "1404250716",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Rancor",
     "ShortName": "Rancor",
     "Path": "Rancor.bnk",
@@ -2261,7 +2125,7 @@
    {
     "Id": "3363384534",
     "Language": "SFX",
-    "Hash": "3805461938",
+    "Hash": "725472856",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Deathtrooper",
     "ShortName": "Deathtrooper",
     "Path": "Deathtrooper.bnk",
@@ -2493,7 +2357,7 @@
    {
     "Id": "3434002875",
     "Language": "SFX",
-    "Hash": "1570504211",
+    "Hash": "1657781294",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Cantine",
     "ShortName": "Cantine",
     "Path": "Cantine.bnk",
@@ -2577,7 +2441,7 @@
    {
     "Id": "3721236575",
     "Language": "SFX",
-    "Hash": "809836013",
+    "Hash": "2038554754",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Moff_Guideon",
     "ShortName": "Moff_Guideon",
     "Path": "Moff_Guideon.bnk",
@@ -2903,7 +2767,7 @@
    {
     "Id": "3795682265",
     "Language": "SFX",
-    "Hash": "938603909",
+    "Hash": "4172573585",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Bantha",
     "ShortName": "Bantha",
     "Path": "Bantha.bnk",
@@ -3120,7 +2984,7 @@
    {
     "Id": "3991942870",
     "Language": "SFX",
-    "Hash": "2177729819",
+    "Hash": "2508849294",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Music",
     "ShortName": "Music",
     "Path": "Music.bnk",
@@ -3212,6 +3076,12 @@
         "Path": "SFX\\OST 15-19-Strings_03682274.wem"
        },
        {
+        "Id": "521322019",
+        "Language": "SFX",
+        "ShortName": "Combat Music C\\108790-Orchestral_bass_loop_staccato_C_minor_160_bpm-AOS03030.wav",
+        "Path": "SFX\\Combat Music C\\108790-Orchestral_bass_loop_staccato_C_minor_160_bpm-AOS03030_03682274.wem"
+       },
+       {
         "Id": "560818724",
         "Language": "SFX",
         "ShortName": "EXP FLUTE 2.wav",
@@ -3266,6 +3136,12 @@
         "Path": "SFX\\Spaceship Exploring_03682274.wem"
        },
        {
+        "Id": "888538663",
+        "Language": "SFX",
+        "ShortName": "Combat Music C\\107440-Toms_loop_160_bpm-AOS03071.wav",
+        "Path": "SFX\\Combat Music C\\107440-Toms_loop_160_bpm-AOS03071_03682274.wem"
+       },
+       {
         "Id": "914423924",
         "Language": "SFX",
         "ShortName": "OST 11-16-Strings and Brass 1.wav",
@@ -3288,6 +3164,12 @@
         "Language": "SFX",
         "ShortName": "Wampa skel level music.wav",
         "Path": "SFX\\Wampa skel level music_03682274.wem"
+       },
+       {
+        "Id": "1058382563",
+        "Language": "SFX",
+        "ShortName": "Combat Music C\\106049-Orchestral_trumpets_loops_D_minor_160_bpm-AOS03079.wav",
+        "Path": "SFX\\Combat Music C\\106049-Orchestral_trumpets_loops_D_minor_160_bpm-AOS03079_03682274.wem"
        },
        {
         "Id": "1069201538",
@@ -3509,6 +3391,30 @@
           ]
          }
         ]
+       },
+       {
+        "SwitchValue": "{D651359C-1684-4E02-8D22-5225AA612899}",
+        "Children": [
+         {
+          "SwitchValue": "{E256D6D5-00AD-47AF-8EFA-3B5BEC0864C6}",
+          "Children": [
+           {
+            "SwitchValue": "{BA4F0BB3-ECC2-4F1E-BDF6-D3A727FBFF1E}",
+            "Media": [
+             {
+              "Id": "521322019"
+             },
+             {
+              "Id": "888538663"
+             },
+             {
+              "Id": "1058382563"
+             }
+            ]
+           }
+          ]
+         }
+        ]
        }
       ]
      },
@@ -3667,7 +3573,7 @@
    {
     "Id": "4179269225",
     "Language": "SFX",
-    "Hash": "3077940727",
+    "Hash": "2934074154",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Grogu",
     "ShortName": "Grogu",
     "Path": "Grogu.bnk",
