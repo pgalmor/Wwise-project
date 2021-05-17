@@ -4456,7 +4456,7 @@
 													<ClipList>
 														<MusicClip Name="106049-Orchestral_trumpets_loops_D_minor_160_bpm-AOS03079" ID="{BFF5E9F2-6382-48C8-97EA-C59616EFE374}">
 															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="12015.7734414542"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="11981.0354109393"/>
 																<Property Name="FadeInMode" Type="int16" Value="0"/>
 																<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																<Property Name="PlayAt" Type="Real64" Value="26.0991964800083"/>
@@ -4475,7 +4475,7 @@
 																				<Flags>5</Flags>
 																			</Point>
 																			<Point>
-																				<XPos>12.01577</XPos>
+																				<XPos>11.98104</XPos>
 																				<YPos>0</YPos>
 																				<Flags>37</Flags>
 																			</Point>
@@ -4494,7 +4494,7 @@
 																				<Flags>5</Flags>
 																			</Point>
 																			<Point>
-																				<XPos>12.01577</XPos>
+																				<XPos>11.98104</XPos>
 																				<YPos>0</YPos>
 																				<Flags>37</Flags>
 																			</Point>
@@ -4513,7 +4513,7 @@
 																				<Flags>5</Flags>
 																			</Point>
 																			<Point>
-																				<XPos>12.01577</XPos>
+																				<XPos>11.98104</XPos>
 																				<YPos>0</YPos>
 																				<Flags>37</Flags>
 																			</Point>
@@ -4561,12 +4561,12 @@
 																		<PointList>
 																			<Point>
 																				<XPos>0</XPos>
-																				<YPos>0</YPos>
+																				<YPos>34.40859</YPos>
 																				<Flags>5</Flags>
 																			</Point>
 																			<Point>
 																				<XPos>12.01577</XPos>
-																				<YPos>0</YPos>
+																				<YPos>37.63441</YPos>
 																				<Flags>37</Flags>
 																			</Point>
 																		</PointList>
@@ -4580,12 +4580,12 @@
 																		<PointList>
 																			<Point>
 																				<XPos>0</XPos>
-																				<YPos>-8.74008</YPos>
+																				<YPos>-5.21826</YPos>
 																				<Flags>5</Flags>
 																			</Point>
 																			<Point>
 																				<XPos>12.01577</XPos>
-																				<YPos>-8.4883</YPos>
+																				<YPos>-4.56241</YPos>
 																				<Flags>37</Flags>
 																			</Point>
 																		</PointList>
