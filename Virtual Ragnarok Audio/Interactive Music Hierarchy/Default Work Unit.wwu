@@ -49,8 +49,7 @@
 					<ChildrenList>
 						<MusicPlaylistContainer Name="Combat" ID="{4942AB47-38D2-416B-A1B9-2DABCB92CE81}" ShortID="412425100">
 							<PropertyList>
-								<Property Name="OverrideClockSettings" Type="bool" Value="True"/>
-								<Property Name="Tempo" Type="Real64" Value="138"/>
+								<Property Name="Tempo" Type="Real64" Value="143"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -64,6 +63,7 @@
 								<MusicSegment Name="Combat Music A" ID="{F8AFA7E4-E73A-42D9-B00D-2DAE1CFB568A}" ShortID="915280488">
 									<PropertyList>
 										<Property Name="EndPosition" Type="Real64" Value="184661.479166667"/>
+										<Property Name="Tempo" Type="Real64" Value="143"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -3357,7 +3357,7 @@
 						<MusicPlaylistContainer Name="Combat Lvl 2" ID="{F8F3ADFD-3C5C-4BE2-84C4-6543F8413903}" ShortID="679342066">
 							<PropertyList>
 								<Property Name="OverrideClockSettings" Type="bool" Value="True"/>
-								<Property Name="Tempo" Type="Real64" Value="138"/>
+								<Property Name="Tempo" Type="Real64" Value="98"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -3371,7 +3371,6 @@
 								<MusicSegment Name="Combat Music B" ID="{BE046D10-9ADA-4AD6-B37B-7821682FE9D9}" ShortID="764972472">
 									<PropertyList>
 										<Property Name="EndPosition" Type="Real64" Value="144096"/>
-										<Property Name="OverrideClockSettings" Type="bool" Value="True"/>
 										<Property Name="Tempo" Type="Real64" Value="98"/>
 									</PropertyList>
 									<ReferenceList>
@@ -3384,9 +3383,18 @@
 									</ReferenceList>
 									<ChildrenList>
 										<MusicTrack Name="56086-dramatic-orchestra-02-until-they-came-L2" ID="{DE846ADC-DC52-401E-B1B4-DC6A16460A8D}" ShortID="652991339">
+											<PropertyList>
+												<Property Name="MusicTrackType" Type="int16" Value="3"/>
+											</PropertyList>
 											<ReferenceList>
+												<Reference Name="DefaultSwitchOrState">
+													<ObjectRef Name="Healthy" ID="{B6DA0743-D679-47B8-BE88-F2FF7B6B1818}" WorkUnitID="{418DD5E0-ECF0-4412-844D-37145812D6AB}"/>
+												</Reference>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+												</Reference>
+												<Reference Name="SwitchGroupOrStateGroup">
+													<ObjectRef Name="Player_Health" ID="{BF861E8F-D3A8-4C0E-BEBA-8334B90D2546}" WorkUnitID="{418DD5E0-ECF0-4412-844D-37145812D6AB}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
@@ -3403,6 +3411,11 @@
 													<PropertyList>
 														<Property Name="IsFolder" Type="bool" Value="True"/>
 													</PropertyList>
+													<ChildrenList>
+														<MusicTransition Name="Transition" ID="{F83C5CE7-9DB2-4E45-9A75-442FC114EAF2}">
+															<TransitionInfo/>
+														</MusicTransition>
+													</ChildrenList>
 													<TransitionInfo/>
 												</MusicTransition>
 											</TransitionList>
@@ -3477,6 +3490,87 @@
 															</PropertyCurveList>
 														</MusicClip>
 													</ClipList>
+													<ReferenceList>
+														<Reference Name="TrackSequenceSwitch">
+															<ObjectRef Name="Healthy" ID="{B6DA0743-D679-47B8-BE88-F2FF7B6B1818}" WorkUnitID="{418DD5E0-ECF0-4412-844D-37145812D6AB}"/>
+														</Reference>
+													</ReferenceList>
+												</MusicTrackSequence>
+												<MusicTrackSequence Name="" ID="{1155DF89-89CE-4C1F-B38F-8F7740EF06A8}">
+													<ClipList>
+														<MusicClip Name="56086-dramatic-orchestra-02-until-they-came-L2" ID="{EF11B24F-9504-40B3-B3AD-AF34D1229276}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="28836.8161884755"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="56086-dramatic-orchestra-02-until-they-came-L2" ID="{99208A90-8E8F-4BDA-90AE-95DFCC71C2EB}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Highpass">
+																	<Curve Name="" ID="{41FD559F-A680-4885-ACF6-AF5552B014C1}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>28.83682</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Lowpass">
+																	<Curve Name="" ID="{1B4AEA15-1197-4440-9545-AF8DF58234EA}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>35.4839</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>28.83682</XPos>
+																				<YPos>25.80644</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{402C56E2-D6C2-4A7F-821C-86464DFE6C8C}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-1.98502</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>28.83682</XPos>
+																				<YPos>-1.98503</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
+														</MusicClip>
+													</ClipList>
+													<ReferenceList>
+														<Reference Name="TrackSequenceSwitch">
+															<ObjectRef Name="Critical" ID="{6B09A628-1388-4144-83A2-D1C0FD238EEB}" WorkUnitID="{418DD5E0-ECF0-4412-844D-37145812D6AB}"/>
+														</Reference>
+													</ReferenceList>
 												</MusicTrackSequence>
 											</SequenceList>
 										</MusicTrack>
@@ -3584,12 +3678,12 @@
 																		<PointList>
 																			<Point>
 																				<XPos>0</XPos>
-																				<YPos>-10.42648</YPos>
+																				<YPos>-5.74482</YPos>
 																				<Flags>5</Flags>
 																			</Point>
 																			<Point>
 																				<XPos>28.82284</XPos>
-																				<YPos>-9.82722</YPos>
+																				<YPos>-5.39025</YPos>
 																				<Flags>37</Flags>
 																			</Point>
 																		</PointList>
@@ -3607,6 +3701,9 @@
 											</SequenceList>
 										</MusicTrack>
 										<MusicTrack Name="OST 8- Percussion" ID="{B396799B-44AF-45CE-93EA-3304CCCBE97C}" ShortID="802382032">
+											<PropertyList>
+												<Property Name="MusicTrackType" Type="int16" Value="1"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="DefaultSwitchOrState">
 													<ObjectRef Name="Healthy" ID="{B6DA0743-D679-47B8-BE88-F2FF7B6B1818}" WorkUnitID="{418DD5E0-ECF0-4412-844D-37145812D6AB}"/>
@@ -3645,7 +3742,7 @@
 													<ClipList>
 														<MusicClip Name="OST 8- Percussion" ID="{56B5392C-3440-462F-9070-47ECC5889394}">
 															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="28888.5058834299"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="9692.56414064143"/>
 																<Property Name="FadeInMode" Type="int16" Value="0"/>
 																<Property Name="FadeOutMode" Type="int16" Value="0"/>
 															</PropertyList>
@@ -3663,7 +3760,7 @@
 																				<Flags>5</Flags>
 																			</Point>
 																			<Point>
-																				<XPos>28.88851</XPos>
+																				<XPos>9.69256</XPos>
 																				<YPos>0</YPos>
 																				<Flags>37</Flags>
 																			</Point>
@@ -3678,11 +3775,11 @@
 																		<PointList>
 																			<Point>
 																				<XPos>0</XPos>
-																				<YPos>54.8388</YPos>
+																				<YPos>61.29046</YPos>
 																				<Flags>5</Flags>
 																			</Point>
 																			<Point>
-																				<XPos>28.88851</XPos>
+																				<XPos>9.69256</XPos>
 																				<YPos>59.13976</YPos>
 																				<Flags>37</Flags>
 																			</Point>
@@ -3701,8 +3798,8 @@
 																				<Flags>5</Flags>
 																			</Point>
 																			<Point>
-																				<XPos>28.88851</XPos>
-																				<YPos>-2.1032</YPos>
+																				<XPos>9.69256</XPos>
+																				<YPos>-1.86843</YPos>
 																				<Flags>37</Flags>
 																			</Point>
 																		</PointList>
@@ -3716,6 +3813,151 @@
 															<ObjectRef Name="Injured" ID="{6855751F-8537-43DE-AD58-750216FEB002}" WorkUnitID="{418DD5E0-ECF0-4412-844D-37145812D6AB}"/>
 														</Reference>
 													</ReferenceList>
+												</MusicTrackSequence>
+												<MusicTrackSequence Name="" ID="{AFAA5471-2103-4433-9DB4-DEFBF6048738}">
+													<ClipList>
+														<MusicClip Name="OST 8- Percussion" ID="{9479D23D-046A-4EA7-B880-3601474E5545}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="9557.14303487219"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																<Property Name="PlayAt" Type="Real64" Value="9682.60906249999"/>
+															</PropertyList>
+															<AudioSourceRef Name="OST 8- Percussion" ID="{CC3FA385-DFD8-402B-9EA6-52A5B2DA64F4}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Highpass">
+																	<Curve Name="" ID="{61143AFD-348D-40C3-B957-2A8A0240BA9D}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>9.55714</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Lowpass">
+																	<Curve Name="" ID="{221F38BD-BE59-4241-8A38-7D8E2ECDE1B6}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>62.36571</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>9.55714</XPos>
+																				<YPos>59.13976</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{ED74BACC-9ED6-4442-AB19-D4CAD11AC550}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-1.98503</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>9.55714</XPos>
+																				<YPos>-2.1032</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+												<MusicTrackSequence Name="" ID="{83E61DF8-3375-4508-8481-E4507C62EDBB}">
+													<ClipList>
+														<MusicClip Name="OST 8- Percussion" ID="{C341A116-050F-4ACB-84D0-2212895E2E55}">
+															<PropertyList>
+																<Property Name="BeginTrimOffset" Type="Real64" Value="-3.43302822067508E-13"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="9624.85358775681"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																<Property Name="PlayAt" Type="Real64" Value="19263.6522956731"/>
+															</PropertyList>
+															<AudioSourceRef Name="OST 8- Percussion" ID="{CC3FA385-DFD8-402B-9EA6-52A5B2DA64F4}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Highpass">
+																	<Curve Name="" ID="{F8BC1009-5120-4607-8102-926B221FAC34}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>-0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>9.62485</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Lowpass">
+																	<Curve Name="" ID="{6494B63A-DB7D-4945-AA85-E38A48E9860C}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>-0</XPos>
+																				<YPos>62.36571</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>9.62485</XPos>
+																				<YPos>59.13976</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{096452AC-DD5D-4870-909A-31EC8EF6F23B}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>-0</XPos>
+																				<YPos>-1.98503</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>9.62485</XPos>
+																				<YPos>-2.1032</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
+														</MusicClip>
+													</ClipList>
 												</MusicTrackSequence>
 											</SequenceList>
 										</MusicTrack>
