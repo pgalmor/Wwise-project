@@ -3358,6 +3358,11 @@
 							<PropertyList>
 								<Property Name="OverrideClockSettings" Type="bool" Value="True"/>
 								<Property Name="Tempo" Type="Real64" Value="98"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>12</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -3424,7 +3429,7 @@
 													<ClipList>
 														<MusicClip Name="56086-dramatic-orchestra-02-until-they-came-L2" ID="{8D09A66C-11A5-4008-A1D4-6EAC37DB613B}">
 															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="28836.8161884755"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="30529.5800105909"/>
 																<Property Name="FadeInMode" Type="int16" Value="0"/>
 																<Property Name="FadeOutMode" Type="int16" Value="0"/>
 															</PropertyList>
@@ -3442,7 +3447,7 @@
 																				<Flags>5</Flags>
 																			</Point>
 																			<Point>
-																				<XPos>28.83682</XPos>
+																				<XPos>30.52958</XPos>
 																				<YPos>0</YPos>
 																				<Flags>37</Flags>
 																			</Point>
@@ -3466,7 +3471,7 @@
 																				<Flags>0</Flags>
 																			</Point>
 																			<Point>
-																				<XPos>28.83682</XPos>
+																				<XPos>30.52958</XPos>
 																				<YPos>9.6774</YPos>
 																				<Flags>37</Flags>
 																			</Point>
@@ -3485,7 +3490,7 @@
 																				<Flags>5</Flags>
 																			</Point>
 																			<Point>
-																				<XPos>28.83682</XPos>
+																				<XPos>30.52958</XPos>
 																				<YPos>-5.39026</YPos>
 																				<Flags>37</Flags>
 																			</Point>
@@ -3505,7 +3510,7 @@
 													<ClipList>
 														<MusicClip Name="56086-dramatic-orchestra-02-until-they-came-L2" ID="{EF11B24F-9504-40B3-B3AD-AF34D1229276}">
 															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="28836.8161884755"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="30495.7247341486"/>
 																<Property Name="FadeInMode" Type="int16" Value="0"/>
 																<Property Name="FadeOutMode" Type="int16" Value="0"/>
 															</PropertyList>
@@ -3523,7 +3528,7 @@
 																				<Flags>5</Flags>
 																			</Point>
 																			<Point>
-																				<XPos>28.83682</XPos>
+																				<XPos>30.49572</XPos>
 																				<YPos>0</YPos>
 																				<Flags>37</Flags>
 																			</Point>
@@ -3557,7 +3562,7 @@
 																				<Flags>0</Flags>
 																			</Point>
 																			<Point>
-																				<XPos>28.83682</XPos>
+																				<XPos>30.49572</XPos>
 																				<YPos>18.27955</YPos>
 																				<Flags>37</Flags>
 																			</Point>
@@ -3576,7 +3581,7 @@
 																				<Flags>5</Flags>
 																			</Point>
 																			<Point>
-																				<XPos>28.83682</XPos>
+																				<XPos>30.49572</XPos>
 																				<YPos>-1.98503</YPos>
 																				<Flags>37</Flags>
 																			</Point>
@@ -3596,7 +3601,7 @@
 													<ClipList>
 														<MusicClip Name="56086-dramatic-orchestra-02-until-they-came-L2" ID="{C974F52B-C9C1-48BF-8E83-74FE9D9C3F50}">
 															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="28836.8161884755"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="30800.4222221293"/>
 																<Property Name="FadeInMode" Type="int16" Value="0"/>
 																<Property Name="FadeOutMode" Type="int16" Value="0"/>
 															</PropertyList>
@@ -3614,7 +3619,7 @@
 																				<Flags>5</Flags>
 																			</Point>
 																			<Point>
-																				<XPos>28.83682</XPos>
+																				<XPos>30.80042</XPos>
 																				<YPos>0</YPos>
 																				<Flags>37</Flags>
 																			</Point>
@@ -3633,7 +3638,7 @@
 																				<Flags>5</Flags>
 																			</Point>
 																			<Point>
-																				<XPos>28.83682</XPos>
+																				<XPos>30.80042</XPos>
 																				<YPos>45.16121</YPos>
 																				<Flags>37</Flags>
 																			</Point>
@@ -3652,7 +3657,7 @@
 																				<Flags>5</Flags>
 																			</Point>
 																			<Point>
-																				<XPos>28.83682</XPos>
+																				<XPos>30.80042</XPos>
 																				<YPos>-1.98503</YPos>
 																				<Flags>37</Flags>
 																			</Point>
@@ -3667,7 +3672,7 @@
 													<ClipList>
 														<MusicClip Name="56086-dramatic-orchestra-02-until-they-came-L2" ID="{FAE8EDC6-3F16-424E-8DB1-31F8FA017A57}">
 															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="28836.8161884755"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="30935.8433278986"/>
 																<Property Name="FadeInMode" Type="int16" Value="0"/>
 																<Property Name="FadeOutMode" Type="int16" Value="0"/>
 															</PropertyList>
@@ -3685,7 +3690,7 @@
 																				<Flags>5</Flags>
 																			</Point>
 																			<Point>
-																				<XPos>28.83682</XPos>
+																				<XPos>30.93584</XPos>
 																				<YPos>0</YPos>
 																				<Flags>37</Flags>
 																			</Point>
@@ -3704,7 +3709,7 @@
 																				<Flags>5</Flags>
 																			</Point>
 																			<Point>
-																				<XPos>28.83682</XPos>
+																				<XPos>30.93584</XPos>
 																				<YPos>8.60214</YPos>
 																				<Flags>37</Flags>
 																			</Point>
@@ -3723,7 +3728,7 @@
 																				<Flags>5</Flags>
 																			</Point>
 																			<Point>
-																				<XPos>28.83682</XPos>
+																				<XPos>30.93584</XPos>
 																				<YPos>-1.98503</YPos>
 																				<Flags>37</Flags>
 																			</Point>
@@ -4039,7 +4044,7 @@
 													<ClipList>
 														<MusicClip Name="57235-Dubstep_Factory_Drums" ID="{DA7417DB-BB62-4FAF-9525-E855703945BD}">
 															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="28849.8591111493"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="30407.2018274954"/>
 																<Property Name="FadeInMode" Type="int16" Value="0"/>
 																<Property Name="FadeOutMode" Type="int16" Value="0"/>
 															</PropertyList>
@@ -4057,7 +4062,7 @@
 																				<Flags>5</Flags>
 																			</Point>
 																			<Point>
-																				<XPos>28.84986</XPos>
+																				<XPos>30.4072</XPos>
 																				<YPos>0</YPos>
 																				<Flags>37</Flags>
 																			</Point>
@@ -4076,7 +4081,7 @@
 																				<Flags>5</Flags>
 																			</Point>
 																			<Point>
-																				<XPos>28.84986</XPos>
+																				<XPos>30.4072</XPos>
 																				<YPos>56.98925</YPos>
 																				<Flags>37</Flags>
 																			</Point>
@@ -4091,12 +4096,265 @@
 																		<PointList>
 																			<Point>
 																				<XPos>0</XPos>
+																				<YPos>-3.52183</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>30.4072</XPos>
+																				<YPos>-3.66306</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
+														</MusicClip>
+													</ClipList>
+													<ReferenceList>
+														<Reference Name="TrackSequenceSwitch">
+															<ObjectRef Name="Critical" ID="{6B09A628-1388-4144-83A2-D1C0FD238EEB}" WorkUnitID="{418DD5E0-ECF0-4412-844D-37145812D6AB}"/>
+														</Reference>
+													</ReferenceList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+										<MusicTrack Name="423212-War-UI-Drum-Movement-Quick-Organic-Drums-1" ID="{4EA7F0CC-9989-4336-9EB2-149D2CD96D9D}" ShortID="365176602">
+											<PropertyList>
+												<Property Name="MusicTrackType" Type="int16" Value="3"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="DefaultSwitchOrState">
+													<ObjectRef Name="Critical" ID="{6B09A628-1388-4144-83A2-D1C0FD238EEB}" WorkUnitID="{418DD5E0-ECF0-4412-844D-37145812D6AB}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+												</Reference>
+												<Reference Name="SwitchGroupOrStateGroup">
+													<ObjectRef Name="Player_Health" ID="{BF861E8F-D3A8-4C0E-BEBA-8334B90D2546}" WorkUnitID="{418DD5E0-ECF0-4412-844D-37145812D6AB}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="423212-War-UI-Drum-Movement-Quick-Organic-Drums-1" ID="{0F68F3C9-7B37-4748-8BA6-53676473AAA9}">
+													<Language>SFX</Language>
+													<AudioFile>Combat Music B\423212-War-UI-Drum-Movement-Quick-Organic-Drums-1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="846567291"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{8DF3BEF6-A217-47B3-A489-CB72B8EC9334}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<ChildrenList>
+														<MusicTransition Name="Transition" ID="{0F657697-DFD8-4C69-8C61-89B134B7E9F1}">
+															<TransitionInfo/>
+														</MusicTransition>
+													</ChildrenList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{46DB5FE3-768A-4E1B-9584-DDE72856E8A4}">
+													<ClipList>
+														<MusicClip Name="423212-War-UI-Drum-Movement-Quick-Organic-Drums-1" ID="{B69C3203-B5A6-4C24-9D1A-D22D654F47CD}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="1994.7628125"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																<Property Name="PlayAt" Type="Real64" Value="9276.3457451923"/>
+															</PropertyList>
+															<AudioSourceRef Name="423212-War-UI-Drum-Movement-Quick-Organic-Drums-1" ID="{0F68F3C9-7B37-4748-8BA6-53676473AAA9}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Highpass">
+																	<Curve Name="" ID="{CC733CBE-DF9D-4407-9667-6E727CB9B13A}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
 																				<YPos>0</YPos>
 																				<Flags>5</Flags>
 																			</Point>
 																			<Point>
-																				<XPos>28.84986</XPos>
+																				<XPos>1.99476</XPos>
 																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Lowpass">
+																	<Curve Name="" ID="{B5320C23-5F3C-430D-9542-2CDB3D83ECC5}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>1.99476</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{E83CB2C9-A1F0-4AD8-A0BB-646300508B21}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-4.88414</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>1.99476</XPos>
+																				<YPos>-4.72178</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
+														</MusicClip>
+														<MusicClip Name="423212-War-UI-Drum-Movement-Quick-Organic-Drums-1" ID="{D29A6AB3-1CE0-4887-A315-EADCE8EEAACC}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="1994.7628125"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																<Property Name="PlayAt" Type="Real64" Value="18891.2442548077"/>
+															</PropertyList>
+															<AudioSourceRef Name="423212-War-UI-Drum-Movement-Quick-Organic-Drums-1" ID="{0F68F3C9-7B37-4748-8BA6-53676473AAA9}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Highpass">
+																	<Curve Name="" ID="{426A3FBC-2446-495B-92AA-520A71F82C21}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>1.99476</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Lowpass">
+																	<Curve Name="" ID="{FF2B4E4E-6C07-4FEC-9A76-0D74ACEAA4A6}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>1.99476</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{DFAE6EC6-8280-4666-A86B-A0B518088F9C}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-4.88414</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>1.99476</XPos>
+																				<YPos>-4.72178</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
+														</MusicClip>
+														<MusicClip Name="423212-War-UI-Drum-Movement-Quick-Organic-Drums-1" ID="{87F0247F-6AC5-403D-BF16-B5D8E74315CD}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="1994.7628125"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																<Property Name="PlayAt" Type="Real64" Value="28472.2874879808"/>
+															</PropertyList>
+															<AudioSourceRef Name="423212-War-UI-Drum-Movement-Quick-Organic-Drums-1" ID="{0F68F3C9-7B37-4748-8BA6-53676473AAA9}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Highpass">
+																	<Curve Name="" ID="{B2388EB4-144C-4D11-8081-E54C9AB453E1}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>1.99476</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Lowpass">
+																	<Curve Name="" ID="{1D08B684-2F74-462C-9C8A-DFE577F4FEFB}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>1.99476</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{AB544E21-F9C2-4541-8732-B4E274509BAD}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-4.88414</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>1.99476</XPos>
+																				<YPos>-4.72178</YPos>
 																				<Flags>37</Flags>
 																			</Point>
 																		</PointList>
@@ -4119,7 +4377,25 @@
 										<MusicCue Name="Exit Cue" ID="{8019B06B-08CE-450C-98FA-57311BC5FA55}">
 											<PropertyList>
 												<Property Name="CueType" Type="int16" Value="1"/>
-												<Property Name="TimeMs" Type="Real64" Value="28836.5966105032"/>
+												<Property Name="TimeMs" Type="Real64" Value="30393.9393268494"/>
+											</PropertyList>
+										</MusicCue>
+										<MusicCue Name="" ID="{919809EE-D74E-45F9-91D0-0E24E9154D10}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="2"/>
+												<Property Name="TimeMs" Type="Real64" Value="9174.77991586538"/>
+											</PropertyList>
+										</MusicCue>
+										<MusicCue Name="" ID="{867E32EF-A9D8-4826-8F6F-54904313F6B9}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="2"/>
+												<Property Name="TimeMs" Type="Real64" Value="18755.8231490385"/>
+											</PropertyList>
+										</MusicCue>
+										<MusicCue Name="" ID="{AB733641-C445-4EA3-BA69-C47899FF42CB}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="2"/>
+												<Property Name="TimeMs" Type="Real64" Value="28438.4322115385"/>
 											</PropertyList>
 										</MusicCue>
 									</CueList>
@@ -4158,6 +4434,11 @@
 							<PropertyList>
 								<Property Name="OverrideClockSettings" Type="bool" Value="True"/>
 								<Property Name="Tempo" Type="Real64" Value="160"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>12</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -4382,12 +4663,12 @@
 																		<PointList>
 																			<Point>
 																				<XPos>0</XPos>
-																				<YPos>0</YPos>
+																				<YPos>-2.1032</YPos>
 																				<Flags>5</Flags>
 																			</Point>
 																			<Point>
 																				<XPos>11.99231</XPos>
-																				<YPos>0</YPos>
+																				<YPos>-1.86843</YPos>
 																				<Flags>37</Flags>
 																			</Point>
 																		</PointList>
