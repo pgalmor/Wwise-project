@@ -184,6 +184,7 @@
 						<ObjectRef Name="Play_Wampa_Projectile_Throw_2" ID="{AB928472-C326-423B-982E-F1ABEEA588C6}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Wampa_Skell_Previous_Rush_Roar" ID="{29230A26-A9C7-4369-BA70-08CB91781F3B}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Wampa_Skell_Death_Roar" ID="{A06197E7-1EFF-45F9-BB64-75C730301844}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Wampa_Ice_Pick" ID="{C5776248-84FD-462E-8FA8-BEDD0F8DF1A2}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Wampa_Footsteps" ID="{F9CB0093-3430-478C-8581-C9F47D268425}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Wampa_When_Skel_Dies" ID="{6FE8C498-FB71-48B7-94D9-AF42F0C9A487}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Wampa_Skell_Ice_Impact" ID="{1CEDEA2E-DCEB-4932-8A43-25C6D856FD3C}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>

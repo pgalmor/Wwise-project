@@ -1100,6 +1100,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_Wampa_Ice_Pick" ID="{C5776248-84FD-462E-8FA8-BEDD0F8DF1A2}">
+							<ChildrenList>
+								<Action Name="" ID="{89C2ADBB-EB92-4F7A-8C99-CE36D3BC38B6}" ShortID="61273515">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="wampa skel ice pick up" ID="{041784E0-1BB1-4AAE-8180-F5A823147232}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Turret" ID="{73B77E5F-4888-4033-9F50-A24D8270206B}" ShortID="61953618">
