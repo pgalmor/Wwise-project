@@ -3,7 +3,7 @@
 	<UserProjectSettingsInfo>
 		<UserProjectSettings Name="" ID="{AFFB5E04-9022-48AF-878F-A0ABA33B72E9}">
 			<PropertyList>
-				<Property Name="AudioFilesImporter\Path" Type="string" Value="C:\Users\adell\Documents\GitHub\Wwise-project\Virtual Ragnarok Audio\Originals\SFX\Combat Music C\"/>
+				<Property Name="AudioFilesImporter\Path" Type="string" Value="C:\Users\adell\Documents\GitHub\Wwise-project\Virtual Ragnarok Audio\Originals\SFX\Combat Music B\"/>
 				<Property Name="EventView\FilterMode1" Type="int32" Value="2"/>
 				<Property Name="ExternalSourcesInputPath" Type="string">
 					<ValueList>
@@ -26,7 +26,7 @@
 				<Property Name="Interactive Music\x64_{5A6D2F0B-1F2D-4E4C-A44D-F2F68297F5C1} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwP0o87TPN6DBAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
 				<Property Name="Interactive Music\x64_{611E7D84-65F2-4411-93F8-26731EF2D7B0} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwP4qTSOzzxC9AAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
 				<Property Name="Interactive Music\x64_{8092F652-0475-4EA7-B542-66671D0FD6CE} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwP3wfB2eDbTdAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
-				<Property Name="Interactive Music\x64_{BE046D10-9ADA-4AD6-B37B-7821682FE9D9} - SegmentEditorZoomInfo" Type="string" Value="pFSYeD9y6j8AAAAAAADwP+IDUVfE3kFAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
+				<Property Name="Interactive Music\x64_{BE046D10-9ADA-4AD6-B37B-7821682FE9D9} - SegmentEditorZoomInfo" Type="string" Value="pFSYeD9y6j8AAAAAAADwP+IDUVfE3kFAAAAAAAAA8D8AAAAAAAAAAAAAAAAAUIBA"/>
 				<Property Name="Interactive Music\x64_{C7FCF8DA-FD27-4115-891B-CC20004D1406} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwPxq/F15XBwNAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
 				<Property Name="Interactive Music\x64_{CD5867E1-313B-4F97-8FA7-76A24A72C6EC} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwP9nZ8gbOkDZAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
 				<Property Name="Interactive Music\x64_{F8AFA7E4-E73A-42D9-B00D-2DAE1CFB568A} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwP1lqU7iP1hRAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>

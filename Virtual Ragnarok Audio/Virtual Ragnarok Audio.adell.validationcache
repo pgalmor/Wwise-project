@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ValidationCache Version="1" SchemaVersion="97">
 	<ValidationCacheItem File="C:\Users\adell\Documents\GitHub\Wwise-project\Virtual Ragnarok Audio\Virtual Ragnarok Audio.wproj" DateLow="1621152165" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\adell\Documents\GitHub\Wwise-project\Virtual Ragnarok Audio\Virtual Ragnarok Audio.adell.wsettings" DateLow="1621288433" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\adell\Documents\GitHub\Wwise-project\Virtual Ragnarok Audio\Virtual Ragnarok Audio.adell.wsettings" DateLow="1621288483" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\adell\Documents\GitHub\Wwise-project\Virtual Ragnarok Audio\Virtual Acoustics\Factory Reflect Acoustic Textures.wwu" DateLow="1620838347" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\adell\Documents\GitHub\Wwise-project\Virtual Ragnarok Audio\Virtual Acoustics\Default Work Unit.wwu" DateLow="1620838347" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\adell\Documents\GitHub\Wwise-project\Virtual Ragnarok Audio\Triggers\Default Work Unit.wwu" DateLow="1620838347" DateHigh="0"/>
@@ -17,7 +17,7 @@
 	<ValidationCacheItem File="C:\Users\adell\Documents\GitHub\Wwise-project\Virtual Ragnarok Audio\Modulators\Default Work Unit.wwu" DateLow="1620838331" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\adell\Documents\GitHub\Wwise-project\Virtual Ragnarok Audio\Mixing Sessions\Default Work Unit.wwu" DateLow="1620838331" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\adell\Documents\GitHub\Wwise-project\Virtual Ragnarok Audio\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1620838331" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\adell\Documents\GitHub\Wwise-project\Virtual Ragnarok Audio\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1621284566" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\adell\Documents\GitHub\Wwise-project\Virtual Ragnarok Audio\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1621288478" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\adell\Documents\GitHub\Wwise-project\Virtual Ragnarok Audio\Game Parameters\Factory SoundSeed Air Game Syncs.wwu" DateLow="1620838330" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\adell\Documents\GitHub\Wwise-project\Virtual Ragnarok Audio\Game Parameters\Factory Motion.wwu" DateLow="1620838330" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\adell\Documents\GitHub\Wwise-project\Virtual Ragnarok Audio\Game Parameters\Default Work Unit.wwu" DateLow="1620838330" DateHigh="0"/>
