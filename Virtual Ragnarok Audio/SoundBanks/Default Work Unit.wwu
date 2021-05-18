@@ -181,6 +181,7 @@
 						<ObjectRef Name="Play_Rancor_Footsteps" ID="{E2E6301E-EF8D-410C-BE12-F9E783C9A0D7}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Wampa_Skell_Jump_Impact" ID="{4D2B2F74-AFE0-4135-A548-3E73CB85FD67}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Wampa_Projectile_Throw_2" ID="{AB928472-C326-423B-982E-F1ABEEA588C6}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Wampa_Skell_Previous_Rush_Roar" ID="{29230A26-A9C7-4369-BA70-08CB91781F3B}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Wampa_Skell_Death_Roar" ID="{A06197E7-1EFF-45F9-BB64-75C730301844}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Wampa_Footsteps" ID="{F9CB0093-3430-478C-8581-C9F47D268425}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
@@ -189,10 +190,14 @@
 						<ObjectRef Name="Play_Wampa_Death" ID="{827DC0FE-A41D-498F-AE35-634C9B717677}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Wampa_Hit" ID="{5B3408D4-A753-4A2B-9160-2250A5CFB598}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Wampa_Skell_Jump_Snow" ID="{B7B33A24-FF79-4A71-8DF5-0058F5528C5F}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Wampa_Projectile_Throw_1" ID="{F554CEAF-F8EB-4B04-AA94-442D88095F68}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Pause_Object" ID="{257203BA-872A-4BD2-9340-B10FBEB45376}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_Object" ID="{378C77F3-FD97-4C7E-B169-7A27282200DE}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Wampa_Rush_Roar" ID="{E5AD31AC-2609-4DB9-BDE0-E695717D569B}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Wampa_Roar_Presentation" ID="{2C8FE94B-02E9-4E25-8E2C-8F458ACAD797}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Wampa_Projectile_Impact" ID="{3F306001-B0DF-4E2A-982B-7EB4415F27E5}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Resume_Object" ID="{B3E49AD5-6A93-4EB1-9837-0321993DA353}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Wampa_Rush_Footsteps" ID="{6CE62BC6-6160-4FA4-83D1-7C2E7B98B123}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

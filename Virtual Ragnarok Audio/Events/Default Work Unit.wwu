@@ -1045,6 +1045,61 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_Wampa_Projectile_Throw_1" ID="{F554CEAF-F8EB-4B04-AA94-442D88095F68}">
+							<ChildrenList>
+								<Action Name="" ID="{80615135-4771-42D5-AA72-0C47BD5108DD}" ShortID="57220691">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="wampa skel projectile throw 1" ID="{8BE31692-6C10-4D41-8EF1-D0E957C02C72}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Wampa_Projectile_Throw_2" ID="{AB928472-C326-423B-982E-F1ABEEA588C6}">
+							<ChildrenList>
+								<Action Name="" ID="{DD068F0A-B777-4BE1-BC76-E760D12C72D8}" ShortID="984297591">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="wampa skel projectile throw 2" ID="{5A4F6037-3712-4B0F-B69C-8F79CC01A647}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Wampa_Projectile_Impact" ID="{3F306001-B0DF-4E2A-982B-7EB4415F27E5}">
+							<ChildrenList>
+								<Action Name="" ID="{CF5D1E7E-8B0F-4335-8E07-2DD8E7337288}" ShortID="158396821">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="wampa projectile impact" ID="{9D55194A-08C8-43F8-B26F-76DE8D64FA94}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Wampa_Rush_Footsteps" ID="{6CE62BC6-6160-4FA4-83D1-7C2E7B98B123}">
+							<ChildrenList>
+								<Action Name="" ID="{ABDB05CC-E074-456F-A137-F1975F5DF493}" ShortID="653468774">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Footsteps wampa rush" ID="{3550E59F-5CCD-4EC4-AF15-23032E12CB70}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Wampa_Rush_Roar" ID="{E5AD31AC-2609-4DB9-BDE0-E695717D569B}">
+							<ChildrenList>
+								<Action Name="" ID="{A437BA39-2A40-4A9E-8B58-7918B4F25950}" ShortID="115223939">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="wampa rush roar" ID="{42114A94-4DFB-441E-B37F-AEC70B7C33B1}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Turret" ID="{73B77E5F-4888-4033-9F50-A24D8270206B}" ShortID="61953618">
