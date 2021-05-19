@@ -23,7 +23,7 @@
 				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value=""/>
 				<Property Name="HardwareController\CurrentSession" Type="string" Value="{00000000-0000-0000-0000-000000000000}"/>
 				<Property Name="Interactive Music\x64_{0414F12F-1E94-4515-80D8-18A0E16B53F6} - SegmentEditorZoomInfo" Type="string" Value="Fl100UUX7T8AAAAAAADwP6uqqqqqClRAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
-				<Property Name="Interactive Music\x64_{0EF6F9F0-2385-44B4-A219-21BAC00616C8} - SegmentEditorZoomInfo" Type="string" Value="mpmZmZmZuT8AAAAAAADwPwAAAAAAEG5AAAAAAAAA8D8AAAAAAAAAAAAAAAAAgFRA"/>
+				<Property Name="Interactive Music\x64_{0EF6F9F0-2385-44B4-A219-21BAC00616C8} - SegmentEditorZoomInfo" Type="string" Value="mpmZmZmZuT8AAAAAAADwPwAAAAAAEG5AAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
 				<Property Name="Interactive Music\x64_{21327EF9-3D69-4854-AD58-0070AA8E017A} - SegmentEditorZoomInfo" Type="string" Value="wEJ7D2akzj8AAAAAAADwPwAAAAAAEG5AAAAAAAAA8D8AAAAAAAAAAAAAAAAAgFRA"/>
 				<Property Name="Interactive Music\x64_{5A6D2F0B-1F2D-4E4C-A44D-F2F68297F5C1} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwP0o87TPN6DBAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
 				<Property Name="Interactive Music\x64_{611E7D84-65F2-4411-93F8-26731EF2D7B0} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwP4qTSOzzxC9AAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
@@ -43,6 +43,7 @@
 				<Property Name="MonitoringManager\GameObjectFilter\GameObjectFilterVersion" Type="int32" Value="1"/>
 				<Property Name="MonitoringManager\GameObjectFilter\GameObjectFiltersEnable" Type="bool" Value="True"/>
 				<Property Name="MonitoringManager\GameObjectFilter\x64_GameObjectFilters" Type="string" Value=""/>
+				<Property Name="Music Transition List\{084AF89A-C286-4183-9D59-22DDA5F8F944}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Music Transition List\{0CF5682F-7AA7-4006-8E7B-4DDCDC86FDFD}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Music Transition List\{1209FC0C-A120-4133-8BAA-9C5103E46F18}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Music Transition List\{19AA377B-D9FD-45A9-A990-7BE1A0B25E6C}\x64_Expand States" Type="string" Value=""/>
@@ -58,6 +59,7 @@
 				<Property Name="Music Transition List\{76EE9BE3-D90E-45BA-9899-EA6C43C46AAC}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Music Transition List\{77D82BA7-E83B-4B07-933D-A8923598DC36}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Music Transition List\{7BD965C5-C3BE-4394-89BE-0E55D898694E}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Music Transition List\{80C4F747-9F83-4A58-877F-173BBCCD43DD}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Music Transition List\{81A17705-EF3D-48D5-97E7-FEAFF83AD8E7}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Music Transition List\{897CB86A-9945-4D82-A111-2B60FC654AFD}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Music Transition List\{974A787C-0958-4047-8695-584014946E39}\x64_Expand States" Type="string" Value=""/>
@@ -71,7 +73,7 @@
 				<Property Name="Music Transition List\{F8F3ADFD-3C5C-4BE2-84C4-6543F8413903}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\FirstVisible_10_1" Type="string" Value="{4C96B38B-3DB4-40C7-91C9-665510E38993}"/>
 				<Property Name="ProjectExplorer\FirstVisible_11_1" Type="string" Value="{23EC2DE3-3ED8-4B82-AC99-92E25F2E4C6B}"/>
-				<Property Name="ProjectExplorer\FirstVisible_1_1" Type="string" Value="{BE046D10-9ADA-4AD6-B37B-7821682FE9D9}"/>
+				<Property Name="ProjectExplorer\FirstVisible_1_1" Type="string" Value="{2388DAEA-9775-46C6-A2ED-C5222A397756}"/>
 				<Property Name="ProjectExplorer\FirstVisible_3_1" Type="string" Value="{A69BF0FC-D84A-487C-ABDD-56F71CB2A126}"/>
 				<Property Name="ProjectExplorer\FirstVisible_4_1" Type="string" Value="{CB6175F1-6080-4A23-92EF-0807E304D0C1}"/>
 				<Property Name="ProjectExplorer\FirstVisible_6_1" Type="string" Value="{C98E673F-A24C-48A8-960F-10565FFE70A0}"/>
