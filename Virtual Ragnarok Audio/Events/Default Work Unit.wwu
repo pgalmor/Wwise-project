@@ -1078,7 +1078,7 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Play_Wampa_Rush_Footsteps" ID="{6CE62BC6-6160-4FA4-83D1-7C2E7B98B123}">
+						<Event Name="Play_Wampa_Rush" ID="{6CE62BC6-6160-4FA4-83D1-7C2E7B98B123}">
 							<ChildrenList>
 								<Action Name="" ID="{ABDB05CC-E074-456F-A137-F1975F5DF493}" ShortID="653468774">
 									<ReferenceList>
@@ -1087,11 +1087,7 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_Wampa_Rush_Roar" ID="{E5AD31AC-2609-4DB9-BDE0-E695717D569B}">
-							<ChildrenList>
-								<Action Name="" ID="{A437BA39-2A40-4A9E-8B58-7918B4F25950}" ShortID="115223939">
+								<Action Name="" ID="{BE08AA65-5787-4C8F-AAAF-C218F146F560}" ShortID="561999747">
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="wampa rush roar" ID="{42114A94-4DFB-441E-B37F-AEC70B7C33B1}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
@@ -1106,6 +1102,28 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="wampa skel ice pick up" ID="{041784E0-1BB1-4AAE-8180-F5A823147232}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Skel_Footsteps" ID="{5887A21E-8E3B-4152-BED2-5FF32E8B216D}">
+							<ChildrenList>
+								<Action Name="" ID="{FEB39512-2B6D-40B4-847A-11DECD88EC37}" ShortID="746643669">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Footsteps skel" ID="{DBD75CC7-BE99-4074-8A08-AB989E7A8D75}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Skel_When_Wampa_Dies" ID="{836B5E3A-9431-4C16-A677-B2C9D9676CC2}">
+							<ChildrenList>
+								<Action Name="" ID="{08CE1AA7-7D9E-4F5A-8325-73FFD29A0D93}" ShortID="997297265">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="skel when wampa dies" ID="{1F0F3F0C-7183-4D79-A702-A5BD18720F6D}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

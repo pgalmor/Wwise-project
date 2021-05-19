@@ -355,7 +355,7 @@
    {
     "Id": "913881297",
     "Language": "SFX",
-    "Hash": "2092241251",
+    "Hash": "4070849297",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Wampa_Skell",
     "ShortName": "Wampa_Skell",
     "Path": "Wampa_Skell.bnk",
@@ -385,6 +385,54 @@
         "Language": "SFX",
         "ShortName": "Rancor chain step 1.wav",
         "Path": "SFX\\Rancor chain step 1_FC2D3A10.wem"
+       }
+      ]
+     },
+     {
+      "Id": "4012397375",
+      "Name": "Play_Skel_Footsteps",
+      "ObjectPath": "\\Events\\Default Work Unit\\Wampa Skel\\Play_Skel_Footsteps",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "6301850",
+        "Language": "SFX",
+        "ShortName": "Skel footstep 3.wav",
+        "Path": "SFX\\Skel footstep 3_FC2D3A10.wem"
+       },
+       {
+        "Id": "534506255",
+        "Language": "SFX",
+        "ShortName": "Skel footstep 2.wav",
+        "Path": "SFX\\Skel footstep 2_FC2D3A10.wem"
+       },
+       {
+        "Id": "764031307",
+        "Language": "SFX",
+        "ShortName": "Skel footstep 4.wav",
+        "Path": "SFX\\Skel footstep 4_FC2D3A10.wem"
+       },
+       {
+        "Id": "896324653",
+        "Language": "SFX",
+        "ShortName": "Skel footstep 1.wav",
+        "Path": "SFX\\Skel footstep 1_FC2D3A10.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2523473927",
+      "Name": "Play_Skel_When_Wampa_Dies",
+      "ObjectPath": "\\Events\\Default Work Unit\\Wampa Skel\\Play_Skel_When_Wampa_Dies",
+      "DurationType": "OneShot",
+      "DurationMin": "1.917256",
+      "DurationMax": "1.917256",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "395401549",
+        "Language": "SFX",
+        "ShortName": "skel when wampa dies.wav",
+        "Path": "SFX\\skel when wampa dies_FC2D3A10.wem"
        }
       ]
      },
@@ -557,9 +605,9 @@
       ]
      },
      {
-      "Id": "3613813763",
-      "Name": "Play_Wampa_Rush_Footsteps",
-      "ObjectPath": "\\Events\\Default Work Unit\\Wampa Skel\\Play_Wampa_Rush_Footsteps",
+      "Id": "2579051331",
+      "Name": "Play_Wampa_Rush",
+      "ObjectPath": "\\Events\\Default Work Unit\\Wampa Skel\\Play_Wampa_Rush",
       "DurationType": "Infinite",
       "IncludedMemoryFiles": [
        {
@@ -575,6 +623,12 @@
         "Path": "SFX\\wampa rush footstep 3_FC2D3A10.wem"
        },
        {
+        "Id": "368805377",
+        "Language": "SFX",
+        "ShortName": "wampa rush roar.wav",
+        "Path": "SFX\\wampa rush roar_FC2D3A10.wem"
+       },
+       {
         "Id": "495246666",
         "Language": "SFX",
         "ShortName": "wampa rush footstep 4.wav",
@@ -585,22 +639,6 @@
         "Language": "SFX",
         "ShortName": "wampa rush footstep 2.wav",
         "Path": "SFX\\wampa rush footstep 2_FC2D3A10.wem"
-       }
-      ]
-     },
-     {
-      "Id": "1221526598",
-      "Name": "Play_Wampa_Rush_Roar",
-      "ObjectPath": "\\Events\\Default Work Unit\\Wampa Skel\\Play_Wampa_Rush_Roar",
-      "DurationType": "OneShot",
-      "DurationMin": "1.066009",
-      "DurationMax": "1.066009",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "368805377",
-        "Language": "SFX",
-        "ShortName": "wampa rush roar.wav",
-        "Path": "SFX\\wampa rush roar_FC2D3A10.wem"
        }
       ]
      },
@@ -3232,7 +3270,7 @@
    {
     "Id": "3991942870",
     "Language": "SFX",
-    "Hash": "3381680815",
+    "Hash": "2753959477",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Music",
     "ShortName": "Music",
     "Path": "Music.bnk",
@@ -3276,12 +3314,6 @@
         "Path": "SFX\\Combat Music A\\OST 8- Percussion_03682274.wem"
        },
        {
-        "Id": "150697156",
-        "Language": "SFX",
-        "ShortName": "drum.wav",
-        "Path": "SFX\\drum_03682274.wem"
-       },
-       {
         "Id": "157860956",
         "Language": "SFX",
         "ShortName": "Combat Music B\\56086-dramatic-orchestra-02-until-they-came-L2.wav",
@@ -3316,12 +3348,6 @@
         "Language": "SFX",
         "ShortName": "OST 15-19-Strings.wav",
         "Path": "SFX\\OST 15-19-Strings_03682274.wem"
-       },
-       {
-        "Id": "521322019",
-        "Language": "SFX",
-        "ShortName": "Combat Music C\\108790-Orchestral_bass_loop_staccato_C_minor_160_bpm-AOS03030.wav",
-        "Path": "SFX\\Combat Music C\\108790-Orchestral_bass_loop_staccato_C_minor_160_bpm-AOS03030_03682274.wem"
        },
        {
         "Id": "560818724",
@@ -3400,6 +3426,12 @@
         "Language": "SFX",
         "ShortName": "Explore Music A\\EXPLORER THEME A-Reverb.wav",
         "Path": "SFX\\Explore Music A\\EXPLORER THEME A-Reverb_03682274.wem"
+       },
+       {
+        "Id": "935081151",
+        "Language": "SFX",
+        "ShortName": "Combat Music C\\107045-Orchestral_bass_loop_staccato_C_minor_160_bpm-AOS03028.wav",
+        "Path": "SFX\\Combat Music C\\107045-Orchestral_bass_loop_staccato_C_minor_160_bpm-AOS03028_03682274.wem"
        },
        {
         "Id": "947589288",
@@ -3605,9 +3637,6 @@
             "SwitchValue": "{979A83A1-5FD3-4444-AB96-1ABEDBCBCCEC}",
             "Media": [
              {
-              "Id": "150697156"
-             },
-             {
               "Id": "359960869"
              }
             ]
@@ -3653,10 +3682,10 @@
             "SwitchValue": "{BA4F0BB3-ECC2-4F1E-BDF6-D3A727FBFF1E}",
             "Media": [
              {
-              "Id": "521322019"
+              "Id": "888538663"
              },
              {
-              "Id": "888538663"
+              "Id": "935081151"
              }
             ]
            }
