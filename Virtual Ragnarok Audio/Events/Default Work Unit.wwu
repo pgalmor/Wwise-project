@@ -109,7 +109,7 @@
 								<Action Name="" ID="{33644F8B-DA62-416B-B13C-50F200678E1C}" ShortID="1049932319">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Mando Death" ID="{787E3F02-E05C-4188-838B-79835906696C}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+											<ObjectRef Name="mando death" ID="{1B512A21-2C4C-4178-9C0B-92DAD46D8C2C}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -129,12 +129,12 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Play_Mando_Grenade_Charge_1" ID="{E035921F-4D3F-4875-A920-2510E96147FB}">
+						<Event Name="Play_Mando_Grenade_Set_Up" ID="{E035921F-4D3F-4875-A920-2510E96147FB}">
 							<ChildrenList>
 								<Action Name="" ID="{D9E158E7-349A-417A-8CBE-0227E0CD314D}" ShortID="66962319">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Grenade charge 1" ID="{1FD45471-D89A-4B57-B945-659AA124DCAF}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+											<ObjectRef Name="Grenade set up" ID="{1FD45471-D89A-4B57-B945-659AA124DCAF}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -195,12 +195,12 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Play_Mando_Grenade_Charge_2" ID="{9EDBD5A0-D5F6-4B60-8A45-CE6477B1AAD7}">
+						<Event Name="Play_Mando_Grenade_Pulse_Wave" ID="{9EDBD5A0-D5F6-4B60-8A45-CE6477B1AAD7}">
 							<ChildrenList>
 								<Action Name="" ID="{34448DDE-A3C6-4F66-9DB0-9F12935A2A5B}" ShortID="296624943">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Grenade charge 2" ID="{1C40C804-34E0-401E-966C-C40F581CF0F4}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+											<ObjectRef Name="Grenade pulse wave" ID="{18708E0C-CD27-4FA2-A1C3-4DC1FA201093}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -300,6 +300,17 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Blaster Mando overcharged finished" ID="{F326A241-5DC6-4560-8DE6-128529366D84}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Mando_Grenade_Throw" ID="{E878E643-E6F9-4CAF-8F5E-591199080017}">
+							<ChildrenList>
+								<Action Name="" ID="{B1AAD3A7-B124-4C37-8CE6-E1EF62DF11BD}" ShortID="94094833">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Grenade throw" ID="{4063FDF1-C105-4E9D-966D-2DAAA1601536}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -932,61 +943,6 @@
 				</Folder>
 				<Folder Name="Wampa Skel" ID="{A6BBB47D-1FC1-4BCE-98EA-FE92839EEF7D}" ShortID="247503078">
 					<ChildrenList>
-						<Event Name="Play_Wampa_Skell_Previous_Rush_Roar" ID="{29230A26-A9C7-4369-BA70-08CB91781F3B}">
-							<ChildrenList>
-								<Action Name="" ID="{A819F2B7-A5E9-44D8-9E57-AF335F7805C3}" ShortID="1056310349">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="wampa skell roar preparation" ID="{55D413D6-6849-4511-8047-C915437B1384}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_Wampa_Skell_Jump_Snow" ID="{B7B33A24-FF79-4A71-8DF5-0058F5528C5F}">
-							<ChildrenList>
-								<Action Name="" ID="{3DCD8B37-33F6-45FE-8BE0-AD168BD71D48}" ShortID="942508579">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="wampa skell jump from snow" ID="{F63156E9-D9AE-4FEE-A8A1-6E45FAFC3ABB}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_Wampa_Skell_Jump_Impact" ID="{4D2B2F74-AFE0-4135-A548-3E73CB85FD67}">
-							<ChildrenList>
-								<Action Name="" ID="{A1361675-8C3C-42C2-A30F-19F7B4715B7C}" ShortID="536079162">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="wampa skell jump impact" ID="{D0CED1F8-63F2-4CFF-A1A7-751BC56B465F}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_Wampa_Skell_Ice_Impact" ID="{1CEDEA2E-DCEB-4932-8A43-25C6D856FD3C}">
-							<ChildrenList>
-								<Action Name="" ID="{F5ED573B-3C11-440D-9B2E-0C28F2030FAA}" ShortID="101381664">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="wampa skell ice impact" ID="{9719AB40-47BE-43F9-A992-E1E6ACFFA903}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_Wampa_Skell_Death_Roar" ID="{A06197E7-1EFF-45F9-BB64-75C730301844}">
-							<ChildrenList>
-								<Action Name="" ID="{6B60C5C6-BBA9-4A9D-B363-7A1A12525F1C}" ShortID="831931774">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="wampa skell death roar" ID="{08D4923B-ABD9-40AF-AF7F-399C45841F01}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
 						<Event Name="Play_Wampa_Footsteps" ID="{F9CB0093-3430-478C-8581-C9F47D268425}">
 							<ChildrenList>
 								<Action Name="" ID="{FDE2D27B-0F68-4F6E-A28B-3E076B2775C5}" ShortID="591660790">
@@ -1269,7 +1225,7 @@
 				</Folder>
 				<Folder Name="Moff Guideon" ID="{0948B394-126A-4932-9808-06CA6C176957}" ShortID="1073382540">
 					<ChildrenList>
-						<Event Name="Play_Moff_Guideon_Hit_Phase_1" ID="{30905040-9317-4E23-84AB-FDBD7017F3D5}">
+						<Event Name="Play_Moff_Gideon_Hit_Phase_1" ID="{30905040-9317-4E23-84AB-FDBD7017F3D5}">
 							<ChildrenList>
 								<Action Name="" ID="{89937C3A-5D9B-4503-B352-EF729986733F}" ShortID="285477178">
 									<PropertyList>
@@ -1283,7 +1239,7 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Play_Moff_Guideon_Dash" ID="{45C0A1BE-3E4F-4D74-824F-9E88A9429654}">
+						<Event Name="Play_Moff_Gideon_Dash" ID="{45C0A1BE-3E4F-4D74-824F-9E88A9429654}">
 							<ChildrenList>
 								<Action Name="" ID="{B8DFC483-CA1D-4EF3-A8B5-CD898B63BE53}" ShortID="722291406">
 									<ReferenceList>
@@ -1294,7 +1250,7 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Play_Moff_Guideon_Spawn_Enemies" ID="{623F118A-C195-479D-8E49-BE6B3BF8F04F}">
+						<Event Name="Play_Moff_Gideon_Spawn_Enemies" ID="{623F118A-C195-479D-8E49-BE6B3BF8F04F}">
 							<ChildrenList>
 								<Action Name="" ID="{7626688F-AF75-4874-B28D-3D1DA9DAF36F}" ShortID="295810419">
 									<ReferenceList>
@@ -1305,7 +1261,7 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Play_Moff_Guideon_Intimidation_Phase_1" ID="{FC8BB6D5-2C7C-4B18-9F09-4688BC2FA29D}">
+						<Event Name="Play_Moff_Gideon_Intimidation_Phase_1" ID="{FC8BB6D5-2C7C-4B18-9F09-4688BC2FA29D}">
 							<ChildrenList>
 								<Action Name="" ID="{E8F07B95-F513-482A-BE56-A9EF58064616}" ShortID="1026999584">
 									<PropertyList>
@@ -1319,7 +1275,7 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Play_Moff_Guideon_Lightsaber_Attack" ID="{6027F188-D301-4CE0-8D11-9920C84BBF27}">
+						<Event Name="Play_Moff_Gideon_Lightsaber_Attack" ID="{6027F188-D301-4CE0-8D11-9920C84BBF27}">
 							<ChildrenList>
 								<Action Name="" ID="{BD9B97BC-A541-411C-87FF-BB9E0C456B61}" ShortID="356710899">
 									<ReferenceList>
@@ -1330,7 +1286,7 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Play_Moff_Guideon_Lightsaber_Turn_On" ID="{7CCEF3C5-F913-4962-B015-4E1B72C7A5F5}">
+						<Event Name="Play_Moff_Gideon_Lightsaber_Turn_On" ID="{7CCEF3C5-F913-4962-B015-4E1B72C7A5F5}">
 							<ChildrenList>
 								<Action Name="" ID="{5CC9BD93-2C1C-412A-AA15-146B428EC946}" ShortID="341814779">
 									<ReferenceList>
@@ -1341,7 +1297,7 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Play_Moff_Guideon_Lightsaber_Whoosh" ID="{43F4076D-1676-43DE-9AE9-F18E189D3091}">
+						<Event Name="Play_Moff_Gideon_Lightsaber_Whoosh" ID="{43F4076D-1676-43DE-9AE9-F18E189D3091}">
 							<ChildrenList>
 								<Action Name="" ID="{BB515B6A-0070-4484-8EBC-E19B0470169A}" ShortID="187976491">
 									<ReferenceList>
@@ -1352,7 +1308,7 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Play_Moff_Guideon_Lightsaber_Turn_Off" ID="{F793D064-0396-4006-9D98-C1359B51BA07}">
+						<Event Name="Play_Moff_Gideon_Lightsaber_Turn_Off" ID="{F793D064-0396-4006-9D98-C1359B51BA07}">
 							<ChildrenList>
 								<Action Name="" ID="{2DB8DC44-C277-427B-9807-86C2F73C731E}" ShortID="702288597">
 									<ReferenceList>
@@ -1363,7 +1319,7 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Play_Moff_Guideon_Hit_Phase_2" ID="{5FA9D315-092F-4D05-A807-0AC62E58FFBA}">
+						<Event Name="Play_Moff_Gideon_Hit_Phase_2" ID="{5FA9D315-092F-4D05-A807-0AC62E58FFBA}">
 							<ChildrenList>
 								<Action Name="" ID="{31215917-74CE-4569-964B-21641CF8BFE7}" ShortID="956210437">
 									<PropertyList>
@@ -1377,7 +1333,7 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Play_Moff_Guideon_Intimidation_Phase_2" ID="{83DC6E4E-FB53-441C-923D-720708AFC26C}">
+						<Event Name="Play_Moff_Gideon_Intimidation_Phase_2" ID="{83DC6E4E-FB53-441C-923D-720708AFC26C}">
 							<ChildrenList>
 								<Action Name="" ID="{F2910B03-F3FC-4364-80BD-65B1E506CDA3}" ShortID="586892591">
 									<PropertyList>
@@ -1391,7 +1347,7 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Play_Moff_Guideon_Lightsaber_Throw" ID="{0597521B-0A64-4831-B7FA-52E21A5A8C28}">
+						<Event Name="Play_Moff_Gideon_Lightsaber_Throw" ID="{0597521B-0A64-4831-B7FA-52E21A5A8C28}">
 							<ChildrenList>
 								<Action Name="" ID="{995B505E-0666-4797-9B8D-617E4D778A48}" ShortID="267473259">
 									<ReferenceList>
@@ -1402,7 +1358,7 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Play_Moff_Guideon_Shot" ID="{542BE569-D839-4EBF-AD75-423635CB0A6A}">
+						<Event Name="Play_Moff_Gideon_Shot" ID="{542BE569-D839-4EBF-AD75-423635CB0A6A}">
 							<ChildrenList>
 								<Action Name="" ID="{FE297B8F-A56D-4AA9-A90A-6D31B6F439BC}" ShortID="187880602">
 									<ReferenceList>
@@ -1413,12 +1369,23 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Play_Moff_Guideon_Death" ID="{94E1529F-55F0-4401-A6FC-C5B6389BC3AC}">
+						<Event Name="Play_Moff_Gideon_Death" ID="{94E1529F-55F0-4401-A6FC-C5B6389BC3AC}">
 							<ChildrenList>
 								<Action Name="" ID="{3E4C143B-C9C1-443E-970E-1E6153C24E28}" ShortID="12465170">
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="moff gideon death" ID="{04935E3D-E30E-4158-B492-C6F6B55F71F4}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Moff_Gideon_Footsteps" ID="{DC35E3C3-AF35-4B97-819A-F60D6A7EA2B7}">
+							<ChildrenList>
+								<Action Name="" ID="{28C7F6E3-610D-48AA-8581-F1BF606645EC}" ShortID="323825967">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Moff guideon footsteps" ID="{D4253DF9-FF03-4E17-958F-5D0CA1408C34}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
