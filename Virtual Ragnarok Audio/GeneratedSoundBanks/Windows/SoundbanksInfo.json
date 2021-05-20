@@ -355,7 +355,7 @@
    {
     "Id": "913881297",
     "Language": "SFX",
-    "Hash": "2616027376",
+    "Hash": "1414557561",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Wampa_Skell",
     "ShortName": "Wampa_Skell",
     "Path": "Wampa_Skell.bnk",
@@ -367,26 +367,6 @@
       "DurationType": "OneShot",
       "DurationMin": "0.000000",
       "DurationMax": "0.000000"
-     },
-     {
-      "Id": "393948735",
-      "Name": "Play_Rancor_Footsteps",
-      "ObjectPath": "\\Events\\Default Work Unit\\Rancor\\Play_Rancor_Footsteps",
-      "DurationType": "Infinite",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "92596664",
-        "Language": "SFX",
-        "ShortName": "Rancor chain step 2.wav",
-        "Path": "SFX\\Rancor chain step 2_FC2D3A10.wem"
-       },
-       {
-        "Id": "208519487",
-        "Language": "SFX",
-        "ShortName": "Rancor chain step 1.wav",
-        "Path": "SFX\\Rancor chain step 1_FC2D3A10.wem"
-       }
-      ]
      },
      {
       "Id": "3135328612",

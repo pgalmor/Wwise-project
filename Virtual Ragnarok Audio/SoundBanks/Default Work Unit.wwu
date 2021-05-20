@@ -179,7 +179,6 @@
 				</SoundBank>
 				<SoundBank Name="Wampa_Skell" ID="{F843DF49-D53F-4A1B-AFD1-E92F46D69504}">
 					<ObjectInclusionList>
-						<ObjectRef Name="Play_Rancor_Footsteps" ID="{E2E6301E-EF8D-410C-BE12-F9E783C9A0D7}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Skel_Footsteps" ID="{5887A21E-8E3B-4152-BED2-5FF32E8B216D}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Skel_Hit" ID="{9D51B2F0-A8FE-4155-9EA4-CC2BAE788612}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
