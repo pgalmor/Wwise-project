@@ -1129,6 +1129,94 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_Skel_Hit" ID="{9D51B2F0-A8FE-4155-9EA4-CC2BAE788612}">
+							<ChildrenList>
+								<Action Name="" ID="{8FEBE4D4-3F44-4B5D-9BFE-95A087B02004}" ShortID="926186037">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Skel hit" ID="{723FB0B7-2160-48E1-B3DF-BDF80F4D7CC5}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Skel_Death" ID="{12D60B78-B30C-468C-982E-D48A33DFA594}">
+							<ChildrenList>
+								<Action Name="" ID="{3F2368F7-F388-47B6-B76A-18783BB12DD3}" ShortID="103750649">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="skel death" ID="{E0403893-AACB-44F2-AB65-127B1CFC117E}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Skel_Rush_Preparation" ID="{19CE68F6-98D1-461C-8BC4-440AAFA7F061}">
+							<ChildrenList>
+								<Action Name="" ID="{5EC0B383-7601-41E7-80B0-48F6D397A407}" ShortID="1041185256">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Skel rush preparing" ID="{10BA4874-650E-4003-B3AF-A85FED182FB0}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Skel_Rush_In_Progress" ID="{712B4E7A-31F5-429A-A164-76A177A04B7E}">
+							<ChildrenList>
+								<Action Name="" ID="{E6C52219-2E4A-4563-A35D-EF9337F40678}" ShortID="94048557">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Skel rush in process" ID="{195DE12E-4224-45FD-96BE-440DCBE9C4EC}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Skel_Rush_Recovery" ID="{8F6130F8-7D5B-4FEB-B868-5B6D12719702}">
+							<ChildrenList>
+								<Action Name="" ID="{07689B60-4EA4-4F18-903E-64D249AC8F34}" ShortID="72827268">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="skel rush recovery" ID="{B399B6AD-5C64-45F4-B86D-B2030F30A226}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Skel_Jump_In_Progress" ID="{7AA53C28-3016-4A31-BFF9-C12AAE6CB780}">
+							<ChildrenList>
+								<Action Name="" ID="{A1337E32-1AAF-4648-B623-793C2D8BA3CE}" ShortID="223201472">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Skel rush in process" ID="{195DE12E-4224-45FD-96BE-440DCBE9C4EC}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Skel_Jump_Preparation" ID="{9D21331B-3685-433F-AA4F-03527A797945}">
+							<ChildrenList>
+								<Action Name="" ID="{D1650078-6BE4-47EE-9703-E2D3F5AC0B24}" ShortID="647003659">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="skel jump preparation" ID="{B7C4ECB6-2CC0-404F-A239-07FD0CCB9B47}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Skel_Jump_Impact" ID="{54021C95-49AC-4ADE-B2D0-7CD2F2970081}">
+							<ChildrenList>
+								<Action Name="" ID="{E5DE77BD-4E36-4095-8E41-502C3E09AD80}" ShortID="1035293358">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="skel jump impact" ID="{FBCAEC95-6794-496F-8A46-32DB31E99C3F}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Turret" ID="{73B77E5F-4888-4033-9F50-A24D8270206B}" ShortID="61953618">

@@ -12407,6 +12407,682 @@
 										<ActiveSource Name="skel when wampa dies" ID="{250E8B72-0525-41B2-98D1-D7BC9E66B3F0}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
+								<RandomSequenceContainer Name="Skel hit" ID="{723FB0B7-2160-48E1-B3DF-BDF80F4D7CC5}" ShortID="951258993">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="CenterPercentage" Type="int32">
+											<ValueList>
+												<Value>50</Value>
+											</ValueList>
+										</Property>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-17</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Main Attenuation" ID="{D5D15008-70A9-4EBE-85F7-4662C8511080}" WorkUnitID="{BF5D0A66-53A6-4978-B06F-8D86FDD56684}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Skel hit1" ID="{C42B2F22-8E85-4459-9D32-8F84CA48DEFC}" ShortID="375953551">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-2</Value>
+													</ValueList>
+													<RTPCList>
+														<RTPC Name="" ID="{9944725F-7202-4137-9A4E-6EF2FE2BFD20}" ShortID="80852417">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{1344A09C-1C79-462C-985B-2FD83FE5F5F2}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>200</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>75</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Skel hit1" ID="{954FEC46-13F3-4253-95B7-28F235F5A187}">
+													<Language>SFX</Language>
+													<AudioFile>Skel hit1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="871190242"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Skel hit1" ID="{954FEC46-13F3-4253-95B7-28F235F5A187}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Skel hit2" ID="{7398BC1B-5F64-4952-9D52-EA1D063A1EF1}" ShortID="215508858">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-2</Value>
+													</ValueList>
+													<RTPCList>
+														<RTPC Name="" ID="{7ABE02BF-332C-457C-AEFC-5FF7ACEE76E8}" ShortID="819366156">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{5E464CE9-32F5-4A02-969C-6D2A87135735}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>200</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>75</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Skel hit2" ID="{0FE83347-1247-4C94-89CA-D3C0BFF4D908}">
+													<Language>SFX</Language>
+													<AudioFile>Skel hit2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="961035653"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Skel hit2" ID="{0FE83347-1247-4C94-89CA-D3C0BFF4D908}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Skel voice hit 1" ID="{2123695F-F599-4A9F-B8EB-664CDEC923F4}" ShortID="640905700">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-9</Value>
+													</ValueList>
+													<RTPCList>
+														<RTPC Name="" ID="{2D12A265-9D4C-4F85-AED1-D12906E2C07E}" ShortID="361865708">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{56A88A73-DB2D-4C0C-AD6A-D04833F3043A}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>200</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>25</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Skel voice hit 1" ID="{CA921CD1-0AAA-4FBC-BFD1-0011703EB1DB}">
+													<Language>SFX</Language>
+													<AudioFile>Skel voice hit 1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="70488545"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Skel voice hit 1" ID="{CA921CD1-0AAA-4FBC-BFD1-0011703EB1DB}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Skel voice hit 2" ID="{CDEE8B44-E077-47F2-8C13-E16FAB862067}" ShortID="627899609">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-3</Value>
+													</ValueList>
+													<RTPCList>
+														<RTPC Name="" ID="{D306646A-7343-468A-BB8B-1BBDE77B7A83}" ShortID="764079565">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{0EBB1A4D-99FA-4CE7-A9C2-CB5723DB9531}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>200</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>25</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Skel voice hit 2" ID="{B97570A7-21DD-4F64-9FF4-1B9F3E1AD785}">
+													<Language>SFX</Language>
+													<AudioFile>Skel voice hit 2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="716526834"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Skel voice hit 2" ID="{B97570A7-21DD-4F64-9FF4-1B9F3E1AD785}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Skel voice hit 3" ID="{A41AD768-5DB4-4288-BCF2-E50280C6A1D1}" ShortID="497809076">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Skel voice hit 3" ID="{9625FE2F-D31B-4795-8160-8A26CAB05E70}">
+													<Language>SFX</Language>
+													<AudioFile>Skel voice hit 3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="437758057"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Skel voice hit 3" ID="{9625FE2F-D31B-4795-8160-8A26CAB05E70}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<Sound Name="skel death" ID="{E0403893-AACB-44F2-AB65-127B1CFC117E}" ShortID="444591937">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="CenterPercentage" Type="int32">
+											<ValueList>
+												<Value>50</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-17</Value>
+											</ValueList>
+											<RTPCList>
+												<RTPC Name="" ID="{E5CA6C46-01F4-43D6-8A46-553486A10BCB}" ShortID="560135516">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{4450636C-2A44-41C5-B577-635B0E78F0A6}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Main Attenuation" ID="{D5D15008-70A9-4EBE-85F7-4662C8511080}" WorkUnitID="{BF5D0A66-53A6-4978-B06F-8D86FDD56684}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="skel death" ID="{D580A4FB-7C6C-40AB-B9D6-6026E277441C}">
+											<Language>SFX</Language>
+											<AudioFile>skel death.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="968197850"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="skel death" ID="{D580A4FB-7C6C-40AB-B9D6-6026E277441C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Skel rush in process" ID="{195DE12E-4224-45FD-96BE-440DCBE9C4EC}" ShortID="420690799">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="CenterPercentage" Type="int32">
+											<ValueList>
+												<Value>50</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-15</Value>
+											</ValueList>
+											<RTPCList>
+												<RTPC Name="" ID="{79EB8AEA-840B-497D-B871-47864E5E30C3}" ShortID="278556268">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{9E1850BC-A5B6-4BE6-8C1E-9AA0A37DBA04}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Main Attenuation" ID="{D5D15008-70A9-4EBE-85F7-4662C8511080}" WorkUnitID="{BF5D0A66-53A6-4978-B06F-8D86FDD56684}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Skel rush in process" ID="{870C367F-372B-479E-B917-8F0B073690E9}">
+											<Language>SFX</Language>
+											<AudioFile>Skel rush in process.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="318735960"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Skel rush in process" ID="{870C367F-372B-479E-B917-8F0B073690E9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Skel rush preparing" ID="{10BA4874-650E-4003-B3AF-A85FED182FB0}" ShortID="383472445">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="CenterPercentage" Type="int32">
+											<ValueList>
+												<Value>50</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-14</Value>
+											</ValueList>
+											<RTPCList>
+												<RTPC Name="" ID="{8DCF3C1A-C998-4681-9D5C-CFF20F8C5F47}" ShortID="272165705">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{646478A1-1E63-44E4-9822-DD7B14E09A4B}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Main Attenuation" ID="{D5D15008-70A9-4EBE-85F7-4662C8511080}" WorkUnitID="{BF5D0A66-53A6-4978-B06F-8D86FDD56684}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Skel rush preparing" ID="{12E8ED29-15D2-449A-8010-B15A79D9C7B1}">
+											<Language>SFX</Language>
+											<AudioFile>Skel rush preparing.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="812735782"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Skel rush preparing" ID="{12E8ED29-15D2-449A-8010-B15A79D9C7B1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="skel rush recovery" ID="{B399B6AD-5C64-45F4-B86D-B2030F30A226}" ShortID="856340638">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="CenterPercentage" Type="int32">
+											<ValueList>
+												<Value>50</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-17</Value>
+											</ValueList>
+											<RTPCList>
+												<RTPC Name="" ID="{2755312D-066F-45E8-9982-1680B670285E}" ShortID="505375620">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{1F0BC01D-3B77-4764-96CA-539FE1C20B84}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Main Attenuation" ID="{D5D15008-70A9-4EBE-85F7-4662C8511080}" WorkUnitID="{BF5D0A66-53A6-4978-B06F-8D86FDD56684}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="skel rush recovery" ID="{22B9DDA4-8890-41E5-BD65-8AEE0847E28B}">
+											<Language>SFX</Language>
+											<AudioFile>skel rush recovery.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="951280793"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="skel rush recovery" ID="{22B9DDA4-8890-41E5-BD65-8AEE0847E28B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="skel jump impact" ID="{FBCAEC95-6794-496F-8A46-32DB31E99C3F}" ShortID="675975931">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="CenterPercentage" Type="int32">
+											<ValueList>
+												<Value>50</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-19</Value>
+											</ValueList>
+											<RTPCList>
+												<RTPC Name="" ID="{060B489E-F0D2-44F4-BD64-EEF141014EE1}" ShortID="734561122">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{060C284E-6608-4105-91CC-EA828F90826D}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Main Attenuation" ID="{D5D15008-70A9-4EBE-85F7-4662C8511080}" WorkUnitID="{BF5D0A66-53A6-4978-B06F-8D86FDD56684}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="skel jump impact" ID="{B4B8A981-0B64-43FA-9A80-7C91DF809AC9}">
+											<Language>SFX</Language>
+											<AudioFile>skel jump impact.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="92726265"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="skel jump impact" ID="{B4B8A981-0B64-43FA-9A80-7C91DF809AC9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="skel jump preparation" ID="{B7C4ECB6-2CC0-404F-A239-07FD0CCB9B47}" ShortID="375482833">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="CenterPercentage" Type="int32">
+											<ValueList>
+												<Value>50</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-19</Value>
+											</ValueList>
+											<RTPCList>
+												<RTPC Name="" ID="{03DE243C-699F-4744-8AAD-A207762732C0}" ShortID="281153004">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{E8AD7A3A-122F-47A4-8AD3-FEEE02F7D365}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Main Attenuation" ID="{D5D15008-70A9-4EBE-85F7-4662C8511080}" WorkUnitID="{BF5D0A66-53A6-4978-B06F-8D86FDD56684}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="skel jump preparation" ID="{7DF4F020-C9DD-401E-B396-4E8B3727BDC8}">
+											<Language>SFX</Language>
+											<AudioFile>skel jump preparation.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="918608043"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="skel jump preparation" ID="{7DF4F020-C9DD-401E-B396-4E8B3727BDC8}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
 						</Folder>
 					</ChildrenList>

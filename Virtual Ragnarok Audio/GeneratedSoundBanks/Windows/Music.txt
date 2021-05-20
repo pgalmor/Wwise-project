@@ -17,12 +17,15 @@ State Group	ID	Name			Wwise Object Path	Notes
 
 State	ID	Name	State Group			Notes
 	347961279	Wampa_Skel_Room	Game_State			
+	554925945	Moff_Gideon_Phase_2	Game_State			
 	646625282	HUB	Game_State			
 	668448342	Run_3	Game_State			
 	668448343	Run_2	Game_State			
 	712161704	Run	Game_State			
 	748895195	None	Game_State			
 	794633738	Rancor_Room	Game_State			
+	1323330439	WampaSkel_WampaDeath	Game_State			
+	1343209842	WampaSkel_SkelDeath	Game_State			
 	1791748623	Moff_Guideon_Room	Game_State			
 	2607556080	Menu	Game_State			
 	4178932914	Cruiser_Explore	Game_State			

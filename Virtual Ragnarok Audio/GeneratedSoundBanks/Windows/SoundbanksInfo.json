@@ -355,7 +355,7 @@
    {
     "Id": "913881297",
     "Language": "SFX",
-    "Hash": "4070849297",
+    "Hash": "3482903079",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Wampa_Skell",
     "ShortName": "Wampa_Skell",
     "Path": "Wampa_Skell.bnk",
@@ -389,6 +389,22 @@
       ]
      },
      {
+      "Id": "3135328612",
+      "Name": "Play_Skel_Death",
+      "ObjectPath": "\\Events\\Default Work Unit\\Wampa Skel\\Play_Skel_Death",
+      "DurationType": "OneShot",
+      "DurationMin": "6.896689",
+      "DurationMax": "6.896689",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "968197850",
+        "Language": "SFX",
+        "ShortName": "skel death.wav",
+        "Path": "SFX\\skel death_FC2D3A10.wem"
+       }
+      ]
+     },
+     {
       "Id": "4012397375",
       "Name": "Play_Skel_Footsteps",
       "ObjectPath": "\\Events\\Default Work Unit\\Wampa Skel\\Play_Skel_Footsteps",
@@ -417,6 +433,138 @@
         "Language": "SFX",
         "ShortName": "Skel footstep 1.wav",
         "Path": "SFX\\Skel footstep 1_FC2D3A10.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1149449029",
+      "Name": "Play_Skel_Hit",
+      "ObjectPath": "\\Events\\Default Work Unit\\Wampa Skel\\Play_Skel_Hit",
+      "DurationType": "OneShot",
+      "DurationMin": "0.226825",
+      "DurationMax": "0.533991",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "70488545",
+        "Language": "SFX",
+        "ShortName": "Skel voice hit 1.wav",
+        "Path": "SFX\\Skel voice hit 1_FC2D3A10.wem"
+       },
+       {
+        "Id": "437758057",
+        "Language": "SFX",
+        "ShortName": "Skel voice hit 3.wav",
+        "Path": "SFX\\Skel voice hit 3_FC2D3A10.wem"
+       },
+       {
+        "Id": "716526834",
+        "Language": "SFX",
+        "ShortName": "Skel voice hit 2.wav",
+        "Path": "SFX\\Skel voice hit 2_FC2D3A10.wem"
+       },
+       {
+        "Id": "871190242",
+        "Language": "SFX",
+        "ShortName": "Skel hit1.wav",
+        "Path": "SFX\\Skel hit1_FC2D3A10.wem"
+       },
+       {
+        "Id": "961035653",
+        "Language": "SFX",
+        "ShortName": "Skel hit2.wav",
+        "Path": "SFX\\Skel hit2_FC2D3A10.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1203640683",
+      "Name": "Play_Skel_Jump_Impact",
+      "ObjectPath": "\\Events\\Default Work Unit\\Wampa Skel\\Play_Skel_Jump_Impact",
+      "DurationType": "OneShot",
+      "DurationMin": "0.592290",
+      "DurationMax": "0.592290",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "92726265",
+        "Language": "SFX",
+        "ShortName": "skel jump impact.wav",
+        "Path": "SFX\\skel jump impact_FC2D3A10.wem"
+       }
+      ]
+     },
+     {
+      "Id": "210142930",
+      "Name": "Play_Skel_Jump_In_Progress",
+      "ObjectPath": "\\Events\\Default Work Unit\\Wampa Skel\\Play_Skel_Jump_In_Progress",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "318735960",
+        "Language": "SFX",
+        "ShortName": "Skel rush in process.wav",
+        "Path": "SFX\\Skel rush in process_B182BB5A.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3733308172",
+      "Name": "Play_Skel_Jump_Preparation",
+      "ObjectPath": "\\Events\\Default Work Unit\\Wampa Skel\\Play_Skel_Jump_Preparation",
+      "DurationType": "OneShot",
+      "DurationMin": "0.640091",
+      "DurationMax": "0.640091",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "918608043",
+        "Language": "SFX",
+        "ShortName": "skel jump preparation.wav",
+        "Path": "SFX\\skel jump preparation_FC2D3A10.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1709225748",
+      "Name": "Play_Skel_Rush_In_Progress",
+      "ObjectPath": "\\Events\\Default Work Unit\\Wampa Skel\\Play_Skel_Rush_In_Progress",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "318735960",
+        "Language": "SFX",
+        "ShortName": "Skel rush in process.wav",
+        "Path": "SFX\\Skel rush in process_B182BB5A.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3650769102",
+      "Name": "Play_Skel_Rush_Preparation",
+      "ObjectPath": "\\Events\\Default Work Unit\\Wampa Skel\\Play_Skel_Rush_Preparation",
+      "DurationType": "OneShot",
+      "DurationMin": "0.400385",
+      "DurationMax": "0.400385",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "812735782",
+        "Language": "SFX",
+        "ShortName": "Skel rush preparing.wav",
+        "Path": "SFX\\Skel rush preparing_FC2D3A10.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2754523954",
+      "Name": "Play_Skel_Rush_Recovery",
+      "ObjectPath": "\\Events\\Default Work Unit\\Wampa Skel\\Play_Skel_Rush_Recovery",
+      "DurationType": "OneShot",
+      "DurationMin": "0.796077",
+      "DurationMax": "0.796077",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "951280793",
+        "Language": "SFX",
+        "ShortName": "skel rush recovery.wav",
+        "Path": "SFX\\skel rush recovery_FC2D3A10.wem"
        }
       ]
      },
@@ -3270,7 +3418,7 @@
    {
     "Id": "3991942870",
     "Language": "SFX",
-    "Hash": "2753959477",
+    "Hash": "2823452028",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Music",
     "ShortName": "Music",
     "Path": "Music.bnk",
@@ -3779,6 +3927,21 @@
         "Id": "668448342",
         "Name": "Run_3",
         "ObjectPath": "\\States\\Default Work Unit\\Game_State\\Run_3"
+       },
+       {
+        "Id": "1323330439",
+        "Name": "WampaSkel_WampaDeath",
+        "ObjectPath": "\\States\\Default Work Unit\\Game_State\\WampaSkel_WampaDeath"
+       },
+       {
+        "Id": "1343209842",
+        "Name": "WampaSkel_SkelDeath",
+        "ObjectPath": "\\States\\Default Work Unit\\Game_State\\WampaSkel_SkelDeath"
+       },
+       {
+        "Id": "554925945",
+        "Name": "Moff_Gideon_Phase_2",
+        "ObjectPath": "\\States\\Default Work Unit\\Game_State\\Moff_Gideon_Phase_2"
        }
       ]
      },
