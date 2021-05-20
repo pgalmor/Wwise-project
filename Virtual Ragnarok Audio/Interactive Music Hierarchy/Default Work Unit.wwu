@@ -1022,6 +1022,10 @@
 												</StateGroupList>
 												<CustomStateList>
 													<CustomState>
+														<StateRef Name="Moff_Gideon_Phase_2" ID="{4ABB07D6-A711-4090-8BD1-C097E5B31A97}"/>
+														<CustomState Name="" ID="{B9E78469-258E-4A88-A8BF-275BAFCDECE9}" ShortID="128969307"/>
+													</CustomState>
+													<CustomState>
 														<StateRef Name="Run" ID="{78F63364-E080-40AA-B010-A5E50DF18F86}"/>
 														<CustomState Name="" ID="{AE1773A8-48EB-4A7F-B1EC-B84E05B46292}" ShortID="558670481"/>
 													</CustomState>
@@ -1046,12 +1050,20 @@
 														<CustomState Name="" ID="{C669888F-00CB-4DB3-8314-16873B0FBAA3}" ShortID="979646644"/>
 													</CustomState>
 													<CustomState>
+														<StateRef Name="WampaSkel_WampaDeath" ID="{D33AC6C0-05F5-48E2-924B-88FC2B7D506F}"/>
+														<CustomState Name="" ID="{56498A9D-1CD9-488B-9429-45C9F9898A3B}" ShortID="472744781"/>
+													</CustomState>
+													<CustomState>
 														<StateRef Name="Menu" ID="{0BB1D2F8-A704-4DEA-A3FF-883660A0C089}"/>
 														<CustomState Name="" ID="{F7442E88-CEFC-4F79-8C38-AF2B489F1C4E}" ShortID="701509258"/>
 													</CustomState>
 													<CustomState>
 														<StateRef Name="Cruiser_Explore" ID="{7B56CD26-D41D-4E95-B202-EEE0956FC8CB}"/>
 														<CustomState Name="" ID="{CBD042EA-2D15-4D91-9DF4-08DBC2E977B0}" ShortID="623020721"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="WampaSkel_SkelDeath" ID="{4A4FD4ED-A436-4EB1-AC38-4D15D06218C3}"/>
+														<CustomState Name="" ID="{05F36934-343A-41E2-9A1B-C215E5C03CD6}" ShortID="959662743"/>
 													</CustomState>
 													<CustomState>
 														<StateRef Name="Moff_Guideon_Room" ID="{C826D092-9E88-4F28-AD9B-BB26DAA56935}"/>
@@ -2102,9 +2114,18 @@
 									</ReferenceList>
 									<ChildrenList>
 										<MusicTrack Name="Rancor level music 1" ID="{25C85FF0-0B86-41D2-8510-5C61E8007A54}" ShortID="274754716">
+											<PropertyList>
+												<Property Name="MusicTrackType" Type="int16" Value="3"/>
+											</PropertyList>
 											<ReferenceList>
+												<Reference Name="DefaultSwitchOrState">
+													<ObjectRef Name="Healthy" ID="{B6DA0743-D679-47B8-BE88-F2FF7B6B1818}" WorkUnitID="{418DD5E0-ECF0-4412-844D-37145812D6AB}"/>
+												</Reference>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+												</Reference>
+												<Reference Name="SwitchGroupOrStateGroup">
+													<ObjectRef Name="Player_Health" ID="{BF861E8F-D3A8-4C0E-BEBA-8334B90D2546}" WorkUnitID="{418DD5E0-ECF0-4412-844D-37145812D6AB}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
@@ -2121,6 +2142,11 @@
 													<PropertyList>
 														<Property Name="IsFolder" Type="bool" Value="True"/>
 													</PropertyList>
+													<ChildrenList>
+														<MusicTransition Name="Transition" ID="{381679AC-4DF2-48E2-897E-07F98665A56E}">
+															<TransitionInfo/>
+														</MusicTransition>
+													</ChildrenList>
 													<TransitionInfo/>
 												</MusicTransition>
 											</TransitionList>
@@ -2134,8 +2160,110 @@
 																<Property Name="FadeOutMode" Type="int16" Value="0"/>
 															</PropertyList>
 															<AudioSourceRef Name="Rancor level music 1" ID="{F39303D5-2D06-4C15-9FD2-2AFC4A4109A4}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Lowpass">
+																	<Curve Name="" ID="{16048B6C-DD7D-4C31-A6D8-1C14452FBE7D}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>19.35484</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>56.8914965986395</XPos>
+																				<YPos>15.05376</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{78D787CD-E32C-4E9B-B8AD-9941C9369AEE}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-5.56574</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>56.8914965986395</XPos>
+																				<YPos>-4.72178</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
 														</MusicClip>
 													</ClipList>
+													<ReferenceList>
+														<Reference Name="TrackSequenceSwitch">
+															<ObjectRef Name="Healthy" ID="{B6DA0743-D679-47B8-BE88-F2FF7B6B1818}" WorkUnitID="{418DD5E0-ECF0-4412-844D-37145812D6AB}"/>
+														</Reference>
+													</ReferenceList>
+												</MusicTrackSequence>
+												<MusicTrackSequence Name="" ID="{934FAFBD-FFDF-4FB9-AFE2-93F24CD15F79}">
+													<ClipList>
+														<MusicClip Name="Rancor level music 1" ID="{74CC9C62-7DA2-47A2-8E78-1529AE710B23}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="56891.4965986395"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Rancor level music 1" ID="{F39303D5-2D06-4C15-9FD2-2AFC4A4109A4}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Lowpass">
+																	<Curve Name="" ID="{67E7B36F-383D-4DCB-BBF0-2863F932C22F}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>56.8914965986395</XPos>
+																				<YPos>-0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{FF08090E-7981-48AE-A6C1-74521ED192DD}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>56.8914965986395</XPos>
+																				<YPos>-0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
+														</MusicClip>
+													</ClipList>
+													<ReferenceList>
+														<Reference Name="TrackSequenceSwitch">
+															<ObjectRef Name="Critical" ID="{6B09A628-1388-4144-83A2-D1C0FD238EEB}" WorkUnitID="{418DD5E0-ECF0-4412-844D-37145812D6AB}"/>
+														</Reference>
+													</ReferenceList>
 												</MusicTrackSequence>
 											</SequenceList>
 										</MusicTrack>
@@ -2217,9 +2345,18 @@
 									</ReferenceList>
 									<ChildrenList>
 										<MusicTrack Name="Wampa skel level music" ID="{2BF25F90-8914-4C7E-8E0D-124AECEB78AB}" ShortID="382542988">
+											<PropertyList>
+												<Property Name="MusicTrackType" Type="int16" Value="3"/>
+											</PropertyList>
 											<ReferenceList>
+												<Reference Name="DefaultSwitchOrState">
+													<ObjectRef Name="Healthy" ID="{B6DA0743-D679-47B8-BE88-F2FF7B6B1818}" WorkUnitID="{418DD5E0-ECF0-4412-844D-37145812D6AB}"/>
+												</Reference>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+												</Reference>
+												<Reference Name="SwitchGroupOrStateGroup">
+													<ObjectRef Name="Player_Health" ID="{BF861E8F-D3A8-4C0E-BEBA-8334B90D2546}" WorkUnitID="{418DD5E0-ECF0-4412-844D-37145812D6AB}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
@@ -2236,6 +2373,11 @@
 													<PropertyList>
 														<Property Name="IsFolder" Type="bool" Value="True"/>
 													</PropertyList>
+													<ChildrenList>
+														<MusicTransition Name="Transition" ID="{EAD992A7-52C5-450A-8147-D8354ACDB23A}">
+															<TransitionInfo/>
+														</MusicTransition>
+													</ChildrenList>
 													<TransitionInfo/>
 												</MusicTransition>
 											</TransitionList>
@@ -2250,8 +2392,91 @@
 																<Property Name="PlayAt" Type="Real64" Value="111.634141621638"/>
 															</PropertyList>
 															<AudioSourceRef Name="Wampa skel level music" ID="{C49D4F18-C520-479F-9920-F9DA5026B012}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Lowpass">
+																	<Curve Name="" ID="{CF34CA33-6F4C-427A-A4FF-F3B40606FA1B}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>18.27957</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>51.0168027210884</XPos>
+																				<YPos>19.35483</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{5BFCF2A4-A540-4273-A181-BF637881AC1B}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-4.72178</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>51.0168027210884</XPos>
+																				<YPos>-4.4059</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
 														</MusicClip>
 													</ClipList>
+													<ReferenceList>
+														<Reference Name="TrackSequenceSwitch">
+															<ObjectRef Name="Healthy" ID="{B6DA0743-D679-47B8-BE88-F2FF7B6B1818}" WorkUnitID="{418DD5E0-ECF0-4412-844D-37145812D6AB}"/>
+														</Reference>
+													</ReferenceList>
+												</MusicTrackSequence>
+												<MusicTrackSequence Name="" ID="{BA86D1A3-1376-421A-8B08-B5FB4FA54EA6}">
+													<ClipList>
+														<MusicClip Name="Wampa skel level music" ID="{132E5C0D-14F5-41D7-8B46-AB567909472B}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="51016.8027210884"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Wampa skel level music" ID="{C49D4F18-C520-479F-9920-F9DA5026B012}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{C419E60C-1543-49EA-9BE1-C99C4D98C4F1}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>51.0168027210884</XPos>
+																				<YPos>-0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
+														</MusicClip>
+													</ClipList>
+													<ReferenceList>
+														<Reference Name="TrackSequenceSwitch">
+															<ObjectRef Name="Critical" ID="{6B09A628-1388-4144-83A2-D1C0FD238EEB}" WorkUnitID="{418DD5E0-ECF0-4412-844D-37145812D6AB}"/>
+														</Reference>
+													</ReferenceList>
 												</MusicTrackSequence>
 											</SequenceList>
 										</MusicTrack>
@@ -2560,7 +2785,7 @@
 																			</Point>
 																			<Point>
 																				<XPos>36.5169387755102</XPos>
-																				<YPos>-0</YPos>
+																				<YPos>0</YPos>
 																				<Flags>37</Flags>
 																			</Point>
 																		</PointList>
@@ -2574,12 +2799,12 @@
 																		<PointList>
 																			<Point>
 																				<XPos>0</XPos>
-																				<YPos>-0</YPos>
+																				<YPos>0</YPos>
 																				<Flags>5</Flags>
 																			</Point>
 																			<Point>
 																				<XPos>36.5169387755102</XPos>
-																				<YPos>-0</YPos>
+																				<YPos>0</YPos>
 																				<Flags>37</Flags>
 																			</Point>
 																		</PointList>
@@ -4066,7 +4291,7 @@
 																				<Flags>5</Flags>
 																			</Point>
 																			<Point>
-																				<XPos>6.00968</XPos>
+																				<XPos>5.99231</XPos>
 																				<YPos>59.13981</YPos>
 																				<Flags>0</Flags>
 																			</Point>
@@ -4714,12 +4939,12 @@
 																		<PointList>
 																			<Point>
 																				<XPos>0</XPos>
-																				<YPos>-0</YPos>
+																				<YPos>0</YPos>
 																				<Flags>5</Flags>
 																			</Point>
 																			<Point>
 																				<XPos>23.60878</XPos>
-																				<YPos>-0</YPos>
+																				<YPos>0</YPos>
 																				<Flags>37</Flags>
 																			</Point>
 																		</PointList>
