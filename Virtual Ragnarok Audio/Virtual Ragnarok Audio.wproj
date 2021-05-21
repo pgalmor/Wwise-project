@@ -29,6 +29,7 @@
 						<Value Platform="Windows">256</Value>
 					</ValueList>
 				</Property>
+				<Property Name="LicenseKey" Type="string" Value="PHByb2plY3QgaWQ9Ijk4MDAiIG1hc2s9IkZES1EzODI1IiBlbmM9IjAiPjxsaWNl bnNlIGlkPSIxIiBuYW1lPSJXd2lzZSIgdHlwZT0iMyIgcGxhdGZvcm1zPSIyLDMs NCwxMCwxMywxNCIgZXhwaXJlcz0iMjAyMS0wNy0zMSIgIC8+PGxpY2Vuc2UgaWQ9 IjIyIiBuYW1lPSJMZXZlbCBBIExpY2Vuc2UiIHR5cGU9IjMiIHBsYXRmb3Jtcz0i MiwzLDQsMTAsMTMsMTQiIGV4cGlyZXM9IjIwMjEtMDctMzEiICAvPjxsaWNlbnNl IGlkPSIyMSIgbmFtZT0iTWFpbnRlbmFuY2UiIHR5cGU9IjMiIHBsYXRmb3Jtcz0i MiwzLDQsMTAsMTMsMTQiIGV4cGlyZXM9IjIwMjEtMDctMzEiICAvPjxsaWNlbnNl IGlkPSIyNSIgbmFtZT0iQWxsIFd3aXNlIFBsdWctSW5zIiB0eXBlPSIzIiAgZXhw aXJlcz0iMjAyMS0wNy0zMSIgIC8+PC9wcm9qZWN0Pg==|Wl90ivH4/E7iKtMDnYr N9dMTVuT0xjrLBrfB+SOjfPydrXM+aPIaQ/J+7FQcb66u5ED3rSYVvTO1S93KDH/ w9WQU1/K0zqo4VngzSZo0YPL3eUGOraktdisFLw1CA+nvwNl0WG0LuX6Tfqumvu/ 395CinykFNDQ8yBx2YlV09nvyyJJSk+DvpYGuaOPM5jFtDTe+jS6F2QEFJXf6qNz /+nNGgLYs7KQWLGunebCU2nDB8KlhVIF1m/QUo6hQM15pn+0ugaupzeSFzkvip1L f5pUXyBBqEa8urhgo7aS609kYp0OZvwQ74jUbmNqIwnQ0v00Cnfvuw6AHQ6qsvg3 puw== "/>
 				<Property Name="SoundBankGenerateEstimatedDuration" Type="bool" Value="True"/>
 				<Property Name="SoundBankHeaderFilePath" Type="string" Value="GeneratedSoundBanks"/>
 				<Property Name="SoundBankPaths" Type="string">
@@ -62,23 +63,6 @@
 					</ValueList>
 				</Property>
 				<Property Name="WwiseVersionWhenCreated" Type="string" Value="Branch=wwise_v2019.2|Build=7459|VersionName=v2019.2.9|Config=Release"/>
-			
-				<Property Name="LicenseKey" Type="string" Value="PHByb2plY3QgaWQ9Ijk4MDAiIG1hc2s9IkZES1EzODI1IiBlbmM9IjAiPjxsaWNl
-bnNlIGlkPSIxIiBuYW1lPSJXd2lzZSIgdHlwZT0iMyIgcGxhdGZvcm1zPSIyLDMs
-NCwxMCwxMywxNCIgZXhwaXJlcz0iMjAyMS0wNy0zMSIgIC8+PGxpY2Vuc2UgaWQ9
-IjIyIiBuYW1lPSJMZXZlbCBBIExpY2Vuc2UiIHR5cGU9IjMiIHBsYXRmb3Jtcz0i
-MiwzLDQsMTAsMTMsMTQiIGV4cGlyZXM9IjIwMjEtMDctMzEiICAvPjxsaWNlbnNl
-IGlkPSIyMSIgbmFtZT0iTWFpbnRlbmFuY2UiIHR5cGU9IjMiIHBsYXRmb3Jtcz0i
-MiwzLDQsMTAsMTMsMTQiIGV4cGlyZXM9IjIwMjEtMDctMzEiICAvPjxsaWNlbnNl
-IGlkPSIyNSIgbmFtZT0iQWxsIFd3aXNlIFBsdWctSW5zIiB0eXBlPSIzIiAgZXhw
-aXJlcz0iMjAyMS0wNy0zMSIgIC8+PC9wcm9qZWN0Pg==|Wl90ivH4/E7iKtMDnYr
-N9dMTVuT0xjrLBrfB+SOjfPydrXM+aPIaQ/J+7FQcb66u5ED3rSYVvTO1S93KDH/
-w9WQU1/K0zqo4VngzSZo0YPL3eUGOraktdisFLw1CA+nvwNl0WG0LuX6Tfqumvu/
-395CinykFNDQ8yBx2YlV09nvyyJJSk+DvpYGuaOPM5jFtDTe+jS6F2QEFJXf6qNz
-/+nNGgLYs7KQWLGunebCU2nDB8KlhVIF1m/QUo6hQM15pn+0ugaupzeSFzkvip1L
-f5pUXyBBqEa8urhgo7aS609kYp0OZvwQ74jUbmNqIwnQ0v00Cnfvuw6AHQ6qsvg3
-puw==
-"/>
 			</PropertyList>
 			<MiscSettings>
 				<MiscSettingEntry Name="Cache"><![CDATA[.cache]]></MiscSettingEntry>
@@ -11800,6 +11784,42 @@ puw==
 			<PhysicalFolderList>
 				<PhysicalFolder Path="Actor-Mixer Hierarchy">
 					<WorkUnit Name="Actor-Mixer Hierarchy" ID="{5EA7BBF8-64C0-4A50-8821-A07E8BE21D68}" PersistMode="Standalone"/>
+				</PhysicalFolder>
+				<PhysicalFolder Path="Actor-Mixer Hierarchy\_cache">
+					<WorkUnit Name="_cache" ID="{20F02E8D-4999-4E65-A784-F2C3D11FF255}" PersistMode="Standalone"/>
+				</PhysicalFolder>
+				<PhysicalFolder Path="Actor-Mixer Hierarchy\_cache\Windows">
+					<WorkUnit Name="Windows" ID="{0C7F64E5-D2B7-4492-B4B3-1D67312269DC}" PersistMode="Standalone"/>
+				</PhysicalFolder>
+				<PhysicalFolder Path="Actor-Mixer Hierarchy\_cache\Windows\Plugins">
+					<WorkUnit Name="Plugins" ID="{3AD45421-7670-430F-8CDF-7BFD0F8F308B}" PersistMode="Standalone"/>
+				</PhysicalFolder>
+				<PhysicalFolder Path="Actor-Mixer Hierarchy\_cache\Windows\Plugins\iZotope Hybrid Reverb">
+					<WorkUnit Name="iZotope Hybrid Reverb" ID="{B5728DC1-843C-466C-B815-521F1A40EBCE}" PersistMode="Standalone"/>
+				</PhysicalFolder>
+				<PhysicalFolder Path="Actor-Mixer Hierarchy\_cache\Windows\SFX">
+					<WorkUnit Name="SFX" ID="{7C41C775-D65B-4057-A782-79E87E665EE7}" PersistMode="Standalone"/>
+				</PhysicalFolder>
+				<PhysicalFolder Path="Actor-Mixer Hierarchy\_cache\Windows\SFX\Combat Music A">
+					<WorkUnit Name="Combat Music A" ID="{26741F81-B99B-4CFA-89B1-976EC3DB087E}" PersistMode="Standalone"/>
+				</PhysicalFolder>
+				<PhysicalFolder Path="Actor-Mixer Hierarchy\_cache\Windows\SFX\Combat Music B">
+					<WorkUnit Name="Combat Music B" ID="{603E9148-A3D1-4B35-9BFF-57010BE0390E}" PersistMode="Standalone"/>
+				</PhysicalFolder>
+				<PhysicalFolder Path="Actor-Mixer Hierarchy\_cache\Windows\SFX\Combat Music C">
+					<WorkUnit Name="Combat Music C" ID="{D0E4AB7A-CDB2-4C3F-8CB7-C64CB3170602}" PersistMode="Standalone"/>
+				</PhysicalFolder>
+				<PhysicalFolder Path="Actor-Mixer Hierarchy\_cache\Windows\SFX\Explore Music A">
+					<WorkUnit Name="Explore Music A" ID="{F3D0A3F9-434E-4FE6-B22F-2809ED1C0BF1}" PersistMode="Standalone"/>
+				</PhysicalFolder>
+				<PhysicalFolder Path="Actor-Mixer Hierarchy\_cache\Windows\SFX\Explore Music B">
+					<WorkUnit Name="Explore Music B" ID="{6D8E4F96-0104-4D16-A48A-82FAC96FFE6C}" PersistMode="Standalone"/>
+				</PhysicalFolder>
+				<PhysicalFolder Path="Actor-Mixer Hierarchy\_cache\Windows\SFX\Memory OP Combat Music">
+					<WorkUnit Name="Memory OP Combat Music" ID="{AECF74A0-6393-4D44-B1DB-DCFE0003455A}" PersistMode="Standalone"/>
+				</PhysicalFolder>
+				<PhysicalFolder Path="Actor-Mixer Hierarchy\_cache\Windows\SFX\Moff Gideon">
+					<WorkUnit Name="Moff Gideon" ID="{7CCA1333-7199-4FB8-9006-9382DACBC522}" PersistMode="Standalone"/>
 				</PhysicalFolder>
 				<PhysicalFolder Path="Attenuations">
 					<WorkUnit Name="Attenuations" ID="{017BDDA0-1BB1-4CE1-8077-79594EC4585C}" PersistMode="Standalone"/>
