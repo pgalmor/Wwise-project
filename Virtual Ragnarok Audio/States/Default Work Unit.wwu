@@ -15,9 +15,8 @@
 						<State Name="Moff_Guideon_Room" ID="{C826D092-9E88-4F28-AD9B-BB26DAA56935}"/>
 						<State Name="Run_2" ID="{1995C1DC-FFFD-40FD-8DC0-3949D9E51BA5}"/>
 						<State Name="Run_3" ID="{E256D6D5-00AD-47AF-8EFA-3B5BEC0864C6}"/>
-						<State Name="WampaSkel_WampaDeath" ID="{D33AC6C0-05F5-48E2-924B-88FC2B7D506F}"/>
-						<State Name="WampaSkel_SkelDeath" ID="{4A4FD4ED-A436-4EB1-AC38-4D15D06218C3}"/>
 						<State Name="Moff_Gideon_Phase_2" ID="{4ABB07D6-A711-4090-8BD1-C097E5B31A97}"/>
+						<State Name="Cinematic" ID="{8F3E7D98-9D8B-49BE-9D8B-11A5E51D215C}"/>
 					</ChildrenList>
 				</StateGroup>
 				<StateGroup Name="Player_State" ID="{409BC8C4-0CBE-4013-9D58-927CDA350096}">
