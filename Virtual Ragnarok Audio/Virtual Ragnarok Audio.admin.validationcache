@@ -46,7 +46,7 @@
 	<ValidationCacheItem File="C:\Users\admin\Documents\WwiseProjects\Virtual Ragnarok Audio\Actor-Mixer Hierarchy\Factory Motion.wwu" DateLow="1614518969" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\admin\Documents\WwiseProjects\Virtual Ragnarok Audio\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1614769866" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\admin\Documents\GitHub\Wwise-project\Virtual Ragnarok Audio\Virtual Ragnarok Audio.wproj" DateLow="1621081854" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\admin\Documents\GitHub\Wwise-project\Virtual Ragnarok Audio\Virtual Ragnarok Audio.admin.wsettings" DateLow="1621547260" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\admin\Documents\GitHub\Wwise-project\Virtual Ragnarok Audio\Virtual Ragnarok Audio.admin.wsettings" DateLow="1621601286" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\admin\Documents\GitHub\Wwise-project\Virtual Ragnarok Audio\Virtual Acoustics\Factory Reflect Acoustic Textures.wwu" DateLow="1615069590" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\admin\Documents\GitHub\Wwise-project\Virtual Ragnarok Audio\Virtual Acoustics\Default Work Unit.wwu" DateLow="1615069590" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\admin\Documents\GitHub\Wwise-project\Virtual Ragnarok Audio\Triggers\Default Work Unit.wwu" DateLow="1615069590" DateHigh="0"/>
@@ -54,7 +54,7 @@
 	<ValidationCacheItem File="C:\Users\admin\Documents\GitHub\Wwise-project\Virtual Ragnarok Audio\Switches\Default Work Unit.wwu" DateLow="1616067140" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\admin\Documents\GitHub\Wwise-project\Virtual Ragnarok Audio\States\Default Work Unit.wwu" DateLow="1621508559" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\admin\Documents\GitHub\Wwise-project\Virtual Ragnarok Audio\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1615069590" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\admin\Documents\GitHub\Wwise-project\Virtual Ragnarok Audio\SoundBanks\Default Work Unit.wwu" DateLow="1621539282" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\admin\Documents\GitHub\Wwise-project\Virtual Ragnarok Audio\SoundBanks\Default Work Unit.wwu" DateLow="1621600606" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\admin\Documents\GitHub\Wwise-project\Virtual Ragnarok Audio\Queries\Factory Queries.wwu" DateLow="1615069590" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\admin\Documents\GitHub\Wwise-project\Virtual Ragnarok Audio\Queries\Default Work Unit.wwu" DateLow="1615069590" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\admin\Documents\GitHub\Wwise-project\Virtual Ragnarok Audio\Presets\Factory Spatial Audio.wwu" DateLow="1615069590" DateHigh="0"/>
@@ -68,7 +68,7 @@
 	<ValidationCacheItem File="C:\Users\admin\Documents\GitHub\Wwise-project\Virtual Ragnarok Audio\Game Parameters\Factory SoundSeed Air Game Syncs.wwu" DateLow="1615069581" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\admin\Documents\GitHub\Wwise-project\Virtual Ragnarok Audio\Game Parameters\Factory Motion.wwu" DateLow="1615069581" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\admin\Documents\GitHub\Wwise-project\Virtual Ragnarok Audio\Game Parameters\Default Work Unit.wwu" DateLow="1618851653" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\admin\Documents\GitHub\Wwise-project\Virtual Ragnarok Audio\Events\Default Work Unit.wwu" DateLow="1621538824" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\admin\Documents\GitHub\Wwise-project\Virtual Ragnarok Audio\Events\Default Work Unit.wwu" DateLow="1621600606" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\admin\Documents\GitHub\Wwise-project\Virtual Ragnarok Audio\Effects\Factory Reflect.wwu" DateLow="1615069581" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\admin\Documents\GitHub\Wwise-project\Virtual Ragnarok Audio\Effects\Factory McDSP Effects.wwu" DateLow="1615069581" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\admin\Documents\GitHub\Wwise-project\Virtual Ragnarok Audio\Effects\Factory Mastering Suite.wwu" DateLow="1615069581" DateHigh="0"/>
@@ -91,5 +91,5 @@
 	<ValidationCacheItem File="C:\Users\admin\Documents\GitHub\Wwise-project\Virtual Ragnarok Audio\Actor-Mixer Hierarchy\Factory Synth One.wwu" DateLow="1615069581" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\admin\Documents\GitHub\Wwise-project\Virtual Ragnarok Audio\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects.wwu" DateLow="1615069581" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\admin\Documents\GitHub\Wwise-project\Virtual Ragnarok Audio\Actor-Mixer Hierarchy\Factory Motion.wwu" DateLow="1615069581" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\admin\Documents\GitHub\Wwise-project\Virtual Ragnarok Audio\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1621538939" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\admin\Documents\GitHub\Wwise-project\Virtual Ragnarok Audio\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1621600557" DateHigh="0"/>
 </ValidationCache>

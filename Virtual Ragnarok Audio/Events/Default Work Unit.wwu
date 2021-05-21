@@ -568,6 +568,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_UI_Combro_Increase" ID="{56F448B7-7C9A-4747-856F-59006E72247C}">
+							<ChildrenList>
+								<Action Name="" ID="{EB470209-5011-4F8F-951A-55761D5B01D2}" ShortID="47907822">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI combo increase" ID="{A45EB16E-6003-4564-8F98-32C90AE87DCD}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Environment" ID="{8C060D61-9283-4117-BA2F-B10596916A2B}" ShortID="952097035">
@@ -692,6 +703,17 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Grogu wall" ID="{361FDB83-F99D-443F-A25D-703C0080264E}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Grogu_Cry" ID="{7AA73C00-31C3-4659-929F-52361625B18E}">
+							<ChildrenList>
+								<Action Name="" ID="{6BEFB9F2-0E61-48CF-B2DC-56C52447431A}" ShortID="62222542">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Grogu Cry" ID="{84F5D28F-7933-464C-BA24-EBD5EDBC6BC3}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
