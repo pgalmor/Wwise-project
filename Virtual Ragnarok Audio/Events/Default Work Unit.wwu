@@ -327,6 +327,39 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_Mando_Wall_Command" ID="{69624E5E-AE93-4379-917F-E4F8D89DA2F7}">
+							<ChildrenList>
+								<Action Name="" ID="{4F043196-9A44-4087-93DC-C67029FD5E68}" ShortID="46676855">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Mando wall command" ID="{CE15448B-C082-47EC-A7BC-4C191D58CCEE}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Mando_Pull_Command" ID="{EAF0263A-C3D1-4DDC-9143-D2AF182654BC}">
+							<ChildrenList>
+								<Action Name="" ID="{FED8B09E-F9AC-4174-8285-09F91931C794}" ShortID="859670595">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Mando pull command" ID="{A69DC403-D68F-4155-B57F-E9EE1994A3F4}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Mando_Push_Command" ID="{C78FCF34-6136-4A6F-A660-96ADB35A7719}">
+							<ChildrenList>
+								<Action Name="" ID="{F4296ECF-3863-4114-B996-D3011569F436}" ShortID="754610284">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Mando push command" ID="{ECB9AD52-A694-4942-A1AF-9EC6AC024545}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Bantha" ID="{FA6AEF98-09DC-4D8D-96DA-FEA40FD0647A}" ShortID="121923056">
@@ -714,6 +747,17 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Grogu Cry" ID="{84F5D28F-7933-464C-BA24-EBD5EDBC6BC3}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Grogu_Cheering" ID="{9310E593-A742-4548-8C29-048B9BAF8A22}">
+							<ChildrenList>
+								<Action Name="" ID="{7716FBBB-E135-48E8-AA9A-99537764BDBB}" ShortID="77509147">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Grogu Cheering" ID="{C0CD8C4E-FD1D-4FD8-9729-F017353F7CD3}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
