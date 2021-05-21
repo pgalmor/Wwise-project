@@ -612,6 +612,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_Victory_Music" ID="{99E85481-2AF5-45A7-963D-CA0719F6A8E2}">
+							<ChildrenList>
+								<Action Name="" ID="{5B348BBA-A51E-4D47-9F4A-6D45D79D7E50}" ShortID="370167888">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Victory music" ID="{2172249F-9B8E-46AB-94E5-41A6E90F3406}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Environment" ID="{8C060D61-9283-4117-BA2F-B10596916A2B}" ShortID="952097035">

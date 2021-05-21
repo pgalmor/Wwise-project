@@ -12,6 +12,7 @@
 						<ObjectRef Name="Play_Mando_Wall_Command" ID="{69624E5E-AE93-4379-917F-E4F8D89DA2F7}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Sniper_Shoot_Mando" ID="{1D6672B6-9394-438A-B536-69EE29BF0A41}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Mando_Death" ID="{5257122D-4B91-4442-95E1-35D961869CF3}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Footsteps_Stone_Mando" ID="{3FEC882C-DF52-45A0-AF96-0C7E683A106C}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Footsteps_Water_Mando" ID="{B6FE9C42-A814-45D0-A86A-C4BA0D6CBF0B}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Mando_Grenade_Nail" ID="{BB35012A-1854-45EF-A842-74F5AFEDC300}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Mando_Respawn" ID="{3C80CDA4-00FF-467D-946B-CDEB8144C055}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
@@ -86,6 +87,7 @@
 						<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_UI_Button_Hover" ID="{AC757C1A-086F-41F2-8282-EAB15A7C4795}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_UI_Skill_Tree_Open" ID="{0471F23D-3DA6-457D-A27F-064FB592F75F}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Victory_Music" ID="{99E85481-2AF5-45A7-963D-CA0719F6A8E2}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_UI_Resume" ID="{CA8293C0-F68C-4716-939D-B20D394CBE80}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_UI_Button_Select" ID="{4D169CE3-92CA-4734-81D2-882E17143EAF}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_UI_Combro_Increase" ID="{56F448B7-7C9A-4747-856F-59006E72247C}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
