@@ -5201,7 +5201,16 @@
 								</MusicTransition>
 							</TransitionList>
 							<Playlist>
-								<MusicPlaylistItem Name="" ID="{522EA20F-57E8-4C48-AE9C-6E9BAA164D41}" ShortID="414860108"/>
+								<MusicPlaylistItem Name="" ID="{522EA20F-57E8-4C48-AE9C-6E9BAA164D41}" ShortID="414860108">
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{84505776-F596-4CD3-B8D0-72E7A8A0D39A}" ShortID="225435491">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="53024-MUSICAL_STRINGS_ACCENT_SWELLS_MYSTERIOUS_SAD_01" ID="{2321540C-5EEF-490F-9C1D-41907FB9540C}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
 							</Playlist>
 						</MusicPlaylistContainer>
 						<MusicPlaylistContainer Name="Cinematic Music" ID="{80581ED1-5BAE-4ED7-86A3-46416B6F9FC6}" ShortID="361958907">
@@ -5487,7 +5496,16 @@
 								</MusicTransition>
 							</TransitionList>
 							<Playlist>
-								<MusicPlaylistItem Name="" ID="{013BAD52-81FA-4FEC-90FE-AE0E0EC72255}" ShortID="215465227"/>
+								<MusicPlaylistItem Name="" ID="{013BAD52-81FA-4FEC-90FE-AE0E0EC72255}" ShortID="215465227">
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{4B11F091-D256-44AB-99B1-11DB9AAFB273}" ShortID="899155931">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Cinematic" ID="{D1EC0D55-0A26-4522-B5CA-EB2AC61AE743}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
 							</Playlist>
 						</MusicPlaylistContainer>
 					</ChildrenList>
