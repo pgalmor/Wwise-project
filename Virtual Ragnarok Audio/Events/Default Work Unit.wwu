@@ -601,7 +601,7 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Play_UI_Combro_Increase" ID="{56F448B7-7C9A-4747-856F-59006E72247C}">
+						<Event Name="Play_UI_Combo_Increase" ID="{56F448B7-7C9A-4747-856F-59006E72247C}">
 							<ChildrenList>
 								<Action Name="" ID="{EB470209-5011-4F8F-951A-55761D5B01D2}" ShortID="47907822">
 									<ReferenceList>
