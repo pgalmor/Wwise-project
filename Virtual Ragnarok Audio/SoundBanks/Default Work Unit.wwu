@@ -9,8 +9,6 @@
 						<ObjectRef Name="Play_Mando_Kill_Voice" ID="{2EF4772C-C6CE-40B8-B875-1F4D58B2ED4A}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Dash" ID="{BEAF66A2-E253-4122-9CF7-77443402A08D}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_Mando_Grenade_Explosion_1" ID="{10ED6EE5-617D-41C7-A8B3-65A87FC693D6}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_Mando_Grenade_Explosion_2" ID="{2029F31A-295C-437F-A344-A8C32F99542D}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Sniper_Shoot_Mando" ID="{1D6672B6-9394-438A-B536-69EE29BF0A41}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Mando_Death" ID="{5257122D-4B91-4442-95E1-35D961869CF3}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Footsteps_Water_Mando" ID="{B6FE9C42-A814-45D0-A86A-C4BA0D6CBF0B}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
@@ -20,6 +18,7 @@
 						<ObjectRef Name="Play_Blaster_Shoot_Mando" ID="{C3ADCA68-65F2-4741-89E2-2CCED5D4DA9D}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Footsteps_Sand_Mando" ID="{60B49344-6207-4795-AF55-52474E0BE44C}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Mando_Grenade_Set_Up" ID="{E035921F-4D3F-4875-A920-2510E96147FB}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Sniper_Charge" ID="{717886C8-B5FC-48A5-A477-015B7CC64115}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Dash_Transition" ID="{55038C51-B170-491A-8F20-6FC6C981F0AB}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Footsteps_Metal_Platform_Mando" ID="{F9DF517B-EB8D-4933-ADAA-064BE5D7A720}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Footsteps_Snow_Mando" ID="{65E5B414-9C97-496B-BA14-C23FF149C59D}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>

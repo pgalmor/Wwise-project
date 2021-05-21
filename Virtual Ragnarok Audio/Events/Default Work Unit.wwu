@@ -316,6 +316,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_Sniper_Charge" ID="{717886C8-B5FC-48A5-A477-015B7CC64115}">
+							<ChildrenList>
+								<Action Name="" ID="{C9C098F0-C240-4ADE-81B6-C9A68C9D66D8}" ShortID="507060084">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Mando sniper charge" ID="{F03AEC6B-9BF9-4888-BFFA-D3EB971BD44B}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Bantha" ID="{FA6AEF98-09DC-4D8D-96DA-FEA40FD0647A}" ShortID="121923056">
