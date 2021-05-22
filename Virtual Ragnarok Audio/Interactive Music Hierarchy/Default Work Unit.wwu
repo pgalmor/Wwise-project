@@ -5225,7 +5225,7 @@
 							<ChildrenList>
 								<MusicSegment Name="Cinematic" ID="{D1EC0D55-0A26-4522-B5CA-EB2AC61AE743}" ShortID="83991963">
 									<PropertyList>
-										<Property Name="EndPosition" Type="Real64" Value="11777.2777226611"/>
+										<Property Name="EndPosition" Type="Real64" Value="12011.6696004158"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -5236,23 +5236,23 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<MusicTrack Name="75119-Musical_element_drum_tom_hit_delay_fade_out-BLASTWAVEFX-11139" ID="{A27291FA-3634-4817-8C26-712E48C5424B}" ShortID="69261694">
+										<MusicTrack Name="106162-Violins_loop_D_minor_160_bpm-AOS03055" ID="{0E0A3A3B-1C95-4065-A71D-B7147A14166F}" ShortID="451393605">
 											<ReferenceList>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="75119-Musical_element_drum_tom_hit_delay_fade_out-BLASTWAVEFX-11139" ID="{7702A77A-65D8-4174-89BE-55C594A99AA6}">
+												<AudioFileSource Name="106162-Violins_loop_D_minor_160_bpm-AOS03055" ID="{044F92D2-17ED-4D85-8E33-A8729BCAFB23}">
 													<Language>SFX</Language>
-													<AudioFile>Cinematic Music\75119-Musical_element_drum_tom_hit_delay_fade_out-BLASTWAVEFX-11139.wav</AudioFile>
+													<AudioFile>Cinematic Music\106162-Violins_loop_D_minor_160_bpm-AOS03055.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="575131970"/>
+														<MediaID ID="463460953"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<TransitionList>
-												<MusicTransition Name="Root" ID="{C3D69AF9-C686-4EC4-876B-B50E48B57AFC}">
+												<MusicTransition Name="Root" ID="{EE80910E-2886-47F2-BCF2-BFAA18287D77}">
 													<PropertyList>
 														<Property Name="IsFolder" Type="bool" Value="True"/>
 													</PropertyList>
@@ -5260,211 +5260,15 @@
 												</MusicTransition>
 											</TransitionList>
 											<SequenceList>
-												<MusicTrackSequence Name="" ID="{F65368BE-0EA7-4090-AE7F-7E4ACC7C3E52}">
+												<MusicTrackSequence Name="" ID="{27D1427A-4630-4992-9C1A-018177554DED}">
 													<ClipList>
-														<MusicClip Name="75119-Musical_element_drum_tom_hit_delay_fade_out-BLASTWAVEFX-11139" ID="{5686267E-0F05-495A-9DCB-88F4278E722B}">
+														<MusicClip Name="106162-Violins_loop_D_minor_160_bpm-AOS03055" ID="{EAEF3450-650C-4D5C-BDDF-C26BC0044828}">
 															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="1996.91609977324"/>
-																<Property Name="FadeInMode" Type="int16" Value="0"/>
-																<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																<Property Name="PlayAt" Type="Real64" Value="2956.98093513514"/>
-															</PropertyList>
-															<AudioSourceRef Name="75119-Musical_element_drum_tom_hit_delay_fade_out-BLASTWAVEFX-11139" ID="{7702A77A-65D8-4174-89BE-55C594A99AA6}"/>
-															<PropertyCurveList>
-																<PropertyCurve PropertyName="Volume">
-																	<Curve Name="" ID="{0856B9BC-D2D0-4623-AFBD-623205B83612}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="3"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>-1.63984</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>1.99691609977324</XPos>
-																				<YPos>-1.63984</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-															</PropertyCurveList>
-														</MusicClip>
-														<MusicClip Name="75119-Musical_element_drum_tom_hit_delay_fade_out-BLASTWAVEFX-11139" ID="{DCFD25FF-4487-464A-8A7D-46622E2A0A78}">
-															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="1996.91609977324"/>
-																<Property Name="FadeInMode" Type="int16" Value="0"/>
-																<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																<Property Name="PlayAt" Type="Real64" Value="9252.83618128898"/>
-															</PropertyList>
-															<AudioSourceRef Name="75119-Musical_element_drum_tom_hit_delay_fade_out-BLASTWAVEFX-11139" ID="{7702A77A-65D8-4174-89BE-55C594A99AA6}"/>
-														</MusicClip>
-													</ClipList>
-												</MusicTrackSequence>
-											</SequenceList>
-										</MusicTrack>
-										<MusicTrack Name="107318-Violins_fadeout_loop_D_minor_160_bpm-AOS03051" ID="{5ED7688C-3AF4-403D-95A1-0E8B453D1885}" ShortID="790983724">
-											<ReferenceList>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="107318-Violins_fadeout_loop_D_minor_160_bpm-AOS03051" ID="{75FA3F33-C58F-4C25-8C61-D42176388142}">
-													<Language>SFX</Language>
-													<AudioFile>Cinematic Music\107318-Violins_fadeout_loop_D_minor_160_bpm-AOS03051.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="875034429"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<TransitionList>
-												<MusicTransition Name="Root" ID="{39D73B96-0BE0-475E-BEBB-E46CB594D67B}">
-													<PropertyList>
-														<Property Name="IsFolder" Type="bool" Value="True"/>
-													</PropertyList>
-													<TransitionInfo/>
-												</MusicTransition>
-											</TransitionList>
-											<SequenceList>
-												<MusicTrackSequence Name="" ID="{B15471D8-FFB0-4185-B6D7-B844A21C604B}">
-													<ClipList>
-														<MusicClip Name="107318-Violins_fadeout_loop_D_minor_160_bpm-AOS03051" ID="{5379D55E-698E-4745-921D-AE3DA6F233E7}">
-															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="5627.2724049896"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="12000"/>
 																<Property Name="FadeInMode" Type="int16" Value="0"/>
 																<Property Name="FadeOutMode" Type="int16" Value="0"/>
 															</PropertyList>
-															<AudioSourceRef Name="107318-Violins_fadeout_loop_D_minor_160_bpm-AOS03051" ID="{75FA3F33-C58F-4C25-8C61-D42176388142}"/>
-															<PropertyCurveList>
-																<PropertyCurve PropertyName="Highpass">
-																	<Curve Name="" ID="{F56425DB-5552-442B-9934-184386DE0CA1}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="1"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>5.62727</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-																<PropertyCurve PropertyName="Lowpass">
-																	<Curve Name="" ID="{AF015ECA-FA7A-47F7-823E-2F6F8EF400FD}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="1"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>36.55913</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>5.62727</XPos>
-																				<YPos>36.55913</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-																<PropertyCurve PropertyName="Volume">
-																	<Curve Name="" ID="{0BD69C43-193E-4C87-9FFA-7DF333F34D30}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="3"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>-5.56573</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>5.62727</XPos>
-																				<YPos>-5.39026</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-															</PropertyCurveList>
-														</MusicClip>
-														<MusicClip Name="107318-Violins_fadeout_loop_D_minor_160_bpm-AOS03051" ID="{1C2F5666-39E5-471A-A6F0-ADD0C4F0E18D}">
-															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="5627.2724049896"/>
-																<Property Name="FadeInMode" Type="int16" Value="0"/>
-																<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																<Property Name="PlayAt" Type="Real64" Value="5615.22224656965"/>
-															</PropertyList>
-															<AudioSourceRef Name="107318-Violins_fadeout_loop_D_minor_160_bpm-AOS03051" ID="{75FA3F33-C58F-4C25-8C61-D42176388142}"/>
-															<PropertyCurveList>
-																<PropertyCurve PropertyName="Highpass">
-																	<Curve Name="" ID="{5E095E20-73D1-48FA-A79E-6BA3873DC384}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="1"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>5.62727</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-																<PropertyCurve PropertyName="Lowpass">
-																	<Curve Name="" ID="{68DCC747-91F0-421A-9736-CD1D82AD6EFC}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="1"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>22.58065</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>5.62727</XPos>
-																				<YPos>15.05376</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-																<PropertyCurve PropertyName="Volume">
-																	<Curve Name="" ID="{54CC9E9A-E0A0-4916-8088-8974C70D8B56}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="3"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>5.62727</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-															</PropertyCurveList>
+															<AudioSourceRef Name="106162-Violins_loop_D_minor_160_bpm-AOS03055" ID="{044F92D2-17ED-4D85-8E33-A8729BCAFB23}"/>
 														</MusicClip>
 													</ClipList>
 												</MusicTrackSequence>
@@ -5476,7 +5280,7 @@
 										<MusicCue Name="Exit Cue" ID="{A21A42E8-B8E3-4CC2-9A85-E97B44BE6F55}">
 											<PropertyList>
 												<Property Name="CueType" Type="int16" Value="1"/>
-												<Property Name="TimeMs" Type="Real64" Value="11549.8114935551"/>
+												<Property Name="TimeMs" Type="Real64" Value="12003.5668266112"/>
 											</PropertyList>
 										</MusicCue>
 									</CueList>
@@ -5588,8 +5392,8 @@
 										<SourceFadeOut>
 											<MusicFade Name="Source Fade-out" ID="{C6D01ED8-BF37-4B04-9375-B144B8C0C92D}">
 												<PropertyList>
-													<Property Name="FadeOffset" Type="Real64" Value="1"/>
-													<Property Name="FadeTime" Type="Real64" Value="2"/>
+													<Property Name="FadeOffset" Type="Real64" Value="0.5"/>
+													<Property Name="FadeTime" Type="Real64" Value="1"/>
 													<Property Name="FadeType" Type="int16" Value="1"/>
 												</PropertyList>
 											</MusicFade>
@@ -5597,8 +5401,8 @@
 										<DestinationFadeIn>
 											<MusicFade Name="Destination Fade-in" ID="{A8606925-217B-4A18-968B-F905C321A2A5}">
 												<PropertyList>
-													<Property Name="FadeOffset" Type="Real64" Value="-1"/>
-													<Property Name="FadeTime" Type="Real64" Value="2"/>
+													<Property Name="FadeOffset" Type="Real64" Value="-0.5"/>
+													<Property Name="FadeTime" Type="Real64" Value="1"/>
 												</PropertyList>
 											</MusicFade>
 										</DestinationFadeIn>

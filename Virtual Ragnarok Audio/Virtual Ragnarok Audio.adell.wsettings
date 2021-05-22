@@ -3,7 +3,7 @@
 	<UserProjectSettingsInfo>
 		<UserProjectSettings Name="" ID="{AFFB5E04-9022-48AF-878F-A0ABA33B72E9}">
 			<PropertyList>
-				<Property Name="AudioFilesImporter\Path" Type="string" Value="C:\Users\adell\Documents\GitHub\Wwise-project\Virtual Ragnarok Audio\Originals\SFX\Combat Music B\"/>
+				<Property Name="AudioFilesImporter\Path" Type="string" Value="C:\Users\adell\Documents\GitHub\Wwise-project\Virtual Ragnarok Audio\Originals\SFX\Cinematic Music\"/>
 				<Property Name="EventView\FilterMode1" Type="int32" Value="2"/>
 				<Property Name="ExternalSourcesInputPath" Type="string">
 					<ValueList>
@@ -50,6 +50,7 @@
 				<Property Name="MonitoringManager\GameObjectFilter\x64_GameObjectFilters" Type="string" Value=""/>
 				<Property Name="Music Transition List\{084AF89A-C286-4183-9D59-22DDA5F8F944}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Music Transition List\{0CF5682F-7AA7-4006-8E7B-4DDCDC86FDFD}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Music Transition List\{0E0A3A3B-1C95-4065-A71D-B7147A14166F}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Music Transition List\{1209FC0C-A120-4133-8BAA-9C5103E46F18}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Music Transition List\{19AA377B-D9FD-45A9-A990-7BE1A0B25E6C}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Music Transition List\{1E415C0A-0E83-40FC-A510-E1D0B5F502CB}\x64_Expand States" Type="string" Value=""/>
@@ -62,6 +63,7 @@
 				<Property Name="Music Transition List\{532291C3-9F3B-48B4-A6B3-8D637AF8DF16}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Music Transition List\{596A1A26-B215-4264-BB75-28253E8661A9}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Music Transition List\{5B61C91E-597F-4A1D-83D1-464D762A96FA}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Music Transition List\{5ED7688C-3AF4-403D-95A1-0E8B453D1885}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Music Transition List\{6DD616AA-CE07-420A-B1F7-C0168506FAF9}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Music Transition List\{7136AD72-4566-4C74-B62B-C07797B62E73}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Music Transition List\{720C3EFF-69EA-41FC-BF78-3B8B3518D70D}\x64_Expand States" Type="string" Value=""/>
@@ -75,6 +77,7 @@
 				<Property Name="Music Transition List\{897CB86A-9945-4D82-A111-2B60FC654AFD}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Music Transition List\{974A787C-0958-4047-8695-584014946E39}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Music Transition List\{A1147E92-8B25-479A-96F6-1FA9E7A7DD8D}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Music Transition List\{A27291FA-3634-4817-8C26-712E48C5424B}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Music Transition List\{A474DA3A-0819-48CB-BD69-0F3E84C1DA6A}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Music Transition List\{B25E6264-C6AF-4844-83AE-53275240A441}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Music Transition List\{B396799B-44AF-45CE-93EA-3304CCCBE97C}\x64_Expand States" Type="string" Value=""/>
@@ -86,14 +89,14 @@
 				<Property Name="Music Transition List\{F8F3ADFD-3C5C-4BE2-84C4-6543F8413903}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\FirstVisible_10_1" Type="string" Value="{4C96B38B-3DB4-40C7-91C9-665510E38993}"/>
 				<Property Name="ProjectExplorer\FirstVisible_11_1" Type="string" Value="{23EC2DE3-3ED8-4B82-AC99-92E25F2E4C6B}"/>
-				<Property Name="ProjectExplorer\FirstVisible_1_1" Type="string" Value="{2388DAEA-9775-46C6-A2ED-C5222A397756}"/>
+				<Property Name="ProjectExplorer\FirstVisible_1_1" Type="string" Value="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
 				<Property Name="ProjectExplorer\FirstVisible_3_1" Type="string" Value="{A69BF0FC-D84A-487C-ABDD-56F71CB2A126}"/>
 				<Property Name="ProjectExplorer\FirstVisible_4_1" Type="string" Value="{CB6175F1-6080-4A23-92EF-0807E304D0C1}"/>
 				<Property Name="ProjectExplorer\FirstVisible_6_1" Type="string" Value="{C98E673F-A24C-48A8-960F-10565FFE70A0}"/>
 				<Property Name="ProjectExplorer\FirstVisible_8_1" Type="string" Value="{41093F77-829F-4D88-8601-E8B25F3D4781}"/>
 				<Property Name="ProjectExplorer\x64_Expanded_10_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_11_1" Type="string" Value=""/>
-				<Property Name="ProjectExplorer\x64_Expanded_12_1" Type="string" Value="8Pn2DoUjtESiGSG6wAYWyPl+MiFpPVRIrVgAcKqOAXoQbQS+2prWSrN7eCFoL+nZcq02cWZFdEy2K8B3l7Yuc2x4Sbohj6xMp1dYo52kuwhS9pKAdQSnTrVCZmcdD9bO"/>
+				<Property Name="ProjectExplorer\x64_Expanded_12_1" Type="string" Value="R6tCSdI4a0GhuS2ry5LOgfD59g6FI7REohkhusAGFsimemNJO3YdTL8/wwwjaX/ccq02cWZFdEy2K8B3l7Yuc2x4Sbohj6xMp1dYo52kuwhS9pKAdQSnTrVCZmcdD9bO0R5YgK5b106Go0ZBa2+fxg=="/>
 				<Property Name="ProjectExplorer\x64_Expanded_13_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_14_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_15_1" Type="string" Value=""/>
