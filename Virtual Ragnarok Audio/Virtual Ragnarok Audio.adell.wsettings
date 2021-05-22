@@ -3,7 +3,7 @@
 	<UserProjectSettingsInfo>
 		<UserProjectSettings Name="" ID="{AFFB5E04-9022-48AF-878F-A0ABA33B72E9}">
 			<PropertyList>
-				<Property Name="AudioFilesImporter\Path" Type="string" Value="C:\Users\adell\Documents\GitHub\Wwise-project\Virtual Ragnarok Audio\Originals\SFX\Cinematic Music\"/>
+				<Property Name="AudioFilesImporter\Path" Type="string" Value="C:\Users\adell\Documents\GitHub\Wwise-project\Virtual Ragnarok Audio\Originals\SFX\Combat Music B\"/>
 				<Property Name="EventView\FilterMode1" Type="int32" Value="2"/>
 				<Property Name="ExternalSourcesInputPath" Type="string">
 					<ValueList>
@@ -89,14 +89,14 @@
 				<Property Name="Music Transition List\{F8F3ADFD-3C5C-4BE2-84C4-6543F8413903}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\FirstVisible_10_1" Type="string" Value="{4C96B38B-3DB4-40C7-91C9-665510E38993}"/>
 				<Property Name="ProjectExplorer\FirstVisible_11_1" Type="string" Value="{23EC2DE3-3ED8-4B82-AC99-92E25F2E4C6B}"/>
-				<Property Name="ProjectExplorer\FirstVisible_1_1" Type="string" Value="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+				<Property Name="ProjectExplorer\FirstVisible_1_1" Type="string" Value="{2388DAEA-9775-46C6-A2ED-C5222A397756}"/>
 				<Property Name="ProjectExplorer\FirstVisible_3_1" Type="string" Value="{A69BF0FC-D84A-487C-ABDD-56F71CB2A126}"/>
 				<Property Name="ProjectExplorer\FirstVisible_4_1" Type="string" Value="{CB6175F1-6080-4A23-92EF-0807E304D0C1}"/>
 				<Property Name="ProjectExplorer\FirstVisible_6_1" Type="string" Value="{C98E673F-A24C-48A8-960F-10565FFE70A0}"/>
 				<Property Name="ProjectExplorer\FirstVisible_8_1" Type="string" Value="{41093F77-829F-4D88-8601-E8B25F3D4781}"/>
 				<Property Name="ProjectExplorer\x64_Expanded_10_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_11_1" Type="string" Value=""/>
-				<Property Name="ProjectExplorer\x64_Expanded_12_1" Type="string" Value="R6tCSdI4a0GhuS2ry5LOgfD59g6FI7REohkhusAGFsimemNJO3YdTL8/wwwjaX/ccq02cWZFdEy2K8B3l7Yuc2x4Sbohj6xMp1dYo52kuwhS9pKAdQSnTrVCZmcdD9bO0R5YgK5b106Go0ZBa2+fxg=="/>
+				<Property Name="ProjectExplorer\x64_Expanded_12_1" Type="string" Value="R6tCSdI4a0GhuS2ry5LOgVUN7NEmCiJFtcrrKsYa50P9rfP4XDziS4TEZUP4QTkDpnpjSTt2HUy/P8MMI2l/3HKtNnFmRXRMtivAd5e2LnNseEm6IY+sTKdXWKOdpLsIUvaSgHUEp061QmZnHQ/WztEeWICuW9dOhqNGQWtvn8Y="/>
 				<Property Name="ProjectExplorer\x64_Expanded_13_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_14_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_15_1" Type="string" Value=""/>
