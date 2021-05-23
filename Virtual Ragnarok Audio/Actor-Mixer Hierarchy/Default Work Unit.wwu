@@ -13284,7 +13284,7 @@
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-15</Value>
+												<Value>-3</Value>
 											</ValueList>
 											<RTPCList>
 												<RTPC Name="" ID="{79EB8AEA-840B-497D-B871-47864E5E30C3}" ShortID="278556268">
@@ -13348,7 +13348,7 @@
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-14</Value>
+												<Value>-3</Value>
 											</ValueList>
 											<RTPCList>
 												<RTPC Name="" ID="{8DCF3C1A-C998-4681-9D5C-CFF20F8C5F47}" ShortID="272165705">
@@ -13412,7 +13412,7 @@
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-17</Value>
+												<Value>-6</Value>
 											</ValueList>
 											<RTPCList>
 												<RTPC Name="" ID="{2755312D-066F-45E8-9982-1680B670285E}" ShortID="505375620">
