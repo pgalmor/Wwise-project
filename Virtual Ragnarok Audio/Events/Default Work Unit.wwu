@@ -61,7 +61,7 @@
 							<ChildrenList>
 								<Action Name="" ID="{DA865B4F-063B-49B1-9AAD-EB08EFB2971F}" ShortID="82322660">
 									<PropertyList>
-										<Property Name="Probability" Type="Real64" Value="80"/>
+										<Property Name="Probability" Type="Real64" Value="50"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
@@ -695,6 +695,17 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="geyser" ID="{BE5A8F9A-1FCC-4B19-AF63-A97D1FF768F9}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Spike_Trap" ID="{24D63F32-B13A-4C80-A88C-B97987FC6722}">
+							<ChildrenList>
+								<Action Name="" ID="{0B66C3C5-61EB-401D-9AC9-9575EE7AF520}" ShortID="230657966">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="spike trap" ID="{05D117E6-502E-47E0-B9DA-24AA97A1CD4B}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
