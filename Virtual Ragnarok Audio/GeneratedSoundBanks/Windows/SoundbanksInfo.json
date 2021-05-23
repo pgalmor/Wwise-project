@@ -5,11 +5,11 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "135",
   "RootPaths": {
-   "ProjectRoot": "C:\\Users\\admin\\Documents\\GitHub\\Wwise-project\\Virtual Ragnarok Audio\\",
-   "SourceFilesRoot": "C:\\Users\\admin\\Documents\\GitHub\\Wwise-project\\Virtual Ragnarok Audio\\.cache\\Windows\\",
-   "SoundBanksRoot": "C:\\Users\\admin\\Documents\\GitHub\\Wwise-project\\Virtual Ragnarok Audio\\GeneratedSoundBanks\\Windows\\",
+   "ProjectRoot": "C:\\Users\\adell\\Documents\\GitHub\\Wwise-project\\Virtual Ragnarok Audio\\",
+   "SourceFilesRoot": "C:\\Users\\adell\\Documents\\GitHub\\Wwise-project\\Virtual Ragnarok Audio\\.cache\\Windows\\",
+   "SoundBanksRoot": "C:\\Users\\adell\\Documents\\GitHub\\Wwise-project\\Virtual Ragnarok Audio\\GeneratedSoundBanks\\Windows\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "C:\\Users\\admin\\Documents\\GitHub\\Wwise-project\\Virtual Ragnarok Audio\\GeneratedSoundBanks\\Windows"
+   "ExternalSourcesOutputRoot": "C:\\Users\\adell\\Documents\\GitHub\\Wwise-project\\Virtual Ragnarok Audio\\GeneratedSoundBanks\\Windows"
   },
   "DialogueEvents": [],
   "StreamedFiles": [],
@@ -18,7 +18,7 @@
    {
     "Id": "225682233",
     "Language": "SFX",
-    "Hash": "4104646272",
+    "Hash": "2257179460",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Skytrooper",
     "ShortName": "Skytrooper",
     "Path": "Skytrooper.bnk",
@@ -182,7 +182,7 @@
    {
     "Id": "833070093",
     "Language": "SFX",
-    "Hash": "2257730582",
+    "Hash": "3432519846",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Stormtrooper",
     "ShortName": "Stormtrooper",
     "Path": "Stormtrooper.bnk",
@@ -371,7 +371,7 @@
    {
     "Id": "913881297",
     "Language": "SFX",
-    "Hash": "2145214658",
+    "Hash": "1428905833",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Wampa_Skell",
     "ShortName": "Wampa_Skell",
     "Path": "Wampa_Skell.bnk",
@@ -835,7 +835,7 @@
    {
     "Id": "1019160887",
     "Language": "SFX",
-    "Hash": "106327431",
+    "Hash": "2626072154",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Heavytrooper",
     "ShortName": "Heavytrooper",
     "Path": "Heavytrooper.bnk",
@@ -1061,7 +1061,7 @@
    {
     "Id": "1063759122",
     "Language": "SFX",
-    "Hash": "1372765773",
+    "Hash": "1015088208",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Moff_Gideon",
     "ShortName": "Moff_Gideon",
     "Path": "Moff_Gideon.bnk",
@@ -1419,7 +1419,7 @@
    {
     "Id": "1093318992",
     "Language": "SFX",
-    "Hash": "430967443",
+    "Hash": "5554035",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Mando",
     "ShortName": "Mando",
     "Path": "Mando.bnk",
@@ -2095,7 +2095,7 @@
    {
     "Id": "1229948536",
     "Language": "SFX",
-    "Hash": "3482951119",
+    "Hash": "2650427641",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Environment",
     "ShortName": "Environment",
     "Path": "Environment.bnk",
@@ -2260,7 +2260,7 @@
    {
     "Id": "1551306167",
     "Language": "SFX",
-    "Hash": "3528797385",
+    "Hash": "1645645043",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\UI",
     "ShortName": "UI",
     "Path": "UI.bnk",
@@ -2506,7 +2506,7 @@
    {
     "Id": "2674766611",
     "Language": "SFX",
-    "Hash": "40657479",
+    "Hash": "2398499508",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Turret",
     "ShortName": "Turret",
     "Path": "Turret.bnk",
@@ -2612,7 +2612,7 @@
    {
     "Id": "3049191116",
     "Language": "SFX",
-    "Hash": "1756636871",
+    "Hash": "420412516",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Rancor",
     "ShortName": "Rancor",
     "Path": "Rancor.bnk",
@@ -2942,7 +2942,7 @@
    {
     "Id": "3363384534",
     "Language": "SFX",
-    "Hash": "3805461938",
+    "Hash": "725472856",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Deathtrooper",
     "ShortName": "Deathtrooper",
     "Path": "Deathtrooper.bnk",
@@ -3174,7 +3174,7 @@
    {
     "Id": "3434002875",
     "Language": "SFX",
-    "Hash": "4118761397",
+    "Hash": "1178120004",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Cantine",
     "ShortName": "Cantine",
     "Path": "Cantine.bnk",
@@ -3258,7 +3258,7 @@
    {
     "Id": "3795682265",
     "Language": "SFX",
-    "Hash": "1248434596",
+    "Hash": "299955340",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Bantha",
     "ShortName": "Bantha",
     "Path": "Bantha.bnk",
@@ -3475,7 +3475,7 @@
    {
     "Id": "3991942870",
     "Language": "SFX",
-    "Hash": "920425376",
+    "Hash": "749707367",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Music",
     "ShortName": "Music",
     "Path": "Music.bnk",
@@ -4197,7 +4197,7 @@
    {
     "Id": "4179269225",
     "Language": "SFX",
-    "Hash": "3975830651",
+    "Hash": "390017930",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Grogu",
     "ShortName": "Grogu",
     "Path": "Grogu.bnk",
