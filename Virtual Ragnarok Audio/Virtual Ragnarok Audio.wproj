@@ -11785,42 +11785,6 @@
 				<PhysicalFolder Path="Actor-Mixer Hierarchy">
 					<WorkUnit Name="Actor-Mixer Hierarchy" ID="{5EA7BBF8-64C0-4A50-8821-A07E8BE21D68}" PersistMode="Standalone"/>
 				</PhysicalFolder>
-				<PhysicalFolder Path="Actor-Mixer Hierarchy\_cache">
-					<WorkUnit Name="_cache" ID="{C0FDEB53-E51B-49BE-8181-84FD17FE36B3}" PersistMode="Standalone"/>
-				</PhysicalFolder>
-				<PhysicalFolder Path="Actor-Mixer Hierarchy\_cache\Windows">
-					<WorkUnit Name="Windows" ID="{9E7BA7B2-DC07-4A98-9CDC-F1894B85F8CD}" PersistMode="Standalone"/>
-				</PhysicalFolder>
-				<PhysicalFolder Path="Actor-Mixer Hierarchy\_cache\Windows\Plugins">
-					<WorkUnit Name="Plugins" ID="{CA1FD48B-5EBF-4070-ACDC-B9A9A658672E}" PersistMode="Standalone"/>
-				</PhysicalFolder>
-				<PhysicalFolder Path="Actor-Mixer Hierarchy\_cache\Windows\Plugins\iZotope Hybrid Reverb">
-					<WorkUnit Name="iZotope Hybrid Reverb" ID="{EAFB711F-123D-4A73-B263-48D626459288}" PersistMode="Standalone"/>
-				</PhysicalFolder>
-				<PhysicalFolder Path="Actor-Mixer Hierarchy\_cache\Windows\SFX">
-					<WorkUnit Name="SFX" ID="{C5F97E49-F626-40D4-B3A7-9E6D6E38BD37}" PersistMode="Standalone"/>
-				</PhysicalFolder>
-				<PhysicalFolder Path="Actor-Mixer Hierarchy\_cache\Windows\SFX\Combat Music A">
-					<WorkUnit Name="Combat Music A" ID="{500D27C2-8A7E-4F20-919F-03E348F12D55}" PersistMode="Standalone"/>
-				</PhysicalFolder>
-				<PhysicalFolder Path="Actor-Mixer Hierarchy\_cache\Windows\SFX\Combat Music B">
-					<WorkUnit Name="Combat Music B" ID="{09DACA65-E4DB-476F-B936-1C79D80BA762}" PersistMode="Standalone"/>
-				</PhysicalFolder>
-				<PhysicalFolder Path="Actor-Mixer Hierarchy\_cache\Windows\SFX\Combat Music C">
-					<WorkUnit Name="Combat Music C" ID="{E2EA879C-3088-41B7-9B54-D5DCFF0FAACA}" PersistMode="Standalone"/>
-				</PhysicalFolder>
-				<PhysicalFolder Path="Actor-Mixer Hierarchy\_cache\Windows\SFX\Explore Music A">
-					<WorkUnit Name="Explore Music A" ID="{5302E8A4-F065-4C27-9C81-C880BB6CF9E7}" PersistMode="Standalone"/>
-				</PhysicalFolder>
-				<PhysicalFolder Path="Actor-Mixer Hierarchy\_cache\Windows\SFX\Explore Music B">
-					<WorkUnit Name="Explore Music B" ID="{A6C3C43A-B510-4515-8F9A-4DF16A804FB2}" PersistMode="Standalone"/>
-				</PhysicalFolder>
-				<PhysicalFolder Path="Actor-Mixer Hierarchy\_cache\Windows\SFX\Memory OP Combat Music">
-					<WorkUnit Name="Memory OP Combat Music" ID="{F4BF613D-7445-43EB-823B-DB3B405752BD}" PersistMode="Standalone"/>
-				</PhysicalFolder>
-				<PhysicalFolder Path="Actor-Mixer Hierarchy\_cache\Windows\SFX\Moff Gideon">
-					<WorkUnit Name="Moff Gideon" ID="{F5868392-BBFB-48EC-BE6D-AF5A099FAA8A}" PersistMode="Standalone"/>
-				</PhysicalFolder>
 				<PhysicalFolder Path="Attenuations">
 					<WorkUnit Name="Attenuations" ID="{017BDDA0-1BB1-4CE1-8077-79594EC4585C}" PersistMode="Standalone"/>
 				</PhysicalFolder>
