@@ -442,10 +442,10 @@
 										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
 										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
 										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.2"/>
-										<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-24</Value>
+												<Value>-21</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -2545,7 +2545,7 @@
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-26</Value>
+												<Value>-37</Value>
 											</ValueList>
 											<RTPCList>
 												<RTPC Name="" ID="{BFFFBE44-46FE-490F-9124-2526D26835F0}" ShortID="726254400">
@@ -2631,7 +2631,7 @@
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-39</Value>
+												<Value>-42</Value>
 											</ValueList>
 											<RTPCList>
 												<RTPC Name="" ID="{4D9D04F1-93E9-4102-9D94-85BC800ECC3C}" ShortID="578630408">
@@ -7585,7 +7585,7 @@
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-8</Value>
+										<Value>-10</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -7769,7 +7769,7 @@
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-23</Value>
+										<Value>-28</Value>
 									</ValueList>
 									<RTPCList>
 										<RTPC Name="" ID="{98E3D19A-56A2-4349-AA89-8FC12C0EDBC6}" ShortID="725512242">
@@ -7834,7 +7834,7 @@
 								<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-22</Value>
+										<Value>-25</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -8081,6 +8081,9 @@
 								<Sound Name="Stormtrooper armor hit 1" ID="{7F455132-EB8B-4091-A5B6-D0B603651636}" ShortID="906317713">
 									<PropertyList>
 										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
 											<RTPCList>
 												<RTPC Name="" ID="{B84E1572-F83E-45DD-8513-05F38B6E104A}" ShortID="1018563097">
 													<ReferenceList>
@@ -8138,9 +8141,6 @@
 								<Sound Name="Stormtrooper armor hit 2" ID="{0E390D33-5596-4C33-96D2-F1B9511F3629}" ShortID="775384567">
 									<PropertyList>
 										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>4</Value>
-											</ValueList>
 											<RTPCList>
 												<RTPC Name="" ID="{4170A72B-4B00-4674-9469-A3F8E4FE135D}" ShortID="706490812">
 													<ReferenceList>
@@ -11326,7 +11326,7 @@
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-24</Value>
+										<Value>-33</Value>
 									</ValueList>
 									<RTPCList>
 										<RTPC Name="" ID="{B5BCBA21-2EC6-4C69-A46E-D0ACD030371E}" ShortID="298002573">
@@ -13756,7 +13756,7 @@
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-12</Value>
+										<Value>-20</Value>
 									</ValueList>
 									<RTPCList>
 										<RTPC Name="" ID="{A004CA4D-417A-43DC-9C70-922CE46A92A8}" ShortID="566406661">
@@ -13821,7 +13821,7 @@
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-13</Value>
+										<Value>-20</Value>
 									</ValueList>
 									<RTPCList>
 										<RTPC Name="" ID="{6D7A3D37-6A01-4173-AB0E-4E69FFADDAF3}" ShortID="636878166">
@@ -13885,7 +13885,7 @@
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-12</Value>
+										<Value>-17</Value>
 									</ValueList>
 									<RTPCList>
 										<RTPC Name="" ID="{8DA21F8D-BCD1-4D63-B599-B38D977C3284}" ShortID="456045462">
@@ -14150,7 +14150,7 @@
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-18</Value>
+										<Value>-17</Value>
 									</ValueList>
 									<RTPCList>
 										<RTPC Name="" ID="{29094507-2FA3-43DE-B68B-FA0D37BA7EBC}" ShortID="983238802">
@@ -14758,7 +14758,7 @@
 								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-19</Value>
+										<Value>-22</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
