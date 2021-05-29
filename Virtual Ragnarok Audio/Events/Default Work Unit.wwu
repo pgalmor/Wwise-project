@@ -151,17 +151,6 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Play_Mando_Grenade_Explosion_2" ID="{2029F31A-295C-437F-A344-A8C32F99542D}">
-							<ChildrenList>
-								<Action Name="" ID="{03B92962-FFC7-4426-92AE-FE028DFCEFB6}" ShortID="319905677">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Grenade explosion 2" ID="{F9DCA93F-7096-42A1-B282-8C18BCA2A8F9}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
 						<Event Name="Play_Mando_Clean_Room_Voice" ID="{82A047F6-E7E4-4BC3-930C-A8EFB8BA02C6}">
 							<ChildrenList>
 								<Action Name="" ID="{75D0F58E-7174-43E3-A984-4C397E21F772}" ShortID="768002223">
@@ -179,17 +168,6 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Footsteps metal platform" ID="{601E5E36-55E4-4F65-8501-073E915D2F4F}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_Mando_Grenade_Explosion_1" ID="{10ED6EE5-617D-41C7-A8B3-65A87FC693D6}">
-							<ChildrenList>
-								<Action Name="" ID="{72CA39E2-0594-437A-9D7A-CF9FE594BEB5}" ShortID="1010895886">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Grenade explosion 1" ID="{3827BA8A-9D63-4EB6-8130-88D328858E06}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -333,17 +311,6 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Mando wall command" ID="{CE15448B-C082-47EC-A7BC-4C191D58CCEE}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_Mando_Pull_Command" ID="{EAF0263A-C3D1-4DDC-9143-D2AF182654BC}">
-							<ChildrenList>
-								<Action Name="" ID="{FED8B09E-F9AC-4174-8285-09F91931C794}" ShortID="859670595">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Mando pull command" ID="{A69DC403-D68F-4155-B57F-E9EE1994A3F4}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -627,17 +594,6 @@
 				</Folder>
 				<Folder Name="Environment" ID="{8C060D61-9283-4117-BA2F-B10596916A2B}" ShortID="952097035">
 					<ChildrenList>
-						<Event Name="Play_Broken_Box" ID="{B7AFA03E-0C3C-40E4-A0C8-F7EBEC308FF0}">
-							<ChildrenList>
-								<Action Name="" ID="{02BB507F-90E0-4DB5-B2FC-8E2D3D8D67E7}" ShortID="935546817">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Wood box broken" ID="{0F585902-EE5C-437A-A2E5-44C5A8CC541F}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
 						<Event Name="Play_Post_Boss_Room_1_Ambience" ID="{CE2C346C-B29E-492E-9592-197A5352B614}">
 							<ChildrenList>
 								<Action Name="" ID="{A7C04327-A860-4122-BA5A-A239A841F34F}" ShortID="75025437">
@@ -730,17 +686,6 @@
 				</Folder>
 				<Folder Name="Grogu" ID="{DE67074E-2935-4589-824E-BA24C774D9D6}" ShortID="143948268">
 					<ChildrenList>
-						<Event Name="Play_Force_Pull" ID="{670C1E72-7053-407F-B03F-66CB468A97DC}">
-							<ChildrenList>
-								<Action Name="" ID="{423D6B92-3D9C-471D-9459-FA6D29DE76CE}" ShortID="765005816">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Force pull" ID="{203733BB-6FBB-4B2C-A327-72686A7C8546}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
 						<Event Name="Play_Force_Push" ID="{757E8D82-96B6-4D41-BFEE-F7D45EE945B1}">
 							<ChildrenList>
 								<Action Name="" ID="{D38E87E7-311C-4B2D-BA81-4D4BE269B0D8}" ShortID="146494131">

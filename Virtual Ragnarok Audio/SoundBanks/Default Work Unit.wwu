@@ -34,7 +34,6 @@
 						<ObjectRef Name="Play_Sniper_Cooldown_Finish" ID="{310FC4BC-EF02-4CAE-A90E-70C44B90C9F6}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Mando_Grenade_Throw" ID="{E878E643-E6F9-4CAF-8F5E-591199080017}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Mando_Blaster_Overcharged" ID="{DBB01673-592D-4CBC-A2ED-F5AFD9B0AAEF}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_Mando_Pull_Command" ID="{EAF0263A-C3D1-4DDC-9143-D2AF182654BC}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Resume_Object" ID="{B3E49AD5-6A93-4EB1-9837-0321993DA353}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
@@ -121,7 +120,6 @@
 				</SoundBank>
 				<SoundBank Name="Grogu" ID="{790887D5-33B9-4897-8398-4713F6104627}">
 					<ObjectInclusionList>
-						<ObjectRef Name="Play_Force_Pull" ID="{670C1E72-7053-407F-B03F-66CB468A97DC}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Grogu_Cheering" ID="{9310E593-A742-4548-8C29-048B9BAF8A22}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Grogu_Wall" ID="{90727D99-8C47-463E-BA4B-647E27D4BB41}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
