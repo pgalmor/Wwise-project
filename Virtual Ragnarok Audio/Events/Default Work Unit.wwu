@@ -590,6 +590,39 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_UI_Skill_Tree_Close" ID="{1DDB12E4-FAB7-4FF2-A986-D63AFFF5DE26}">
+							<ChildrenList>
+								<Action Name="" ID="{4F8D5910-38A4-4738-A3EA-6AEACFAC0B6D}" ShortID="213491691">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI Skill tree close" ID="{04DD88D9-11CD-4D32-B3A2-BDA09C95232B}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_UI_Skill_Tree_Lock" ID="{5D383375-0C35-463E-BCB1-B43BDBCB79F5}">
+							<ChildrenList>
+								<Action Name="" ID="{7ABE3415-5CEA-4221-857B-0A8D97270DFB}" ShortID="1050136687">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI skill tree cancel" ID="{CCC94E8B-00CE-4BE0-8381-3212A6719260}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_UI_Shop_Open" ID="{27335562-CB99-4C9D-82E6-75216AC05D49}">
+							<ChildrenList>
+								<Action Name="" ID="{E7E92DC8-896C-4210-81C8-11538D39F813}" ShortID="775744836">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI shop opened" ID="{87EB0609-BD99-40CD-A427-22C83C6E9BB8}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Environment" ID="{8C060D61-9283-4117-BA2F-B10596916A2B}" ShortID="952097035">
@@ -662,6 +695,50 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="spike trap" ID="{05D117E6-502E-47E0-B9DA-24AA97A1CD4B}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Level_1_Ambience" ID="{09591A3F-3E15-4D22-B6A9-28EE65A9518B}">
+							<ChildrenList>
+								<Action Name="" ID="{CC14026E-3816-454C-BB33-B7BE1445A06A}" ShortID="661586057">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Wind Exterior level 1" ID="{E4DC72E6-C0B9-43FA-B385-98BE11EE535C}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Level_2_Ambience" ID="{62710919-A236-4E72-BFE3-931EF15B06C8}">
+							<ChildrenList>
+								<Action Name="" ID="{DB7E74DD-9B10-4D09-B39E-122428C06CB0}" ShortID="483432647">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Wind Exterior level 2" ID="{A01B9148-107F-4288-B986-7DAF0258360C}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Rancor_Ambience" ID="{D9009BAD-228F-4D99-9FD5-507BF7E62345}">
+							<ChildrenList>
+								<Action Name="" ID="{2791F06A-AFFD-4AFE-AA4E-61E60A5EDFA3}" ShortID="759076375">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Wind Cave Rancor" ID="{FFEE3C61-F5A0-4750-9011-860FC7B6CB53}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Wampa_Skel_Ambience" ID="{903CC2C3-38B9-4364-B55C-E9B92794FB11}">
+							<ChildrenList>
+								<Action Name="" ID="{F0E3D32B-9670-4CFB-B9FB-F3F653CC8E58}" ShortID="886034319">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Wind Cave Wampa Skel" ID="{08C4D8E9-A450-440E-A074-3F603033A431}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -1271,6 +1348,17 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="turret destruction" ID="{5547E0D0-5ACA-4280-9E7F-6A33A3AD6116}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Turret_Hit" ID="{90614B3F-F236-4F14-AC83-AD14B962B810}">
+							<ChildrenList>
+								<Action Name="" ID="{643312FF-2E6B-462C-948E-5F8BE2FB056D}" ShortID="421597432">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Turret hit" ID="{0B4977EE-22B2-4FC7-A883-2E696CA8835B}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
