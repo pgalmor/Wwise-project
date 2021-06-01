@@ -623,6 +623,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_Shop_Purchase" ID="{6D9D0EB9-61B4-4F01-9CAF-AA6C29D79F1D}">
+							<ChildrenList>
+								<Action Name="" ID="{846FAF1A-EC4C-4A98-8908-949C18E19593}" ShortID="567645154">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Shop Purchase" ID="{2346EDA6-ACAD-4A48-AA91-5679A74F27C5}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Environment" ID="{8C060D61-9283-4117-BA2F-B10596916A2B}" ShortID="952097035">
