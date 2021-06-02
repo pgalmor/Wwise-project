@@ -327,6 +327,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_Sniper_Hit" ID="{0A60EA1D-EBE7-4BE3-BA59-6B9AD91851F8}">
+							<ChildrenList>
+								<Action Name="" ID="{569B7AE2-BE2C-4753-9432-DEBFC33E9689}" ShortID="355156186">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Sniper_Hit" ID="{BBE1A216-3D80-4D7D-837A-1712402C56BC}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Bantha" ID="{FA6AEF98-09DC-4D8D-96DA-FEA40FD0647A}" ShortID="121923056">
@@ -395,6 +406,17 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Bantha tired breath" ID="{FA780017-A305-43F7-A367-22658284ED71}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Bantha_Prepare_Charge" ID="{C212CA0A-20DB-410C-86D9-BE6F697D1926}">
+							<ChildrenList>
+								<Action Name="" ID="{EFD544A6-CB05-40A3-8C4D-DB35C3DE6098}" ShortID="748497598">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Bantha_Charge_Prepare" ID="{A6B038EF-47C3-498F-A46C-53CF293D43E2}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -835,6 +857,28 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Cantine plates and glasses" ID="{BB08EDDD-ADF7-4C72-B08D-05DCA7F20A9B}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Female_Popup" ID="{17F883D6-965B-49F7-91C9-E84782DB8A22}">
+							<ChildrenList>
+								<Action Name="" ID="{56F6165D-0913-4175-B5A2-D8A702803803}" ShortID="252543330">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Female Reaction" ID="{26E236AB-14E9-416F-A97A-685DF14EDE25}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Male_Popup" ID="{2DB67E33-0ADB-4A26-A008-9F38692BA160}">
+							<ChildrenList>
+								<Action Name="" ID="{7A661559-875D-4416-AD2F-097E50A9D701}" ShortID="384947243">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Male Reaction" ID="{786D616A-C797-40DF-9818-96C1D36363E3}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

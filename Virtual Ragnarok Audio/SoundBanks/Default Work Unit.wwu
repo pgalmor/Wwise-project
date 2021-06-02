@@ -29,6 +29,7 @@
 						<ObjectRef Name="Play_Mando_Grenade_Pulse_Wave" ID="{9EDBD5A0-D5F6-4B60-8A45-CE6477B1AAD7}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Mando_Clean_Room_Voice" ID="{82A047F6-E7E4-4BC3-930C-A8EFB8BA02C6}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Pause_Object" ID="{257203BA-872A-4BD2-9340-B10FBEB45376}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Sniper_Hit" ID="{0A60EA1D-EBE7-4BE3-BA59-6B9AD91851F8}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Mando_Hit" ID="{FBDC3730-6B53-4C2F-B93A-451E05E078F2}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_Object" ID="{378C77F3-FD97-4C7E-B169-7A27282200DE}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Sniper_Cooldown_Finish" ID="{310FC4BC-EF02-4CAE-A90E-70C44B90C9F6}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
@@ -72,6 +73,7 @@
 				</SoundBank>
 				<SoundBank Name="Bantha" ID="{77BD7A02-1BFC-4A35-8DD5-41BE5C1E663E}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Play_Bantha_Prepare_Charge" ID="{C212CA0A-20DB-410C-86D9-BE6F697D1926}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Growl_Bantha_Death" ID="{18B6FF9C-B909-4293-873D-5E326AA394A8}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Growl_Bantha_Hit" ID="{A5A80DC8-AF4F-42AE-9EAB-6879F3835D30}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
@@ -168,6 +170,8 @@
 				<SoundBank Name="Cantine" ID="{3A614D5C-0BC6-4626-960C-F5F3820A70F1}">
 					<ObjectInclusionList>
 						<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Female_Popup" ID="{17F883D6-965B-49F7-91C9-E84782DB8A22}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Male_Popup" ID="{2DB67E33-0ADB-4A26-A008-9F38692BA160}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Pause_Object" ID="{257203BA-872A-4BD2-9340-B10FBEB45376}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_Object" ID="{378C77F3-FD97-4C7E-B169-7A27282200DE}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Cantine_Ambience" ID="{DD2CD7DB-0234-4D1C-92E9-61CE507B0499}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>

@@ -3678,6 +3678,233 @@
 								<ActiveSource Name="Mando wall command" ID="{CC700D5F-AC28-427C-9D43-FE4971CAD45B}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<RandomSequenceContainer Name="Sniper_Hit" ID="{BBE1A216-3D80-4D7D-837A-1712402C56BC}" ShortID="180075114">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="SniperHit1" ID="{EA15E21F-8D5F-4CD3-A46F-2173E18F7756}" ShortID="265730643">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{697DE427-DE28-40D8-ABAF-B54079A22D9A}" ShortID="63338264">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{6579EB6C-133F-4058-B410-A47C10D15E17}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SniperHit1" ID="{53F48A81-1006-4E30-97E2-183707DCDCC0}">
+											<Language>SFX</Language>
+											<AudioFile>SniperHit1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="46328240"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SniperHit1" ID="{53F48A81-1006-4E30-97E2-183707DCDCC0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SniperHit2" ID="{AD4FC307-91B9-47E2-BB88-47948E74B080}" ShortID="490552637">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{7E1EB94F-5EED-49B1-A763-F472A783A0C8}" ShortID="509933315">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{CC1E4EF7-8C47-45D1-840B-6342B3CEDD6A}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SniperHit2" ID="{84C83EAD-C701-462A-907A-FEBB5C44F6BC}">
+											<Language>SFX</Language>
+											<AudioFile>SniperHit2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="324695883"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SniperHit2" ID="{84C83EAD-C701-462A-907A-FEBB5C44F6BC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SniperHit3" ID="{8F0BCBA7-D1F5-4592-B5C2-24B0366E32C6}" ShortID="448308240">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{BADF20D3-0C80-49E1-8025-DB2F8C815052}" ShortID="1023429986">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{2E517B02-FB40-438C-89E2-A35F8E9ED2D3}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SniperHit3" ID="{4FF29CED-0C77-4C2C-A523-E7187C3CC164}">
+											<Language>SFX</Language>
+											<AudioFile>SniperHit3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="703082497"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SniperHit3" ID="{4FF29CED-0C77-4C2C-A523-E7187C3CC164}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SniperHit4" ID="{ADF92955-D368-4EFA-9CBF-8FE3EE68C478}" ShortID="91277429">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{2E278055-7175-46DC-BB5C-6983452F427D}" ShortID="565923516">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{C4D4CF90-B34B-46D6-A57B-F6C5E8695CC7}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SniperHit4" ID="{2BCB168C-4841-4ABE-A5B6-418E9C175A60}">
+											<Language>SFX</Language>
+											<AudioFile>SniperHit4.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="398531261"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SniperHit4" ID="{2BCB168C-4841-4ABE-A5B6-418E9C175A60}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Environment" ID="{36AF372A-C793-42A6-BF55-F7FC1D1746C4}" ShortID="44594731">
@@ -5679,6 +5906,129 @@
 								<ActiveSource Name="Bantha tired breath" ID="{F5C5FAFA-FD77-4841-A6DD-DEAEEB02145F}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<RandomSequenceContainer Name="Bantha_Charge_Prepare" ID="{A6B038EF-47C3-498F-A46C-53CF293D43E2}" ShortID="644082717">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-12</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="BanthaPrepareAttack1" ID="{6EB2C95F-3A0B-4143-ADDD-44445B4B1418}" ShortID="137074337">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{C6EF125B-40CE-44A2-8ACB-546627287123}" ShortID="226938066">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{92D700C9-FA26-476C-8E0A-763EEA88DE61}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BanthaPrepareAttack1" ID="{8024D3F2-3F85-4FC8-96AB-C913146B9926}">
+											<Language>SFX</Language>
+											<AudioFile>BanthaPrepareAttack1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="132250433"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BanthaPrepareAttack1" ID="{8024D3F2-3F85-4FC8-96AB-C913146B9926}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BanthaPrepareAttack2" ID="{CF6188F6-677D-449B-8307-3CE824F4D6A2}" ShortID="567884833">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{1F4EB523-D791-4F09-B5F0-4FF2C1742069}" ShortID="726829976">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{5D8A9BBD-AAE7-47D4-BD29-B80908C75F75}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BanthaPrepareAttack2" ID="{16D320BE-2088-4707-9556-C3C49CC72BB9}">
+											<Language>SFX</Language>
+											<AudioFile>BanthaPrepareAttack2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="204438246"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BanthaPrepareAttack2" ID="{16D320BE-2088-4707-9556-C3C49CC72BB9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="UI" ID="{A5F52EDE-F32D-4C90-91AD-CE2FBB1CB5C7}" ShortID="728832589">
@@ -8567,6 +8917,342 @@
 									</ChildrenList>
 									<ActiveSourceList>
 										<ActiveSource Name="Cantine plates and glasses 4" ID="{0550334D-C0FF-49E4-A3D1-F1154D720881}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Male Reaction" ID="{786D616A-C797-40DF-9818-96C1D36363E3}" ShortID="140096307">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="VoiceMale1" ID="{09E88739-466E-467A-86F4-3FC54E8AE6A4}" ShortID="139256759">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{215BBE17-C1F0-40DA-803E-3BF96A446321}" ShortID="909831453">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{57F64453-8990-48D1-971E-B83584F4ABDB}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="VoiceMale1" ID="{6CFE03C7-C229-4CED-AA84-5B7E2C014A15}">
+											<Language>SFX</Language>
+											<AudioFile>VoiceMale1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="172591438"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="VoiceMale1" ID="{6CFE03C7-C229-4CED-AA84-5B7E2C014A15}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="VoiceMale2" ID="{9CA19536-B654-4D1E-AF11-C1BAFF472014}" ShortID="242199533">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{C6681B68-D895-4F29-A995-3B99DD7806DD}" ShortID="673940050">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{70AAAEDE-6792-48DF-982E-3B403A5BED37}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="VoiceMale2" ID="{CC5CEC40-A9FE-45BE-87A1-0450CF60FF80}">
+											<Language>SFX</Language>
+											<AudioFile>VoiceMale2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="102273018"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="VoiceMale2" ID="{CC5CEC40-A9FE-45BE-87A1-0450CF60FF80}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="VoiceMale3" ID="{FEAFA63B-4F1A-42BA-B6C5-4BFBDEE04158}" ShortID="961695984">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{9EE62360-E806-438E-9D9F-F199B4B882DE}" ShortID="770641689">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{958E2E3C-D501-403F-A946-690C32429EBC}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="VoiceMale3" ID="{5DD5BFC0-24AE-432A-B971-51DAE0D99AFD}">
+											<Language>SFX</Language>
+											<AudioFile>VoiceMale3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="147004351"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="VoiceMale3" ID="{5DD5BFC0-24AE-432A-B971-51DAE0D99AFD}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Female Reaction" ID="{26E236AB-14E9-416F-A97A-685DF14EDE25}" ShortID="712209251">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="VoiceFemale1" ID="{FE6AF096-03B0-4EC7-9AFA-7B8CD80A91AC}" ShortID="183849779">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{96AFE80F-ACF3-4371-BBF8-09B4017A1073}" ShortID="675787412">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{7399E163-A66C-4921-AEF7-C12A457FDA77}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="VoiceFemale1" ID="{5487ED16-1D62-472F-9BC5-2BC69895D2F8}">
+											<Language>SFX</Language>
+											<AudioFile>VoiceFemale1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="544809860"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="VoiceFemale1" ID="{5487ED16-1D62-472F-9BC5-2BC69895D2F8}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="VoiceFemale2" ID="{9CC17438-0CEC-40BE-9763-EB963FBF4C93}" ShortID="804689706">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{396E60BF-9782-4AA3-8BC7-5745F745E2DD}" ShortID="654878722">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{DCD89F2C-06B9-4371-BC5D-27BB046F9B0F}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="VoiceFemale2" ID="{A6D161EB-0304-493A-A4BF-85EF815BD0A7}">
+											<Language>SFX</Language>
+											<AudioFile>VoiceFemale2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="34766444"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="VoiceFemale2" ID="{A6D161EB-0304-493A-A4BF-85EF815BD0A7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="VoiceFemale3" ID="{8E24D081-95E0-4F8B-BD5D-30A58D3FDD54}" ShortID="542844678">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{C4B59939-7B1C-46BB-898C-3FCB32840958}" ShortID="846030557">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{26A492D2-A832-41B8-B6CE-2469EADB0477}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="VoiceFemale3" ID="{06CBC2EA-6D87-4444-9F7E-7100FA894534}">
+											<Language>SFX</Language>
+											<AudioFile>VoiceFemale3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="238236341"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="VoiceFemale3" ID="{06CBC2EA-6D87-4444-9F7E-7100FA894534}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
@@ -18002,6 +18688,62 @@
 									</ChildrenList>
 									<ActiveSourceList>
 										<ActiveSource Name="heavytrooper footstep run 4" ID="{22FB74D7-9350-41BD-8BE5-F1F7EAFC0A63}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Moff Gideon Blink SFX" ID="{738C761B-AFBD-4CF7-90EC-A41D24754E90}" ShortID="224660501">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="MoffBlink1" ID="{44D1E667-A975-4F50-AC0E-4F64A93A64E9}" ShortID="443448483">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MoffBlink1" ID="{17E739D9-063A-4627-B46A-5237B301026F}">
+											<Language>SFX</Language>
+											<AudioFile>MoffBlink1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="249683624"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MoffBlink1" ID="{17E739D9-063A-4627-B46A-5237B301026F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MoffBlink2" ID="{8A3516EA-B809-4F68-A44E-990B5EAE4D98}" ShortID="666317892">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MoffBlink2" ID="{EBDDC267-DF6D-46A0-AA6B-67D9D993946C}">
+											<Language>SFX</Language>
+											<AudioFile>MoffBlink2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="149199245"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MoffBlink2" ID="{EBDDC267-DF6D-46A0-AA6B-67D9D993946C}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
