@@ -226,6 +226,13 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
+								<Action Name="" ID="{4912D525-E839-4164-8532-EC6971634516}" ShortID="13671649">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="mando stone footstep buckle" ID="{EBA62E5D-57C1-4C08-BA9A-54BA0F6C9FD8}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 							</ChildrenList>
 						</Event>
 						<Event Name="Play_Mando_Blaster_Overcharged" ID="{DBB01673-592D-4CBC-A2ED-F5AFD9B0AAEF}">
@@ -829,34 +836,34 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Play_Grogu_Wall" ID="{90727D99-8C47-463E-BA4B-647E27D4BB41}">
+						<Event Name="Play_Grogu_Rock_Wall" ID="{90727D99-8C47-463E-BA4B-647E27D4BB41}">
 							<ChildrenList>
 								<Action Name="" ID="{121E412D-AB68-4FDE-84B3-78B13A575F22}" ShortID="64325036">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Grogu wall" ID="{361FDB83-F99D-443F-A25D-703C0080264E}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+											<ObjectRef Name="Grogu rock wall" ID="{361FDB83-F99D-443F-A25D-703C0080264E}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Play_Grogu_Cry" ID="{7AA73C00-31C3-4659-929F-52361625B18E}">
+						<Event Name="Play_Grogu_Ice_Wall" ID="{D8A9F5BC-B0B3-46D5-AB09-477CCB942A39}">
 							<ChildrenList>
-								<Action Name="" ID="{6BEFB9F2-0E61-48CF-B2DC-56C52447431A}" ShortID="62222542">
+								<Action Name="" ID="{D011276D-A120-4BF3-8697-106FE39DAA08}" ShortID="746422293">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Grogu Cry" ID="{84F5D28F-7933-464C-BA24-EBD5EDBC6BC3}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+											<ObjectRef Name="Grogu ice wall" ID="{935D3D8B-1A19-430B-9F13-AB219148C7AB}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Play_Grogu_Cheering" ID="{9310E593-A742-4548-8C29-048B9BAF8A22}">
+						<Event Name="Play_Grogu_Metal_Wall" ID="{3BFB604F-BECC-45B6-8C88-E59506444669}">
 							<ChildrenList>
-								<Action Name="" ID="{7716FBBB-E135-48E8-AA9A-99537764BDBB}" ShortID="77509147">
+								<Action Name="" ID="{2AE6E4B5-9949-42BC-A648-B346BDE09A68}" ShortID="241310014">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Grogu Cheering" ID="{C0CD8C4E-FD1D-4FD8-9729-F017353F7CD3}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+											<ObjectRef Name="Grogu metal wall" ID="{DA883540-01B5-496E-B35E-22D745E3AFE3}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -1796,6 +1803,54 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Deathtrooper hit" ID="{23F4A709-9C6E-4F41-BFFF-00406308C0A5}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Cinematic" ID="{1B1543A3-499E-411C-8418-16BC34E013AE}" ShortID="1038488538">
+					<ChildrenList>
+						<Event Name="Play_Grogu_Dialog" ID="{9310E593-A742-4548-8C29-048B9BAF8A22}">
+							<ChildrenList>
+								<Action Name="" ID="{7716FBBB-E135-48E8-AA9A-99537764BDBB}" ShortID="77509147">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Grogu Dialog" ID="{C0CD8C4E-FD1D-4FD8-9729-F017353F7CD3}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Greef_Karga_Greeting" ID="{EA590268-1916-4776-839C-2291518230C7}">
+							<ChildrenList>
+								<Action Name="" ID="{2B58A573-0186-4CC2-8435-43C5CB8A5380}" ShortID="1047992641">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="greef karga greeting" ID="{8935D839-D167-40BA-B110-30BC74340A34}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Helmet_Impact" ID="{15A2B88C-9BE5-4211-904D-A03F38858F9C}">
+							<ChildrenList>
+								<Action Name="" ID="{541418AD-526A-4D88-BE9B-B0D25B669D58}" ShortID="764691034">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="helmet impact" ID="{E08B6B7C-0581-4109-8D4A-BA59A45C21BA}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Mando_Dialog" ID="{29641AE2-FBD6-42BF-8763-27211DD8B3E0}">
+							<ChildrenList>
+								<Action Name="" ID="{51C393F6-A756-4F8A-B092-0A32A63233D3}" ShortID="415742521">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Mando dialog" ID="{59FCC2B6-7596-41B6-A478-4B5F2D80A0DA}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
