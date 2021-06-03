@@ -656,6 +656,28 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_Interaction_Circle_In" ID="{5D1BA22E-A318-49B1-B930-223FC5C7E663}">
+							<ChildrenList>
+								<Action Name="" ID="{FC8C31C5-C68E-424B-A0F6-6D019FC95FB7}" ShortID="897461921">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Interaction circle In" ID="{DE5B3CC4-9153-4221-ABAC-B4F1F36E9467}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Interaction_Circle_Out" ID="{ECA20FC4-BE71-44A6-A7A8-EE131202791D}">
+							<ChildrenList>
+								<Action Name="" ID="{0D9069D3-55EE-4539-B37E-3A38351F33C6}" ShortID="1001884614">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Interaction circle Out" ID="{7E7D25F1-1CD9-4E90-A7DD-1A342C669284}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Environment" ID="{8C060D61-9283-4117-BA2F-B10596916A2B}" ShortID="952097035">
