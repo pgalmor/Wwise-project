@@ -258,6 +258,7 @@
 						<ObjectRef Name="Play_Moff_Gideon_Footsteps" ID="{DC35E3C3-AF35-4B97-819A-F60D6A7EA2B7}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Pause_Object" ID="{257203BA-872A-4BD2-9340-B10FBEB45376}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_Object" ID="{378C77F3-FD97-4C7E-B169-7A27282200DE}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Moff_Gideon_Phase_Change_Hit" ID="{7CB5C08A-77A4-4C8E-9F66-B534CC3EAFDC}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Moff_Gideon_Lightsaber_Attack" ID="{6027F188-D301-4CE0-8D11-9920C84BBF27}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Moff_Gideon_Hit_Phase_2" ID="{5FA9D315-092F-4D05-A807-0AC62E58FFBA}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Moff_Gideon_Dash" ID="{45C0A1BE-3E4F-4D74-824F-9E88A9429654}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>

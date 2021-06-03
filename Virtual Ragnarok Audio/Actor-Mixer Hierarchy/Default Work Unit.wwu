@@ -10804,6 +10804,162 @@
 										<ActiveSource Name="Rancor_Hit_Growl 2" ID="{86D7A138-5E83-4F7D-BCD2-849AD2F69F70}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
+								<Sound Name="RancorHit1" ID="{E3B6A2CA-AC06-485F-A9E2-4A5B7FC68688}" ShortID="110447668">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{947E4816-74A0-445A-82C1-56766DD1D273}" ShortID="200525324">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{1671024D-089A-494F-9CEF-5EA00CEEF66F}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="RancorHit1" ID="{BFAD9067-97F4-4614-9AD7-62903F8918B3}">
+											<Language>SFX</Language>
+											<AudioFile>RancorHit1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="910784929"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="RancorHit1" ID="{BFAD9067-97F4-4614-9AD7-62903F8918B3}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="RancorHit2" ID="{6BBAC43D-8D91-4EC4-86F5-727665F06533}" ShortID="241256881">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{7B6C9B62-344E-4947-9603-78882F98AC34}" ShortID="843126324">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{4B27B6E2-350B-4CE3-B859-DED82EB0F53C}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="RancorHit2" ID="{3F2A64E6-002E-4EC4-B223-40C28E41C4D2}">
+											<Language>SFX</Language>
+											<AudioFile>RancorHit2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="41185061"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="RancorHit2" ID="{3F2A64E6-002E-4EC4-B223-40C28E41C4D2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="RancorHit3" ID="{FFF38824-D8FD-4F05-8B04-5BDB782AC77E}" ShortID="5760318">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{924FB1E2-DCC1-4D3C-86BD-945EC44E3E2C}" ShortID="923592947">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{E2029220-DD82-4DD1-A756-C7B2C027FEE5}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="RancorHit3" ID="{C4011BE2-3F60-4079-9323-AE21148F4BF6}">
+											<Language>SFX</Language>
+											<AudioFile>RancorHit3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="584482498"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="RancorHit3" ID="{C4011BE2-3F60-4079-9323-AE21148F4BF6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
 						</RandomSequenceContainer>
 						<Sound Name="Rancor roar presentation" ID="{DA99813D-62B8-4FBF-A677-5D7039C83BE4}" ShortID="563489276">
@@ -18911,6 +19067,128 @@
 									</ChildrenList>
 									<ActiveSourceList>
 										<ActiveSource Name="MoffBlink2" ID="{EBDDC267-DF6D-46A0-AA6B-67D9D993946C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Moff Gideon Phase change hit" ID="{FF4784C0-F68D-49C2-90DA-4C1651346EDE}" ShortID="118206600">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="MoffHitOnPhaseChange1" ID="{7352DFDE-C2C9-464B-A109-90225103C833}" ShortID="659423849">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-13</Value>
+											</ValueList>
+											<RTPCList>
+												<RTPC Name="" ID="{4757E84B-C940-4236-9AC3-5C9229ED3A46}" ShortID="44704368">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{532C8A7D-E0C9-4853-81F2-DC79ABEE8E9D}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MoffHitOnPhaseChange1" ID="{0E941D5A-EAAF-4E83-B1A8-D010A51B9FC5}">
+											<Language>SFX</Language>
+											<AudioFile>MoffHitOnPhaseChange1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="166727117"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MoffHitOnPhaseChange1" ID="{0E941D5A-EAAF-4E83-B1A8-D010A51B9FC5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MoffHitOnPhaseChange2" ID="{4AE2CF02-CA58-4159-AF78-98FD2E706461}" ShortID="137581477">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-7</Value>
+											</ValueList>
+											<RTPCList>
+												<RTPC Name="" ID="{2B02A8E1-21D8-4513-B2E2-FBFA348441B5}" ShortID="1028608852">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="SourceVolume" ID="{85CDC0B8-2480-4C1F-B0E6-67E5802BC271}" WorkUnitID="{AAF00636-7B0B-4BC6-9A72-6FDB1A105785}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{034BED16-A290-4EAA-8840-46C10C6321D1}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A85FCF19-5C18-4278-88E4-5264EAF8E6C0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MoffHitOnPhaseChange2" ID="{5C1ECC54-133F-41F6-BC93-6E005FFFD5E2}">
+											<Language>SFX</Language>
+											<AudioFile>MoffHitOnPhaseChange2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="532385421"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MoffHitOnPhaseChange2" ID="{5C1ECC54-133F-41F6-BC93-6E005FFFD5E2}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
