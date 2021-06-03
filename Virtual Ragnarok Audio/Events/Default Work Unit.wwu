@@ -1589,6 +1589,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_Moff_Gideon_Blink" ID="{BB5E6301-10A4-4261-ACD7-E1043239B2D4}">
+							<ChildrenList>
+								<Action Name="" ID="{DC8F7AC4-582B-4697-91D5-54FD1D9E6CEC}" ShortID="139473376">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Moff Gideon Blink SFX" ID="{738C761B-AFBD-4CF7-90EC-A41D24754E90}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Heavytrooper" ID="{500B03D5-1D33-44F2-AA3F-524BE50C2F87}" ShortID="336321460">
