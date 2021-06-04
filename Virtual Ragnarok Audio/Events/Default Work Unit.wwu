@@ -345,6 +345,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_Mando_Ramming_Hit" ID="{E610B4C8-C7B7-48E2-A350-21188D0C4A6F}">
+							<ChildrenList>
+								<Action Name="" ID="{28E15FD2-29AB-4096-A19C-B79C357A25A5}" ShortID="908723751">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Mando Ramming hit" ID="{74165999-245A-4E91-AF23-E0955179DA62}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Bantha" ID="{FA6AEF98-09DC-4D8D-96DA-FEA40FD0647A}" ShortID="121923056">
@@ -391,17 +402,6 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Footsteps_Bantha" ID="{F01B3B98-4934-4934-A4B4-EA08034DF002}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_Bantha_Ramming" ID="{E610B4C8-C7B7-48E2-A350-21188D0C4A6F}">
-							<ChildrenList>
-								<Action Name="" ID="{28E15FD2-29AB-4096-A19C-B79C357A25A5}" ShortID="908723751">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Bantha_Ramming" ID="{74165999-245A-4E91-AF23-E0955179DA62}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -1851,6 +1851,39 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Mando dialog" ID="{59FCC2B6-7596-41B6-A478-4B5F2D80A0DA}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Razor_Appearing" ID="{BC7534F8-3A92-496A-B08B-4DBFBE6F3515}">
+							<ChildrenList>
+								<Action Name="" ID="{44F784B9-2274-48AE-B2EA-D24D30CD82ED}" ShortID="503638071">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SpaceshipPassing" ID="{A9636B94-0EB5-4924-89FD-6F812E2EA8CF}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Razor_Motor" ID="{1D7D3AA4-63A8-4B68-A53B-5CF8AF1F2C6E}">
+							<ChildrenList>
+								<Action Name="" ID="{A12C4227-4F36-4F32-9789-EA3495469B3E}" ShortID="1066430595">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SpaceshipLoop" ID="{7E0C2767-F911-44A3-9D41-944D68904FF4}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Razor_Leaving" ID="{55E289F9-F8E4-460A-9599-D52895CB4A27}">
+							<ChildrenList>
+								<Action Name="" ID="{EE512AD4-E647-42C5-B346-CC6BD015D92B}" ShortID="143932098">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SpaceshipLeaving" ID="{95A191A0-D3F3-43F5-83C0-BBF2BB510EBA}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
