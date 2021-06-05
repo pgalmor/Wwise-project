@@ -17097,7 +17097,7 @@
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-8</Value>
+										<Value>-3</Value>
 									</ValueList>
 									<RTPCList>
 										<RTPC Name="" ID="{3C7DA0B5-F801-48F1-89D2-7129ED922C18}" ShortID="842462714">
@@ -17161,7 +17161,7 @@
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-2</Value>
+										<Value>5</Value>
 									</ValueList>
 									<RTPCList>
 										<RTPC Name="" ID="{FD2AE84C-0BEF-4339-A781-1C723F21885C}" ShortID="664303891">
@@ -17226,7 +17226,7 @@
 								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-16</Value>
+										<Value>-7</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -17468,7 +17468,7 @@
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-13</Value>
+										<Value>-4</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -17602,9 +17602,6 @@
 									</ValueList>
 								</Property>
 								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-9</Value>
-									</ValueList>
 									<RTPCList>
 										<RTPC Name="" ID="{552C2673-CCE5-4112-8F6C-E9E263FB74CA}" ShortID="795504973">
 											<ReferenceList>
@@ -17663,11 +17660,6 @@
 								<Property Name="CenterPercentage" Type="int32">
 									<ValueList>
 										<Value>50</Value>
-									</ValueList>
-								</Property>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-9</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -17799,7 +17791,7 @@
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-12</Value>
+										<Value>-5</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -17930,9 +17922,6 @@
 									</ValueList>
 								</Property>
 								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-11</Value>
-									</ValueList>
 									<RTPCList>
 										<RTPC Name="" ID="{6EE0D935-ACF0-4E8A-8EFD-98B7DE41D2EE}" ShortID="932916467">
 											<ReferenceList>
@@ -17995,7 +17984,7 @@
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-14</Value>
+										<Value>-7</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -18134,7 +18123,7 @@
 								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-21</Value>
+										<Value>-9</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -18533,9 +18522,6 @@
 									</ValueList>
 								</Property>
 								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-8</Value>
-									</ValueList>
 									<RTPCList>
 										<RTPC Name="" ID="{7A7BAFF9-3FE0-4C5B-BCE9-67546761F54B}" ShortID="676214595">
 											<ReferenceList>
@@ -18611,7 +18597,7 @@
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-24</Value>
+										<Value>-16</Value>
 									</ValueList>
 									<RTPCList>
 										<RTPC Name="" ID="{6343C101-091E-490B-A65C-652637254F18}" ShortID="439736062">
@@ -18675,7 +18661,7 @@
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-12</Value>
+										<Value>-4</Value>
 									</ValueList>
 									<RTPCList>
 										<RTPC Name="" ID="{5A954CEA-636D-409C-BC6E-A9C54B4FEFFB}" ShortID="235667136">
@@ -18748,7 +18734,7 @@
 								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.1"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-19</Value>
+										<Value>-13</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
