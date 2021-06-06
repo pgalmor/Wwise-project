@@ -4041,6 +4041,11 @@
 								<MusicSegment Name="Combat Music C" ID="{21327EF9-3D69-4854-AD58-0070AA8E017A}" ShortID="333111653">
 									<PropertyList>
 										<Property Name="EndPosition" Type="Real64" Value="27883.2402002316"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-12</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -5386,7 +5391,7 @@
 							<ChildrenList>
 								<MusicSegment Name="Cinematic" ID="{D1EC0D55-0A26-4522-B5CA-EB2AC61AE743}" ShortID="83991963">
 									<PropertyList>
-										<Property Name="EndPosition" Type="Real64" Value="12011.6696004158"/>
+										<Property Name="EndPosition" Type="Real64" Value="155759.760707308"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -5397,23 +5402,23 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<MusicTrack Name="106162-Violins_loop_D_minor_160_bpm-AOS03055" ID="{0E0A3A3B-1C95-4065-A71D-B7147A14166F}" ShortID="451393605">
+										<MusicTrack Name="Mystery _ Free mystery music for YouTube videos (no copyright)" ID="{057FF858-CB1D-474C-A822-792A707BA107}" ShortID="799087999">
 											<ReferenceList>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48ADFCE5-8109-4E99-84FA-5CE3209FF3F7}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="106162-Violins_loop_D_minor_160_bpm-AOS03055" ID="{044F92D2-17ED-4D85-8E33-A8729BCAFB23}">
+												<AudioFileSource Name="Mystery _ Free mystery music for YouTube videos (no copyright)" ID="{00EB488D-9806-43B2-BF44-8B3BB794B463}">
 													<Language>SFX</Language>
-													<AudioFile>Cinematic Music\106162-Violins_loop_D_minor_160_bpm-AOS03055.wav</AudioFile>
+													<AudioFile>Cinematic Music\Mystery _ Free mystery music for YouTube videos (no copyright).wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="463460953"/>
+														<MediaID ID="994179069"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<TransitionList>
-												<MusicTransition Name="Root" ID="{EE80910E-2886-47F2-BCF2-BFAA18287D77}">
+												<MusicTransition Name="Root" ID="{089256E8-2455-4EFD-8E52-65DA35CD5732}">
 													<PropertyList>
 														<Property Name="IsFolder" Type="bool" Value="True"/>
 													</PropertyList>
@@ -5421,15 +5426,15 @@
 												</MusicTransition>
 											</TransitionList>
 											<SequenceList>
-												<MusicTrackSequence Name="" ID="{27D1427A-4630-4992-9C1A-018177554DED}">
+												<MusicTrackSequence Name="" ID="{11F45F56-8EBF-4FE6-BB2A-D2119265353F}">
 													<ClipList>
-														<MusicClip Name="106162-Violins_loop_D_minor_160_bpm-AOS03055" ID="{EAEF3450-650C-4D5C-BDDF-C26BC0044828}">
+														<MusicClip Name="Mystery _ Free mystery music for YouTube videos (no copyright)" ID="{1F6F1AAF-B9C9-40FC-BEDE-F36EBCCD91A1}">
 															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="12000"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="137404.083333333"/>
 																<Property Name="FadeInMode" Type="int16" Value="0"/>
 																<Property Name="FadeOutMode" Type="int16" Value="0"/>
 															</PropertyList>
-															<AudioSourceRef Name="106162-Violins_loop_D_minor_160_bpm-AOS03055" ID="{044F92D2-17ED-4D85-8E33-A8729BCAFB23}"/>
+															<AudioSourceRef Name="Mystery _ Free mystery music for YouTube videos (no copyright)" ID="{00EB488D-9806-43B2-BF44-8B3BB794B463}"/>
 														</MusicClip>
 													</ClipList>
 												</MusicTrackSequence>
@@ -5441,7 +5446,7 @@
 										<MusicCue Name="Exit Cue" ID="{A21A42E8-B8E3-4CC2-9A85-E97B44BE6F55}">
 											<PropertyList>
 												<Property Name="CueType" Type="int16" Value="1"/>
-												<Property Name="TimeMs" Type="Real64" Value="12003.5668266112"/>
+												<Property Name="TimeMs" Type="Real64" Value="137063.75282502"/>
 											</PropertyList>
 										</MusicCue>
 									</CueList>
