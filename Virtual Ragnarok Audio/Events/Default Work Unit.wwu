@@ -356,6 +356,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_Mando_Lightsaber_Hit" ID="{A9A5B0E2-2890-44B4-8A28-54555B9799FE}">
+							<ChildrenList>
+								<Action Name="" ID="{45CB7DB9-5B40-4DEA-A07A-67B5005B6254}" ShortID="960759030">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Mando lightsaber hit" ID="{C5C72E2E-3C77-41AE-B0F8-DA9E296799B0}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Bantha" ID="{FA6AEF98-09DC-4D8D-96DA-FEA40FD0647A}" ShortID="121923056">
@@ -676,10 +687,21 @@
 						</Event>
 						<Event Name="Play_Interaction_Circle_Out" ID="{ECA20FC4-BE71-44A6-A7A8-EE131202791D}">
 							<ChildrenList>
-								<Action Name="" ID="{0D9069D3-55EE-4539-B37E-3A38351F33C6}" ShortID="1001884614">
+								<Action Name="" ID="{E4765599-0055-427A-9B03-26A020C4A37C}" ShortID="300182770">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Interaction circle Out" ID="{7E7D25F1-1CD9-4E90-A7DD-1A342C669284}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+											<ObjectRef Name="Interaction circle Out" ID="{58F64836-7785-4302-BF5F-737023B8C46B}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_UI_Boon_Obtained" ID="{958EC954-F68F-457B-9FFA-AFC9977A166E}">
+							<ChildrenList>
+								<Action Name="" ID="{803409AE-8AEA-4E44-BB5E-21E3FBD136EE}" ShortID="999952539">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI Boon obtained" ID="{A16FD849-F4AF-4220-ADB6-79000E7496EB}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -1488,31 +1510,6 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Play_Moff_Gideon_Intimidation_Phase_1" ID="{FC8BB6D5-2C7C-4B18-9F09-4688BC2FA29D}">
-							<ChildrenList>
-								<Action Name="" ID="{E8F07B95-F513-482A-BE56-A9EF58064616}" ShortID="1026999584">
-									<PropertyList>
-										<Property Name="Probability" Type="Real64" Value="20"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Moff guideon intimidate phase 1" ID="{D06AF8EB-DD8D-41E2-BA1E-1C4085091E09}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_Moff_Gideon_Lightsaber_Attack" ID="{6027F188-D301-4CE0-8D11-9920C84BBF27}">
-							<ChildrenList>
-								<Action Name="" ID="{BD9B97BC-A541-411C-87FF-BB9E0C456B61}" ShortID="356710899">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="moff guideon lightsaber attack" ID="{33EBBD86-482B-4CEA-B833-1B783968F98A}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
 						<Event Name="Play_Moff_Gideon_Lightsaber_Turn_On" ID="{7CCEF3C5-F913-4962-B015-4E1B72C7A5F5}">
 							<ChildrenList>
 								<Action Name="" ID="{5CC9BD93-2C1C-412A-AA15-146B428EC946}" ShortID="341814779">
@@ -1555,20 +1552,6 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Moff guideon hit phase 2" ID="{9156676C-E11D-46E5-A4BF-EA5129CDABEB}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_Moff_Gideon_Intimidation_Phase_2" ID="{83DC6E4E-FB53-441C-923D-720708AFC26C}">
-							<ChildrenList>
-								<Action Name="" ID="{F2910B03-F3FC-4364-80BD-65B1E506CDA3}" ShortID="586892591">
-									<PropertyList>
-										<Property Name="Probability" Type="Real64" Value="20"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Moff guideon intimidate phase 2" ID="{B509CDB2-B03F-4F71-A82B-E1D0BEB4B1DF}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
