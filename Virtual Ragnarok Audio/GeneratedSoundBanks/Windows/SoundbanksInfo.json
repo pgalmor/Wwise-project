@@ -1401,7 +1401,7 @@
    {
     "Id": "1093318992",
     "Language": "SFX",
-    "Hash": "1314017898",
+    "Hash": "2438854385",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Mando",
     "ShortName": "Mando",
     "Path": "Mando.bnk",
@@ -1889,6 +1889,40 @@
         "Language": "SFX",
         "ShortName": "Mando voice 1.wav",
         "Path": "SFX\\Mando voice 1_FC2D3A10.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3127181133",
+      "Name": "Play_Mando_Lightsaber_Hit",
+      "ObjectPath": "\\Events\\Default Work Unit\\Mando\\Play_Mando_Lightsaber_Hit",
+      "DurationType": "OneShot",
+      "DurationMin": "0.354399",
+      "DurationMax": "0.982358",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "218041158",
+        "Language": "SFX",
+        "ShortName": "Mando hit 1.wav",
+        "Path": "SFX\\Mando hit 1_FC2D3A10.wem"
+       },
+       {
+        "Id": "608559747",
+        "Language": "SFX",
+        "ShortName": "moff guideon lightsaber attack 1.wav",
+        "Path": "SFX\\moff guideon lightsaber attack 1_FC2D3A10.wem"
+       },
+       {
+        "Id": "703060658",
+        "Language": "SFX",
+        "ShortName": "moff guideon lightsaber attack 2.wav",
+        "Path": "SFX\\moff guideon lightsaber attack 2_FC2D3A10.wem"
+       },
+       {
+        "Id": "1010296783",
+        "Language": "SFX",
+        "ShortName": "Mando hit 2.wav",
+        "Path": "SFX\\Mando hit 2_FC2D3A10.wem"
        }
       ]
      },

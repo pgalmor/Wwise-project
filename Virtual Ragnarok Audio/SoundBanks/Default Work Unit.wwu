@@ -12,6 +12,7 @@
 						<ObjectRef Name="Play_Mando_Wall_Command" ID="{69624E5E-AE93-4379-917F-E4F8D89DA2F7}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Sniper_Shoot_Mando" ID="{1D6672B6-9394-438A-B536-69EE29BF0A41}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Mando_Death" ID="{5257122D-4B91-4442-95E1-35D961869CF3}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Mando_Lightsaber_Hit" ID="{A9A5B0E2-2890-44B4-8A28-54555B9799FE}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Footsteps_Stone_Mando" ID="{3FEC882C-DF52-45A0-AF96-0C7E683A106C}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Footsteps_Water_Mando" ID="{B6FE9C42-A814-45D0-A86A-C4BA0D6CBF0B}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Mando_Grenade_Nail" ID="{BB35012A-1854-45EF-A842-74F5AFEDC300}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
