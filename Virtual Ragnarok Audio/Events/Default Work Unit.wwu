@@ -334,17 +334,6 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Play_Sniper_Hit" ID="{0A60EA1D-EBE7-4BE3-BA59-6B9AD91851F8}">
-							<ChildrenList>
-								<Action Name="" ID="{569B7AE2-BE2C-4753-9432-DEBFC33E9689}" ShortID="355156186">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Sniper_Hit" ID="{BBE1A216-3D80-4D7D-837A-1712402C56BC}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
 						<Event Name="Play_Mando_Ramming_Hit" ID="{E610B4C8-C7B7-48E2-A350-21188D0C4A6F}">
 							<ChildrenList>
 								<Action Name="" ID="{28E15FD2-29AB-4096-A19C-B79C357A25A5}" ShortID="908723751">
@@ -440,6 +429,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_Bantha_Sniper_Hit" ID="{1F701070-296C-4E66-97FE-1786051B8A16}">
+							<ChildrenList>
+								<Action Name="" ID="{BDDADA2E-8BA9-454E-A13E-202CB37E90CB}" ShortID="901132647">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Bantha Sniper_Hit" ID="{BBE1A216-3D80-4D7D-837A-1712402C56BC}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Stormtrooper" ID="{00EDF431-F2C0-46A3-BAE0-11167E23D627}" ShortID="797140097">
@@ -448,7 +448,7 @@
 							<ChildrenList>
 								<Action Name="" ID="{90B756BF-4DE6-4B05-A3F5-0865A97B2DB6}" ShortID="592823674">
 									<PropertyList>
-										<Property Name="Probability" Type="Real64" Value="80"/>
+										<Property Name="Probability" Type="Real64" Value="60"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
@@ -500,6 +500,17 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Stormtrooper_Death" ID="{183642A1-C92C-43F2-BC8C-A24DCB29C44D}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Stormtrooper_Sniper_Hit" ID="{CDE63D89-A693-48DE-B743-86FB1505FDB7}">
+							<ChildrenList>
+								<Action Name="" ID="{5554D935-EE0B-466C-99B5-742253A68137}" ShortID="281731258">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Stormtrooper Sniper_Hit" ID="{BDD110E2-D7FB-4532-A4AA-8E8CF7E2C19B}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -904,13 +915,6 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
-								<Action Name="" ID="{3E13E96C-27D0-499E-9A94-30CB4320E061}" ShortID="123750889">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Cantine plates and glasses" ID="{BB08EDDD-ADF7-4C72-B08D-05DCA7F20A9B}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
 							</ChildrenList>
 						</Event>
 						<Event Name="Play_Female_Popup" ID="{17F883D6-965B-49F7-91C9-E84782DB8A22}">
@@ -1107,6 +1111,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_Rancor_Sniper_Hit" ID="{A38CBFCD-4570-4B6B-8578-2585E0E670A5}">
+							<ChildrenList>
+								<Action Name="" ID="{DA8DA0CD-F5F8-484E-AF1A-279945DDF1F1}" ShortID="677599321">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Rancor Sniper_Hit" ID="{7CDCD1A8-4F85-4F2A-AF3E-74198ECA5F0D}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Skytrooper" ID="{7A44256F-1B85-4271-8057-A21A9D1590FE}" ShortID="370157658">
@@ -1172,6 +1187,17 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Grenade explosion 1" ID="{3827BA8A-9D63-4EB6-8130-88D328858E06}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Skytrooper_Sniper_Hit" ID="{9AE46650-5977-47D9-96DB-93850B410268}">
+							<ChildrenList>
+								<Action Name="" ID="{C4EFA0E0-A732-4F70-B1BB-74EA32E4066B}" ShortID="383085466">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Skytrooper Sniper_Hit" ID="{B36906C1-C76D-4489-A367-3881D14CE0AD}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -1411,6 +1437,28 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_Wampa_Sniper_Hit" ID="{E03A8671-55B0-43D5-AD35-E0D9AA38A6D5}">
+							<ChildrenList>
+								<Action Name="" ID="{5920DA7F-9E68-4BDE-B8EB-1C3137C4AD71}" ShortID="965181484">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Wampa Sniper_Hit" ID="{C9CB3382-7FAF-4684-935A-3999FE2108D6}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Skel_Sniper_Hit" ID="{91426CCE-1B4E-43DD-8091-35FAD8A6F9FC}">
+							<ChildrenList>
+								<Action Name="" ID="{9E6FB48C-C3C8-44D8-9C6D-E941FFE96E0E}" ShortID="703895463">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Skel Sniper_Hit" ID="{F3B78D09-8950-47B5-AB6F-33610B4F0DA1}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Turret" ID="{73B77E5F-4888-4033-9F50-A24D8270206B}" ShortID="61953618">
@@ -1470,9 +1518,20 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_Turret_Sniper_Hit" ID="{2582765D-3267-4F65-B825-2868C0C60296}">
+							<ChildrenList>
+								<Action Name="" ID="{17F47E2E-EFFB-4436-A08D-5BC2FD6DB1BD}" ShortID="380889410">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Turret Sniper hit" ID="{F11F92C8-182B-417B-A728-9C0942985485}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
-				<Folder Name="Moff Guideon" ID="{0948B394-126A-4932-9808-06CA6C176957}" ShortID="1073382540">
+				<Folder Name="Moff Gideon" ID="{0948B394-126A-4932-9808-06CA6C176957}" ShortID="1073382540">
 					<ChildrenList>
 						<Event Name="Play_Moff_Gideon_Hit_Phase_1" ID="{30905040-9317-4E23-84AB-FDBD7017F3D5}">
 							<ChildrenList>
@@ -1623,6 +1682,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_Moff_Gideon_Sniper_Hit" ID="{733B818E-A28B-438C-BCF7-00CEEB8B823D}">
+							<ChildrenList>
+								<Action Name="" ID="{744AE45D-AAA5-463C-BF30-48E854381960}" ShortID="627431558">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Moff Gideon Sniper_Hit" ID="{5BACC37F-C942-4E82-BEFD-EF74D21AD4DD}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Heavytrooper" ID="{500B03D5-1D33-44F2-AA3F-524BE50C2F87}" ShortID="336321460">
@@ -1674,6 +1744,9 @@
 						<Event Name="Play_Heavytrooper_Enemy_Detection" ID="{7AE7F50F-BF34-4CF6-BC7D-CCEBF6D626E7}">
 							<ChildrenList>
 								<Action Name="" ID="{8784063F-9851-4038-BABB-2287CD888FAE}" ShortID="615486336">
+									<PropertyList>
+										<Property Name="Probability" Type="Real64" Value="70"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="heavytrooper enemy detection" ID="{BFE1B289-DC2E-4F5F-B501-5EC74C10D793}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
@@ -1707,6 +1780,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_Heavytrooper_Sniper_Hit" ID="{2C87CA47-F353-4895-856A-EA6A11140315}">
+							<ChildrenList>
+								<Action Name="" ID="{0C65F318-21DF-4F08-8F78-F17652DD7716}" ShortID="449198750">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Heavytrooper Sniper_Hit" ID="{E942BC46-FCDC-49C2-B42F-07A92941C53E}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Deathtrooper" ID="{AC0A12EC-964B-4FCC-8C05-A46A2C6AFC49}" ShortID="12235815">
@@ -1725,6 +1809,9 @@
 						<Event Name="Play_Deathtrooper_Enemy_Detection" ID="{6896B0B6-E88F-4551-835D-7EC6388AB5F1}">
 							<ChildrenList>
 								<Action Name="" ID="{AC61A5C0-25D1-4431-9FEB-D44CF1DFB1D7}" ShortID="302154802">
+									<PropertyList>
+										<Property Name="Probability" Type="Real64" Value="70"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Deathtrooper enemy detection" ID="{2C898712-01EB-452A-9713-43154EC25DB6}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
@@ -1786,6 +1873,17 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Deathtrooper hit" ID="{23F4A709-9C6E-4F41-BFFF-00406308C0A5}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Deathtrooper_Sniper_Hit" ID="{FD4A7D46-B65F-4D93-8EA8-D9E29F0C7ABD}">
+							<ChildrenList>
+								<Action Name="" ID="{46F1FF03-EAFC-4201-86E8-830536C5D7BC}" ShortID="77215221">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Deathtrooper Sniper_Hit" ID="{A9D81E15-3BF1-40B7-B5B5-6F556082ACD4}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
