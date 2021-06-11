@@ -18,7 +18,7 @@
    {
     "Id": "225682233",
     "Language": "SFX",
-    "Hash": "4115135518",
+    "Hash": "4231551919",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Skytrooper",
     "ShortName": "Skytrooper",
     "Path": "Skytrooper.bnk",
@@ -216,7 +216,7 @@
    {
     "Id": "833070093",
     "Language": "SFX",
-    "Hash": "2557396380",
+    "Hash": "657358367",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Stormtrooper",
     "ShortName": "Stormtrooper",
     "Path": "Stormtrooper.bnk",
@@ -441,7 +441,7 @@
    {
     "Id": "913881297",
     "Language": "SFX",
-    "Hash": "1527296692",
+    "Hash": "3078650831",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Wampa_Skell",
     "ShortName": "Wampa_Skell",
     "Path": "Wampa_Skell.bnk",
@@ -973,7 +973,7 @@
    {
     "Id": "1019160887",
     "Language": "SFX",
-    "Hash": "2751777598",
+    "Hash": "4166640934",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Heavytrooper",
     "ShortName": "Heavytrooper",
     "Path": "Heavytrooper.bnk",
@@ -1233,7 +1233,7 @@
    {
     "Id": "1063759122",
     "Language": "SFX",
-    "Hash": "2303668558",
+    "Hash": "4223478503",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Moff_Gideon",
     "ShortName": "Moff_Gideon",
     "Path": "Moff_Gideon.bnk",
@@ -1605,7 +1605,7 @@
    {
     "Id": "1093318992",
     "Language": "SFX",
-    "Hash": "742517553",
+    "Hash": "2635338488",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Mando",
     "ShortName": "Mando",
     "Path": "Mando.bnk",
@@ -2598,7 +2598,7 @@
    {
     "Id": "1551306167",
     "Language": "SFX",
-    "Hash": "458797147",
+    "Hash": "1069822425",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\UI",
     "ShortName": "UI",
     "Path": "UI.bnk",
@@ -2962,7 +2962,7 @@
    {
     "Id": "1838596016",
     "Language": "SFX",
-    "Hash": "2142892194",
+    "Hash": "4280797689",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Cinematic",
     "ShortName": "Cinematic",
     "Path": "Cinematic.bnk",
@@ -3137,7 +3137,7 @@
    {
     "Id": "2674766611",
     "Language": "SFX",
-    "Hash": "1160253523",
+    "Hash": "3932182960",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Turret",
     "ShortName": "Turret",
     "Path": "Turret.bnk",
@@ -3287,7 +3287,7 @@
    {
     "Id": "3049191116",
     "Language": "SFX",
-    "Hash": "4272660384",
+    "Hash": "2702778237",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Rancor",
     "ShortName": "Rancor",
     "Path": "Rancor.bnk",
@@ -3663,7 +3663,7 @@
    {
     "Id": "3363384534",
     "Language": "SFX",
-    "Hash": "3999867473",
+    "Hash": "761585640",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Deathtrooper",
     "ShortName": "Deathtrooper",
     "Path": "Deathtrooper.bnk",
@@ -3929,7 +3929,7 @@
    {
     "Id": "3434002875",
     "Language": "SFX",
-    "Hash": "1358365337",
+    "Hash": "4001349125",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Cantine",
     "ShortName": "Cantine",
     "Path": "Cantine.bnk",
@@ -4045,7 +4045,7 @@
    {
     "Id": "3795682265",
     "Language": "SFX",
-    "Hash": "310511977",
+    "Hash": "543321482",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Bantha",
     "ShortName": "Bantha",
     "Path": "Bantha.bnk",
@@ -4290,7 +4290,7 @@
    {
     "Id": "3991942870",
     "Language": "SFX",
-    "Hash": "4068298031",
+    "Hash": "2192883227",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Music",
     "ShortName": "Music",
     "Path": "Music.bnk",
@@ -5012,7 +5012,7 @@
    {
     "Id": "4179269225",
     "Language": "SFX",
-    "Hash": "4042651218",
+    "Hash": "1549251471",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Grogu",
     "ShortName": "Grogu",
     "Path": "Grogu.bnk",
