@@ -314,7 +314,6 @@
 				</SoundBank>
 				<SoundBank Name="Cinematic" ID="{762C07E6-50F5-462E-A866-794C5B9134EE}">
 					<ObjectInclusionList>
-						<ObjectRef Name="Play_Helmet_Impact" ID="{15A2B88C-9BE5-4211-904D-A03F38858F9C}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Mando_Dialog" ID="{29641AE2-FBD6-42BF-8763-27211DD8B3E0}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Grogu_Dialog" ID="{9310E593-A742-4548-8C29-048B9BAF8A22}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Razor_Leaving" ID="{55E289F9-F8E4-460A-9599-D52895CB4A27}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>

@@ -1915,17 +1915,6 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Play_Helmet_Impact" ID="{15A2B88C-9BE5-4211-904D-A03F38858F9C}">
-							<ChildrenList>
-								<Action Name="" ID="{541418AD-526A-4D88-BE9B-B0D25B669D58}" ShortID="764691034">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="helmet impact" ID="{E08B6B7C-0581-4109-8D4A-BA59A45C21BA}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
 						<Event Name="Play_Mando_Dialog" ID="{29641AE2-FBD6-42BF-8763-27211DD8B3E0}">
 							<ChildrenList>
 								<Action Name="" ID="{51C393F6-A756-4F8A-B092-0A32A63233D3}" ShortID="415742521">
