@@ -5132,7 +5132,7 @@
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-3</Value>
+										<Value>-5</Value>
 									</ValueList>
 									<RTPCList>
 										<RTPC Name="" ID="{5801DF36-23F3-41A2-B993-487D41645D94}" ShortID="68278652">
@@ -5188,7 +5188,7 @@
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-19</Value>
+										<Value>-25</Value>
 									</ValueList>
 									<RTPCList>
 										<RTPC Name="" ID="{E22DA169-7EA3-4136-8CA2-0C846D190B02}" ShortID="969345791">
@@ -9201,9 +9201,14 @@
 						</Sound>
 						<Sound Name="Grogu ice wall" ID="{935D3D8B-1A19-430B-9F13-AB219148C7AB}" ShortID="740978190">
 							<PropertyList>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>25</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-9</Value>
+										<Value>-12</Value>
 									</ValueList>
 									<RTPCList>
 										<RTPC Name="" ID="{BD217C4E-EE4E-4747-A3F6-66A6295A26C7}" ShortID="503661180">
@@ -9258,7 +9263,7 @@
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-9</Value>
+										<Value>-11</Value>
 									</ValueList>
 									<RTPCList>
 										<RTPC Name="" ID="{E638B1B0-332A-4925-8904-CE385D108C98}" ShortID="1000824640">
@@ -10033,7 +10038,7 @@
 								<Property Name="3DSpatialization" Type="int16" Value="2"/>
 								<Property Name="CenterPercentage" Type="int32">
 									<ValueList>
-										<Value>70</Value>
+										<Value>100</Value>
 									</ValueList>
 								</Property>
 								<Property Name="Lowpass" Type="int16">
@@ -10049,7 +10054,7 @@
 								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-21</Value>
+										<Value>-15</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -10180,17 +10185,17 @@
 								<Property Name="3DSpatialization" Type="int16" Value="2"/>
 								<Property Name="CenterPercentage" Type="int32">
 									<ValueList>
-										<Value>70</Value>
+										<Value>100</Value>
 									</ValueList>
 								</Property>
 								<Property Name="Lowpass" Type="int16">
 									<ValueList>
-										<Value>30</Value>
+										<Value>20</Value>
 									</ValueList>
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-11</Value>
+										<Value>-12</Value>
 									</ValueList>
 									<RTPCList>
 										<RTPC Name="" ID="{C7454D13-68CC-49A5-AC9E-FEB548E85224}" ShortID="311403401">
@@ -10249,12 +10254,12 @@
 								<Property Name="3DSpatialization" Type="int16" Value="2"/>
 								<Property Name="CenterPercentage" Type="int32">
 									<ValueList>
-										<Value>70</Value>
+										<Value>100</Value>
 									</ValueList>
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-11</Value>
+										<Value>-12</Value>
 									</ValueList>
 									<RTPCList>
 										<RTPC Name="" ID="{CAB1883C-8AB8-411F-8865-6F7B7AD9FC8E}" ShortID="151255849">
@@ -10313,7 +10318,7 @@
 								<Property Name="3DSpatialization" Type="int16" Value="2"/>
 								<Property Name="CenterPercentage" Type="int32">
 									<ValueList>
-										<Value>70</Value>
+										<Value>100</Value>
 									</ValueList>
 								</Property>
 								<Property Name="Highpass" Type="int16">
@@ -10471,12 +10476,17 @@
 								<Property Name="3DSpatialization" Type="int16" Value="2"/>
 								<Property Name="CenterPercentage" Type="int32">
 									<ValueList>
-										<Value>70</Value>
+										<Value>100</Value>
 									</ValueList>
 								</Property>
 								<Property Name="Highpass" Type="int16">
 									<ValueList>
 										<Value>15</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>10</Value>
 									</ValueList>
 								</Property>
 								<Property Name="Pitch" Type="int32">
@@ -10497,7 +10507,7 @@
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-13</Value>
+										<Value>-16</Value>
 									</ValueList>
 									<RTPCList>
 										<RTPC Name="" ID="{59164462-171E-4F75-8726-0010B63B1426}" ShortID="207426484">
@@ -10556,7 +10566,7 @@
 								<Property Name="3DSpatialization" Type="int16" Value="2"/>
 								<Property Name="CenterPercentage" Type="int32">
 									<ValueList>
-										<Value>70</Value>
+										<Value>100</Value>
 									</ValueList>
 								</Property>
 								<Property Name="Lowpass" Type="int16">
@@ -10577,7 +10587,7 @@
 								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-30</Value>
+										<Value>-15</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -10723,7 +10733,7 @@
 								<Property Name="3DSpatialization" Type="int16" Value="2"/>
 								<Property Name="CenterPercentage" Type="int32">
 									<ValueList>
-										<Value>70</Value>
+										<Value>100</Value>
 									</ValueList>
 								</Property>
 								<Property Name="Pitch" Type="int32">
@@ -10792,7 +10802,7 @@
 								<Property Name="3DSpatialization" Type="int16" Value="2"/>
 								<Property Name="CenterPercentage" Type="int32">
 									<ValueList>
-										<Value>70</Value>
+										<Value>100</Value>
 									</ValueList>
 								</Property>
 								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
@@ -10800,7 +10810,7 @@
 								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-12</Value>
+										<Value>-7</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -10957,12 +10967,12 @@
 								<Property Name="3DSpatialization" Type="int16" Value="2"/>
 								<Property Name="CenterPercentage" Type="int32">
 									<ValueList>
-										<Value>70</Value>
+										<Value>100</Value>
 									</ValueList>
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-14</Value>
+										<Value>-16</Value>
 									</ValueList>
 									<RTPCList>
 										<RTPC Name="" ID="{32D03813-77A8-4ACB-BFD2-B91831869056}" ShortID="473774777">
@@ -11021,7 +11031,12 @@
 								<Property Name="3DSpatialization" Type="int16" Value="2"/>
 								<Property Name="CenterPercentage" Type="int32">
 									<ValueList>
-										<Value>70</Value>
+										<Value>100</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>10</Value>
 									</ValueList>
 								</Property>
 								<Property Name="Lowpass" Type="int16">
@@ -11031,12 +11046,12 @@
 								</Property>
 								<Property Name="Pitch" Type="int32">
 									<ValueList>
-										<Value>-400</Value>
+										<Value>-600</Value>
 									</ValueList>
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-9</Value>
+										<Value>-16</Value>
 									</ValueList>
 									<RTPCList>
 										<RTPC Name="" ID="{B75688DE-B95C-4CC0-A29D-04AB155E23FE}" ShortID="621969344">
@@ -11095,7 +11110,7 @@
 								<Property Name="3DSpatialization" Type="int16" Value="2"/>
 								<Property Name="CenterPercentage" Type="int32">
 									<ValueList>
-										<Value>70</Value>
+										<Value>100</Value>
 									</ValueList>
 								</Property>
 								<Property Name="InitialDelay" Type="Real64">
@@ -11164,7 +11179,7 @@
 								<Property Name="3DSpatialization" Type="int16" Value="2"/>
 								<Property Name="CenterPercentage" Type="int32">
 									<ValueList>
-										<Value>70</Value>
+										<Value>100</Value>
 									</ValueList>
 								</Property>
 								<Property Name="Volume" Type="Real64">
@@ -11570,12 +11585,17 @@
 								<Property Name="3DSpatialization" Type="int16" Value="2"/>
 								<Property Name="CenterPercentage" Type="int32">
 									<ValueList>
-										<Value>70</Value>
+										<Value>100</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>20</Value>
 									</ValueList>
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-17</Value>
+										<Value>-15</Value>
 									</ValueList>
 									<RTPCList>
 										<RTPC Name="" ID="{6535102C-B8B1-4210-93EA-C1101431A345}" ShortID="84427130">
@@ -11634,12 +11654,12 @@
 								<Property Name="3DSpatialization" Type="int16" Value="2"/>
 								<Property Name="CenterPercentage" Type="int32">
 									<ValueList>
-										<Value>70</Value>
+										<Value>100</Value>
 									</ValueList>
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-10</Value>
+										<Value>-12</Value>
 									</ValueList>
 									<RTPCList>
 										<RTPC Name="" ID="{36780425-A6EE-40AE-86EE-21C50A1FD521}" ShortID="494294287">
@@ -11698,7 +11718,7 @@
 								<Property Name="3DSpatialization" Type="int16" Value="2"/>
 								<Property Name="CenterPercentage" Type="int32">
 									<ValueList>
-										<Value>70</Value>
+										<Value>100</Value>
 									</ValueList>
 								</Property>
 								<Property Name="Lowpass" Type="int16">
@@ -12896,7 +12916,7 @@
 										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-12</Value>
+												<Value>-15</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -13244,7 +13264,7 @@
 										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-10</Value>
+												<Value>-17</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -13480,7 +13500,7 @@
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-18</Value>
+												<Value>-17</Value>
 											</ValueList>
 											<RTPCList>
 												<RTPC Name="" ID="{DE54BDD8-0402-42E6-879D-01D3DFAE502E}" ShortID="699474413">
@@ -13608,7 +13628,7 @@
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-13</Value>
+												<Value>-15</Value>
 											</ValueList>
 											<RTPCList>
 												<RTPC Name="" ID="{CCA91BF3-A834-4B4A-B8D8-176DEDFCF9DB}" ShortID="877902906">
@@ -13672,7 +13692,7 @@
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-20</Value>
+												<Value>-17</Value>
 											</ValueList>
 											<RTPCList>
 												<RTPC Name="" ID="{9DC7D1BD-1F0A-4B8E-8D94-7C4328824BA4}" ShortID="985072102">
@@ -13736,7 +13756,7 @@
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-14</Value>
+												<Value>-11</Value>
 											</ValueList>
 											<RTPCList>
 												<RTPC Name="" ID="{7736A267-7783-4C52-9260-CF5B9AF40326}" ShortID="593835972">
@@ -13882,7 +13902,7 @@
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-14</Value>
+												<Value>-13</Value>
 											</ValueList>
 											<RTPCList>
 												<RTPC Name="" ID="{29A3019E-FC4E-4D2E-85F6-146B7AB28FC4}" ShortID="330091769">
@@ -13957,7 +13977,7 @@
 										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-10</Value>
+												<Value>-19</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -14200,7 +14220,7 @@
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-19</Value>
+												<Value>-23</Value>
 											</ValueList>
 											<RTPCList>
 												<RTPC Name="" ID="{3C6E4138-0036-4877-B36C-C913436584FE}" ShortID="249284204">
@@ -14531,7 +14551,7 @@
 										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-35</Value>
+												<Value>-30</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -14832,7 +14852,7 @@
 										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-12</Value>
+												<Value>-10</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -15165,7 +15185,7 @@
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-6</Value>
+												<Value>-4</Value>
 											</ValueList>
 											<RTPCList>
 												<RTPC Name="" ID="{E5CA6C46-01F4-43D6-8A46-553486A10BCB}" ShortID="560135516">
@@ -15228,6 +15248,11 @@
 											</ValueList>
 										</Property>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>30</Value>
+											</ValueList>
+										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
 												<Value>-9</Value>
@@ -15437,7 +15462,7 @@
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-12</Value>
+												<Value>-10</Value>
 											</ValueList>
 											<RTPCList>
 												<RTPC Name="" ID="{060B489E-F0D2-44F4-BD64-EEF141014EE1}" ShortID="734561122">

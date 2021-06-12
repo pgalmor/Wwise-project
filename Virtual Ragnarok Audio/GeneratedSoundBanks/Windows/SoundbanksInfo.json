@@ -441,7 +441,7 @@
    {
     "Id": "913881297",
     "Language": "SFX",
-    "Hash": "2806302173",
+    "Hash": "3979959125",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Wampa_Skell",
     "ShortName": "Wampa_Skell",
     "Path": "Wampa_Skell.bnk",
@@ -2339,7 +2339,7 @@
    {
     "Id": "1229948536",
     "Language": "SFX",
-    "Hash": "1634979802",
+    "Hash": "1738796662",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Environment",
     "ShortName": "Environment",
     "Path": "Environment.bnk",
@@ -3249,7 +3249,7 @@
    {
     "Id": "3049191116",
     "Language": "SFX",
-    "Hash": "2428727542",
+    "Hash": "2356609844",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Rancor",
     "ShortName": "Rancor",
     "Path": "Rancor.bnk",
@@ -3267,8 +3267,8 @@
       "Name": "Play_Rancor_Area_Impact",
       "ObjectPath": "\\Events\\Default Work Unit\\Rancor\\Play_Rancor_Area_Impact",
       "DurationType": "OneShot",
-      "DurationMin": "1.678110",
-      "DurationMax": "1.678110",
+      "DurationMin": "1.883615",
+      "DurationMax": "1.883615",
       "IncludedMemoryFiles": [
        {
         "Id": "36736387",
@@ -3333,8 +3333,8 @@
       "Name": "Play_Rancor_Hand_Slam",
       "ObjectPath": "\\Events\\Default Work Unit\\Rancor\\Play_Rancor_Hand_Slam",
       "DurationType": "OneShot",
-      "DurationMin": "1.620930",
-      "DurationMax": "1.620930",
+      "DurationMin": "1.192630",
+      "DurationMax": "1.192630",
       "IncludedMemoryFiles": [
        {
         "Id": "818849677",
@@ -4238,7 +4238,7 @@
    {
     "Id": "3991942870",
     "Language": "SFX",
-    "Hash": "384237732",
+    "Hash": "827569961",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Music",
     "ShortName": "Music",
     "Path": "Music.bnk",
@@ -4960,7 +4960,7 @@
    {
     "Id": "4179269225",
     "Language": "SFX",
-    "Hash": "1005682282",
+    "Hash": "842081182",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Grogu",
     "ShortName": "Grogu",
     "Path": "Grogu.bnk",
