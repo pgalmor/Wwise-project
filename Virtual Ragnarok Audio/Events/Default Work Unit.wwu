@@ -93,17 +93,6 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Play_Dash_Transition" ID="{55038C51-B170-491A-8F20-6FC6C981F0AB}">
-							<ChildrenList>
-								<Action Name="" ID="{A75619E2-C92D-47D0-980D-E11CBE688107}" ShortID="184265800">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Dash Transition" ID="{ABA586E9-D310-467A-8090-EE37FE97ED06}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
 						<Event Name="Play_Mando_Death" ID="{5257122D-4B91-4442-95E1-35D961869CF3}">
 							<ChildrenList>
 								<Action Name="" ID="{33644F8B-DA62-416B-B13C-50F200678E1C}" ShortID="1049932319">

@@ -23,7 +23,6 @@
 						<ObjectRef Name="Play_Mando_Grenade_Set_Up" ID="{E035921F-4D3F-4875-A920-2510E96147FB}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Sniper_Charge" ID="{717886C8-B5FC-48A5-A477-015B7CC64115}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Mando_Ramming_Hit" ID="{E610B4C8-C7B7-48E2-A350-21188D0C4A6F}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_Dash_Transition" ID="{55038C51-B170-491A-8F20-6FC6C981F0AB}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Footsteps_Metal_Platform_Mando" ID="{F9DF517B-EB8D-4933-ADAA-064BE5D7A720}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Footsteps_Snow_Mando" ID="{65E5B414-9C97-496B-BA14-C23FF149C59D}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Mando_Push_Command" ID="{C78FCF34-6136-4A6F-A660-96ADB35A7719}" WorkUnitID="{88CCE8CA-7D3A-4425-8EA0-CF62AD5DF4B4}" Origin="Manual" Filter="7"/>
