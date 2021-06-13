@@ -345,6 +345,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_Mando_Boss_Hit" ID="{9B82D6AA-312D-4F11-9930-68A304DA41B8}">
+							<ChildrenList>
+								<Action Name="" ID="{5A57E073-ECE6-41AC-A1F4-6CBFF9E4DE22}" ShortID="679491642">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Mando Boss hit" ID="{8EA5D243-0029-4736-BADD-C9CC338628BE}" WorkUnitID="{5D04E150-77BE-414C-867C-4521FED0BABF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Bantha" ID="{FA6AEF98-09DC-4D8D-96DA-FEA40FD0647A}" ShortID="121923056">
